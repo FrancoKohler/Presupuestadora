@@ -17,12 +17,11 @@ async function createPDF() {
   const puertaPiso = document.getElementById("puertaPiso").value;
   const tela = document.getElementById("tela").value;
   const muestra = document.getElementById("selected-option").dataset.nombre;
-  const muestraImg = document.getElementById("muestraImg");
+  const muestraImg = document.getElementById("selected-option").dataset.img;
   const precioTotalElement = document.getElementById("precioTotal");
   const precioMotorElement = document.getElementById("precioMotor");
   const descuentoAplicadoElement = document.getElementById("descuentoAplicado");
   const precioTotalDescElement = document.getElementById("precioTotalDesc");
-  /*-------CONST PARA IMG MUESTRA--------*/
 
   const selectIds = [
     "pieza1",
@@ -43,6 +42,20 @@ async function createPDF() {
 
   /*------FUNCION PARA SELECCION DE TAB DE TELAS---------*/
 
+  function selectOption(element) {
+    const telaSeleccionada = element.dataset.nombre;
+    const ImagenSeleccionada = element.dataset.img;
+
+    // Actualizar el contenido en el elemento con ID 'selected-option'
+    const selectedOptionElement = document.getElementById("selected-option");
+    const selectedOptionElementImg = document.getElementById("selected-option");
+    if (selectedOptionElement) {
+      selectedOptionElement.innerText = `Tela seleccionada: ${telaSeleccionada}`;
+      selectedOptionElement.dataset.nombre = telaSeleccionada;
+      selectedOptionElementImg.innerHTML = `Tela seleccionada: ${ImagenSeleccionada}`;
+      selectedOptionElementImg.dataset.imagen = ImagenSeleccionada;
+    }
+  }
   // Crear nuevo documento PDF
   const { PDFDocument, StandardFonts, rgb } = PDFLib;
   const pdfDoc = await PDFDocument.create();
