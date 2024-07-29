@@ -16,8 +16,7 @@ async function createPDF() {
   const codigoPostal = document.getElementById("codigoPostal").value;
   const puertaPiso = document.getElementById("puertaPiso").value;
   const tela = document.getElementById("tela").value;
-  const muestra = document.getElementById("selected-option").dataset.nombre;
-  const muestraImg = document.getElementById("selected-option").dataset.img;
+
   const precioTotalElement = document.getElementById("precioTotal");
   const precioMotorElement = document.getElementById("precioMotor");
   const descuentoAplicadoElement = document.getElementById("descuentoAplicado");
@@ -260,23 +259,9 @@ async function createPDF() {
   /*----------------------TEJIDO-----------------------------------*/
   drawText(page, "TEJIDO", 364, 350, 10, helveticaFont);
   drawText(page, `Articulo: ${tela}`, 430, 330, 8, helveticaFont);
-  drawText(page, `Tela: ${muestra}`, 430, 310, 8, helveticaFont);
 
   /*------------FUNCION PARA CREAR IMAGEN DE LA MUESTRA-----------*/
 
-  if (muestraImg) {
-    const muestraImageBytes = await fetch(muestraImg).then((res) =>
-      res.arrayBuffer()
-    );
-
-    const muestraImage = await pdfDoc.embedPng(muestraImageBytes);
-    page.drawImage(muestraImage, {
-      x: 430,
-      y: 260,
-      width: 60,
-      height: 40,
-    });
-  }
   /*-------------------------TARIFA-------------------------------*/
   drawText(page, "Tarifa", 52, 220, 15, helveticaFont);
   /*------------LINEA TARIFA--------------*/
