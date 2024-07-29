@@ -16,7 +16,6 @@ async function createPDF() {
   const codigoPostal = document.getElementById("codigoPostal").value;
   const puertaPiso = document.getElementById("puertaPiso").value;
   const tela = document.getElementById("tela").value;
-
   const precioTotalElement = document.getElementById("precioTotal");
   const precioMotorElement = document.getElementById("precioMotor");
   const descuentoAplicadoElement = document.getElementById("descuentoAplicado");
