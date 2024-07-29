@@ -426,4 +426,7 @@ const muestras = {
     { img: "assets/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
     { img: "assets/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
   ],
+  telaCliente: [
+    { img: "assets/TERRANOVA/TERRANOVA-01.jpg", nombre: "TELA CLIENTE" },
+  ],
 };
