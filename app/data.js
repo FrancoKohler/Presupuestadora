@@ -206,7 +206,7 @@ const piezas = [
     id: "YUTCGRD",
     title: "YUTCGRD Chaise longue grande (104 cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_80_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_80_DER.png",
     price: precios.comunYUTCGR,
     medida: 104,
   },
@@ -214,7 +214,7 @@ const piezas = [
     id: "YUTCGRI",
     title: "YUTCGRI Chaise longue grande (104 cm) izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_80_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_80_IZQ.png",
     price: precios.comunYUTCGR,
     medida: 104,
   },
@@ -222,7 +222,7 @@ const piezas = [
     id: "YUTCMAD",
     title: "YUTCMAD Chaise longue maxi (114 cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_90_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_90_DER.png",
     price: precios.comunYUTCMA,
     medida: 114,
   },
@@ -230,7 +230,7 @@ const piezas = [
     id: "YUTCMAI",
     title: "YUTCMAI Chaise longue maxi (114 cm) izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_90_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_90_IZQ.png",
     price: precios.comunYUTCMA,
     medida: 114,
   },
@@ -238,139 +238,140 @@ const piezas = [
     id: "YUTCMED",
     title: "YUTCMED Chaise longue mega (124 cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_100_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_100_DER.png",
     price: precios.comunYUTCME,
   },
   {
     id: "YUTCMEI",
     title: "YUTCMEI Chaise longue mega (124 cm) izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/CH_100_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/CH_100_IZQ.png",
     price: precios.comunYUTCME,
   },
   {
     id: "YUTMGR",
     title: "YUTMGR Módulo grande (80 cm) sin brazo",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M80_SB.png",
+      "https://francokohler.github.io/Presupuestadora/assetsYUTE//M80_SB.png",
     price: precios.comunYUTMGR,
   },
   {
     id: "YUTMGRD",
     title: "YUTMGRD Módulo grande (104 cm) brazo dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M80_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assetsYUTE//M80_DER.png",
     price: precios.comunYUTMGRDI,
   },
   {
     id: "YUTMGRI",
     title: "YUTMGRI Módulo grande (104 cm) brazo izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M80_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M80_IZQ.png",
     price: precios.comunYUTMGRDI,
   },
   {
     id: "YUTMMAD",
     title: "YUTMMAD Módulo maxi (114 cm) brazo dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M90_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M90_DER.png",
     price: precios.comunYUTMMADI,
   },
   {
     id: "YUTMMAI",
     title: "YUTMMAI Módulo maxi (114 cm) brazo izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M90_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M90_IZQ.png",
     price: precios.comunYUTMMADI,
   },
   {
     id: "YUTMME",
     title: "YUTMME Módulo mega (100 cm) sin brazo",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M100_SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M100_SB.png",
     price: precios.comunYUTMME,
   },
   {
     id: "YUTMMED",
     title: "YUTMMED Módulo mega (124 cm) brazo dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M100_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M100_DER.png",
     price: precios.comunYUTMMEDI,
   },
   {
     id: "YUTMMEI",
     title: "YUTMMEI Módulo mega (124 cm) brazo izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M100_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M100_IZQ.png",
     price: precios.comunYUTMMEDI,
   },
   {
     id: "YUTMXL",
     title: "YUTMXL Módulo XL (110 cm) sin brazo",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M110_SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M110_SB.png",
     price: precios.comunYUTMXL,
   },
   {
     id: "YUTMXLD",
     title: "YUTMXLD Módulo XL (134 cm) brazo dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M110_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M110_DER.png",
     price: precios.comunYUTMXLDI,
   },
   {
     id: "YUTMXLI",
     title: "YUTMXLI Módulo XL (134 cm) brazo izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/M110_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/M110_IZQ.png",
     price: precios.comunYUTMXLDI,
   },
   {
     id: "YUTRA",
     title: "YUTRA Rincón abierto (113 x 113 cm)",
-    imageUrl: "https://francokohler.github.io/Presupuestadora/assets/RA.png",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/RA.png",
     price: precios.comunYUTRA,
   },
   {
     id: "YUTRTD",
     title: "YUTRTD Rincón terminal derecho (108 x 205 cm)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/RT_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/RT_DER.png",
     price: precios.comunYUTRT,
   },
   {
     id: "YUTRTI",
     title: "YUTRTI Rincón terminal izquierdo (108 x 205 cm)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/RT_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/RT_IZQ.png",
     price: precios.comunYUTRT,
   },
   {
     id: "YUTTGRD",
     title: "YUTTGRD Terminal grande (123 cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/TER_80_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/TER_80_DER.png",
     price: precios.comunYUTTGR,
   },
   {
     id: "YUTTGRI",
     title: "YUTTGRI Terminal grande (123 cm) izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/TER_80_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/TER_80_IZQ.png",
     price: precios.comunYUTTGR,
   },
   {
     id: "YUTTMAD",
     title: "YUTTMAD Terminal maxi (133 cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/TER_90_DER.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/TER_90_DER.png",
     price: precios.comunYUTTMA,
   },
   {
     id: "YUTTMAI",
     title: "YUTTMAI Terminal maxi (133 cm) izqdo.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/TER_90_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/YUTE/TER_90_IZQ.png",
     price: precios.comunYUTTMA,
   },
 ];

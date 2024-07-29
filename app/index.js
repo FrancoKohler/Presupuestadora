@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   const dropdown = document.getElementById("tela");
-
   dropdown.innerHTML = "";
 
   // AGREGAR OPCIONES DROPDOWN
@@ -43,228 +42,101 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// DROPDOWN
-function toggleDropdown() {
-  document.getElementById("dropdown-content").classList.toggle("show");
-}
+/*-----------------GRABADO DE LA IMAGEN DE LA MUESTRA SELECCIONADA----------*/
+let resumen = { nombre: "" };
+let categoriaSeleccionada = "";
 
-function openTab(evt, tabName) {
-  var tabcontent = document.getElementsByClassName("tabcontent");
-  for (var i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].classList.remove("active");
-  }
-  var tablinks = document.getElementsByClassName("tablinks");
-  for (var i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  var tab = document.getElementById(tabName);
-  if (tab) {
-    tab.classList.add("active");
-    evt.currentTarget.className += " active";
-  }
-}
-
-// FUNCION DE CREACION DE DIVS DE OPTIONS CON LAS IMG
-
-function selectOption(element) {
-  const selectedOption = element.dataset.nombre;
-  document.getElementById(
-    "selected-option"
-  ).innerText = `Tela seleccionada: ${selectedOption}`;
-  document.getElementById("selected-option").dataset.nombre = selectedOption;
-  document.getElementById("dropdown-content").classList.remove("show");
-}
-
-function initializeTabs() {
-  const tabContentContainer = document.getElementById("tab-content-container");
-  for (const [tabName, items] of Object.entries(muestras)) {
-    const tabContentDiv = document.createElement("div");
-    tabContentDiv.id = tabName;
-    tabContentDiv.className = "tabcontent";
-    items.forEach((item) => {
-      const itemContainer = document.createElement("div");
-      itemContainer.className = "item-container";
-
-      const option = document.createElement("p");
-      option.dataset.nombre = item.nombre;
-      option.innerHTML = `
-        <img id="muestraImg" src="${item.img}" alt="${item.nombre}" class="telas-image">
-        <p>${item.nombre}</p>
-      `;
-
-      option.onclick = function () {
-        selectOption(this);
-      };
-
-      itemContainer.appendChild(option);
-      tabContentDiv.appendChild(itemContainer);
-    });
-    tabContentContainer.appendChild(tabContentDiv);
-  }
-
-  // ABRIR DIRECTAMENTE LA BRIXTON AL ABRIR EL TAB
-  openTab({ currentTarget: document.querySelector(".tablinks") }, "brixton");
-}
-
-// EVITA QUE SE CIERRE AL APRETAR LAS TABS
-window.onclick = function (event) {
-  if (
-    !event.target.matches(".select-box") &&
-    !event.target.matches(".tablinks")
-  ) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-};
-
-document.addEventListener("DOMContentLoaded", initializeTabs);
-document.addEventListener("DOMContentLoaded", function () {
-  const dropdown = document.getElementById("dropdown-content");
-
-  dropdown.addEventListener("click", function (event) {
-    if (event.target.tagName === "BUTTON") {
-      /*Obtener texto de elemento seleccionado*/
-      const selectedOption = event.target.textContent;
-    }
-  });
+// Asegurarse de que el DOM esté completamente cargado antes de ejecutar el script
+document.addEventListener("DOMContentLoaded", () => {
+  // Configuración inicial
+  document
+    .getElementById("category-select")
+    .addEventListener("change", seleccionarCategoria);
+  document.getElementById("search-input").addEventListener("input", buscarTela);
 });
 
-// RESUMEN
-document.addEventListener("DOMContentLoaded", function () {
-  const selectElements = document.querySelectorAll("select");
-
-  selectElements.forEach((select) => {
-    select.addEventListener("change", function () {
-      generarResumen();
-      mostrarImagenes();
-    });
-  });
-
-  const motorInput = document.getElementById("motor");
-  motorInput.addEventListener("input", function () {
-    const motorValue = parseInt(motorInput.value, 10);
-    const motorTotal = motorValue * 179;
-    document.getElementById(
-      "output"
-    ).textContent = `Total Motor: ${motorTotal}€`;
-    generarResumen();
-  });
-
-  generarResumen();
-});
-
-function generarResumen() {
-  const modelo = document.getElementById("modelo").value;
-  const piezasSeleccionadas = obtenerPiezasSeleccionadas();
-  const telaDropdown = document.getElementById("tela");
-  const tela =
-    telaDropdown.options[telaDropdown.selectedIndex]?.text ||
-    "Seleccione una tela"; // Obtener el texto seleccionado o "Seleccione una tela" si no hay selección
-  const muestra = document.getElementById("selected-option").dataset.nombre;
-
-  const piezasFiltradas = piezasSeleccionadas.filter(
-    (pieza) => pieza.id !== "None"
-  );
-
-  const precioPiezas = piezasFiltradas.reduce((total, pieza) => {
-    const precioPieza = obtenerPrecioPorMaterial(pieza.id, tela);
-    console.log(`Precio de ${pieza.id} para tela ${tela}: ${precioPieza}`);
-    return total + precioPieza;
-  }, 0);
-
-  const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
-  const motorTotal = motorValue * 179;
-
-  const precioTotal = precioPiezas + motorTotal;
-
-  /*---------CODIGOS DE DESUENTOS CONST----------*/
-  const codigoDescuento = document.getElementById("descuento").value;
-  const descuento = obtenerDescuento(codigoDescuento);
-  const precioConDescuento = precioTotal * (1 - descuento);
-  /*------FUNCION DE DESCUENTOS Y CODIGOS-------*/
-  function obtenerDescuento(codigo) {
-    switch (codigo) {
-      case "GET20":
-        return 0.2;
-      case "GET35":
-        return 0.35;
-      case "GET40":
-        return 0.4;
-      default:
-        return 0.0;
-    }
-  }
-  const resumenElement = document.getElementById("resumen");
-  resumenElement.innerHTML = `
-    <li>Modelo: ${modelo}</li>
-   ${
-     piezasFiltradas.length > 0
-       ? `<li>Piezas seleccionadas:</li><ul>` +
-         piezasFiltradas
-           .map(
-             (pieza) =>
-               `<li>${
-                 pieza.nombre
-               } - <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
-                 pieza.id,
-                 tela
-               ).toFixed(2)}€</span></li>`
-           )
-           .join("") +
-         "</ul>"
-       : ""
-   }
-    <li>Serie seleccionada: ${tela}</li>
-    <li>Tela seleccionada: ${muestra}</li>
-    <li>Precio Motor: <span id="precioMotor">${motorTotal.toFixed(
-      2
-    )}€</span></li>
-    <li>Precio Total: <span id="precioTotal">${precioTotal.toFixed(
-      2
-    )}€</span></li>
-    <li>Descuento aplicado: <span id="descuentoAplicado">${(
-      descuento * 100
-    ).toFixed(0)}%</span></li>
-    <li>Precio Total con descuento: <span id="precioTotalDesc"> ${precioConDescuento.toFixed(
-      2
-    )}€</span></li>
-  `;
+function seleccionarCategoria() {
+  categoriaSeleccionada = document.getElementById("category-select").value;
+  document.getElementById("search-input").value = "";
+  document.getElementById("dropdown-content").innerHTML = "";
+  document.getElementById("dropdown-content").style.display = "none";
 }
-/*-----------------GRABADO DE LA IMAGEN DE LA MEUSTRA SELECCIONADA----------*/
-/*----------------------eliminar si no funciona desde este punto--------*/
+
+function buscarTela() {
+  const input = document.getElementById("search-input").value.toLowerCase();
+  const dropdownContent = document.getElementById("dropdown-content");
+  dropdownContent.innerHTML = "";
+
+  if (categoriaSeleccionada === "") {
+    alert("Por favor, selecciona una categoría primero.");
+    return;
+  }
+
+  const muestrasArray = muestras[categoriaSeleccionada];
+  muestrasArray.forEach((item) => {
+    if (item.nombre.toLowerCase().includes(input)) {
+      const div = document.createElement("div");
+      div.classList.add("dropdown-item");
+
+      const img = document.createElement("img");
+      img.src = item.img;
+      img.alt = item.nombre;
+      img.style.width = "50px";
+      img.style.height = "50px";
+      img.style.marginRight = "10px";
+
+      const span = document.createElement("span");
+      span.innerText = item.nombre;
+
+      div.appendChild(img);
+      div.appendChild(span);
+      div.onclick = () => seleccionarMuestra(item.nombre);
+      dropdownContent.appendChild(div);
+    }
+  });
+
+  if (dropdownContent.children.length > 0) {
+    dropdownContent.style.display = "block";
+  } else {
+    dropdownContent.style.display = "none";
+  }
+}
+
 function seleccionarMuestra(nombre) {
   resumen.nombre = nombre;
-  document.getElementById("selected-option").innerText = nombre;
-  console.log("Muestra seleccionada:", resumen.nombre);
-  document.getElementById("dropdown-content").style.display = "none"; // cerrar el dropdown después de la selección
-}
-function encontrarImagen(nombre) {
-  for (let key in muestras) {
-    const muestrasArray = muestras[key];
-    const muestra = muestrasArray.find((item) => item.nombre === nombre);
-    if (muestra) {
-      console.log("Ruta de la imagen:", muestra.img); // Verificar la ruta
-      return muestra.img;
-    }
+  const selectedOption = document.getElementById("selected-option");
+  if (selectedOption) {
+    selectedOption.innerText = nombre;
+    selectedOption.dataset.nombre = nombre; // Almacenar el nombre en el dataset
   }
-  return null;
+  console.log("Muestra seleccionada:", resumen.nombre);
+  document.getElementById("dropdown-content").style.display = "none"; // Cerrar el dropdown después de la selección
+  generarResumen(); // Actualizar el resumen cuando se seleccione una muestra
 }
-// Ejemplo de uso:
-const nombreSeleccionado = resumen.nombre;
-const imgPath = encontrarImagen(nombreSeleccionado);
-console.log(imgPath); // Debería imprimir la ruta de la imagen
-/*----------------------eliminar si no funciona hasta este punto--------*/
-/*---------------------DESUCENTO INPUT-----------------*/
+function seleccionarMuestra(nombre) {
+  resumen.nombre = nombre;
+  const selectedOption = document.getElementById("selected-option");
+  if (selectedOption) {
+    selectedOption.innerText = nombre;
+    selectedOption.dataset.nombre = nombre; // Almacenar el nombre en el dataset
+  }
+  console.log("Muestra seleccionada:", resumen.nombre);
+  document.getElementById("dropdown-content").style.display = "none"; // Cerrar el dropdown después de la selección
+}
+function cerrarOverlay() {
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = "none";
+  }
+}
+
+/*---------------------DESCUENTO INPUT-----------------*/
 document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("descuento")
     .addEventListener("input", generarResumen);
 });
+
 function obtenerPiezasSeleccionadas() {
   const piezasSeleccionadas = [];
   for (let i = 1; i <= 8; i++) {
@@ -297,7 +169,6 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
   return 0;
 }
 
-// USO DE CHATGPT PARA VE BIEN ROTACION PERO CON LOGICA HA SIDO MEJORADA. ERROR ACTUAL QUE LA SEGUNDA YUTRA NO APARECE BIEN
 function mostrarImagenes() {
   const imagenesDiv = document.getElementById("imagenPiezas");
   imagenesDiv.innerHTML = ""; // Limpiar las imágenes anteriores
@@ -305,7 +176,6 @@ function mostrarImagenes() {
   let currentY = 0;
   let currentX = 0; // Acumulador de la posición Y para las siguientes imágenes
   let rotateAfterYutra = false; // Indica si se debe rotar la imagen después de YUTRA
-  let previousYutraPosition = null; // Guardar la posición de la pieza YUTRA anterior
   for (let i = 1; i <= 8; i++) {
     const piezaSelect = document.getElementById(`pieza${i}`);
 
@@ -363,3 +233,100 @@ function mostrarImagenes() {
 
 generarResumen();
 mostrarImagenes();
+// RESUMEN
+document.addEventListener("DOMContentLoaded", function () {
+  const selectElements = document.querySelectorAll("select");
+
+  selectElements.forEach((select) => {
+    select.addEventListener("change", function () {
+      generarResumen();
+      mostrarImagenes();
+    });
+  });
+
+  const motorInput = document.getElementById("motor");
+  motorInput.addEventListener("input", function () {
+    const motorValue = parseInt(motorInput.value, 10);
+    const motorTotal = motorValue * 179;
+    document.getElementById(
+      "output"
+    ).textContent = `Total Motor: ${motorTotal}€`;
+    generarResumen();
+  });
+
+  generarResumen();
+});
+
+function generarResumen() {
+  const modelo = document.getElementById("modelo").value;
+  const piezasSeleccionadas = obtenerPiezasSeleccionadas();
+  const tela = document.getElementById("tela").value;
+  const categoriaSeleccionada = resumen.nombre; // Usar el valor almacenado en resumen
+  const piezasFiltradas = piezasSeleccionadas.filter(
+    (pieza) => pieza.id !== "None"
+  );
+
+  const precioPiezas = piezasFiltradas.reduce((total, pieza) => {
+    const precioPieza = obtenerPrecioPorMaterial(pieza.id, tela);
+    console.log(`Precio de ${pieza.id} para tela ${tela}: ${precioPieza}`);
+    return total + precioPieza;
+  }, 0);
+
+  const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
+  const motorTotal = motorValue * 179;
+
+  const precioTotal = precioPiezas + motorTotal;
+
+  /*---------CODIGOS DE DESCUENTOS CONST----------*/
+  const codigoDescuento = document.getElementById("descuento").value;
+  const descuento = obtenerDescuento(codigoDescuento);
+  const precioConDescuento = precioTotal * (1 - descuento);
+  /*------FUNCION DE DESCUENTOS Y CODIGOS-------*/
+  function obtenerDescuento(codigo) {
+    switch (codigo) {
+      case "GET20":
+        return 0.2;
+      case "GET35":
+        return 0.35;
+      case "GET40":
+        return 0.4;
+      default:
+        return 0.0;
+    }
+  }
+  const resumenElement = document.getElementById("resumen");
+  resumenElement.innerHTML = `
+    <li>Modelo: ${modelo}</li>
+   ${
+     piezasFiltradas.length > 0
+       ? `<li>Piezas seleccionadas:</li><ul>` +
+         piezasFiltradas
+           .map(
+             (pieza) =>
+               `<li>${
+                 pieza.nombre
+               } - <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
+                 pieza.id,
+                 tela
+               ).toFixed(2)}€</span></li>`
+           )
+           .join("") +
+         "</ul>"
+       : ""
+   }
+    <li>Serie seleccionada: ${tela}</li>
+    <li>Tela seleccionada: ${categoriaSeleccionada}</li>
+    <li>Precio Motor: <span id="precioMotor">${motorTotal.toFixed(
+      2
+    )}€</span></li>
+    <li>Precio Total: <span id="precioTotal">${precioTotal.toFixed(
+      2
+    )}€</span></li>
+    <li>Descuento aplicado: <span id="descuentoAplicado">${(
+      descuento * 100
+    ).toFixed(0)}%</span></li>
+    <li>Precio Total con descuento: <span id="precioTotalDesc"> ${precioConDescuento.toFixed(
+      2
+    )}€</span></li>
+  `;
+}

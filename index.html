@@ -186,9 +186,8 @@
                 
                 <select name="modelo" id="modelo" class="dropdown">
                 <option value="Yute">Yute</option>
-                <option value="Tundra">Tundra</option>
-                <option value="Giant">Giant</option>
-                <option value="Tucson">Tucson</option>
+                <option value="Agora">Agora</option>
+                <option value="Lino">Lino</option>
                 
                 </select>
                 </div>
@@ -205,30 +204,44 @@
             </select>
         </div>
         <div class="custom-select">
-            <div class="teladiv">
-              <div class="tela-div-h">
+        <div class="teladiv">
+            <div class="tela-div-h">
                 <a class="seccion-titulo">Tela</a>
-                <label for="modelo" class="input-title">Selecciona la tela para la configuración</label>
-              </div>
-                <div class="select-box" onclick="toggleDropdown()">
-                    <span class="span-telas" id="selected-option">---Selecciona una opción---</span>
-                    <div class="dropdown-icon">&#10095;</div>
-                </div>
-                <div id="dropdown-content" class="dropdown-content">
-                    <div class="tabs" id="telasTabs">
-                        <button class="tablinks" onclick="openTab(event, 'brixton')">Brixton</button>
-                        <button class="tablinks" onclick="openTab(event, 'camila')">Camila</button>
-                        <button class="tablinks" onclick="openTab(event, 'montreal')">Montreal</button>
-                        <button class="tablinks" onclick="openTab(event, 'osaka')">Osaka</button>
-                        <button class="tablinks" onclick="openTab(event, 'terranova')">Terranova</button>
-                    </div>
-                    <div id="tab-content-container">
-                        <!-- Aquí se cargarán las opciones de cada tab -->
-                    </div>
-                    
-                </div>
+                <label for="modelo" class="input-title">Selecciona la categoría y busca la tela</label>
             </div>
+            <div class="category-select">
+                <select class="dropdown-select" id="category-select" onchange="seleccionarCategoria()">
+                    <option value="">Selecciona una categoría</option>
+                    <option value="brixton">Brixton</option>
+                    <option value="camila">Camila</option>
+                    <option value="montreal">Montreal</option>
+                    <option value="osaka">Osaka</option>
+                    <option value="terranova">Terranova</option>
+                    <option value="telaCliente">Tela Cliente</option>
+                </select>
+                
+            </div>
+            <div class="select-box">
+                <input class="search-input" type="text" id="search-input" placeholder="Buscar tela..." oninput="buscarTela()">
+                <div class="search-icon" onclick="buscarTela()"><img class="lupa" src="./assets/Search.png" alt="Search"></div>
+            </div>
+            <div id="dropdown-content" class="dropdown-content"></div>
         </div>
+    </div>
+
+     <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <span class="close-btn" onclick="cerrarOverlay()">×</span>
+            <img id="overlay-img" src="" alt="Imagen de la tela">
+        </div>
+    </div>
+
+<div id="overlay" class="overlay">
+    <div class="overlay-content">
+        <span class="close-btn" onclick="cerrarOverlay()">×</span>
+        <img id="overlay-img" src="" alt="Imagen de la tela">
+    </div>
+</div>
     </section>
     <!--PIEZA SELECTOR-->
     <section class="pieza-seccion" >
