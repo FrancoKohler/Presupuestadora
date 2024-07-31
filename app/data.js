@@ -1205,7 +1205,7 @@ const piezasAgora = [
     id: "AGOR",
     title: "AGOR rincon cerrado",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/AGORA/RC.png",
+      "https://francokohler.github.io/Presupuestadora/assets/AGORA/AGOR.png",
     price: preciosAgora.comunAGOR,
     medida: 80,
   },
