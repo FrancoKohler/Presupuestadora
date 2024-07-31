@@ -1,4 +1,51 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const modeloSelect = document.getElementById("modelo");
+
+  // Llamar a la función de actualización al cargar la página por primera vez
+  actualizarPiezasSegunModelo();
+
+  // Escuchar el cambio en el selector de modelo
+  modeloSelect.addEventListener("change", actualizarPiezasSegunModelo);
+  function actualizarPiezasSegunModelo() {
+    const modeloSeleccionado = document.getElementById("modelo").value;
+    let piezasAMostrar;
+
+    /*CAMBIO SEGUN EL INPUT*/
+    switch (modeloSeleccionado) {
+      case "Yute":
+        piezasAMostrar = piezas; // `piezas` es el conjunto de piezas para Yute
+        break;
+      case "Lino":
+        piezasAMostrar = piezasLino; // `piezasLino` es el conjunto de piezas para Lino
+        break;
+      case "Agora":
+        piezasAMostrar = piezasAgora; // `piezasAgora` es el conjunto de piezas para Agora
+        break;
+      default:
+        piezasAMostrar = [];
+    }
+    for (let i = 1; i <= 8; i++) {
+      const dropdown = document.getElementById(`pieza${i}`);
+      dropdown.innerHTML = ""; // Limpiar las opciones existentes
+
+      // Agregar las nuevas opciones
+      piezasAMostrar.forEach((pieza) => {
+        const option = document.createElement("option");
+        option.value = pieza.id;
+        option.textContent = `${pieza.title}`;
+        option.dataset.price = JSON.stringify(pieza.price);
+        option.dataset.imageUrl = pieza.imageUrl;
+        dropdown.appendChild(option);
+      });
+    }
+
+    // Actualizar las imágenes y el resumen después de cambiar el modelo
+    mostrarImagenes();
+    generarResumen();
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   const materialesSet = new Set();
 
   // TOMA CADA PIEZA Y COGE EL MATERIAL
