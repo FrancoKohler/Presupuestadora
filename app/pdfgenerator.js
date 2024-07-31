@@ -2,6 +2,7 @@ async function createPDF() {
   await new Promise((resolve) => setTimeout(resolve, 1000)); // 1000 ms
   // Obtener valores de los inputs
   const canvas = document.createElement("canvas");
+  const modelo = document.getElementById("modelo").value;
   const nombreEmpresa = document.getElementById("nombreEmpresa").value;
   const cifEmpresa = document.getElementById("cifEmpresa").value;
   const nombreCliente = document.getElementById("nombreCliente").value;
@@ -157,7 +158,7 @@ async function createPDF() {
   drawText(page, `Email Empresa: ${emailEmpresa}`, 364, 610, 8, helveticaFont);
   /*---------MODELO Y CONFIGURACION-----------*/
 
-  drawText(page, "Modelo: Yute", 52, 530, 15, helveticaFont);
+  drawText(page, `Modelo: ${modelo}`, 52, 530, 15, helveticaFont);
   /*------------LINEA MODELO--------------*/
   page.drawRectangle({
     x: 48,

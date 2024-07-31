@@ -137,6 +137,7 @@ function buscarTela() {
 
       div.appendChild(img);
       div.appendChild(span);
+      div.classList.add("tela-span");
       div.onclick = () => seleccionarMuestra(item.nombre);
       dropdownContent.appendChild(div);
     }
@@ -203,17 +204,72 @@ function obtenerPiezasSeleccionadas() {
 }
 
 function obtenerPrecioPorMaterial(idPieza, tela) {
-  const pieza = piezas.find((p) => p.id === idPieza);
+  // Verifica que las colecciones están definidas y son arrays
+  const colecciones = [piezas, piezasLino, piezasAgora];
 
-  if (pieza) {
-    if (pieza.price) {
+  for (const coleccion of colecciones) {
+    if (!Array.isArray(coleccion)) {
+      console.error("Error: Colección no es un array");
+      continue;
+    }
+
+    // Verifica que `p` no sea undefined y que `id` esté definido
+    const pieza = coleccion.find((p) => p && p.id === idPieza);
+    if (pieza && Array.isArray(pieza.price)) {
       const precioMaterial = pieza.price.find((p) => p.material === tela);
       if (precioMaterial) {
-        return parseFloat(precioMaterial.precio);
+        return parseFloat(precioMaterial.precio) || 0;
       }
     }
   }
+
+  // Retorna 0 si no se encuentra el precio
   return 0;
+}
+
+function cambiarPreciosPorModelo(modelo) {
+  let nuevosPrecios;
+
+  switch (modelo) {
+    case "Yute":
+      nuevosPrecios = precios; // Asegúrate de que esto sea un array
+      break;
+    case "Lino":
+      nuevosPrecios = preciosLino; // Asegúrate de que esto sea un array
+      break;
+    case "Agora":
+      nuevosPrecios = preciosAgora; // Asegúrate de que esto sea un array
+      break;
+    default:
+      nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
+  }
+
+  // Verificar si nuevosPrecios es un array
+  if (!Array.isArray(nuevosPrecios)) {
+    console.error("Error: nuevosPrecios no es un array");
+    return;
+  }
+
+  piezas.forEach((pieza) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    pieza.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precio) => precio.id === pieza.id)
+      : [];
+  });
+  piezasAgora.forEach((piezaAgora) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaAgora.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioAgora) => precioAgora.id === piezaAgora.id)
+      : [];
+  });
+  piezasLino.forEach((piezaLino) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaLino.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
+      : [];
+  });
+
+  actualizarUI();
 }
 
 function mostrarImagenes() {
@@ -330,16 +386,15 @@ function generarResumen() {
   const precioConDescuento = precioTotal * (1 - descuento);
   /*------FUNCION DE DESCUENTOS Y CODIGOS-------*/
   function obtenerDescuento(codigo) {
-    switch (codigo) {
-      case "GET20":
-        return 0.2;
-      case "GET35":
-        return 0.35;
-      case "GET40":
-        return 0.4;
-      default:
-        return 0.0;
+    /*GET DEL 1-50*/
+    const match = codigo.match(/^GET(\d{1,2})$/);
+    if (match) {
+      const descuento = parseInt(match[1], 10); // Extrae el número del código
+      if (descuento >= 1 && descuento <= 50) {
+        return descuento / 100; // Convierte el número en un porcentaje de descuento
+      }
     }
+    return 0.0; // Si no coincide, retorna 0
   }
   const resumenElement = document.getElementById("resumen");
   resumenElement.innerHTML = `

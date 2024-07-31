@@ -292,6 +292,9 @@ li {
 .lupa {
   height: 20px;
 }
+.tela-span:hover {
+  font-weight: 600;
+}
 .select-box {
   cursor: pointer;
   display: flex;
