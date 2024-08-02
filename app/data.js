@@ -649,6 +649,370 @@ const preciosAgora = {
     { material: "SERIE 7", precio: 1354 },
   ],
 };
+/*----------------------Altano----------------------*/
+const preciosAltano = {
+  comunALTADI: [
+    { material: "SERIE 1", precio: 1088 },
+    { material: "SERIE 2", precio: 1060 },
+    { material: "SERIE 3", precio: 1113 },
+    { material: "SERIE 4", precio: 1164 },
+    { material: "SERIE 5", precio: 1243 },
+    { material: "SERIE 6", precio: 1321 },
+    { material: "SERIE 7", precio: 1401 },
+  ],
+  comunALTCMGDI: [
+    { material: "SERIE 1", precio: 871 },
+    { material: "SERIE 2", precio: 915 },
+    { material: "SERIE 3", precio: 958 },
+    { material: "SERIE 4", precio: 1002 },
+    { material: "SERIE 5", precio: 1066 },
+    { material: "SERIE 6", precio: 1132 },
+    { material: "SERIE 7", precio: 1200 },
+  ],
+  comunALTCMMADI: [
+    { material: "SERIE 1", precio: 896 },
+    { material: "SERIE 2", precio: 946 },
+    { material: "SERIE 3", precio: 996 },
+    { material: "SERIE 4", precio: 1047 },
+    { material: "SERIE 5", precio: 1121 },
+    { material: "SERIE 6", precio: 1196 },
+    { material: "SERIE 7", precio: 1268 },
+  ],
+  comunALTCMMDDI: [
+    { material: "SERIE 1", precio: 823 },
+    { material: "SERIE 2", precio: 864 },
+    { material: "SERIE 3", precio: 905 },
+    { material: "SERIE 4", precio: 946 },
+    { material: "SERIE 5", precio: 1008 },
+    { material: "SERIE 6", precio: 1069 },
+    { material: "SERIE 7", precio: 1133 },
+  ],
+  comunALTMGBDI: [
+    { material: "SERIE 1", precio: 685 },
+    { material: "SERIE 2", precio: 723 },
+    { material: "SERIE 3", precio: 760 },
+    { material: "SERIE 4", precio: 798 },
+    { material: "SERIE 5", precio: 854 },
+    { material: "SERIE 6", precio: 911 },
+    { material: "SERIE 7", precio: 966 },
+  ],
+  comunALTMGSB: [
+    { material: "SERIE 1", precio: 823 },
+    { material: "SERIE 2", precio: 864 },
+    { material: "SERIE 3", precio: 905 },
+    { material: "SERIE 4", precio: 946 },
+    { material: "SERIE 5", precio: 1008 },
+    { material: "SERIE 6", precio: 1069 },
+    { material: "SERIE 7", precio: 1133 },
+  ],
+  comunALTMLBDI: [
+    { material: "SERIE 1", precio: 823 },
+    { material: "SERIE 2", precio: 864 },
+    { material: "SERIE 3", precio: 905 },
+    { material: "SERIE 4", precio: 946 },
+    { material: "SERIE 5", precio: 1008 },
+    { material: "SERIE 6", precio: 1069 },
+    { material: "SERIE 7", precio: 1133 },
+  ],
+  comunALTMLSB: [
+    { material: "SERIE 1", precio: 612 },
+    { material: "SERIE 2", precio: 646 },
+    { material: "SERIE 3", precio: 679 },
+    { material: "SERIE 4", precio: 713 },
+    { material: "SERIE 5", precio: 763 },
+    { material: "SERIE 6", precio: 815 },
+    { material: "SERIE 7", precio: 864 },
+  ],
+  comunALTMMABDI: [
+    { material: "SERIE 1", precio: 708 },
+    { material: "SERIE 2", precio: 748 },
+    { material: "SERIE 3", precio: 788 },
+    { material: "SERIE 4", precio: 828 },
+    { material: "SERIE 5", precio: 888 },
+    { material: "SERIE 6", precio: 947 },
+    { material: "SERIE 7", precio: 1004 },
+  ],
+  comunALTMMASB: [
+    { material: "SERIE 1", precio: 557 },
+    { material: "SERIE 2", precio: 588 },
+    { material: "SERIE 3", precio: 619 },
+    { material: "SERIE 4", precio: 649 },
+    { material: "SERIE 5", precio: 695 },
+    { material: "SERIE 6", precio: 741 },
+    { material: "SERIE 7", precio: 785 },
+  ],
+  comunALTMMDBDI: [
+    { material: "SERIE 1", precio: 653 },
+    { material: "SERIE 2", precio: 689 },
+    { material: "SERIE 3", precio: 724 },
+    { material: "SERIE 4", precio: 758 },
+    { material: "SERIE 5", precio: 812 },
+    { material: "SERIE 6", precio: 864 },
+    { material: "SERIE 7", precio: 916 },
+  ],
+  comunALTMMDSB: [
+    { material: "SERIE 1", precio: 528 },
+    { material: "SERIE 2", precio: 556 },
+    { material: "SERIE 3", precio: 582 },
+    { material: "SERIE 4", precio: 609 },
+    { material: "SERIE 5", precio: 649 },
+    { material: "SERIE 6", precio: 689 },
+    { material: "SERIE 7", precio: 730 },
+  ],
+  comunALTMXLBDI: [
+    { material: "SERIE 1", precio: 782 },
+    { material: "SERIE 2", precio: 827 },
+    { material: "SERIE 3", precio: 872 },
+    { material: "SERIE 4", precio: 918 },
+    { material: "SERIE 5", precio: 985 },
+    { material: "SERIE 6", precio: 1052 },
+    { material: "SERIE 7", precio: 1115 },
+  ],
+  comunALTMXXLBDI: [
+    { material: "SERIE 1", precio: 822 },
+    { material: "SERIE 2", precio: 870 },
+    { material: "SERIE 3", precio: 918 },
+    { material: "SERIE 4", precio: 967 },
+    { material: "SERIE 5", precio: 1039 },
+    { material: "SERIE 6", precio: 1110 },
+    { material: "SERIE 7", precio: 1177 },
+  ],
+  comunALTMXXLSB: [
+    { material: "SERIE 1", precio: 669 },
+    { material: "SERIE 2", precio: 707 },
+    { material: "SERIE 3", precio: 746 },
+    { material: "SERIE 4", precio: 783 },
+    { material: "SERIE 5", precio: 840 },
+    { material: "SERIE 6", precio: 897 },
+    { material: "SERIE 7", precio: 951 },
+  ],
+  comunALTR: [
+    { material: "SERIE 1", precio: 694 },
+    { material: "SERIE 2", precio: 741 },
+    { material: "SERIE 3", precio: 787 },
+    { material: "SERIE 4", precio: 833 },
+    { material: "SERIE 5", precio: 903 },
+    { material: "SERIE 6", precio: 972 },
+    { material: "SERIE 7", precio: 1031 },
+  ],
+  comunALTRTDI: [
+    { material: "SERIE 1", precio: 1048 },
+    { material: "SERIE 2", precio: 1110 },
+    { material: "SERIE 3", precio: 1173 },
+    { material: "SERIE 4", precio: 1236 },
+    { material: "SERIE 5", precio: 1330 },
+    { material: "SERIE 6", precio: 1424 },
+    { material: "SERIE 7", precio: 1509 },
+  ],
+  comunALTT1RGDI: [
+    { material: "SERIE 1", precio: 662 },
+    { material: "SERIE 2", precio: 697 },
+    { material: "SERIE 3", precio: 733 },
+    { material: "SERIE 4", precio: 767 },
+    { material: "SERIE 5", precio: 820 },
+    { material: "SERIE 6", precio: 874 },
+    { material: "SERIE 7", precio: 926 },
+  ],
+  comunALTT1RMADI: [
+    { material: "SERIE 1", precio: 698 },
+    { material: "SERIE 2", precio: 735 },
+    { material: "SERIE 3", precio: 772 },
+    { material: "SERIE 4", precio: 810 },
+    { material: "SERIE 5", precio: 867 },
+    { material: "SERIE 6", precio: 923 },
+    { material: "SERIE 7", precio: 978 },
+  ],
+  comunALTT2RGDI: [
+    { material: "SERIE 1", precio: 1013 },
+    { material: "SERIE 2", precio: 1068 },
+    { material: "SERIE 3", precio: 1124 },
+    { material: "SERIE 4", precio: 1179 },
+    { material: "SERIE 5", precio: 1262 },
+    { material: "SERIE 6", precio: 1345 },
+    { material: "SERIE 7", precio: 1426 },
+  ],
+  comunALTT2RMDDI: [
+    { material: "SERIE 1", precio: 929 },
+    { material: "SERIE 2", precio: 982 },
+    { material: "SERIE 3", precio: 1036 },
+    { material: "SERIE 4", precio: 1090 },
+    { material: "SERIE 5", precio: 1170 },
+    { material: "SERIE 6", precio: 1250 },
+    { material: "SERIE 7", precio: 1325 },
+  ],
+  comunALT2: [
+    { material: "SERIE 1", precio: 999 },
+    { material: "SERIE 2", precio: 1057 },
+    { material: "SERIE 3", precio: 1115 },
+    { material: "SERIE 4", precio: 1173 },
+    { material: "SERIE 5", precio: 1260 },
+    { material: "SERIE 6", precio: 1347 },
+    { material: "SERIE 7", precio: 1428 },
+  ],
+  comunALT2BDI: [
+    { material: "SERIE 1", precio: 884 },
+    { material: "SERIE 2", precio: 931 },
+    { material: "SERIE 3", precio: 979 },
+    { material: "SERIE 4", precio: 1028 },
+    { material: "SERIE 5", precio: 1100 },
+    { material: "SERIE 6", precio: 1172 },
+    { material: "SERIE 7", precio: 1242 },
+  ],
+  comunALT2SB: [
+    { material: "SERIE 1", precio: 744 },
+    { material: "SERIE 2", precio: 783 },
+    { material: "SERIE 3", precio: 821 },
+    { material: "SERIE 4", precio: 860 },
+    { material: "SERIE 5", precio: 917 },
+    { material: "SERIE 6", precio: 974 },
+    { material: "SERIE 7", precio: 1032 },
+  ],
+  comunALT2SB: [
+    { material: "SERIE 1", precio: 744 },
+    { material: "SERIE 2", precio: 783 },
+    { material: "SERIE 3", precio: 821 },
+    { material: "SERIE 4", precio: 860 },
+    { material: "SERIE 5", precio: 917 },
+    { material: "SERIE 6", precio: 974 },
+    { material: "SERIE 7", precio: 1032 },
+  ],
+  comunALT21A: [
+    { material: "SERIE 1", precio: 999 },
+    { material: "SERIE 2", precio: 1057 },
+    { material: "SERIE 3", precio: 1115 },
+    { material: "SERIE 4", precio: 1173 },
+    { material: "SERIE 5", precio: 1260 },
+    { material: "SERIE 6", precio: 1347 },
+    { material: "SERIE 7", precio: 1428 },
+  ],
+  comunALT21ABDI: [
+    { material: "SERIE 1", precio: 884 },
+    { material: "SERIE 2", precio: 931 },
+    { material: "SERIE 3", precio: 979 },
+    { material: "SERIE 4", precio: 1028 },
+    { material: "SERIE 5", precio: 1100 },
+    { material: "SERIE 6", precio: 1172 },
+    { material: "SERIE 7", precio: 1242 },
+  ],
+  comunALT25: [
+    { material: "SERIE 1", precio: 1078 },
+    { material: "SERIE 2", precio: 1143 },
+    { material: "SERIE 3", precio: 1208 },
+    { material: "SERIE 4", precio: 1273 },
+    { material: "SERIE 5", precio: 1371 },
+    { material: "SERIE 6", precio: 1469 },
+    { material: "SERIE 7", precio: 1558 },
+  ],
+  comunALT25BDI: [
+    { material: "SERIE 1", precio: 997 },
+    { material: "SERIE 2", precio: 1056 },
+    { material: "SERIE 3", precio: 1115 },
+    { material: "SERIE 4", precio: 1174 },
+    { material: "SERIE 5", precio: 1263 },
+    { material: "SERIE 6", precio: 1353 },
+    { material: "SERIE 7", precio: 1434 },
+  ],
+  comunALT25SB: [
+    { material: "SERIE 1", precio: 838 },
+    { material: "SERIE 2", precio: 888 },
+    { material: "SERIE 3", precio: 938 },
+    { material: "SERIE 4", precio: 987 },
+    { material: "SERIE 5", precio: 1062 },
+    { material: "SERIE 6", precio: 1138 },
+    { material: "SERIE 7", precio: 1206 },
+  ],
+  comunALT251ABDI: [
+    { material: "SERIE 1", precio: 968 },
+    { material: "SERIE 2", precio: 1025 },
+    { material: "SERIE 3", precio: 1083 },
+    { material: "SERIE 4", precio: 1140 },
+    { material: "SERIE 5", precio: 1227 },
+    { material: "SERIE 6", precio: 1313 },
+    { material: "SERIE 7", precio: 1392 },
+  ],
+  comunALT251ASB: [
+    { material: "SERIE 1", precio: 968 },
+    { material: "SERIE 2", precio: 1025 },
+    { material: "SERIE 3", precio: 1083 },
+    { material: "SERIE 4", precio: 1140 },
+    { material: "SERIE 5", precio: 1227 },
+    { material: "SERIE 6", precio: 1313 },
+    { material: "SERIE 7", precio: 1392 },
+  ],
+  comunALT3: [
+    { material: "SERIE 1", precio: 1149 },
+    { material: "SERIE 2", precio: 1216 },
+    { material: "SERIE 3", precio: 1284 },
+    { material: "SERIE 4", precio: 1352 },
+    { material: "SERIE 5", precio: 1452 },
+    { material: "SERIE 6", precio: 1554 },
+    { material: "SERIE 7", precio: 1647 },
+  ],
+  comunALT3BDI: [
+    { material: "SERIE 1", precio: 1046 },
+    { material: "SERIE 2", precio: 1106 },
+    { material: "SERIE 3", precio: 1166 },
+    { material: "SERIE 4", precio: 1226 },
+    { material: "SERIE 5", precio: 1315 },
+    { material: "SERIE 6", precio: 1406 },
+    { material: "SERIE 7", precio: 1490 },
+  ],
+  comunALT3SB: [
+    { material: "SERIE 1", precio: 876 },
+    { material: "SERIE 2", precio: 926 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1026 },
+    { material: "SERIE 5", precio: 1102 },
+    { material: "SERIE 6", precio: 1178 },
+    { material: "SERIE 7", precio: 1248 },
+  ],
+  comunALT31ABDI: [
+    { material: "SERIE 1", precio: 1016 },
+    { material: "SERIE 2", precio: 1074 },
+    { material: "SERIE 3", precio: 1132 },
+    { material: "SERIE 4", precio: 1190 },
+    { material: "SERIE 5", precio: 1277 },
+    { material: "SERIE 6", precio: 1365 },
+    { material: "SERIE 7", precio: 1446 },
+  ],
+  comunALT31ASB: [
+    { material: "SERIE 1", precio: 887 },
+    { material: "SERIE 2", precio: 926 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1026 },
+    { material: "SERIE 5", precio: 1102 },
+    { material: "SERIE 6", precio: 1178 },
+    { material: "SERIE 7", precio: 1248 },
+  ],
+  comunALT35: [
+    { material: "SERIE 1", precio: 1200 },
+    { material: "SERIE 2", precio: 1273 },
+    { material: "SERIE 3", precio: 1347 },
+    { material: "SERIE 4", precio: 1420 },
+    { material: "SERIE 5", precio: 1530 },
+    { material: "SERIE 6", precio: 1640 },
+    { material: "SERIE 7", precio: 1739 },
+  ],
+  comunALT35BDI: [
+    { material: "SERIE 1", precio: 1088 },
+    { material: "SERIE 2", precio: 1154 },
+    { material: "SERIE 3", precio: 1219 },
+    { material: "SERIE 4", precio: 1285 },
+    { material: "SERIE 5", precio: 1383 },
+    { material: "SERIE 6", precio: 1482 },
+    { material: "SERIE 7", precio: 1571 },
+  ],
+  comunALT35SB: [
+    { material: "SERIE 1", precio: 928 },
+    { material: "SERIE 2", precio: 980 },
+    { material: "SERIE 3", precio: 1032 },
+    { material: "SERIE 4", precio: 1083 },
+    { material: "SERIE 5", precio: 1161 },
+    { material: "SERIE 6", precio: 1238 },
+    { material: "SERIE 7", precio: 1312 },
+  ],
+};
+
 const piezas = [
   {
     id: "None",
@@ -1338,6 +1702,478 @@ const piezasAgora = [
     medida: 80,
   },
 ];
+const piezasAltano = [
+  {
+    id: "ALTAD",
+    title: "ALTAD Angular dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTAD.png",
+    price: preciosAltano.comunALTADI,
+  },
+  {
+    id: "ALTAI",
+    title: "ALTAI Angular izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTAI.png",
+    price: preciosAltano.comunALTADI,
+  },
+  {
+    id: "ALTCMGD",
+    title: "ALTCMGD chaiselounge grande con martillo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMGD.png",
+    price: preciosAltano.comunALTCMGDI,
+  },
+  {
+    id: "ALTCMGI",
+    title: "ALTCMGI chaiselounge grande con martillo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMGI.png",
+    price: preciosAltano.comunALTCMGDI,
+  },
+  {
+    id: "ALTCMMAD",
+    title: "ALTCMMAD chaiselounge maxi con martillo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMMAD.png",
+    price: preciosAltano.comunALTCMMADI,
+  },
+  {
+    id: "ALTCMMAI",
+    title: "ALTCMMAI chaiselounge maxi con martillo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMMAI.png",
+    price: preciosAltano.comunALTCMMADI,
+  },
+  {
+    id: "ALTCMMDD",
+    title: "ALTCMMD chaiselounge mediano con martillo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMMDD.png",
+    price: preciosAltano.comunALTCMMDDI,
+  },
+  {
+    id: "ALTCMMDI",
+    title: "ALTCMMDI chaiselounge mediano con martillo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTCMMDI.png",
+    price: preciosAltano.comunALTCMMDDI,
+  },
+  {
+    id: "ALTMGBD",
+    title: "ALTMGBD modulo grande (100) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMGBD.png",
+    price: preciosAltano.comunALTMGBDI,
+  },
+  {
+    id: "ALTMGBI",
+    title: "ALTMGBI modulo grande (100) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMGBI.png",
+    price: preciosAltano.comunALTMGBDI,
+  },
+  {
+    id: "ALTMGSB",
+    title: "ALTMGSB modulo grande (80) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMGSB.png",
+    price: preciosAltano.comunALTMGBDI,
+  },
+  {
+    id: "ALTMLBD",
+    title: "ALTMLBD modulo grande (80) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMLBD.png",
+    price: preciosAltano.comunALTMGBDI,
+  },
+  {
+    id: "ALTMLSB",
+    title: "ALTMLSB modulo mega (100) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMLSB.png",
+    price: preciosAltano.comunALTMLSB,
+  },
+  {
+    id: "ALTMMABD",
+    title: "ALTMMABD modulo maxi (110) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMABD.png",
+    price: preciosAltano.comunALTMMABDI,
+  },
+  {
+    id: "ALTMMABI",
+    title: "ALTMMABI modulo maxi (110) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMABI.png",
+    price: preciosAltano.comunALTMMABDI,
+  },
+  {
+    id: "ALTMMASB",
+    title: "ALTMMASB modulo maxi (90) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMASB.png",
+    price: preciosAltano.comunALTMMASB,
+  },
+  {
+    id: "ALTMMDBD",
+    title: "ALTMMDBD modulo mediano (90) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMDBD.png",
+    price: preciosAltano.comunALTMMDBDI,
+  },
+  {
+    id: "ALTMMDBI",
+    title: "ALTMMDBI modulo mediano (90) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMDBI.png",
+    price: preciosAltano.comunALTMMDBDI,
+  },
+  {
+    id: "ALTMMDSB",
+    title: "ALTMMDSB modulo mediano (70) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMMDSB.png",
+    price: preciosAltano.comunALTMMDSB,
+  },
+  {
+    id: "ALTMXLBD",
+    title: "ALTMXLBD modulo XL (130) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMXLBD.png",
+    price: preciosAltano.comunALTMXLBDI,
+  },
+  {
+    id: "ALTMXLBI",
+    title: "ALTMXLBI modulo XL (130) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMXLBI.png",
+    price: preciosAltano.comunALTMXLBDI,
+  },
+  {
+    id: "ALTMXXLBD",
+    title: "ALTMXXLBD modulo XXL (140) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMXXLBD.png",
+    price: preciosAltano.comunALTMXXLBDI,
+  },
+  {
+    id: "ALTMXXLBI",
+    title: "ALTMXXLBI modulo XXL (140) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMXXLBI.png",
+    price: preciosAltano.comunALTMXXLBDI,
+  },
+  {
+    id: "ALTMXXLSB",
+    title: "ALTMXXLSB modulo XXL (120) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTMXXLSB.png",
+    price: preciosAltano.comunALTMXXLBDI,
+  },
+  {
+    id: "ALTR",
+    title: "ALTR rincon cerrado",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTR.png",
+    price: preciosAltano.comunALTR,
+  },
+  {
+    id: "ALTRTD",
+    title: "ALTRTD rincon cerrado dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTRTD.png",
+    price: preciosAltano.comunALTRTDI,
+  },
+  {
+    id: "ALTRTI",
+    title: "ALTRTI rincon cerrado izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTRTI.png",
+    price: preciosAltano.comunALTRTDI,
+  },
+  {
+    id: "ALTT1RGD",
+    title: "ALTT1RGD terminal grande (123) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT1RGD.png",
+    price: preciosAltano.comunALTT1RGDI,
+  },
+  {
+    id: "ALTT1RGI",
+    title: "ALTT1RGI terminal grande (123) izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT1RGI.png",
+    price: preciosAltano.comunALTT1RGDI,
+  },
+  {
+    id: "ALTT1RMAD",
+    title: "ALTT1RMAD terminal maxi (133) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT1RMAD.png",
+    price: preciosAltano.comunALTT1RMADI,
+  },
+  {
+    id: "ALTT1RMAI",
+    title: "ALTT1RMAI terminal maxi (133) izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT1RMAI.png",
+    price: preciosAltano.comunALTT1RMADI,
+  },
+  {
+    id: "ALTT2RGD",
+    title: "ALTT2RGD terminal doble grande (203) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT2RGD.png",
+    price: preciosAltano.comunALTT2RGDI,
+  },
+  {
+    id: "ALTT2RGI",
+    title: "ALTT2RGI terminal doble grande (203) izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT2RGI.png",
+    price: preciosAltano.comunALTT2RGDI,
+  },
+  {
+    id: "ALTT2RMDD",
+    title: "ALTT2RMDD terminal doble mediano (183) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT2RMDD.png",
+    price: preciosAltano.comunALTT2RMDDI,
+  },
+  {
+    id: "ALTT2RMDI",
+    title: "ALTT2RMDI terminal doble mediano (183) izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTT2RMDI.png",
+    price: preciosAltano.comunALTT2RMDDI,
+  },
+  {
+    id: "ALT2",
+    title: "ALT2 sofa 2 plazas (160)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT2.png",
+    price: preciosAltano.comunALT2,
+  },
+  {
+    id: "ALT2BD",
+    title: "ALT2BD sofa 2 plazas (140) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT2BD.png",
+    price: preciosAltano.comunALT2BDI,
+  },
+  {
+    id: "ALT2BI",
+    title: "ALT2BI sofa 2 plazas (140) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT2BI.png",
+    price: preciosAltano.comunALT2BDI,
+  },
+  {
+    id: "ALT2SB",
+    title: "ALT2SB sofa 2 plazas (120) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT2SB.png",
+    price: preciosAltano.comunALT2BDI,
+  },
+  {
+    id: "ALT21A",
+    title: "ALT21A sofa 2 plazas (160) 1 asiento",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT21A.png",
+    price: preciosAltano.comunALT21A,
+  },
+  {
+    id: "ALT21ABD",
+    title: "ALT21ABD sofa 2 plazas 1 asiento (140) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT21ABD.png",
+    price: preciosAltano.comunALT21ABDI,
+  },
+  {
+    id: "ALT21ABI",
+    title: "ALT21ABI sofa 2 plazas 1 asiento (140) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT21ABI.png",
+    price: preciosAltano.comunALT21ABDI,
+  },
+  {
+    id: "ALT21ASB",
+    title: "ALT21ASB sofa 2 plazas 1 asiento (120) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT21ASB.png",
+    price: preciosAltano.comunALT2SB,
+  },
+  {
+    id: "ALT25",
+    title: "ALT25 sofa 2,5 plazas (180)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT25.png",
+    price: preciosAltano.comunALT25,
+  },
+  {
+    id: "ALT25BD",
+    title: "ALT25BD sofa 2,5 plazas (160) bzo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT25BD.png",
+    price: preciosAltano.comunALT25BDI,
+  },
+  {
+    id: "ALT25BI",
+    title: "ALT25BI sofa 2,5 plazas (160) bzo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT25BI.png",
+    price: preciosAltano.comunALT25BDI,
+  },
+  {
+    id: "ALT25SB",
+    title: "ALT25SB sofa 2,5 plazas (140) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT25SB.png",
+    price: preciosAltano.comunALT25SB,
+  },
+  {
+    id: "ALT251A",
+    title: "ALT251A sofa 2,5 plazas 1 asiento (180)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT251A.png",
+    price: preciosAltano.comunALT25,
+  },
+  {
+    id: "ALT251ABD",
+    title: "ALT251ABD sofa 2,5 plazas 1 asiento (160) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT251ABD.png",
+    price: preciosAltano.comunALT251ABDI,
+  },
+  {
+    id: "ALT251ABI",
+    title: "ALT251ABI sofa 2,5 plazas 1 asiento (160) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT251ABI.png",
+    price: preciosAltano.comunALT251ABDI,
+  },
+  {
+    id: "ALT251ASB",
+    title: "ALT251ASB sofa 2,5 plazas 1 asiento (140) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT251ASB.png",
+    price: preciosAltano.comunALT251ASB,
+  },
+  {
+    id: "ALT3",
+    title: "ALT3 sofa 3 plazas (200) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT3.png",
+    price: preciosAltano.comunALT3,
+  },
+  {
+    id: "ALT3BD",
+    title: "ALT3BD sofa 3 plazas (180) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT3BD.png",
+    price: preciosAltano.comunALT3BDI,
+  },
+  {
+    id: "ALT3BI",
+    title: "ALT3BI sofa 3 plazas (180) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT3BI.png",
+    price: preciosAltano.comunALT3BDI,
+  },
+  {
+    id: "ALT3SB",
+    title: "ALT3SB sofa 3 plazas (160) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT3SB.png",
+    price: preciosAltano.comunALT3SB,
+  },
+  {
+    id: "ALT31A",
+    title: "ALT31A sofa 3 plazas (200) 1 asiento",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT31A.png",
+    price: preciosAltano.comunALT3,
+  },
+  {
+    id: "ALT31ABD",
+    title: "ALT31ABD sofa 3 plazas (180) 1 asiento brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT31ABD.png",
+    price: preciosAltano.comunALT31ABDI,
+  },
+  {
+    id: "ALT31ABI",
+    title: "ALT31ABI sofa 3 plazas (180) 1 asiento brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT31ABI.png",
+    price: preciosAltano.comunALT31ABDI,
+  },
+  {
+    id: "ALT31ASB",
+    title: "ALT31ASB sofa 3 plazas (160) sin brazos",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT31ASB.png",
+    price: preciosAltano.comunALT31ASB,
+  },
+  {
+    id: "ALT35",
+    title: "ALT35 sofa 3,5 plazas (220)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT35.png",
+    price: preciosAltano.comunALT35,
+  },
+  {
+    id: "ALT35BD",
+    title: "ALT35BD sofa 3,5 plazas (200) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT35BD.png",
+    price: preciosAltano.comunALT35BDI,
+  },
+  {
+    id: "ALT35BI",
+    title: "ALT35BI sofa 3,5 plazas (200) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT35BI.png",
+    price: preciosAltano.comunALT35BDI,
+  },
+  {
+    id: "ALT35SB",
+    title: "ALT35SB sofa 3,5 plazas 1 asiento izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT35SB.png",
+    price: preciosAltano.comunALT35SB,
+  },
+  {
+    id: "ALT351A",
+    title: "ALT351A sofa 3,5 plazas 1 asiento (220)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT351A.png",
+    price: preciosAltano.comunALT35,
+  },
+  {
+    id: "ALT351ABD",
+    title: "ALT351ABD sofa 3,5 plazas 1 asiento (200) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT351ABD.png",
+    price: preciosAltano.comunALT35BDI,
+  },
+  {
+    id: "ALT351ABI",
+    title: "ALT351ABI sofa 3,5 plazas 1 asiento (200) brazo izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT351ABI.png",
+    price: preciosAltano.comunALT35BDI,
+  },
+  {
+    id: "ALT351ASB",
+    title: "ALT351ASB sofa 3,5 plazas 1 asiento (200) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALT351ASB.png",
+    price: preciosAltano.comunALT35SB,
+  },
+];
+
 const muestras = {
   brixton: [
     { img: "assets/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },

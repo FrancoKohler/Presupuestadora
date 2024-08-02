@@ -13,14 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
     /*CAMBIO SEGUN EL INPUT*/
     switch (modeloSeleccionado) {
       case "Yute":
-        piezasAMostrar = piezas; // `piezas` es el conjunto de piezas para Yute
+        piezasAMostrar = piezas;
         break;
       case "Lino":
-        piezasAMostrar = piezasLino; // `piezasLino` es el conjunto de piezas para Lino
+        piezasAMostrar = piezasLino;
         break;
       case "Agora":
-        piezasAMostrar = piezasAgora; // `piezasAgora` es el conjunto de piezas para Agora
+        piezasAMostrar = piezasAgora;
         break;
+      case "Altano":
+        piezasAMostrar = piezasAltano;
       default:
         piezasAMostrar = [];
     }
@@ -68,25 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
     dropdown.appendChild(option);
   });
   generarResumen();
-});
-
-// SCRIPT PARA LLENAR LAS PIEZAS
-document.addEventListener("DOMContentLoaded", function () {
-  // COGE LOS ID DE PIEZAS DEL 1-8
-  for (let i = 1; i <= 8; i++) {
-    const dropdown = document.getElementById(`pieza${i}`);
-
-    if (dropdown) {
-      piezas.forEach((pieza) => {
-        const option = document.createElement("option");
-        option.value = pieza.id;
-        option.textContent = `${pieza.title}`;
-        option.dataset.price = JSON.stringify(pieza.price);
-        option.dataset.imageUrl = pieza.imageUrl;
-        dropdown.appendChild(option);
-      });
-    }
-  }
 });
 
 /*-----------------GRABADO DE LA IMAGEN DE LA MUESTRA SELECCIONADA----------*/
@@ -205,7 +188,7 @@ function obtenerPiezasSeleccionadas() {
 
 function obtenerPrecioPorMaterial(idPieza, tela) {
   // Verifica que las colecciones están definidas y son arrays
-  const colecciones = [piezas, piezasLino, piezasAgora];
+  const colecciones = [piezas, piezasLino, piezasAgora, piezasAltano];
 
   for (const coleccion of colecciones) {
     if (!Array.isArray(coleccion)) {
@@ -240,6 +223,9 @@ function cambiarPreciosPorModelo(modelo) {
     case "Agora":
       nuevosPrecios = preciosAgora; // Asegúrate de que esto sea un array
       break;
+    case "Altano":
+      nuevosPrecios = preciosAltano; // Asegúrate de que esto sea un array
+      break;
     default:
       nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
   }
@@ -266,6 +252,14 @@ function cambiarPreciosPorModelo(modelo) {
     // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaLino.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
+      : [];
+  });
+  piezasAltano.forEach((piezaAltano) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaAltano.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioAltano) => precioAltano.id === piezaAltano.id
+        )
       : [];
   });
 
@@ -300,8 +294,13 @@ function mostrarImagenes() {
         imgElement.classList.add("img-config");
         imagenesDiv.appendChild(imgElement);
 
-        if (piezaId === "YUTRA") {
-          // Guardar la posición de YUTRA después de que se haya renderizado en el DOM
+        if (
+          piezaId === "YUTRA" ||
+          piezaId === "AGOR" ||
+          piezaId === "LINRA" ||
+          piezaId === "ALTR"
+        ) {
+          // Guardar la posición de de las piezas después de que se haya renderizado en el DOM
           const rect = imgElement.getBoundingClientRect();
           yutraPosition = {
             left: rect.left - imagenesDiv.getBoundingClientRect().left,
