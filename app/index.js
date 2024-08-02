@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Escuchar el cambio en el selector de modelo
   modeloSelect.addEventListener("change", actualizarPiezasSegunModelo);
-  function actualizarPiezasSegunModelo() {
-    const modeloSeleccionado = document.getElementById("modelo").value;
-    let piezasAMostrar;
 
-    /*CAMBIO SEGUN EL INPUT*/
+  function actualizarPiezasSegunModelo() {
+    const modeloSeleccionado = modeloSelect.value;
+    let piezasAMostrar;
+    let materialesSet = new Set();
+
     switch (modeloSeleccionado) {
       case "Yute":
         piezasAMostrar = piezas;
@@ -23,9 +24,21 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
+
+        // Lógica para poblar los materiales específicos de "Altano"
+        piezasAltano.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
+
+        break;
       default:
         piezasAMostrar = [];
     }
+
     for (let i = 1; i <= 8; i++) {
       const dropdown = document.getElementById(`pieza${i}`);
       dropdown.innerHTML = ""; // Limpiar las opciones existentes
@@ -41,16 +54,32 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
+    // Si el modelo seleccionado es "Altano", actualizar el select "tela"
+    if (modeloSeleccionado === "Altano") {
+      const telaDropdown = document.getElementById("tela");
+      telaDropdown.innerHTML = ""; // Limpiar las opciones existentes
+
+      // Agregar las opciones de materiales específicos de "Altano"
+      materialesSet.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else {
+      // En otros casos, limpiar el select "tela"
+      const telaDropdown = document.getElementById("tela");
+      telaDropdown.innerHTML = "";
+    }
+
     // Actualizar las imágenes y el resumen después de cambiar el modelo
     mostrarImagenes();
     generarResumen();
   }
-});
 
-document.addEventListener("DOMContentLoaded", function () {
+  // Lógica inicial para poblar el select "tela" con todos los materiales
   const materialesSet = new Set();
 
-  // TOMA CADA PIEZA Y COGE EL MATERIAL
   piezas.forEach((pieza) => {
     if (pieza.price) {
       pieza.price.forEach((precio) => {
@@ -62,13 +91,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdown = document.getElementById("tela");
   dropdown.innerHTML = "";
 
-  // AGREGAR OPCIONES DROPDOWN
   materialesSet.forEach((material) => {
     const option = document.createElement("option");
     option.value = material;
     option.textContent = material;
     dropdown.appendChild(option);
   });
+
   generarResumen();
 });
 

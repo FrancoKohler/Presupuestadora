@@ -1702,7 +1702,13 @@ const piezasAgora = [
     medida: 80,
   },
 ];
+/*---------------PIEZAS ALTANO-------------*/
 const piezasAltano = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
   {
     id: "ALTAD",
     title: "ALTAD Angular dcho.",
