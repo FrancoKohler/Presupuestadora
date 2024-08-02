@@ -1886,14 +1886,14 @@ const piezasAltano = [
   },
   {
     id: "ALTRTD",
-    title: "ALTRTD rincon cerrado dcho.",
+    title: "ALTRTD rincon terminal dcho.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTRTD.png",
     price: preciosAltano.comunALTRTDI,
   },
   {
     id: "ALTRTI",
-    title: "ALTRTI rincon cerrado izq.",
+    title: "ALTRTI rincon terminal izq.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/ALTANO/ALTRTI.png",
     price: preciosAltano.comunALTRTDI,
