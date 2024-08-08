@@ -1134,7 +1134,7 @@ const supAgora = {
 const suplementosAgora = [
   {
     id: "None",
-    title: "---Sin suplemento seleccionada--",
+    title: "---Sin suplemento seleccionado--",
   },
   {
     id: "GAMCUA60",
