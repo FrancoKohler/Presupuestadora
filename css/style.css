@@ -143,13 +143,36 @@ select {
   margin: auto;
 }
 /*SUPLEMENTO MOTOR*/
-.suplemento {
+.suplemento,
+.suplementoPatas {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 2rem;
   gap: 1rem;
   font-family: "Montserrat";
+}
+.input-cojines {
+  margin-bottom: 1rem;
+}
+.suplemento-cojines {
+  width: 100%;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+
+  font-family: "Montserrat";
+}
+.dropdown-agora {
+  padding-top: 1rem;
+  border: #a5a5a5 1px solid;
+  cursor: pointer;
+}
+/*SUPLEMENTO PATAS*/
+.suplementoPatas,
+.suplemento-cojines {
+  display: none;
 }
 /* SECCION CONFIGURACION Y RESUMEN */
 .configuracion-seccion {
@@ -332,54 +355,6 @@ li {
 .dropdown-icon {
   transform: rotate(90deg);
   font-size: small;
-}
-.tabs {
-  background-color: #ffff;
-  cursor: pointer;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 1px solid #ccc;
-  font-family: "Montserrat";
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-}
-
-.tablinks {
-  border: none;
-  cursor: pointer;
-  height: 100%;
-  color: #696969;
-  background-color: #ffff;
-  transition: 0.5s ease;
-}
-.tablinks.active {
-  font-weight: 600;
-  color: #000000;
-  text-decoration: underline;
-}
-.tablinks:hover {
-  transition: 0.5s ease;
-  color: #999999;
-  font-weight: 200;
-}
-.tabcontent {
-  display: none;
-}
-.tabcontent.active {
-  /*TABS  CON LAS IMG Y NOMBRES*/
-  border-radius: 1.5rem;
-  display: flex;
-  align-items: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
 }
 
 /*---------------------LUPA--------------*/

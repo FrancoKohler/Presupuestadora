@@ -1,3 +1,12 @@
+let opcionesOriginalesTela = [];
+
+window.onload = function () {
+  const telaDropdown = document.getElementById("tela");
+  opcionesOriginalesTela = Array.from(telaDropdown.options).map((option) =>
+    option.cloneNode(true)
+  );
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   const modeloSelect = document.getElementById("modelo");
 
@@ -21,11 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Agora":
         piezasAMostrar = piezasAgora;
+        // Poblar materiales específicos de "Agora"
+        piezasAgora.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
-
-        // Lógica para poblar los materiales específicos de "Altano"
+        // Poblar materiales específicos de "Altano"
         piezasAltano.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
@@ -33,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-
         break;
       default:
         piezasAMostrar = [];
     }
 
+    // Actualizar los dropdowns de piezas
     for (let i = 1; i <= 8; i++) {
       const dropdown = document.getElementById(`pieza${i}`);
       dropdown.innerHTML = ""; // Limpiar las opciones existentes
@@ -54,12 +70,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-    // Si el modelo seleccionado es "Altano", actualizar el select "tela"
-    if (modeloSeleccionado === "Altano") {
-      const telaDropdown = document.getElementById("tela");
-      telaDropdown.innerHTML = ""; // Limpiar las opciones existentes
+    const telaDropdown = document.getElementById("tela");
+    telaDropdown.innerHTML = ""; // Limpiar las opciones existentes
 
-      // Agregar las opciones de materiales específicos de "Altano"
+    if (modeloSeleccionado === "Agora" || modeloSeleccionado === "Altano") {
+      // Mostrar los suplementos específicos según el modelo
+      document.getElementById("suplemento").style.display = "none";
+      if (modeloSeleccionado === "Agora") {
+        document.getElementById("suplemento-cojines").style.display = "flex";
+        document.getElementById("suplementoPatas").style.display = "none";
+      } else if (modeloSeleccionado === "Altano") {
+        document.getElementById("suplementoPatas").style.display = "flex";
+        document.getElementById("suplemento-cojines").style.display = "none";
+      }
+
+      // Agregar las opciones de materiales específicos
       materialesSet.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
@@ -67,16 +92,44 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else {
-      // En otros casos, limpiar el select "tela"
-      const telaDropdown = document.getElementById("tela");
-      telaDropdown.innerHTML = "";
+      // Restaurar las opciones originales si no es "Agora" ni "Altano"
+      opcionesOriginalesTela.forEach((option) =>
+        telaDropdown.appendChild(option)
+      );
+      document.getElementById("suplemento").style.display = "flex";
+      document.getElementById("suplemento-cojines").style.display = "none";
+      document.getElementById("suplementoPatas").style.display = "none";
     }
 
     // Actualizar las imágenes y el resumen después de cambiar el modelo
     mostrarImagenes();
     generarResumen();
   }
+  /*--------------SUPLEMENTOS AGORA-------------*/
+  const dropdownIds = [
+    "output1",
+    "output2",
+    "output3",
+    "output4",
+    "output5",
+    "output6",
+    "output7",
+    "output8",
+  ];
+  function populateDropdowns(options) {
+    dropdownIds.forEach((selectId) => {
+      const select = document.getElementById(selectId);
+      options.forEach((option) => {
+        const optionElement = document.createElement("option");
+        optionElement.value = option.id;
+        optionElement.textContent = option.title;
+        select.appendChild(optionElement);
+      });
+    });
+  }
 
+  // Llenar todos los selects con todas las opciones
+  populateDropdowns(suplementosAgora);
   // Lógica inicial para poblar el select "tela" con todos los materiales
   const materialesSet = new Set();
 
@@ -446,7 +499,7 @@ function generarResumen() {
    }
     <li>Serie seleccionada: ${tela}</li>
     <li>Tela seleccionada: ${categoriaSeleccionada}</li>
-    <li>Precio Motor: <span id="precioMotor">${motorTotal.toFixed(
+    <li>Precio Suplemento: <span id="precioMotor">${motorTotal.toFixed(
       2
     )}€</span></li>
     <li>Precio Total: <span id="precioTotal">${precioTotal.toFixed(
