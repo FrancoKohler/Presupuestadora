@@ -553,16 +553,16 @@ function generarResumen() {
   const cojinesSeleccionados = obtenerCojinesSeleccionados();
   const suplementoSeleccionados = obtenerSuplementosSeleccionados();
   const tela = document.getElementById("tela").value;
+  const pata = document.getElementById("patas").value;
   const categoriaSeleccionada = resumen.nombre;
+  const modeloSeleccionado = document.getElementById("modelo").value;
   const piezasFiltradas = piezasSeleccionadas.filter(
     (pieza) => pieza.id !== "None"
   );
-
   const precioPiezas = piezasFiltradas.reduce((total, pieza) => {
     const precioPieza = obtenerPrecioPorMaterial(pieza.id, tela);
     return total + precioPieza;
   }, 0);
-
   const precioCojines = cojinesSeleccionados.reduce((total, cojin) => {
     const precioCojin = obtenerPrecioCojin(cojin.id, tela);
     return total + precioCojin;
@@ -574,7 +574,6 @@ function generarResumen() {
     },
     0
   );
-
   const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
   const motorTotal = motorValue * 179;
 
@@ -652,19 +651,32 @@ function generarResumen() {
         : ""
     }
     <li>Serie seleccionada: ${tela}</li>
+    ${
+      modeloSeleccionado === "Altano"
+        ? `<li>Pata seleccionada: ${pata}</li>`
+        : ""
+    }
     <li>Tela seleccionada: ${categoriaSeleccionada}</li>
-    <li>Precio Suplemento: <span id="precioMotor">${motorTotal.toFixed(
-      2
-    )}€</span></li>
+     ${
+       motorTotal > 1
+         ? `<li>Precio Suplemento: <span id="precioMotor">${motorTotal.toFixed(
+             2
+           )}€</span></li>`
+         : ""
+     }
     <li>Precio Total: <span id="precioTotal">${precioTotal.toFixed(
       2
     )}€</span></li>
-    <li>Descuento aplicado: <span id="descuentoAplicado">${(
-      descuento * 100
-    ).toFixed(0)}%</span></li>
-    <li>Precio Total con descuento: <span id="precioTotalDesc"> ${precioConDescuento.toFixed(
-      2
-    )}€</span></li>
+     ${
+       descuento > 0
+         ? `<li>Descuento aplicado: <span id="descuentoAplicado">${(
+             descuento * 100
+           ).toFixed(0)}%</span></li>
+         <li>Precio Total con descuento: <span id="precioTotalDesc"> ${precioConDescuento.toFixed(
+           2
+         )}€</span></li>`
+         : ""
+     }
   `;
 }
 
