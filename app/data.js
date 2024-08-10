@@ -1131,7 +1131,7 @@ const supAgora = {
     { material: "SERIE 7", precio: 60 },
   ],
 };
-const suplementosAgora = [
+const cojines = [
   {
     id: "None",
     title: "---Sin suplemento seleccionado--",
@@ -1150,6 +1150,12 @@ const suplementosAgora = [
     id: "GAMCUAR",
     title: "GAMCUAR-Cojin Rectangular 60x30 cms",
     price: supAgora.supGAMCUAR,
+  },
+];
+const suplementos = [
+  {
+    id: "None",
+    title: "---Sin suplemento seleccionado--",
   },
   {
     id: "AGORR70",

@@ -105,6 +105,23 @@ document.addEventListener("DOMContentLoaded", function () {
     mostrarImagenes();
     generarResumen();
   }
+  /*--------------COJINES-------------*/
+
+  const dropdownCjs = ["cojin1", "cojin2", "cojin3", "cojin4"];
+
+  function populateDropdownsCojines(options) {
+    dropdownCjs.forEach((selectId) => {
+      const select = document.getElementById(selectId);
+      options.forEach((option) => {
+        const optionElement = document.createElement("option");
+        optionElement.value = option.id;
+        optionElement.textContent = option.title;
+        select.appendChild(optionElement);
+      });
+    });
+  }
+
+  populateDropdownsCojines(cojines);
   /*--------------SUPLEMENTOS AGORA-------------*/
   const dropdownIds = [
     "output1",
@@ -129,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Llenar todos los selects con todas las opciones
-  populateDropdowns(suplementosAgora);
+  populateDropdowns(suplementos);
   // Lógica inicial para poblar el select "tela" con todos los materiales
   const materialesSet = new Set();
 
@@ -269,25 +286,52 @@ function obtenerPiezasSeleccionadas() {
 }
 
 function obtenerPrecioPorMaterial(idPieza, tela) {
-  // Verifica que las colecciones están definidas y son arrays
   const colecciones = [piezas, piezasLino, piezasAgora, piezasAltano];
+  let precioMaterial;
 
   for (const coleccion of colecciones) {
-    if (!Array.isArray(coleccion)) {
-      console.error("Error: Colección no es un array");
-      continue;
-    }
-
-    // Verifica que `p` no sea undefined y que `id` esté definido
     const pieza = coleccion.find((p) => p && p.id === idPieza);
     if (pieza && Array.isArray(pieza.price)) {
-      const precioMaterial = pieza.price.find((p) => p.material === tela);
+      precioMaterial = pieza.price.find((p) => p.material === tela);
       if (precioMaterial) {
         return parseFloat(precioMaterial.precio) || 0;
       }
     }
   }
 
+  // Si la pieza no se encuentra en las colecciones anteriores, verificar si es un cojín
+  const cojinesCollection = [
+    supAgora.supGAMCUA60,
+    supAgora.supGAMCUA45,
+    supAgora.supGAMCUAR,
+  ];
+  for (const cojines of cojinesCollection) {
+    precioMaterial = cojines.find((p) => p.material === tela);
+    if (precioMaterial) {
+      return parseFloat(precioMaterial.precio) || 0;
+    }
+  }
+  const suplementosCollection = [
+    supAgora.supGAMCUA60,
+    supAgora.supGAMCUA45,
+    supAgora.supGAMCUAR,
+    supAgora.supAGOPT,
+    supAgora.supAGOCUA60,
+    supAgora.supAGORA100,
+    supAgora.supAGORA90,
+    supAgora.supAGORA80,
+    supAgora.supAGORA70,
+    supAgora.supAGORR100,
+    supAgora.supAGORR90,
+    supAgora.supAGORR80,
+    supAgora.supAGORR70,
+  ];
+  for (const suplementos of suplementosCollection) {
+    precioMaterial = suplementos.find((p) => p.material === tela);
+    if (precioMaterial) {
+      return parseFloat(precioMaterial.precio) || 0;
+    }
+  }
   // Retorna 0 si no se encuentra el precio
   return 0;
 }
@@ -440,32 +484,107 @@ document.addEventListener("DOMContentLoaded", function () {
 
   generarResumen();
 });
+/*-------------------COJINES Y PRECIOS---------------------*/
+function obtenerCojinesSeleccionados() {
+  const cojinesSeleccionados = [];
+  for (let i = 1; i <= 4; i++) {
+    const cojinSelect = document.getElementById(`cojin${i}`);
+    if (cojinSelect.selectedIndex !== -1) {
+      const cojinSeleccionado = {
+        id: cojinSelect.value,
+        nombre: cojinSelect.options[cojinSelect.selectedIndex].text,
+      };
+      if (cojinSeleccionado.id !== "None") {
+        cojinesSeleccionados.push(cojinSeleccionado);
+      }
+    }
+  }
+  return cojinesSeleccionados;
+}
+
+function obtenerPrecioCojin(id, tela) {
+  const cojinSeleccionado = cojines.find((cojin) => cojin.id === id);
+
+  if (!cojinSeleccionado || !cojinSeleccionado.price) {
+    return 0; // Si no hay cojín seleccionado o no se encuentra el precio, retorna 0
+  }
+
+  const precioMaterial = cojinSeleccionado.price.find(
+    (p) => p.material === tela
+  );
+
+  if (!precioMaterial) {
+    return 0; // Si no se encuentra el material, retorna 0
+  }
+
+  return precioMaterial.precio;
+}
+/*-------------------SUPLEMENTOS Y PRECIOS---------------------*/
+function obtenerSuplementosSeleccionados() {
+  const suplementoSeleccionados = [];
+  for (let i = 1; i <= 4; i++) {
+    const supSelect = document.getElementById(`output${i}`);
+    if (supSelect.selectedIndex !== -1) {
+      const suplementoSeleccionado = {
+        id: supSelect.value,
+        nombre: supSelect.options[supSelect.selectedIndex].text,
+      };
+      if (suplementoSeleccionado.id !== "None") {
+        suplementoSeleccionados.push(suplementoSeleccionado);
+      }
+    }
+  }
+  return suplementoSeleccionados;
+}
+function obtenerPrecioSuplemento(id, tela) {
+  const suplementoSeleccionado = suplementos.find((sup) => sup.id === id);
+  if (!suplementoSeleccionado || !suplementoSeleccionado.price) {
+    return 0;
+  }
+  const precioMaterial = suplementoSeleccionado.price.find(
+    (p) => p.material === tela
+  );
+  return precioMaterial ? parseFloat(precioMaterial.precio) || 0 : 0;
+}
 
 function generarResumen() {
   const modelo = document.getElementById("modelo").value;
   const piezasSeleccionadas = obtenerPiezasSeleccionadas();
+  const cojinesSeleccionados = obtenerCojinesSeleccionados();
+  const suplementoSeleccionados = obtenerSuplementosSeleccionados();
   const tela = document.getElementById("tela").value;
-  const categoriaSeleccionada = resumen.nombre; // Usar el valor almacenado en resumen
+  const categoriaSeleccionada = resumen.nombre;
   const piezasFiltradas = piezasSeleccionadas.filter(
     (pieza) => pieza.id !== "None"
   );
 
   const precioPiezas = piezasFiltradas.reduce((total, pieza) => {
     const precioPieza = obtenerPrecioPorMaterial(pieza.id, tela);
-    console.log(`Precio de ${pieza.id} para tela ${tela}: ${precioPieza}`);
     return total + precioPieza;
   }, 0);
+
+  const precioCojines = cojinesSeleccionados.reduce((total, cojin) => {
+    const precioCojin = obtenerPrecioCojin(cojin.id, tela);
+    return total + precioCojin;
+  }, 0);
+  const precioSuplementos = suplementoSeleccionados.reduce(
+    (total, suplemento) => {
+      const precioSuplemento = obtenerPrecioSuplemento(suplemento.id, tela);
+      return total + precioSuplemento;
+    },
+    0
+  );
 
   const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
   const motorTotal = motorValue * 179;
 
-  const precioTotal = precioPiezas + motorTotal;
+  const precioTotal =
+    precioPiezas + precioCojines + motorTotal + precioSuplementos;
 
-  /*---------CODIGOS DE DESCUENTOS CONST----------*/
   const codigoDescuento = document.getElementById("descuento").value;
   const descuento = obtenerDescuento(codigoDescuento);
   const precioConDescuento = precioTotal * (1 - descuento);
-  /*------FUNCION DE DESCUENTOS Y CODIGOS-------*/
+
   function obtenerDescuento(codigo) {
     /*GET DEL 1-50*/
     const match = codigo.match(/^GET(\d{1,2})$/);
@@ -477,26 +596,61 @@ function generarResumen() {
     }
     return 0.0; // Si no coincide, retorna 0
   }
+
   const resumenElement = document.getElementById("resumen");
   resumenElement.innerHTML = `
     <li>Modelo: ${modelo}</li>
-   ${
-     piezasFiltradas.length > 0
-       ? `<li>Piezas seleccionadas:</li><ul>` +
-         piezasFiltradas
-           .map(
-             (pieza) =>
-               `<li>${
-                 pieza.nombre
-               } - <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
-                 pieza.id,
-                 tela
-               ).toFixed(2)}€</span></li>`
-           )
-           .join("") +
-         "</ul>"
-       : ""
-   }
+    ${
+      piezasFiltradas.length > 0
+        ? `<li>Piezas seleccionadas:</li><ul>` +
+          piezasFiltradas
+            .map(
+              (pieza) =>
+                `<li>${
+                  pieza.nombre
+                } - <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
+                  pieza.id,
+                  tela
+                ).toFixed(2)}€</span></li>`
+            )
+            .join("") +
+          "</ul>"
+        : ""
+    }
+    ${
+      cojinesSeleccionados.length > 0
+        ? `<li>Cojines seleccionados:</li><ul>` +
+          cojinesSeleccionados
+            .map(
+              (cojin) =>
+                `<li>${
+                  cojin.nombre
+                } - <span id="preciosMaterial"> ${obtenerPrecioCojin(
+                  cojin.id,
+                  tela
+                ).toFixed(2)}€</span></li>`
+            )
+            .join("") +
+          "</ul>"
+        : ""
+    }
+    ${
+      suplementoSeleccionados.length > 0
+        ? `<li>Suplementos seleccionados:</li><ul>` +
+          suplementoSeleccionados
+            .map(
+              (suplemento) =>
+                `<li>${
+                  suplemento.nombre
+                } - <span id="preciosMaterial"> ${obtenerPrecioSuplemento(
+                  suplemento.id,
+                  tela
+                ).toFixed(2)}€</span></li>`
+            )
+            .join("") +
+          "</ul>"
+        : ""
+    }
     <li>Serie seleccionada: ${tela}</li>
     <li>Tela seleccionada: ${categoriaSeleccionada}</li>
     <li>Precio Suplemento: <span id="precioMotor">${motorTotal.toFixed(
@@ -513,3 +667,5 @@ function generarResumen() {
     )}€</span></li>
   `;
 }
+
+generarResumen();

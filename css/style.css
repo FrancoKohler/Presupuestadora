@@ -142,6 +142,13 @@ select {
   justify-content: center;
   margin: auto;
 }
+/*COJINES*/
+.a-cojines {
+  padding-top: 1.5rem;
+  color: #343434;
+  font-size: 2rem;
+  font-family: "Domaine";
+}
 /*SUPLEMENTO MOTOR*/
 .suplemento,
 .suplementoPatas {
@@ -159,9 +166,17 @@ select {
   width: 100%;
   display: block;
   flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
 
+  margin-top: 2rem;
+  font-family: "Montserrat";
+}
+/*------------SUPLMENTO AGORA------------*/
+.suplemento-agora {
+  width: 100%;
+  display: block;
+  flex-direction: column;
+
+  margin-top: 2rem;
   font-family: "Montserrat";
 }
 .dropdown-agora {
