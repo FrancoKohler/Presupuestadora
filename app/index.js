@@ -196,12 +196,20 @@ function buscarTela() {
   const dropdownContent = document.getElementById("dropdown-content");
   dropdownContent.innerHTML = "";
 
-  if (categoriaSeleccionada === "") {
+  if (!categoriaSeleccionada) {
     alert("Por favor, selecciona una categoría primero.");
     return;
   }
 
   const muestrasArray = muestras[categoriaSeleccionada];
+
+  if (!muestrasArray) {
+    console.error(
+      `La categoría seleccionada (${categoriaSeleccionada}) no existe en el objeto muestras.`
+    );
+    return;
+  }
+
   muestrasArray.forEach((item) => {
     if (item.nombre.toLowerCase().includes(input)) {
       const div = document.createElement("div");
@@ -225,11 +233,8 @@ function buscarTela() {
     }
   });
 
-  if (dropdownContent.children.length > 0) {
-    dropdownContent.style.display = "block";
-  } else {
-    dropdownContent.style.display = "none";
-  }
+  dropdownContent.style.display =
+    dropdownContent.children.length > 0 ? "block" : "none";
 }
 
 function seleccionarMuestra(nombre) {
@@ -243,16 +248,7 @@ function seleccionarMuestra(nombre) {
   document.getElementById("dropdown-content").style.display = "none"; // Cerrar el dropdown después de la selección
   generarResumen(); // Actualizar el resumen cuando se seleccione una muestra
 }
-function seleccionarMuestra(nombre) {
-  resumen.nombre = nombre;
-  const selectedOption = document.getElementById("selected-option");
-  if (selectedOption) {
-    selectedOption.innerText = nombre;
-    selectedOption.dataset.nombre = nombre; // Almacenar el nombre en el dataset
-  }
-  console.log("Muestra seleccionada:", resumen.nombre);
-  document.getElementById("dropdown-content").style.display = "none"; // Cerrar el dropdown después de la selección
-}
+
 function cerrarOverlay() {
   const overlay = document.getElementById("overlay");
   if (overlay) {
@@ -397,18 +393,17 @@ function mostrarImagenes() {
   imagenesDiv.innerHTML = ""; // Limpiar las imágenes anteriores
   let yutraPosition = null;
   let currentY = 0;
-  let currentX = 0; // Acumulador de la posición Y para las siguientes imágenes
-  let rotateAfterYutra = false; // Indica si se debe rotar la imagen después de YUTRA
+  let currentX = 0;
+  let rotateAfterYutra = false;
+
   for (let i = 1; i <= 8; i++) {
     const piezaSelect = document.getElementById(`pieza${i}`);
-
     if (piezaSelect.selectedIndex !== -1) {
       const selectedOption = piezaSelect.options[piezaSelect.selectedIndex];
       const imageUrl = selectedOption.dataset.imageUrl;
       const piezaId = selectedOption.value;
-
       const containerHeight =
-        parseInt(selectedOption.dataset.height, 10) || 350; // Valor predeterminado si no se especifica
+        parseInt(selectedOption.dataset.height, 10) || 350;
 
       if (imageUrl && piezaId !== "None") {
         const imgElement = document.createElement("img");
@@ -426,7 +421,6 @@ function mostrarImagenes() {
           piezaId === "LINRA" ||
           piezaId === "ALTR"
         ) {
-          // Guardar la posición de de las piezas después de que se haya renderizado en el DOM
           const rect = imgElement.getBoundingClientRect();
           yutraPosition = {
             left: rect.left - imagenesDiv.getBoundingClientRect().left,
@@ -435,24 +429,21 @@ function mostrarImagenes() {
             height: rect.height,
           };
           currentY = yutraPosition.top + yutraPosition.height;
-          currentX = yutraPosition.left + yutraPosition.width; // Establecer la posición inicial para las siguientes imágenes
-          rotateAfterYutra = true; // Indicar que las siguientes imágenes deben rotarse
+          currentX = yutraPosition.left + yutraPosition.width;
+          rotateAfterYutra = true;
         } else if (rotateAfterYutra) {
-          // Rotar y posicionar la imagen debajo de la última imagen añadida
           imgElement.style.transform = "rotate(90deg)";
-          imgElement.style.position = "absolute"; // Asegurar que la imagen se posiciona de forma absoluta
+          imgElement.style.position = "absolute";
           imgElement.style.left = `${currentX}px`;
           imgElement.style.top = `${currentY}px`;
 
-          // Actualizar las coordenadas para la siguiente imagen
           const imgRect = imgElement.getBoundingClientRect();
           currentY += imgRect.height;
         } else {
-          // Posicionar la imagen normalmente
           imgElement.style.position = "relative";
           imgElement.style.display = "inline-block";
-          imgElement.style.left = "0"; // Resetear el left para imágenes normales
-          imgElement.style.top = "0"; // Resetear el top para imágenes normales
+          imgElement.style.left = "0";
+          imgElement.style.top = "0";
         }
       }
     }

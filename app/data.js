@@ -2378,7 +2378,7 @@ const piezasAltano = [
 ];
 
 const muestras = {
-  brixton: [
+  Brixton: [
     { img: "assets/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
     { img: "assets/BRIXTON/BRIXTON_13.png", nombre: "BRIXTON_13" },
     { img: "assets/BRIXTON/BRIXTON_16.png", nombre: "BRIXTON_16" },
@@ -2387,7 +2387,7 @@ const muestras = {
     { img: "assets/BRIXTON/BRIXTON_101.png", nombre: "BRIXTON_101" },
     { img: "assets/BRIXTON/BRIXTON_245.png", nombre: "BRIXTON_245" },
   ],
-  camila: [
+  Camila: [
     { img: "assets/CAMILA/CAMILA_10.png", nombre: "CAMILA_10" },
     { img: "assets/CAMILA/CAMILA_28.png", nombre: "CAMILA_28" },
     { img: "assets/CAMILA/CAMILA_32.png", nombre: "CAMILA_32" },
@@ -2397,7 +2397,7 @@ const muestras = {
     { img: "assets/CAMILA/CAMILA_60.png", nombre: "CAMILA_60" },
     { img: "assets/CAMILA/CAMILA_90.png", nombre: "CAMILA_90" },
   ],
-  montreal: [
+  Montreal: [
     { img: "assets/MONTREAL/MONTREAL-01.jpg", nombre: "MONTREAL-01" },
     { img: "assets/MONTREAL/MONTREAL-02.jpg", nombre: "MONTREAL-02" },
     { img: "assets/MONTREAL/MONTREAL-03.jpg", nombre: "MONTREAL-03" },
@@ -2407,7 +2407,7 @@ const muestras = {
     { img: "assets/MONTREAL/MONTREAL-07.jpg", nombre: "MONTREAL-07" },
     { img: "assets/MONTREAL/MONTREAL-08.jpg", nombre: "MONTREAL-08" },
   ],
-  osaka: [
+  Osaka: [
     { img: "assets/OSAKA/OSAKA-01.jpg", nombre: "OSAKA-01" },
     { img: "assets/OSAKA/OSAKA-02.jpg", nombre: "OSAKA-02" },
     { img: "assets/OSAKA/OSAKA-03.jpg", nombre: "OSAKA-03" },
@@ -2416,7 +2416,7 @@ const muestras = {
     { img: "assets/OSAKA/OSAKA-06.jpg", nombre: "OSAKA-06" },
     { img: "assets/OSAKA/OSAKA-08.jpg", nombre: "OSAKA-08" },
   ],
-  terranova: [
+  Terranova: [
     { img: "assets/TERRANOVA/TERRANOVA-01.jpg", nombre: "TERRANOVA-01" },
     { img: "assets/TERRANOVA/TERRANOVA-02.jpg", nombre: "TERRANOVA-02" },
     { img: "assets/TERRANOVA/TERRANOVA-03.jpg", nombre: "TERRANOVA-03" },
@@ -2427,7 +2427,7 @@ const muestras = {
     { img: "assets/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
     { img: "assets/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
   ],
-  telaCliente: [
+  TelaCliente: [
     { img: "assets/TELACLIENTE/Telacliente.png", nombre: "Tela Cliente" },
   ],
 };
