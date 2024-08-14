@@ -274,6 +274,20 @@
                 <select name="pieza" id="pieza8" class="dropdown">
                 <!--LLENO CON JS-->
                 </select>
+                <!--SUMPLEMENTO MOTOR-->
+                <div class="suplemento" id="suplemento">
+                  <a class="input-motor"> Suplemento Motor = 179€ </a>
+                        <input
+                        class="input-motor"
+                        type="number"
+                        id="motor"
+                        name="motor"
+                        required
+                        min="0"
+                        max="8"
+                        />
+                    <div id="output"></div>
+                </div>
                 <!---------------SUPLEMENTO COJINES----------->
                 
                 <a class="a-cojines"> Suplemento Cojines</a>
@@ -290,21 +304,10 @@
                 <select name="cojin" id="cojin4" class="dropdown">
                 <!--LLENO CON JS-->
                 </select>
+                <!-------BTN AGREGAR------->
+                <button id="showCojin" class="btn-agregar">Agregar más</button>
                
-                <!--SUMPLEMENTO MOTOR-->
-                <div class="suplemento" id="suplemento">
-                  <a class="input-motor"> Suplemento Motor = 179€ </a>
-                        <input
-                        class="input-motor"
-                        type="number"
-                        id="motor"
-                        name="motor"
-                        required
-                        min="0"
-                        max="8"
-                        />
-                    <div id="output"></div>
-                </div>
+                
                 <!-------------SUPLEMENTO AGORA---------->
                 <div class="suplemento-cojines" id="suplemento-cojines">
                   <a class="a-cojines"> Resplados-Posapies(Opcional)</a>
@@ -334,6 +337,8 @@
                 <select name="pieza" id="output8" class="dropdown-agora">
                 <!--LLENO CON JS-->
                 </select>
+                <!-------BTN AGREGAR------->
+                <button id="showMore" class="btn-agregar">Agregar más</button>
                 </div>
                 <!---------SUPLEMENTOS ALTANO-------->
                 <span class="form-inputs altano-patas" id="suplementoPatas">
@@ -354,14 +359,15 @@
             
             
     </section>
-    <!-------------CONFIGURACION SECCION-------------->
-    <section class="configuracion-seccion">
-            <a class="seccion-titulo configuracion-titulo"> Configuración</a>
-            <div class="pre-config" id="imagenPiezas">
-              <!--LLENO EN JS-->
-              <canvas width=200 height=200>
-            </div>
-    </section>
+                <!-------------CONFIGURACION SECCION-------------->
+                <section class="configuracion-seccion">
+                        <a class="seccion-titulo configuracion-titulo"> Configuración</a>
+                        <div class="pre-config" id="imagenPiezas">
+                        <!--LLENO EN JS-->
+                        <canvas width=200 height=200>
+                        </div>
+                </section>
+    <!-------------RESUMEN SECCION-------------->
     <section class="section-resumen">
                 <a class="seccion-titulo">Resumen</a>
                 <ul class="ul-config" id="resumen">

@@ -145,8 +145,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Contador para rastrear cuál es el siguiente elemento a mostrar
+  let nextIndex = 5;
+  for (let i = 5; i <= 8; i++) {
+    document.getElementById("output" + i).style.display = "none";
+  }
   // Llenar todos los selects con todas las opciones
   populateDropdowns(suplementos);
+  /*--------------BOTON AGREGAR OUTPUTS PARA----------------*/
+  document.getElementById("showMore").addEventListener("click", function () {
+    // Verificar si hay más elementos para mostrar
+    if (nextIndex <= 8) {
+      // Mostrar el siguiente elemento
+      document.getElementById("output" + nextIndex).style.display = "flex";
+      // Incrementar el contador para el siguiente elemento
+      nextIndex++;
+    }
+  });
   // Lógica inicial para poblar el select "tela" con todos los materiales
   const materialesSet = new Set();
 
@@ -242,11 +257,11 @@ function seleccionarMuestra(nombre) {
   const selectedOption = document.getElementById("selected-option");
   if (selectedOption) {
     selectedOption.innerText = nombre;
-    selectedOption.dataset.nombre = nombre; // Almacenar el nombre en el dataset
+    selectedOption.dataset.nombre = nombre;
   }
   console.log("Muestra seleccionada:", resumen.nombre);
-  document.getElementById("dropdown-content").style.display = "none"; // Cerrar el dropdown después de la selección
-  generarResumen(); // Actualizar el resumen cuando se seleccione una muestra
+  document.getElementById("dropdown-content").style.display = "none";
+  generarResumen();
 }
 
 function cerrarOverlay() {
@@ -510,6 +525,24 @@ function obtenerPrecioCojin(id, tela) {
 
   return precioMaterial.precio;
 }
+/*-------------------AGREGAR COJINES---------------------------*/
+let nextCojinIndex = 2;
+
+// Inicialmente, ocultar los elementos cojin1 a cojin4
+for (let i = 2; i <= 4; i++) {
+  document.getElementById("cojin" + i).style.display = "none";
+}
+
+// Agregar el evento de clic al botón showCojin
+document.getElementById("showCojin").addEventListener("click", function () {
+  // Verificar si hay más elementos para mostrar
+  if (nextCojinIndex <= 4) {
+    // Mostrar el siguiente elemento
+    document.getElementById("cojin" + nextCojinIndex).style.display = "flex";
+    // Incrementar el contador para el siguiente elemento
+    nextCojinIndex++;
+  }
+});
 /*-------------------SUPLEMENTOS Y PRECIOS---------------------*/
 function obtenerSuplementosSeleccionados() {
   const suplementoSeleccionados = [];
@@ -584,7 +617,7 @@ function generarResumen() {
         return descuento / 100; // Convierte el número en un porcentaje de descuento
       }
     }
-    return 0.0; // Si no coincide, retorna 0
+    return 0.0;
   }
 
   const resumenElement = document.getElementById("resumen");
@@ -598,7 +631,7 @@ function generarResumen() {
               (pieza) =>
                 `<li>${
                   pieza.nombre
-                } - <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
+                } &nbsp <span id="preciosMaterial"> ${obtenerPrecioPorMaterial(
                   pieza.id,
                   tela
                 ).toFixed(2)}€</span></li>`
@@ -615,7 +648,7 @@ function generarResumen() {
               (cojin) =>
                 `<li>${
                   cojin.nombre
-                } - <span id="preciosMaterial"> ${obtenerPrecioCojin(
+                } &nbsp <span id="preciosMaterial"> ${obtenerPrecioCojin(
                   cojin.id,
                   tela
                 ).toFixed(2)}€</span></li>`
@@ -632,7 +665,7 @@ function generarResumen() {
               (suplemento) =>
                 `<li>${
                   suplemento.nombre
-                } - <span id="preciosMaterial"> ${obtenerPrecioSuplemento(
+                } &nbsp <span id="preciosMaterial"> ${obtenerPrecioSuplemento(
                   suplemento.id,
                   tela
                 ).toFixed(2)}€</span></li>`
@@ -647,15 +680,15 @@ function generarResumen() {
         ? `<li>Pata seleccionada: ${pata}</li>`
         : ""
     }
-    <li>Tela seleccionada: ${categoriaSeleccionada}</li>
+    <li>Tela seleccionada: <span id="telaSeleccion"> ${categoriaSeleccionada} </span></li>
      ${
        motorTotal > 1
-         ? `<li>Precio Suplemento: <span id="precioMotor">${motorTotal.toFixed(
+         ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${motorTotal.toFixed(
              2
            )}€</span></li>`
          : ""
      }
-    <li>Precio Total: <span id="precioTotal">${precioTotal.toFixed(
+    <li>Precio Total: <span id="precioTotal"> &nbsp ${precioTotal.toFixed(
       2
     )}€</span></li>
      ${
