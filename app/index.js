@@ -411,6 +411,8 @@ function mostrarImagenes() {
   let currentX = 0;
   let rotateAfterYutra = false;
 
+  const promises = [];
+
   for (let i = 1; i <= 8; i++) {
     const piezaSelect = document.getElementById(`pieza${i}`);
     if (piezaSelect.selectedIndex !== -1) {
@@ -430,39 +432,52 @@ function mostrarImagenes() {
         imgElement.classList.add("img-config");
         imagenesDiv.appendChild(imgElement);
 
-        if (
-          piezaId === "YUTRA" ||
-          piezaId === "AGOR" ||
-          piezaId === "LINRA" ||
-          piezaId === "ALTR"
-        ) {
-          const rect = imgElement.getBoundingClientRect();
-          yutraPosition = {
-            left: rect.left - imagenesDiv.getBoundingClientRect().left,
-            top: rect.top - imagenesDiv.getBoundingClientRect().top,
-            width: rect.width,
-            height: rect.height,
-          };
-          currentY = yutraPosition.top + yutraPosition.height;
-          currentX = yutraPosition.left + yutraPosition.width;
-          rotateAfterYutra = true;
-        } else if (rotateAfterYutra) {
-          imgElement.style.transform = "rotate(90deg)";
-          imgElement.style.position = "absolute";
-          imgElement.style.left = `${currentX}px`;
-          imgElement.style.top = `${currentY}px`;
+        // Asegúrate de que la imagen esté cargada antes de posicionarla
+        const imageLoadPromise = new Promise((resolve) => {
+          imgElement.onload = () => {
+            if (
+              piezaId === "YUTRA" ||
+              piezaId === "AGOR" ||
+              piezaId === "LINRA" ||
+              piezaId === "ALTR"
+            ) {
+              const rect = imgElement.getBoundingClientRect();
+              yutraPosition = {
+                left: rect.left - imagenesDiv.getBoundingClientRect().left,
+                top: rect.top - imagenesDiv.getBoundingClientRect().top,
+                width: rect.width,
+                height: rect.height,
+              };
+              currentY = yutraPosition.top + yutraPosition.height;
+              currentX = yutraPosition.left + yutraPosition.width;
+              rotateAfterYutra = true;
+            } else if (rotateAfterYutra) {
+              imgElement.style.transform = "rotate(90deg)";
+              imgElement.style.left = `${currentX}px`;
+              imgElement.style.top = `${currentY}px`;
 
-          const imgRect = imgElement.getBoundingClientRect();
-          currentY += imgRect.height;
-        } else {
-          imgElement.style.position = "relative";
-          imgElement.style.display = "inline-block";
-          imgElement.style.left = "0";
-          imgElement.style.top = "0";
-        }
+              const imgRect = imgElement.getBoundingClientRect();
+              currentY += imgRect.height;
+            } else {
+              imgElement.style.position = "relative";
+              imgElement.style.display = "inline-block";
+              imgElement.style.left = "0";
+              imgElement.style.top = "0";
+            }
+            resolve();
+          };
+        });
+
+        promises.push(imageLoadPromise);
       }
     }
   }
+
+  // Una vez que todas las imágenes hayan terminado de cargarse, podemos continuar
+  Promise.all(promises).then(() => {
+    console.log("Todas las imágenes están cargadas y posicionadas.");
+    // Aquí puedes proceder con el siguiente paso, como llamar a html2canvas.
+  });
 }
 
 generarResumen();
@@ -603,7 +618,7 @@ function generarResumen() {
 
   const precioTotal =
     precioPiezas + precioCojines + motorTotal + precioSuplementos;
-
+  const suplementosTotal = precioCojines + motorTotal + precioSuplementos;
   const codigoDescuento = document.getElementById("descuento").value;
   const descuento = obtenerDescuento(codigoDescuento);
   const precioConDescuento = precioTotal * (1 - descuento);
@@ -648,7 +663,7 @@ function generarResumen() {
               (cojin) =>
                 `<li>${
                   cojin.nombre
-                } &nbsp <span id="preciosMaterial"> ${obtenerPrecioCojin(
+                } &nbsp <span id="preciosMaterialCojin"> ${obtenerPrecioCojin(
                   cojin.id,
                   tela
                 ).toFixed(2)}€</span></li>`
@@ -665,7 +680,7 @@ function generarResumen() {
               (suplemento) =>
                 `<li>${
                   suplemento.nombre
-                } &nbsp <span id="preciosMaterial"> ${obtenerPrecioSuplemento(
+                } &nbsp <span id="preciosMaterialSuplemento"> ${obtenerPrecioSuplemento(
                   suplemento.id,
                   tela
                 ).toFixed(2)}€</span></li>`
@@ -682,8 +697,8 @@ function generarResumen() {
     }
     <li>Tela seleccionada: <span id="telaSeleccion"> ${categoriaSeleccionada} </span></li>
      ${
-       motorTotal > 1
-         ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${motorTotal.toFixed(
+       suplementosTotal > 1
+         ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${suplementosTotal.toFixed(
              2
            )}€</span></li>`
          : ""
