@@ -40,7 +40,6 @@ async function createPDF() {
   const telaNumero = document.getElementById("telaSeleccion").textContent;
   const precioTotalElement = document.getElementById("precioTotal");
   const precioMotorElement = document.getElementById("precioMotor");
-
   const descuentoAplicadoElement = document.getElementById("descuentoAplicado");
   const precioTotalDescElement = document.getElementById("precioTotalDesc");
 
