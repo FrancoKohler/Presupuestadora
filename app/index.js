@@ -50,6 +50,17 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         break;
+      case "Barine":
+        piezasAMostrar = piezasBarine;
+        // Poblar materiales específicos de "Altano"
+        piezasBarine.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
+        break;
       default:
         piezasAMostrar = [];
     }
@@ -362,6 +373,9 @@ function cambiarPreciosPorModelo(modelo) {
       break;
     case "Altano":
       nuevosPrecios = preciosAltano; // Asegúrate de que esto sea un array
+      break;
+    case "Barine":
+      nuevosPrecios = preciosBarine; // Asegúrate de que esto sea un array
       break;
     default:
       nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
