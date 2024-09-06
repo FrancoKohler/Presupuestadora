@@ -1012,6 +1012,255 @@ const preciosAltano = {
     { material: "SERIE 7", precio: 1312 },
   ],
 };
+//PRECIOS BARINE
+const preciosBarine = {
+  comunBARCG: [
+    { material: "SERIE 1", precio: 913 },
+    { material: "SERIE 2", precio: 959 },
+    { material: "SERIE 3", precio: 1004 },
+    { material: "SERIE 4", precio: 1020 },
+    { material: "SERIE 5", precio: 1118 },
+    { material: "SERIE 6", precio: 1187 },
+    { material: "SERIE 7", precio: 1258 },
+    { material: "PIEL B", precio: 1620 },
+    { material: "PIEL D", precio: 2022 },
+  ],
+  comunBARCMADI: [
+    { material: "SERIE 1", precio: 968 },
+    { material: "SERIE 2", precio: 1021 },
+    { material: "SERIE 3", precio: 1076 },
+    { material: "SERIE 4", precio: 1130 },
+    { material: "SERIE 5", precio: 1211 },
+    { material: "SERIE 6", precio: 1292 },
+    { material: "SERIE 7", precio: 1369 },
+    { material: "PIEL B", precio: 1666 },
+    { material: "PIEL D", precio: 2086 },
+  ],
+  comunBARCMDDI: [
+    { material: "SERIE 1", precio: 889 },
+    { material: "SERIE 2", precio: 934 },
+    { material: "SERIE 3", precio: 978 },
+    { material: "SERIE 4", precio: 1021 },
+    { material: "SERIE 5", precio: 1089 },
+    { material: "SERIE 6", precio: 1155 },
+    { material: "SERIE 7", precio: 1224 },
+    { material: "PIEL B", precio: 1537 },
+    { material: "PIEL D", precio: 1915 },
+  ],
+  comunBARCMEDI: [
+    { material: "SERIE 1", precio: 1045 },
+    { material: "SERIE 2", precio: 1104 },
+    { material: "SERIE 3", precio: 1162 },
+    { material: "SERIE 4", precio: 1221 },
+    { material: "SERIE 5", precio: 1308 },
+    { material: "SERIE 6", precio: 1395 },
+    { material: "SERIE 7", precio: 1479 },
+    { material: "PIEL B", precio: 1778 },
+    { material: "PIEL D", precio: 2216 },
+  ],
+  comunBARMG: [
+    { material: "SERIE 1", precio: 570 },
+    { material: "SERIE 2", precio: 601 },
+    { material: "SERIE 3", precio: 632 },
+    { material: "SERIE 4", precio: 662 },
+    { material: "SERIE 5", precio: 709 },
+    { material: "SERIE 6", precio: 756 },
+    { material: "SERIE 7", precio: 801 },
+    { material: "PIEL B", precio: 979 },
+    { material: "PIEL D", precio: 1233 },
+  ],
+  comunBARMGDI: [
+    { material: "SERIE 1", precio: 740 },
+    { material: "SERIE 2", precio: 781 },
+    { material: "SERIE 3", precio: 821 },
+    { material: "SERIE 4", precio: 862 },
+    { material: "SERIE 5", precio: 922 },
+    { material: "SERIE 6", precio: 984 },
+    { material: "SERIE 7", precio: 1043 },
+    { material: "PIEL B", precio: 1285 },
+    { material: "PIEL D", precio: 1634 },
+  ],
+  comunBARML: [
+    { material: "SERIE 1", precio: 642 },
+    { material: "SERIE 2", precio: 677 },
+    { material: "SERIE 3", precio: 711 },
+    { material: "SERIE 4", precio: 748 },
+    { material: "SERIE 5", precio: 800 },
+    { material: "SERIE 6", precio: 855 },
+    { material: "SERIE 7", precio: 906 },
+    { material: "PIEL B", precio: 1088 },
+    { material: "PIEL D", precio: 1360 },
+  ],
+  comunBARMLDI: [
+    { material: "SERIE 1", precio: 789 },
+    { material: "SERIE 2", precio: 834 },
+    { material: "SERIE 3", precio: 880 },
+    { material: "SERIE 4", precio: 926 },
+    { material: "SERIE 5", precio: 994 },
+    { material: "SERIE 6", precio: 1062 },
+    { material: "SERIE 7", precio: 1126 },
+    { material: "PIEL B", precio: 1355 },
+    { material: "PIEL D", precio: 1704 },
+  ],
+  comunBARMMA: [
+    { material: "SERIE 1", precio: 602 },
+    { material: "SERIE 2", precio: 635 },
+    { material: "SERIE 3", precio: 668 },
+    { material: "SERIE 4", precio: 701 },
+    { material: "SERIE 5", precio: 751 },
+    { material: "SERIE 6", precio: 800 },
+    { material: "SERIE 7", precio: 848 },
+    { material: "PIEL B", precio: 1027 },
+    { material: "PIEL D", precio: 1281 },
+  ],
+  comunBARMMADI: [
+    { material: "SERIE 1", precio: 765 },
+    { material: "SERIE 2", precio: 807 },
+    { material: "SERIE 3", precio: 850 },
+    { material: "SERIE 4", precio: 894 },
+    { material: "SERIE 5", precio: 959 },
+    { material: "SERIE 6", precio: 1023 },
+    { material: "SERIE 7", precio: 1084 },
+    { material: "PIEL B", precio: 1322 },
+    { material: "PIEL D", precio: 1672 },
+  ],
+  comunBARMMD: [
+    { material: "SERIE 1", precio: 538 },
+    { material: "SERIE 2", precio: 567 },
+    { material: "SERIE 3", precio: 594 },
+    { material: "SERIE 4", precio: 620 },
+    { material: "SERIE 5", precio: 661 },
+    { material: "SERIE 6", precio: 702 },
+    { material: "SERIE 7", precio: 744 },
+    { material: "PIEL B", precio: 951 },
+    { material: "PIEL D", precio: 1205 },
+  ],
+  comunBARMMDDI: [
+    { material: "SERIE 1", precio: 706 },
+    { material: "SERIE 2", precio: 743 },
+    { material: "SERIE 3", precio: 782 },
+    { material: "SERIE 4", precio: 819 },
+    { material: "SERIE 5", precio: 877 },
+    { material: "SERIE 6", precio: 934 },
+    { material: "SERIE 7", precio: 990 },
+    { material: "PIEL B", precio: 1255 },
+    { material: "PIEL D", precio: 1604 },
+  ],
+  comunBARMXL: [
+    { material: "SERIE 1", precio: 687 },
+    { material: "SERIE 2", precio: 726 },
+    { material: "SERIE 3", precio: 765 },
+    { material: "SERIE 4", precio: 804 },
+    { material: "SERIE 5", precio: 862 },
+    { material: "SERIE 6", precio: 920 },
+    { material: "SERIE 7", precio: 975 },
+    { material: "PIEL B", precio: 1194 },
+    { material: "PIEL D", precio: 1496 },
+  ],
+  comunBARMXLDI: [
+    { material: "SERIE 1", precio: 845 },
+    { material: "SERIE 2", precio: 893 },
+    { material: "SERIE 3", precio: 942 },
+    { material: "SERIE 4", precio: 991 },
+    { material: "SERIE 5", precio: 1064 },
+    { material: "SERIE 6", precio: 1137 },
+    { material: "SERIE 7", precio: 1205 },
+    { material: "PIEL B", precio: 1450 },
+    { material: "PIEL D", precio: 1841 },
+  ],
+  comunBARMXXL: [
+    { material: "SERIE 1", precio: 723 },
+    { material: "SERIE 2", precio: 764 },
+    { material: "SERIE 3", precio: 805 },
+    { material: "SERIE 4", precio: 846 },
+    { material: "SERIE 5", precio: 907 },
+    { material: "SERIE 6", precio: 969 },
+    { material: "SERIE 7", precio: 1207 },
+    { material: "PIEL B", precio: 1253 },
+    { material: "PIEL D", precio: 1572 },
+  ],
+  comunBARMXXLDI: [
+    { material: "SERIE 1", precio: 888 },
+    { material: "SERIE 2", precio: 939 },
+    { material: "SERIE 3", precio: 991 },
+    { material: "SERIE 4", precio: 1044 },
+    { material: "SERIE 5", precio: 1122 },
+    { material: "SERIE 6", precio: 1199 },
+    { material: "SERIE 7", precio: 1271 },
+    { material: "PIEL B", precio: 1509 },
+    { material: "PIEL D", precio: 1971 },
+  ],
+  comunBARR: [
+    { material: "SERIE 1", precio: 750 },
+    { material: "SERIE 2", precio: 800 },
+    { material: "SERIE 3", precio: 849 },
+    { material: "SERIE 4", precio: 899 },
+    { material: "SERIE 5", precio: 975 },
+    { material: "SERIE 6", precio: 1050 },
+    { material: "SERIE 7", precio: 1113 },
+    { material: "PIEL B", precio: 1461 },
+    { material: "PIEL D", precio: 1840 },
+  ],
+  comunBARTGDI: [
+    { material: "SERIE 1", precio: 718 },
+    { material: "SERIE 2", precio: 756 },
+    { material: "SERIE 3", precio: 796 },
+    { material: "SERIE 4", precio: 833 },
+    { material: "SERIE 5", precio: 890 },
+    { material: "SERIE 6", precio: 948 },
+    { material: "SERIE 7", precio: 1005 },
+    { material: "PIEL B", precio: 1191 },
+    { material: "PIEL D", precio: 1488 },
+  ],
+  comunBARTMADI: [
+    { material: "SERIE 1", precio: 724 },
+    { material: "SERIE 2", precio: 762 },
+    { material: "SERIE 3", precio: 800 },
+    { material: "SERIE 4", precio: 839 },
+    { material: "SERIE 5", precio: 898 },
+    { material: "SERIE 6", precio: 956 },
+    { material: "SERIE 7", precio: 1014 },
+    { material: "PIEL B", precio: 1263 },
+    { material: "PIEL D", precio: 1571 },
+  ],
+  comunBARTMEDI: [
+    { material: "SERIE 1", precio: 782 },
+    { material: "SERIE 2", precio: 822 },
+    { material: "SERIE 3", precio: 864 },
+    { material: "SERIE 4", precio: 906 },
+    { material: "SERIE 5", precio: 970 },
+    { material: "SERIE 6", precio: 1033 },
+    { material: "SERIE 7", precio: 1095 },
+    { material: "PIEL B", precio: 1371 },
+    { material: "PIEL D", precio: 1703 },
+  ],
+};
+//SUPLEMENTOS BARINE
+const supBarine = {
+  supBARPR100: [
+    { material: "SERIE 1", precio: 390 },
+    { material: "SERIE 2", precio: 409 },
+    { material: "SERIE 3", precio: 428 },
+    { material: "SERIE 4", precio: 446 },
+    { material: "SERIE 5", precio: 473 },
+    { material: "SERIE 6", precio: 502 },
+    { material: "SERIE 7", precio: 532 },
+    { material: "PIEL B", precio: 531 },
+    { material: "PIEL D", precio: 667 },
+  ],
+  supBARPR80: [
+    { material: "SERIE 1", precio: 358 },
+    { material: "SERIE 2", precio: 376 },
+    { material: "SERIE 3", precio: 396 },
+    { material: "SERIE 4", precio: 414 },
+    { material: "SERIE 5", precio: 441 },
+    { material: "SERIE 6", precio: 469 },
+    { material: "SERIE 7", precio: 497 },
+    { material: "PIEL B", precio: 470 },
+    { material: "PIEL D", precio: 583 },
+  ],
+};
+//SUPLEMENTOS AGORA
 const supAgora = {
   supAGOPT: [
     { material: "SERIE 1", precio: 371 },
@@ -1131,6 +1380,7 @@ const supAgora = {
     { material: "SERIE 7", precio: 60 },
   ],
 };
+//PRECIOS PIEZAS BARINE
 const cojines = [
   {
     id: "None",
@@ -1209,7 +1459,22 @@ const suplementos = [
     price: supAgora.supAGOPT,
   },
 ];
-
+const suplementoBarine = [
+  {
+    id: "None",
+    title: "---Sin suplemento seleccionado--",
+  },
+  {
+    id: "BARPR100",
+    title: "BARPR100 POSAPIES 100X60 ",
+    price: supBarine.supBARPR100,
+  },
+  {
+    id: "BARPR60",
+    title: "BARPR60 POSAPIES 800X60 ",
+    price: supBarine.supBARPR80,
+  },
+];
 const piezas = [
   {
     id: "None",
@@ -1387,6 +1652,279 @@ const piezas = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/YUTE/TER_90_IZQ.png",
     price: precios.comunYUTTMA,
+  },
+];
+
+/*-------------------PIEZAS BARINE--------------------*/
+const piezasBarine = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "",
+  },
+  {
+    id: "BARCGD",
+    title: "BARCGD CHAISELONGUE GRANDE (110) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCGD.png",
+    price: precios.comunBARCG,
+    medida: 110,
+  },
+  {
+    id: "BARCGI",
+    title: "BARCGI CHAISELONGUE GRANDE (110) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCGI.png",
+    price: precios.comunBARCG,
+    medida: 110,
+  },
+  {
+    id: "BARCMAD",
+    title: "BARCMAD CHAISELONGUE MAXI (120) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMAD.png",
+    price: precios.comunBARCMADI,
+    medida: 120,
+  },
+  {
+    id: "BARCMAI",
+    title: "BARCMAI CHAISELONGUE MAXI (120) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMAI.png",
+    price: precios.comunBARCMADI,
+    medida: 120,
+  },
+  {
+    id: "BARCMDD",
+    title: "BARCMDD CHAISELONGUE MEDIANO (100) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMDD.png",
+    price: precios.comunBARCMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARCMDI",
+    title: "BARCMDI CHAISELONGUE MEDIANO (100) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMDI.png",
+    price: precios.comunBARCMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARCMED",
+    title: "BARCMED CHAISELONGUE MEGA (130) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMED.png",
+    price: precios.comunBARCMEDI,
+    medida: 130,
+  },
+  {
+    id: "BARCMEI",
+    title: "BARCMEI CHAISELONGUE MEGA (130) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARCMEI.png",
+    price: precios.comunBARCMEDI,
+    medida: 130,
+  },
+  {
+    id: "BARMG",
+    title: "BARMG BARINE MODULO GRANDE (80) SIN BRAZO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMG.png",
+    price: precios.comunBARMG,
+    medida: 80,
+  },
+  {
+    id: "BARMGD",
+    title: "BARMGD MODULO GRANDE (110) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMGD.png",
+    price: precios.comunBARMGDI,
+    medida: 110,
+  },
+  {
+    id: "BARMGI",
+    title: "BARMGI MODULO GRANDE (110) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMGI.png",
+    price: precios.comunBARMGDI,
+    medida: 110,
+  },
+  {
+    id: "BARML",
+    title: "BARML MODULO MEGA (100) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARML.png",
+    price: precios.comuncomunBARML,
+    medida: 100,
+  },
+  {
+    id: "BARMLD",
+    title: "BARMLD MODULO MEGA (130) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMLD.png",
+    price: precios.comunBARMLDI,
+    medida: 130,
+  },
+  {
+    id: "BARMLI",
+    title: "BARMLI MODULO MEGA (130) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMLI.png",
+    price: precios.comunBARMLDI,
+    medida: 130,
+  },
+  {
+    id: "BARMMA",
+    title: "BARMMA MODULO MAXI (90) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMA.png",
+    price: precios.comunBARMMA,
+    medida: 90,
+  },
+  {
+    id: "BARMMAD",
+    title: "BARMMAD MODULO MAXI (120) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMAD.png",
+    price: precios.comunBARMMADI,
+    medida: 120,
+  },
+  {
+    id: "BARMMAI",
+    title: "BARMMAI MODULO MAXI (120) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMAI.png",
+    price: precios.comunBARMMADI,
+    medida: 120,
+  },
+  {
+    id: "BARMMD",
+    title: "BARMMD MODULO MEDIANO (70) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMD.png",
+    price: precios.comunBARMMD,
+    medida: 70,
+  },
+  {
+    id: "BARMMDD",
+    title: "BARMMDD MODULO MEDIANO (100) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMDD.png",
+    price: precios.comunBARMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARMMDI",
+    title: "BARMMDI MODULO MEDIANO (100) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMMDI.png",
+    price: precios.comunBARMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARMXL",
+    title: "BARMXL MODULO XL (110) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXL.png",
+    price: precios.comunBARMXL,
+    medida: 110,
+  },
+  {
+    id: "BARMXLD",
+    title: "BARMXLD MODULO XL (140) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXLD.png",
+    price: precios.comunBARMXLDI,
+    medida: 140,
+  },
+  {
+    id: "BARMXLI",
+    title: "BARMXLI MODULO XL (140) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXLI.png",
+    price: precios.comunBARMXLDI,
+    medida: 140,
+  },
+  {
+    id: "BARMXXL",
+    title: "BARMXXL MODULO XXL (120) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXXL.png",
+    price: precios.comunBARMXXL,
+    medida: 120,
+  },
+  {
+    id: "BARMXXLD",
+    title: "BARMXXLD MODULO XXL (150) BRAZO DERECHO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXXLD.png",
+    price: precios.comunBARMXXLDI,
+    medida: 150,
+  },
+  {
+    id: "BARMXXLI",
+    title: "BARMXXLI MODULO XXL (150) BRAZO IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARMXXLI.png",
+    price: precios.comunBARMXXLDI,
+    medida: 150,
+  },
+  {
+    id: "BARR",
+    title: "BARR RINCON CERRADO (110 x 110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARR.png",
+    price: precios.comunBARR,
+    medida: 110,
+  },
+  {
+    id: "BARTGD",
+    title: "BARTGD TERMINAL GRANDE (123) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTGD.png",
+    price: precios.comunBARTGDI,
+    medida: 123,
+  },
+  {
+    id: "BARTGI",
+    title: "BARTGI TERMINAL GRANDE (123) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTGI.png",
+    price: precios.comunBARTGDI,
+    medida: 123,
+  },
+  {
+    id: "BARTMAD",
+    title: "BARTMAD TERMINAL MAZI (133) DERECHO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTMAD.png",
+    price: precios.comunBARTMADI,
+    medida: 133,
+  },
+  {
+    id: "BARTMAI",
+    title: "BARTMAI TERMINAL MAXI (133) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTMAI.png",
+    price: precios.comunBARTMADI,
+    medida: 133,
+  },
+  {
+    id: "BARTMED",
+    title: "BARTMED TERMINAL MEGA (133) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTMED.png",
+    price: precios.comunBARTGDI,
+    medida: 143,
+  },
+  {
+    id: "BARTMEI",
+    title: "BARTMEI TERMINAL MEGA (133) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/BARINE/BARTMEI.png",
+    price: precios.comunBARTGDI,
+    medida: 143,
   },
 ];
 /*-------------------PIEZAS LINO--------------------*/
@@ -2379,55 +2917,55 @@ const piezasAltano = [
 
 const muestras = {
   Brixton: [
-    { img: "assets/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
-    { img: "assets/BRIXTON/BRIXTON_13.png", nombre: "BRIXTON_13" },
-    { img: "assets/BRIXTON/BRIXTON_16.png", nombre: "BRIXTON_16" },
-    { img: "assets/BRIXTON/BRIXTON_32.png", nombre: "BRIXTON_32 " },
-    { img: "assets/BRIXTON/BRIXTON_80.png", nombre: "BRIXTON_80" },
-    { img: "assets/BRIXTON/BRIXTON_101.png", nombre: "BRIXTON_101" },
-    { img: "assets/BRIXTON/BRIXTON_245.png", nombre: "BRIXTON_245" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_13.png", nombre: "BRIXTON_13" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_16.png", nombre: "BRIXTON_16" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_32.png", nombre: "BRIXTON_32 " },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_80.png", nombre: "BRIXTON_80" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_101.png", nombre: "BRIXTON_101" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_245.png", nombre: "BRIXTON_245" },
   ],
   Camila: [
-    { img: "assets/CAMILA/CAMILA_10.png", nombre: "CAMILA_10" },
-    { img: "assets/CAMILA/CAMILA_28.png", nombre: "CAMILA_28" },
-    { img: "assets/CAMILA/CAMILA_32.png", nombre: "CAMILA_32" },
-    { img: "assets/CAMILA/CAMILA_51.png", nombre: "CAMILA_51" },
-    { img: "assets/CAMILA/CAMILA_53.png", nombre: "CAMILA_53" },
-    { img: "assets/CAMILA/CAMILA_56.png", nombre: "CAMILA_56" },
-    { img: "assets/CAMILA/CAMILA_60.png", nombre: "CAMILA_60" },
-    { img: "assets/CAMILA/CAMILA_90.png", nombre: "CAMILA_90" },
+    { img: "assets/TELAS/CAMILA/CAMILA_10.png", nombre: "CAMILA_10" },
+    { img: "assets/TELAS/CAMILA/CAMILA_28.png", nombre: "CAMILA_28" },
+    { img: "assets/TELAS/CAMILA/CAMILA_32.png", nombre: "CAMILA_32" },
+    { img: "assets/TELAS/CAMILA/CAMILA_51.png", nombre: "CAMILA_51" },
+    { img: "assets/TELAS/CAMILA/CAMILA_53.png", nombre: "CAMILA_53" },
+    { img: "assets/TELAS/CAMILA/CAMILA_56.png", nombre: "CAMILA_56" },
+    { img: "assets/TELAS/CAMILA/CAMILA_60.png", nombre: "CAMILA_60" },
+    { img: "assets/TELAS/CAMILA/CAMILA_90.png", nombre: "CAMILA_90" },
   ],
   Montreal: [
-    { img: "assets/MONTREAL/MONTREAL-01.jpg", nombre: "MONTREAL-01" },
-    { img: "assets/MONTREAL/MONTREAL-02.jpg", nombre: "MONTREAL-02" },
-    { img: "assets/MONTREAL/MONTREAL-03.jpg", nombre: "MONTREAL-03" },
-    { img: "assets/MONTREAL/MONTREAL-04.jpg", nombre: "MONTREAL-04" },
-    { img: "assets/MONTREAL/MONTREAL-05.jpg", nombre: "MONTREAL-05" },
-    { img: "assets/MONTREAL/MONTREAL-06.jpg", nombre: "MONTREAL-06" },
-    { img: "assets/MONTREAL/MONTREAL-07.jpg", nombre: "MONTREAL-07" },
-    { img: "assets/MONTREAL/MONTREAL-08.jpg", nombre: "MONTREAL-08" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-01.jpg", nombre: "MONTREAL-01" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-02.jpg", nombre: "MONTREAL-02" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-03.jpg", nombre: "MONTREAL-03" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-04.jpg", nombre: "MONTREAL-04" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-05.jpg", nombre: "MONTREAL-05" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-06.jpg", nombre: "MONTREAL-06" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-07.jpg", nombre: "MONTREAL-07" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-08.jpg", nombre: "MONTREAL-08" },
   ],
   Osaka: [
-    { img: "assets/OSAKA/OSAKA-01.jpg", nombre: "OSAKA-01" },
-    { img: "assets/OSAKA/OSAKA-02.jpg", nombre: "OSAKA-02" },
-    { img: "assets/OSAKA/OSAKA-03.jpg", nombre: "OSAKA-03" },
-    { img: "assets/OSAKA/OSAKA-04.jpg", nombre: "OSAKA-04" },
-    { img: "assets/OSAKA/OSAKA-05.jpg", nombre: "OSAKA-05" },
-    { img: "assets/OSAKA/OSAKA-06.jpg", nombre: "OSAKA-06" },
-    { img: "assets/OSAKA/OSAKA-08.jpg", nombre: "OSAKA-08" },
+    { img: "assets/TELAS/OSAKA/OSAKA-01.jpg", nombre: "OSAKA-01" },
+    { img: "assets/TELAS/OSAKA/OSAKA-02.jpg", nombre: "OSAKA-02" },
+    { img: "assets/TELAS/OSAKA/OSAKA-03.jpg", nombre: "OSAKA-03" },
+    { img: "assets/TELAS/OSAKA/OSAKA-04.jpg", nombre: "OSAKA-04" },
+    { img: "assets/TELAS/OSAKA/OSAKA-05.jpg", nombre: "OSAKA-05" },
+    { img: "assets/TELAS/OSAKA/OSAKA-06.jpg", nombre: "OSAKA-06" },
+    { img: "assets/TELAS/OSAKA/OSAKA-08.jpg", nombre: "OSAKA-08" },
   ],
   Terranova: [
-    { img: "assets/TERRANOVA/TERRANOVA-01.jpg", nombre: "TERRANOVA-01" },
-    { img: "assets/TERRANOVA/TERRANOVA-02.jpg", nombre: "TERRANOVA-02" },
-    { img: "assets/TERRANOVA/TERRANOVA-03.jpg", nombre: "TERRANOVA-03" },
-    { img: "assets/TERRANOVA/TERRANOVA-04.jpg", nombre: "TERRANOVA-04" },
-    { img: "assets/TERRANOVA/TERRANOVA-05.jpg", nombre: "TERRANOVA-05" },
-    { img: "assets/TERRANOVA/TERRANOVA-06.jpg", nombre: "TERRANOVA-06" },
-    { img: "assets/TERRANOVA/TERRANOVA-07.jpg", nombre: "TERRANOVA-07" },
-    { img: "assets/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
-    { img: "assets/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-01.jpg", nombre: "TERRANOVA-01" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-02.jpg", nombre: "TERRANOVA-02" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-03.jpg", nombre: "TERRANOVA-03" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-04.jpg", nombre: "TERRANOVA-04" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-05.jpg", nombre: "TERRANOVA-05" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-06.jpg", nombre: "TERRANOVA-06" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-07.jpg", nombre: "TERRANOVA-07" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
   ],
   TelaCliente: [
-    { img: "assets/TELACLIENTE/Telacliente.png", nombre: "Tela Cliente" },
+    { img: "assets/TELAS/TELACLIENTE/Telacliente.png", nombre: "Tela Cliente" },
   ],
 };

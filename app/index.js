@@ -6,7 +6,7 @@ window.onload = function () {
     option.cloneNode(true)
   );
 };
-
+//CAMBIO DE PIEZAS E INPUTS SEGUN MODELOS
 document.addEventListener("DOMContentLoaded", function () {
   const modeloSelect = document.getElementById("modelo");
 
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const telaDropdown = document.getElementById("tela");
     telaDropdown.innerHTML = ""; // Limpiar las opciones existentes
-
+    //CAMBIOS DE LOS SUPLEMENTOS SEGUN LOS MODELOS
     if (modeloSeleccionado === "Agora" || modeloSeleccionado === "Altano") {
       // Mostrar los suplementos específicos según el modelo
       document.getElementById("suplemento").style.display = "none";
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nextIndex++;
     }
   });
-  // Lógica inicial para poblar el select "tela" con todos los materiales
+  // POBLAR LAS TELAS
   const materialesSet = new Set();
 
   piezas.forEach((pieza) => {
@@ -198,14 +198,14 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("change", seleccionarCategoria);
   document.getElementById("search-input").addEventListener("input", buscarTela);
 });
-
+//SELECCION DE CATEGORIA
 function seleccionarCategoria() {
   categoriaSeleccionada = document.getElementById("category-select").value;
   document.getElementById("search-input").value = "";
   document.getElementById("dropdown-content").innerHTML = "";
   document.getElementById("dropdown-content").style.display = "none";
 }
-
+//BUSQUEDA DE LA TELA SEGUN LA CATEGORIA SELECCIONADA
 function buscarTela() {
   const input = document.getElementById("search-input").value.toLowerCase();
   const dropdownContent = document.getElementById("dropdown-content");

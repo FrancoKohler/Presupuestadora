@@ -221,10 +221,14 @@ select {
   transform-origin: 0% 0%;
 }
 .pre-config {
+  border-top: #000000 solid 2px;
+  width: fit-content;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
   display: block;
   justify-content: center;
   align-self: center;
-  height: 100%;
+  height: fit-content;
 }
 /*RESUMEN*/
 .section-resumen {
