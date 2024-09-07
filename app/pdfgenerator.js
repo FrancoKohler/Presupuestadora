@@ -57,7 +57,11 @@ async function createPDF() {
     ...piezas,
     ...piezasAltano,
     ...piezasAgora,
+    ...piezasBarine,
+    ...piezasCoral,
+    ...piezasGamma,
     ...piezasLino,
+    ...piezasSiroco,
     ...suplementos,
     ...cojines,
   ];
@@ -606,7 +610,11 @@ async function createPDF2() {
     ...piezas,
     ...piezasAltano,
     ...piezasAgora,
+    ...piezasBarine,
+    ...piezasCoral,
+    ...piezasGamma,
     ...piezasLino,
+    ...piezasSiroco,
     ...suplementos,
     ...cojines,
   ];

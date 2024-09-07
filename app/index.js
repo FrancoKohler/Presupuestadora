@@ -52,8 +52,41 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Barine":
         piezasAMostrar = piezasBarine;
-        // Poblar materiales específicos de "Altano"
+        // Poblar materiales específicos de "Barine"
         piezasBarine.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
+        break;
+      case "Coral":
+        piezasAMostrar = piezasCoral;
+        // Poblar materiales específicos de "Coral"
+        piezasCoral.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
+        break;
+      case "Gamma":
+        piezasAMostrar = piezasGamma;
+        // Poblar materiales específicos de "Gamma"
+        piezasGamma.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesSet.add(precio.material);
+            });
+          }
+        });
+        break;
+      case "Siroco":
+        piezasAMostrar = piezasSiroco;
+        // Poblar materiales específicos de "Siroco"
+        piezasSiroco.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
               materialesSet.add(precio.material);
@@ -63,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       default:
         piezasAMostrar = [];
+        materialesSet = [];
     }
 
     // Actualizar los dropdowns de piezas
@@ -306,9 +340,18 @@ function obtenerPiezasSeleccionadas() {
   }
   return piezasSeleccionadas;
 }
-
+/*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
 function obtenerPrecioPorMaterial(idPieza, tela) {
-  const colecciones = [piezas, piezasLino, piezasAgora, piezasAltano];
+  const colecciones = [
+    piezas,
+    piezasAgora,
+    piezasAltano,
+    piezasBarine,
+    piezasCoral,
+    piezasGamma,
+    piezasLino,
+    piezasSiroco,
+  ];
   let precioMaterial;
 
   for (const coleccion of colecciones) {
@@ -357,25 +400,34 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
   // Retorna 0 si no se encuentra el precio
   return 0;
 }
-
+/*-----------SWITCH DE PRECIOS SEGUN MODELO----------*/
 function cambiarPreciosPorModelo(modelo) {
   let nuevosPrecios;
 
   switch (modelo) {
-    case "Yute":
-      nuevosPrecios = precios; // Asegúrate de que esto sea un array
-      break;
-    case "Lino":
-      nuevosPrecios = preciosLino; // Asegúrate de que esto sea un array
-      break;
     case "Agora":
-      nuevosPrecios = preciosAgora; // Asegúrate de que esto sea un array
+      nuevosPrecios = preciosAgora;
       break;
     case "Altano":
-      nuevosPrecios = preciosAltano; // Asegúrate de que esto sea un array
+      nuevosPrecios = preciosAltano;
       break;
     case "Barine":
-      nuevosPrecios = preciosBarine; // Asegúrate de que esto sea un array
+      nuevosPrecios = preciosBarine;
+      break;
+    case "Coral":
+      nuevosPrecios = preciosCoral;
+      break;
+    case "Gamma":
+      nuevosPrecios = preciosGamma;
+      break;
+    case "Lino":
+      nuevosPrecios = preciosLino;
+      break;
+    case "Siroco":
+      nuevosPrecios = preciosSiroco;
+      break;
+    case "Yute":
+      nuevosPrecios = precios;
       break;
     default:
       nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
@@ -386,8 +438,9 @@ function cambiarPreciosPorModelo(modelo) {
     console.error("Error: nuevosPrecios no es un array");
     return;
   }
-
+  /*-----------PRECIO POR PIEZA------*/
   piezas.forEach((pieza) => {
+    //YUTE PIEZAS
     // Asegúrate de que pieza.price sea un array antes de usar filter
     pieza.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precio) => precio.id === pieza.id)
@@ -399,17 +452,39 @@ function cambiarPreciosPorModelo(modelo) {
       ? nuevosPrecios.filter((precioAgora) => precioAgora.id === piezaAgora.id)
       : [];
   });
+  piezasAltano.forEach((piezaAltano) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaAltano.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioAltano) => precioAltano.id === piezaAltano.id
+        )
+      : [];
+  });
+  piezasBarine.forEach((piezaBarine) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaBarine.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioBarine) => precioBarine.id === piezaBarine.id
+        )
+      : [];
+  });
+  piezasCoral.forEach((piezaCoral) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaCoral.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((piezaCoral) => piezaCoral.id === piezaCoral.id)
+      : [];
+  });
   piezasLino.forEach((piezaLino) => {
     // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaLino.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
       : [];
   });
-  piezasAltano.forEach((piezaAltano) => {
+  piezasSiroco.forEach((piezaSiroco) => {
     // Asegúrate de que pieza.price sea un array antes de usar filter
-    piezaAltano.price = Array.isArray(nuevosPrecios)
+    piezaSiroco.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
-          (precioAltano) => precioAltano.id === piezaAltano.id
+          (precioSiroco) => precioSiroco.id === piezaSiroco.id
         )
       : [];
   });
@@ -453,7 +528,9 @@ function mostrarImagenes() {
               piezaId === "YUTRA" ||
               piezaId === "AGOR" ||
               piezaId === "LINRA" ||
-              piezaId === "ALTR"
+              piezaId === "ALTR" ||
+              piezaId === "BARR" ||
+              piezaId === "SIRRC"
             ) {
               const rect = imgElement.getBoundingClientRect();
               yutraPosition = {

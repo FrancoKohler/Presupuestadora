@@ -196,6 +196,39 @@ const precios = {
     { material: "PIEL D", precio: 1682 },
   ],
 };
+/*----------------------CORAL----------------------*/
+const preciosCoral = {
+  comunCORS: [
+    { material: "SERIE 1", precio: 809 },
+    { material: "SERIE 2", precio: 837 },
+    { material: "SERIE 3", precio: 863 },
+    { material: "SERIE 4", precio: 889 },
+    { material: "SERIE 5", precio: 928 },
+    { material: "SERIE 6", precio: 968 },
+    { material: "SERIE 7", precio: 1020 },
+    { material: "PIEL D", precio: 1556 },
+  ],
+  comunCORS200: [
+    { material: "SERIE 1", precio: 1459 },
+    { material: "SERIE 2", precio: 1514 },
+    { material: "SERIE 3", precio: 1570 },
+    { material: "SERIE 4", precio: 1625 },
+    { material: "SERIE 5", precio: 1707 },
+    { material: "SERIE 6", precio: 1789 },
+    { material: "SERIE 7", precio: 1899 },
+    { material: "PIEL D", precio: 3040 },
+  ],
+  comunCORS300: [
+    { material: "SERIE 1", precio: 1574 },
+    { material: "SERIE 2", precio: 1636 },
+    { material: "SERIE 3", precio: 1696 },
+    { material: "SERIE 4", precio: 1758 },
+    { material: "SERIE 5", precio: 1850 },
+    { material: "SERIE 6", precio: 1943 },
+    { material: "SERIE 7", precio: 2065 },
+    { material: "PIEL D", precio: 3193 },
+  ],
+};
 /*----------------------LINO----------------------*/
 const preciosLino = {
   comunLINCGR: [
@@ -1235,6 +1268,156 @@ const preciosBarine = {
     { material: "PIEL D", precio: 1703 },
   ],
 };
+/*-------------------PIEZAS GAMMA--------------------*/
+const preciosGamma = {
+  comunGAMCGDI: [
+    { material: "SERIE 1", precio: 938 },
+    { material: "SERIE 2", precio: 987 },
+    { material: "SERIE 3", precio: 1037 },
+    { material: "SERIE 4", precio: 1087 },
+    { material: "SERIE 5", precio: 1162 },
+    { material: "SERIE 6", precio: 1236 },
+    { material: "SERIE 7", precio: 1310 },
+  ],
+  comunGAMCMADI: [
+    { material: "SERIE 1", precio: 993 },
+    { material: "SERIE 2", precio: 1048 },
+    { material: "SERIE 3", precio: 1102 },
+    { material: "SERIE 4", precio: 1156 },
+    { material: "SERIE 5", precio: 1236 },
+    { material: "SERIE 6", precio: 1318 },
+    { material: "SERIE 7", precio: 1397 },
+  ],
+  comunGAMMGR: [
+    { material: "SERIE 1", precio: 546 },
+    { material: "SERIE 2", precio: 576 },
+    { material: "SERIE 3", precio: 606 },
+    { material: "SERIE 4", precio: 636 },
+    { material: "SERIE 5", precio: 681 },
+    { material: "SERIE 6", precio: 725 },
+    { material: "SERIE 7", precio: 769 },
+  ],
+  comunGAMMGRDI: [
+    { material: "SERIE 1", precio: 679 },
+    { material: "SERIE 2", precio: 721 },
+    { material: "SERIE 3", precio: 764 },
+    { material: "SERIE 4", precio: 806 },
+    { material: "SERIE 5", precio: 869 },
+    { material: "SERIE 6", precio: 931 },
+    { material: "SERIE 7", precio: 987 },
+  ],
+  comunGAMML: [
+    { material: "SERIE 1", precio: 630 },
+    { material: "SERIE 2", precio: 662 },
+    { material: "SERIE 3", precio: 695 },
+    { material: "SERIE 4", precio: 728 },
+    { material: "SERIE 5", precio: 777 },
+    { material: "SERIE 6", precio: 826 },
+    { material: "SERIE 7", precio: 875 },
+  ],
+  comunGAMMLDI: [
+    { material: "SERIE 1", precio: 749 },
+    { material: "SERIE 2", precio: 794 },
+    { material: "SERIE 3", precio: 838 },
+    { material: "SERIE 4", precio: 883 },
+    { material: "SERIE 5", precio: 950 },
+    { material: "SERIE 6", precio: 1016 },
+    { material: "SERIE 7", precio: 1077 },
+  ],
+  comunGAMMMA: [
+    { material: "SERIE 1", precio: 583 },
+    { material: "SERIE 2", precio: 615 },
+    { material: "SERIE 3", precio: 646 },
+    { material: "SERIE 4", precio: 678 },
+    { material: "SERIE 5", precio: 724 },
+    { material: "SERIE 6", precio: 771 },
+    { material: "SERIE 7", precio: 817 },
+  ],
+  comunGAMMMADI: [
+    { material: "SERIE 1", precio: 716 },
+    { material: "SERIE 2", precio: 759 },
+    { material: "SERIE 3", precio: 802 },
+    { material: "SERIE 4", precio: 845 },
+    { material: "SERIE 5", precio: 910 },
+    { material: "SERIE 6", precio: 976 },
+    { material: "SERIE 7", precio: 1034 },
+  ],
+  comunGAMMXL: [
+    { material: "SERIE 1", precio: 652 },
+    { material: "SERIE 2", precio: 687 },
+    { material: "SERIE 3", precio: 721 },
+    { material: "SERIE 4", precio: 754 },
+    { material: "SERIE 5", precio: 806 },
+    { material: "SERIE 6", precio: 856 },
+    { material: "SERIE 7", precio: 907 },
+  ],
+  comunGAMMXLDI: [
+    { material: "SERIE 1", precio: 771 },
+    { material: "SERIE 2", precio: 816 },
+    { material: "SERIE 3", precio: 863 },
+    { material: "SERIE 4", precio: 908 },
+    { material: "SERIE 5", precio: 977 },
+    { material: "SERIE 6", precio: 1045 },
+    { material: "SERIE 7", precio: 1108 },
+  ],
+  comunGAMMXXL: [
+    { material: "SERIE 1", precio: 747 },
+    { material: "SERIE 2", precio: 783 },
+    { material: "SERIE 3", precio: 818 },
+    { material: "SERIE 4", precio: 853 },
+    { material: "SERIE 5", precio: 906 },
+    { material: "SERIE 6", precio: 959 },
+    { material: "SERIE 7", precio: 1016 },
+  ],
+  comunGAMMXXLDI: [
+    { material: "SERIE 1", precio: 871 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 965 },
+    { material: "SERIE 4", precio: 1013 },
+    { material: "SERIE 5", precio: 1084 },
+    { material: "SERIE 6", precio: 1153 },
+    { material: "SERIE 7", precio: 1223 },
+  ],
+  comunGAMMXXLDI: [
+    { material: "SERIE 1", precio: 1171 },
+    { material: "SERIE 2", precio: 1236 },
+    { material: "SERIE 3", precio: 1301 },
+    { material: "SERIE 4", precio: 1367 },
+    { material: "SERIE 5", precio: 1464 },
+    { material: "SERIE 6", precio: 1562 },
+    { material: "SERIE 7", precio: 1655 },
+  ],
+  comunGAMRTDI: [
+    { material: "SERIE 1", precio: 758 },
+    { material: "SERIE 2", precio: 799 },
+    { material: "SERIE 3", precio: 839 },
+    { material: "SERIE 4", precio: 879 },
+    { material: "SERIE 5", precio: 939 },
+    { material: "SERIE 6", precio: 999 },
+    { material: "SERIE 7", precio: 1059 },
+  ],
+};
+/*------------------------CATEGORIA SUPLEMENTOS----------------------- */
+//SUPLEMENTOS CORAL
+const suplementoCoral = [
+  {
+    id: "CORCUA",
+    title: "CORCUA CUADRANTE 55X35",
+    price: preciosCoral.comunCORS300,
+  },
+];
+//PRECIOS SUPLEMENTOS GAMMA
+const supGamma = {
+  supGAMPL: [
+    { material: "SERIE 1", precio: 425 },
+    { material: "SERIE 2", precio: 445 },
+    { material: "SERIE 3", precio: 464 },
+    { material: "SERIE 4", precio: 483 },
+    { material: "SERIE 5", precio: 512 },
+    { material: "SERIE 6", precio: 542 },
+    { material: "SERIE 7", precio: 574 },
+  ],
+};
 //SUPLEMENTOS BARINE
 const supBarine = {
   supBARPR100: [
@@ -1380,7 +1563,206 @@ const supAgora = {
     { material: "SERIE 7", precio: 60 },
   ],
 };
-//PRECIOS PIEZAS BARINE
+/*----------PRECIOS SIROCO---------------*/
+const preciosSiroco = {
+  comunSIRCGRDI: [
+    { material: "SERIE 1", precio: 763 },
+    { material: "SERIE 2", precio: 804 },
+    { material: "SERIE 3", precio: 844 },
+    { material: "SERIE 4", precio: 885 },
+    { material: "SERIE 5", precio: 945 },
+    { material: "SERIE 6", precio: 1005 },
+    { material: "SERIE 7", precio: 1066 },
+    { material: "PROMO", precio: 1245 },
+    { material: "PIEL A", precio: 1366 },
+    { material: "PIEL B", precio: 1464 },
+    { material: "PIEL C", precio: 1682 },
+    { material: "PIEL D", precio: 1936 },
+  ],
+  comunSIRCMADI: [
+    { material: "SERIE 1", precio: 791 },
+    { material: "SERIE 2", precio: 832 },
+    { material: "SERIE 3", precio: 873 },
+    { material: "SERIE 4", precio: 914 },
+    { material: "SERIE 5", precio: 976 },
+    { material: "SERIE 6", precio: 1037 },
+    { material: "SERIE 7", precio: 1100 },
+    { material: "PROMO", precio: 1280 },
+    { material: "PIEL A", precio: 1373 },
+    { material: "PIEL B", precio: 1501 },
+    { material: "PIEL C", precio: 1724 },
+    { material: "PIEL D", precio: 1981 },
+  ],
+  comunSIRCMDDI: [
+    { material: "SERIE 1", precio: 747 },
+    { material: "SERIE 2", precio: 782 },
+    { material: "SERIE 3", precio: 819 },
+    { material: "SERIE 4", precio: 855 },
+    { material: "SERIE 5", precio: 909 },
+    { material: "SERIE 6", precio: 963 },
+    { material: "SERIE 7", precio: 1021 },
+    { material: "PROMO", precio: 1180 },
+    { material: "PIEL A", precio: 1262 },
+    { material: "PIEL B", precio: 1376 },
+    { material: "PIEL C", precio: 1571 },
+    { material: "PIEL D", precio: 1799 },
+  ],
+  comunSIRMGR: [
+    { material: "SERIE 1", precio: 441 },
+    { material: "SERIE 2", precio: 465 },
+    { material: "SERIE 3", precio: 488 },
+    { material: "SERIE 4", precio: 512 },
+    { material: "SERIE 5", precio: 547 },
+    { material: "SERIE 6", precio: 583 },
+    { material: "SERIE 7", precio: 617 },
+    { material: "PROMO", precio: 725 },
+    { material: "PIEL A", precio: 777 },
+    { material: "PIEL B", precio: 852 },
+    { material: "PIEL C", precio: 978 },
+    { material: "PIEL D", precio: 1126 },
+  ],
+  comunSIRMGRDI: [
+    { material: "SERIE 1", precio: 579 },
+    { material: "SERIE 2", precio: 614 },
+    { material: "SERIE 3", precio: 649 },
+    { material: "SERIE 4", precio: 684 },
+    { material: "SERIE 5", precio: 736 },
+    { material: "SERIE 6", precio: 789 },
+    { material: "SERIE 7", precio: 836 },
+    { material: "PROMO", precio: 996 },
+    { material: "PIEL A", precio: 1075 },
+    { material: "PIEL B", precio: 1184 },
+    { material: "PIEL C", precio: 1374 },
+    { material: "PIEL D", precio: 1595 },
+  ],
+  comunSIRMMA: [
+    { material: "SERIE 1", precio: 461 },
+    { material: "SERIE 2", precio: 485 },
+    { material: "SERIE 3", precio: 508 },
+    { material: "SERIE 4", precio: 534 },
+    { material: "SERIE 5", precio: 569 },
+    { material: "SERIE 6", precio: 605 },
+    { material: "SERIE 7", precio: 642 },
+    { material: "PROMO", precio: 751 },
+    { material: "PIEL A", precio: 805 },
+    { material: "PIEL B", precio: 881 },
+    { material: "PIEL C", precio: 1011 },
+    { material: "PIEL D", precio: 1164 },
+  ],
+  comunSIRMMADI: [
+    { material: "SERIE 1", precio: 605 },
+    { material: "SERIE 2", precio: 641 },
+    { material: "SERIE 3", precio: 675 },
+    { material: "SERIE 4", precio: 710 },
+    { material: "SERIE 5", precio: 763 },
+    { material: "SERIE 6", precio: 815 },
+    { material: "SERIE 7", precio: 864 },
+    { material: "PROMO", precio: 1023 },
+    { material: "PIEL A", precio: 1101 },
+    { material: "PIEL B", precio: 1212 },
+    { material: "PIEL C", precio: 1400 },
+    { material: "PIEL D", precio: 1621 },
+  ],
+  comunSIRMMD: [
+    { material: "SERIE 1", precio: 413 },
+    { material: "SERIE 2", precio: 435 },
+    { material: "SERIE 3", precio: 458 },
+    { material: "SERIE 4", precio: 481 },
+    { material: "SERIE 5", precio: 515 },
+    { material: "SERIE 6", precio: 549 },
+    { material: "SERIE 7", precio: 582 },
+    { material: "PROMO", precio: 689 },
+    { material: "PIEL A", precio: 741 },
+    { material: "PIEL B", precio: 813 },
+    { material: "PIEL C", precio: 937 },
+    { material: "PIEL D", precio: 1081 },
+  ],
+  comunSIRMMDDI: [
+    { material: "SERIE 1", precio: 560 },
+    { material: "SERIE 2", precio: 594 },
+    { material: "SERIE 3", precio: 628 },
+    { material: "SERIE 4", precio: 662 },
+    { material: "SERIE 5", precio: 714 },
+    { material: "SERIE 6", precio: 765 },
+    { material: "SERIE 7", precio: 811 },
+    { material: "PROMO", precio: 969 },
+    { material: "PIEL A", precio: 1047 },
+    { material: "PIEL B", precio: 1155 },
+    { material: "PIEL C", precio: 1341 },
+    { material: "PIEL D", precio: 1557 },
+  ],
+  comunSIRMXL: [
+    { material: "SERIE 1", precio: 512 },
+    { material: "SERIE 2", precio: 540 },
+    { material: "SERIE 3", precio: 570 },
+    { material: "SERIE 4", precio: 599 },
+    { material: "SERIE 5", precio: 642 },
+    { material: "SERIE 6", precio: 685 },
+    { material: "SERIE 7", precio: 726 },
+    { material: "PROMO", precio: 857 },
+    { material: "PIEL A", precio: 922 },
+    { material: "PIEL B", precio: 1013 },
+    { material: "PIEL C", precio: 1170 },
+    { material: "PIEL D", precio: 1352 },
+  ],
+  comunSIRMXLDI: [
+    { material: "SERIE 1", precio: 674 },
+    { material: "SERIE 2", precio: 718 },
+    { material: "SERIE 3", precio: 763 },
+    { material: "SERIE 4", precio: 808 },
+    { material: "SERIE 5", precio: 874 },
+    { material: "SERIE 6", precio: 942 },
+    { material: "SERIE 7", precio: 998 },
+    { material: "PROMO", precio: 1202 },
+    { material: "PIEL A", precio: 1302 },
+    { material: "PIEL B", precio: 1442 },
+    { material: "PIEL C", precio: 1683 },
+    { material: "PIEL D", precio: 1964 },
+  ],
+  comunSIRRC: [
+    { material: "SERIE 1", precio: 870 },
+    { material: "SERIE 2", precio: 912 },
+    { material: "SERIE 3", precio: 953 },
+    { material: "SERIE 4", precio: 995 },
+    { material: "SERIE 5", precio: 1057 },
+    { material: "SERIE 6", precio: 1119 },
+    { material: "SERIE 7", precio: 1187 },
+    { material: "PROMO", precio: 1366 },
+    { material: "PIEL A", precio: 1459 },
+    { material: "PIEL B", precio: 1590 },
+    { material: "PIEL C", precio: 1815 },
+    { material: "PIEL D", precio: 2077 },
+  ],
+  comunSIRRTDI: [
+    { material: "SERIE 1", precio: 1099 },
+    { material: "SERIE 2", precio: 1158 },
+    { material: "SERIE 3", precio: 1216 },
+    { material: "SERIE 4", precio: 1275 },
+    { material: "SERIE 5", precio: 1362 },
+    { material: "SERIE 6", precio: 1450 },
+    { material: "SERIE 7", precio: 1537 },
+    { material: "PROMO", precio: 1793 },
+    { material: "PIEL A", precio: 1925 },
+    { material: "PIEL B", precio: 2109 },
+    { material: "PIEL C", precio: 2426 },
+    { material: "PIEL D", precio: 2794 },
+  ],
+  comunSIRTD: [
+    { material: "SERIE 1", precio: 648 },
+    { material: "SERIE 2", precio: 684 },
+    { material: "SERIE 3", precio: 720 },
+    { material: "SERIE 4", precio: 757 },
+    { material: "SERIE 5", precio: 811 },
+    { material: "SERIE 6", precio: 865 },
+    { material: "SERIE 7", precio: 917 },
+    { material: "PROMO", precio: 1078 },
+    { material: "PIEL A", precio: 1161 },
+    { material: "PIEL B", precio: 1275 },
+    { material: "PIEL C", precio: 1469 },
+    { material: "PIEL D", precio: 1697 },
+  ],
+};
+/*--------------COJINES-----------------*/
 const cojines = [
   {
     id: "None",
@@ -1457,704 +1839,6 @@ const suplementos = [
     id: "AGOPT",
     title: "Posapiés terminal (108x60 cm) ",
     price: supAgora.supAGOPT,
-  },
-];
-const suplementoBarine = [
-  {
-    id: "None",
-    title: "---Sin suplemento seleccionado--",
-  },
-  {
-    id: "BARPR100",
-    title: "BARPR100 POSAPIES 100X60 ",
-    price: supBarine.supBARPR100,
-  },
-  {
-    id: "BARPR60",
-    title: "BARPR60 POSAPIES 800X60 ",
-    price: supBarine.supBARPR80,
-  },
-];
-const piezas = [
-  {
-    id: "None",
-    title: "---Sin pieza seleccionada--",
-    imageUrl: "..",
-  },
-  {
-    id: "YUTCGRD",
-    title: "YUTCGRD Chaise longue grande (104 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_DER.png",
-    price: precios.comunYUTCGR,
-    medida: 104,
-  },
-  {
-    id: "YUTCGRI",
-    title: "YUTCGRI Chaise longue grande (104 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_IZQ.png",
-    price: precios.comunYUTCGR,
-    medida: 104,
-  },
-  {
-    id: "YUTCMAD",
-    title: "YUTCMAD Chaise longue maxi (114 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_DER.png",
-    price: precios.comunYUTCMA,
-    medida: 114,
-  },
-  {
-    id: "YUTCMAI",
-    title: "YUTCMAI Chaise longue maxi (114 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_IZQ.png",
-    price: precios.comunYUTCMA,
-    medida: 114,
-  },
-  {
-    id: "YUTCMED",
-    title: "YUTCMED Chaise longue mega (124 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_DER.png",
-    price: precios.comunYUTCME,
-  },
-  {
-    id: "YUTCMEI",
-    title: "YUTCMEI Chaise longue mega (124 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_IZQ.png",
-    price: precios.comunYUTCME,
-  },
-  {
-    id: "YUTMGR",
-    title: "YUTMGR Módulo grande (80 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_SB.png",
-    price: precios.comunYUTMGR,
-  },
-  {
-    id: "YUTMGRD",
-    title: "YUTMGRD Módulo grande (104 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_DER.png",
-    price: precios.comunYUTMGRDI,
-  },
-  {
-    id: "YUTMGRI",
-    title: "YUTMGRI Módulo grande (104 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_IZQ.png",
-    price: precios.comunYUTMGRDI,
-  },
-  {
-    id: "YUTMMAD",
-    title: "YUTMMAD Módulo maxi (114 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_DER.png",
-    price: precios.comunYUTMMADI,
-  },
-  {
-    id: "YUTMMAI",
-    title: "YUTMMAI Módulo maxi (114 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_IZQ.png",
-    price: precios.comunYUTMMADI,
-  },
-  {
-    id: "YUTMME",
-    title: "YUTMME Módulo mega (100 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_SB.png",
-    price: precios.comunYUTMME,
-  },
-  {
-    id: "YUTMMED",
-    title: "YUTMMED Módulo mega (124 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_DER.png",
-    price: precios.comunYUTMMEDI,
-  },
-  {
-    id: "YUTMMEI",
-    title: "YUTMMEI Módulo mega (124 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_IZQ.png",
-    price: precios.comunYUTMMEDI,
-  },
-  {
-    id: "YUTMXL",
-    title: "YUTMXL Módulo XL (110 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_SB.png",
-    price: precios.comunYUTMXL,
-  },
-  {
-    id: "YUTMXLD",
-    title: "YUTMXLD Módulo XL (134 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_DER.png",
-    price: precios.comunYUTMXLDI,
-  },
-  {
-    id: "YUTMXLI",
-    title: "YUTMXLI Módulo XL (134 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_IZQ.png",
-    price: precios.comunYUTMXLDI,
-  },
-  {
-    id: "YUTRA",
-    title: "YUTRA Rincón abierto (113 x 113 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RA.png",
-    price: precios.comunYUTRA,
-  },
-  {
-    id: "YUTRTD",
-    title: "YUTRTD Rincón terminal derecho (108 x 205 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_DER.png",
-    price: precios.comunYUTRT,
-  },
-  {
-    id: "YUTRTI",
-    title: "YUTRTI Rincón terminal izquierdo (108 x 205 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_IZQ.png",
-    price: precios.comunYUTRT,
-  },
-  {
-    id: "YUTTGRD",
-    title: "YUTTGRD Terminal grande (123 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_DER.png",
-    price: precios.comunYUTTGR,
-  },
-  {
-    id: "YUTTGRI",
-    title: "YUTTGRI Terminal grande (123 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_IZQ.png",
-    price: precios.comunYUTTGR,
-  },
-  {
-    id: "YUTTMAD",
-    title: "YUTTMAD Terminal maxi (133 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_DER.png",
-    price: precios.comunYUTTMA,
-  },
-  {
-    id: "YUTTMAI",
-    title: "YUTTMAI Terminal maxi (133 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_IZQ.png",
-    price: precios.comunYUTTMA,
-  },
-];
-
-/*-------------------PIEZAS BARINE--------------------*/
-const piezasBarine = [
-  {
-    id: "None",
-    title: "---Sin pieza seleccionada--",
-    imageUrl: "",
-  },
-  {
-    id: "BARCGD",
-    title: "BARCGD CHAISELONGUE GRANDE (110) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGD.png",
-    price: precios.comunBARCG,
-    medida: 110,
-  },
-  {
-    id: "BARCGI",
-    title: "BARCGI CHAISELONGUE GRANDE (110) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGI.png",
-    price: precios.comunBARCG,
-    medida: 110,
-  },
-  {
-    id: "BARCMAD",
-    title: "BARCMAD CHAISELONGUE MAXI (120) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAD.png",
-    price: precios.comunBARCMADI,
-    medida: 120,
-  },
-  {
-    id: "BARCMAI",
-    title: "BARCMAI CHAISELONGUE MAXI (120) IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAI.png",
-    price: precios.comunBARCMADI,
-    medida: 120,
-  },
-  {
-    id: "BARCMDD",
-    title: "BARCMDD CHAISELONGUE MEDIANO (100) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDD.png",
-    price: precios.comunBARCMDDI,
-    medida: 100,
-  },
-  {
-    id: "BARCMDI",
-    title: "BARCMDI CHAISELONGUE MEDIANO (100) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDI.png",
-    price: precios.comunBARCMDDI,
-    medida: 100,
-  },
-  {
-    id: "BARCMED",
-    title: "BARCMED CHAISELONGUE MEGA (130) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMED.png",
-    price: precios.comunBARCMEDI,
-    medida: 130,
-  },
-  {
-    id: "BARCMEI",
-    title: "BARCMEI CHAISELONGUE MEGA (130) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMEI.png",
-    price: precios.comunBARCMEDI,
-    medida: 130,
-  },
-  {
-    id: "BARMG",
-    title: "BARMG BARINE MODULO GRANDE (80) SIN BRAZO.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMG.png",
-    price: precios.comunBARMG,
-    medida: 80,
-  },
-  {
-    id: "BARMGD",
-    title: "BARMGD MODULO GRANDE (110) BRAZO DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGD.png",
-    price: precios.comunBARMGDI,
-    medida: 110,
-  },
-  {
-    id: "BARMGI",
-    title: "BARMGI MODULO GRANDE (110) BRAZO IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGI.png",
-    price: precios.comunBARMGDI,
-    medida: 110,
-  },
-  {
-    id: "BARML",
-    title: "BARML MODULO MEGA (100) SIN BRAZO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARML.png",
-    price: precios.comuncomunBARML,
-    medida: 100,
-  },
-  {
-    id: "BARMLD",
-    title: "BARMLD MODULO MEGA (130) BRAZO DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLD.png",
-    price: precios.comunBARMLDI,
-    medida: 130,
-  },
-  {
-    id: "BARMLI",
-    title: "BARMLI MODULO MEGA (130) BRAZO IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLI.png",
-    price: precios.comunBARMLDI,
-    medida: 130,
-  },
-  {
-    id: "BARMMA",
-    title: "BARMMA MODULO MAXI (90) SIN BRAZO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMA.png",
-    price: precios.comunBARMMA,
-    medida: 90,
-  },
-  {
-    id: "BARMMAD",
-    title: "BARMMAD MODULO MAXI (120) BRAZO DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAD.png",
-    price: precios.comunBARMMADI,
-    medida: 120,
-  },
-  {
-    id: "BARMMAI",
-    title: "BARMMAI MODULO MAXI (120) BRAZO IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAI.png",
-    price: precios.comunBARMMADI,
-    medida: 120,
-  },
-  {
-    id: "BARMMD",
-    title: "BARMMD MODULO MEDIANO (70) SIN BRAZO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMD.png",
-    price: precios.comunBARMMD,
-    medida: 70,
-  },
-  {
-    id: "BARMMDD",
-    title: "BARMMDD MODULO MEDIANO (100) BRAZO DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDD.png",
-    price: precios.comunBARMMDDI,
-    medida: 100,
-  },
-  {
-    id: "BARMMDI",
-    title: "BARMMDI MODULO MEDIANO (100) BRAZO IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDI.png",
-    price: precios.comunBARMMDDI,
-    medida: 100,
-  },
-  {
-    id: "BARMXL",
-    title: "BARMXL MODULO XL (110) SIN BRAZO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXL.png",
-    price: precios.comunBARMXL,
-    medida: 110,
-  },
-  {
-    id: "BARMXLD",
-    title: "BARMXLD MODULO XL (140) BRAZO DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLD.png",
-    price: precios.comunBARMXLDI,
-    medida: 140,
-  },
-  {
-    id: "BARMXLI",
-    title: "BARMXLI MODULO XL (140) BRAZO IZQ",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLI.png",
-    price: precios.comunBARMXLDI,
-    medida: 140,
-  },
-  {
-    id: "BARMXXL",
-    title: "BARMXXL MODULO XXL (120) SIN BRAZO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXL.png",
-    price: precios.comunBARMXXL,
-    medida: 120,
-  },
-  {
-    id: "BARMXXLD",
-    title: "BARMXXLD MODULO XXL (150) BRAZO DERECHO.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLD.png",
-    price: precios.comunBARMXXLDI,
-    medida: 150,
-  },
-  {
-    id: "BARMXXLI",
-    title: "BARMXXLI MODULO XXL (150) BRAZO IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLI.png",
-    price: precios.comunBARMXXLDI,
-    medida: 150,
-  },
-  {
-    id: "BARR",
-    title: "BARR RINCON CERRADO (110 x 110)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARR.png",
-    price: precios.comunBARR,
-    medida: 110,
-  },
-  {
-    id: "BARTGD",
-    title: "BARTGD TERMINAL GRANDE (123) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGD.png",
-    price: precios.comunBARTGDI,
-    medida: 123,
-  },
-  {
-    id: "BARTGI",
-    title: "BARTGI TERMINAL GRANDE (123) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGI.png",
-    price: precios.comunBARTGDI,
-    medida: 123,
-  },
-  {
-    id: "BARTMAD",
-    title: "BARTMAD TERMINAL MAZI (133) DERECHO.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAD.png",
-    price: precios.comunBARTMADI,
-    medida: 133,
-  },
-  {
-    id: "BARTMAI",
-    title: "BARTMAI TERMINAL MAXI (133) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAI.png",
-    price: precios.comunBARTMADI,
-    medida: 133,
-  },
-  {
-    id: "BARTMED",
-    title: "BARTMED TERMINAL MEGA (133) DERECHO",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMED.png",
-    price: precios.comunBARTGDI,
-    medida: 143,
-  },
-  {
-    id: "BARTMEI",
-    title: "BARTMEI TERMINAL MEGA (133) IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMEI.png",
-    price: precios.comunBARTGDI,
-    medida: 143,
-  },
-];
-/*-------------------PIEZAS LINO--------------------*/
-const piezasLino = [
-  {
-    id: "None",
-    title: "---Sin pieza seleccionada--",
-    imageUrl: "..",
-  },
-  {
-    id: "LINCGRD",
-    title: "LINCGRD Chaise longue grande (104 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_DER.png",
-    price: preciosLino.comunLINCGR,
-    medida: 104,
-  },
-  ,
-  {
-    id: "LINCGRI",
-    title: "LINCGRI Chaise longue grande (104 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_IZQ.png",
-    price: preciosLino.comunLINCGR,
-    medida: 104,
-  },
-  {
-    id: "LINCMAD",
-    title: "LINCMAD Chaise longue maxi (114 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_DER.png",
-    price: preciosLino.comunLINCMA,
-    medida: 114,
-  },
-  {
-    id: "LINCMAI",
-    title: "LINCMAI Chaise longue maxi (114 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_IZQ.png",
-    price: preciosLino.comunLINCMA,
-    medida: 114,
-  },
-  /*--------PIEZAS MEDIANAS-------*/
-  {
-    id: "LINCMDD",
-    title: "LINCMDD Chaise longue mediano (94 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_DER.png",
-    price: preciosLino.comunLINCMD,
-    medida: 94,
-  },
-  {
-    id: "LINCMDI",
-    title: "LINCMDI Chaise longue mediano (94 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_IZQ.png",
-    price: preciosLino.comunLINCMD,
-    medida: 94,
-  },
-  {
-    id: "LINMMDD",
-    title: "LINMMDD modulo mediano (94 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_DER.png",
-    price: preciosLino.comunLINMMDI,
-    medida: 94,
-  },
-  {
-    id: "LINMMDI",
-    title: "LINMMDI modulo mediano (94 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_IZQ.png",
-    price: preciosLino.comunLINMMDI,
-    medida: 94,
-  },
-  {
-    id: "LINMMD",
-    title: "LINMMD modulo mediano sin brazo (70 cm).",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_SB.png",
-    price: preciosLino.comunLINMMD,
-    medida: 94,
-  },
-  /*--------ARRIBA MEDIANAS-------*/
-  {
-    id: "LINCMED",
-    title: "LINCMED Chaise longue mega (124 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_DER.png",
-    price: preciosLino.comunLINCME,
-  },
-  {
-    id: "LINCMEI",
-    title: "LINCMEI Chaise longue mega (124 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_IZQ.png",
-    price: preciosLino.comunLINCME,
-  },
-  {
-    id: "LINMGR",
-    title: "LINMGR Módulo grande (80 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_SB.png",
-    price: preciosLino.comunLINMGR,
-  },
-  {
-    id: "LINMGRD",
-    title: "LINMGRD Módulo grande (104 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_DER.png",
-    price: preciosLino.comunLINMGRDI,
-  },
-  {
-    id: "LINMGRI",
-    title: "LINMGRI Módulo grande (104 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_IZQ.png",
-    price: preciosLino.comunLINMGRDI,
-  },
-  {
-    id: "LINMMA",
-    title: "LINMMA Módulo maxi (90 cm) sin brazo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_SB.png",
-    price: preciosLino.comunLINMMA,
-  },
-  {
-    id: "LINMMAD",
-    title: "LINMMAD Módulo maxi (114 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_DER.png",
-    price: preciosLino.comunLINMMADI,
-  },
-  {
-    id: "LINMMAI",
-    title: "LINMMAI Módulo maxi (114 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_IZQ.png",
-    price: preciosLino.comunLINMMADI,
-  },
-  {
-    id: "LINMME",
-    title: "LINMME Módulo mega (100 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_SB.png",
-    price: preciosLino.comunLINMME,
-  },
-  {
-    id: "LINMMED",
-    title: "LINMMED Módulo mega (124 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_DER.png",
-    price: preciosLino.comunLINMMEDI,
-  },
-  {
-    id: "LINMMEI",
-    title: "LINMMEI Módulo mega (124 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_IZQ.png",
-    price: preciosLino.comunLINMMEDI,
-  },
-  {
-    id: "LINMXL",
-    title: "LINMXL Módulo XL (110 cm) sin brazo",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_SB.png",
-    price: preciosLino.comunLINMXL,
-  },
-  {
-    id: "LINMXLD",
-    title: "LINMXLD Módulo XL (134 cm) brazo dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_DER.png",
-    price: preciosLino.comunLINMXLDI,
-  },
-  {
-    id: "LINMXLI",
-    title: "LINMXLI Módulo XL (134 cm) brazo izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_IZQ.png",
-    price: preciosLino.comunLINMXLDI,
-  },
-  {
-    id: "LINRA",
-    title: "LINRA Rincón abierto (113 x 113 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RA.png",
-    price: preciosLino.comunLINRA,
-  },
-  {
-    id: "LINRTD",
-    title: "LINRTD Rincón terminal derecho (108 x 205 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_DER.png",
-    price: preciosLino.comunLINRTDI,
-  },
-  {
-    id: "LINRTI",
-    title: "LINRTI Rincón terminal izquierdo (108 x 205 cm)",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_IZQ.png",
-    price: preciosLino.comunLINRTDI,
-  },
-  {
-    id: "LINTGRD",
-    title: "LINTGRD Terminal grande (123 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_DER.png",
-    price: preciosLino.comunLINTGRDI,
-  },
-  {
-    id: "LINTGRI",
-    title: "LINTGRI Terminal grande (123 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_IZQ.png",
-    price: preciosLino.comunLINTGRDI,
-  },
-  {
-    id: "LINTMAD",
-    title: "LINTMAD Terminal maxi (133 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_DER.png",
-    price: preciosLino.comunLINTMADI,
-  },
-  {
-    id: "LINTMAI",
-    title: "LINTMAI Terminal maxi (133 cm) izqdo.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_IZQ.png",
-    price: preciosLino.comunLINTMADI,
   },
 ];
 /*-------------------PIEZAS AGORA--------------------*/
@@ -2912,6 +2596,1124 @@ const piezasAltano = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/asset/MODELOS/ALTANO/ALT351ASB.png",
     price: preciosAltano.comunALT35SB,
+  },
+];
+
+/*-------------------PIEZAS BARINE--------------------*/
+const piezasBarine = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "",
+  },
+  {
+    id: "BARCGD",
+    title: "BARCGD CHAISELONGUE GRANDE (110) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGD.png",
+    price: precios.comunBARCG,
+    medida: 110,
+  },
+  {
+    id: "BARCGI",
+    title: "BARCGI CHAISELONGUE GRANDE (110) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGI.png",
+    price: precios.comunBARCG,
+    medida: 110,
+  },
+  {
+    id: "BARCMAD",
+    title: "BARCMAD CHAISELONGUE MAXI (120) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAD.png",
+    price: precios.comunBARCMADI,
+    medida: 120,
+  },
+  {
+    id: "BARCMAI",
+    title: "BARCMAI CHAISELONGUE MAXI (120) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAI.png",
+    price: precios.comunBARCMADI,
+    medida: 120,
+  },
+  {
+    id: "BARCMDD",
+    title: "BARCMDD CHAISELONGUE MEDIANO (100) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDD.png",
+    price: precios.comunBARCMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARCMDI",
+    title: "BARCMDI CHAISELONGUE MEDIANO (100) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDI.png",
+    price: precios.comunBARCMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARCMED",
+    title: "BARCMED CHAISELONGUE MEGA (130) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMED.png",
+    price: precios.comunBARCMEDI,
+    medida: 130,
+  },
+  {
+    id: "BARCMEI",
+    title: "BARCMEI CHAISELONGUE MEGA (130) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMEI.png",
+    price: precios.comunBARCMEDI,
+    medida: 130,
+  },
+  {
+    id: "BARMG",
+    title: "BARMG BARINE MODULO GRANDE (80) SIN BRAZO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMG.png",
+    price: precios.comunBARMG,
+    medida: 80,
+  },
+  {
+    id: "BARMGD",
+    title: "BARMGD MODULO GRANDE (110) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGD.png",
+    price: precios.comunBARMGDI,
+    medida: 110,
+  },
+  {
+    id: "BARMGI",
+    title: "BARMGI MODULO GRANDE (110) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGI.png",
+    price: precios.comunBARMGDI,
+    medida: 110,
+  },
+  {
+    id: "BARML",
+    title: "BARML MODULO MEGA (100) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARML.png",
+    price: precios.comuncomunBARML,
+    medida: 100,
+  },
+  {
+    id: "BARMLD",
+    title: "BARMLD MODULO MEGA (130) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLD.png",
+    price: precios.comunBARMLDI,
+    medida: 130,
+  },
+  {
+    id: "BARMLI",
+    title: "BARMLI MODULO MEGA (130) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLI.png",
+    price: precios.comunBARMLDI,
+    medida: 130,
+  },
+  {
+    id: "BARMMA",
+    title: "BARMMA MODULO MAXI (90) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMA.png",
+    price: precios.comunBARMMA,
+    medida: 90,
+  },
+  {
+    id: "BARMMAD",
+    title: "BARMMAD MODULO MAXI (120) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAD.png",
+    price: precios.comunBARMMADI,
+    medida: 120,
+  },
+  {
+    id: "BARMMAI",
+    title: "BARMMAI MODULO MAXI (120) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAI.png",
+    price: precios.comunBARMMADI,
+    medida: 120,
+  },
+  {
+    id: "BARMMD",
+    title: "BARMMD MODULO MEDIANO (70) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMD.png",
+    price: precios.comunBARMMD,
+    medida: 70,
+  },
+  {
+    id: "BARMMDD",
+    title: "BARMMDD MODULO MEDIANO (100) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDD.png",
+    price: precios.comunBARMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARMMDI",
+    title: "BARMMDI MODULO MEDIANO (100) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDI.png",
+    price: precios.comunBARMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BARMXL",
+    title: "BARMXL MODULO XL (110) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXL.png",
+    price: precios.comunBARMXL,
+    medida: 110,
+  },
+  {
+    id: "BARMXLD",
+    title: "BARMXLD MODULO XL (140) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLD.png",
+    price: precios.comunBARMXLDI,
+    medida: 140,
+  },
+  {
+    id: "BARMXLI",
+    title: "BARMXLI MODULO XL (140) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLI.png",
+    price: precios.comunBARMXLDI,
+    medida: 140,
+  },
+  {
+    id: "BARMXXL",
+    title: "BARMXXL MODULO XXL (120) SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXL.png",
+    price: precios.comunBARMXXL,
+    medida: 120,
+  },
+  {
+    id: "BARMXXLD",
+    title: "BARMXXLD MODULO XXL (150) BRAZO DERECHO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLD.png",
+    price: precios.comunBARMXXLDI,
+    medida: 150,
+  },
+  {
+    id: "BARMXXLI",
+    title: "BARMXXLI MODULO XXL (150) BRAZO IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLI.png",
+    price: precios.comunBARMXXLDI,
+    medida: 150,
+  },
+  {
+    id: "BARR",
+    title: "BARR RINCON CERRADO (110 x 110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARR.png",
+    price: precios.comunBARR,
+    medida: 110,
+  },
+  {
+    id: "BARTGD",
+    title: "BARTGD TERMINAL GRANDE (123) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGD.png",
+    price: precios.comunBARTGDI,
+    medida: 123,
+  },
+  {
+    id: "BARTGI",
+    title: "BARTGI TERMINAL GRANDE (123) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGI.png",
+    price: precios.comunBARTGDI,
+    medida: 123,
+  },
+  {
+    id: "BARTMAD",
+    title: "BARTMAD TERMINAL MAZI (133) DERECHO.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAD.png",
+    price: precios.comunBARTMADI,
+    medida: 133,
+  },
+  {
+    id: "BARTMAI",
+    title: "BARTMAI TERMINAL MAXI (133) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAI.png",
+    price: precios.comunBARTMADI,
+    medida: 133,
+  },
+  {
+    id: "BARTMED",
+    title: "BARTMED TERMINAL MEGA (133) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMED.png",
+    price: precios.comunBARTGDI,
+    medida: 143,
+  },
+  {
+    id: "BARTMEI",
+    title: "BARTMEI TERMINAL MEGA (133) IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMEI.png",
+    price: precios.comunBARTGDI,
+    medida: 143,
+  },
+];
+//SUPLEMENTOS BARINE
+const suplementoBarine = [
+  {
+    id: "None",
+    title: "---Sin suplemento seleccionado--",
+  },
+  {
+    id: "BARPR100",
+    title: "BARPR100 POSAPIES 100X60 ",
+    price: supBarine.supBARPR100,
+  },
+  {
+    id: "BARPR60",
+    title: "BARPR60 POSAPIES 800X60 ",
+    price: supBarine.supBARPR80,
+  },
+];
+/*-------------------PIEZAS CORAL--------------------*/
+const piezasCoral = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "CORS",
+    title: "CORS SILLON GIRATORIO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SILLÓN.png",
+    price: preciosCoral.comunCORS,
+  },
+  {
+    id: "CORS200",
+    title: "CORS200 SOFA 200",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SOFA_200.png",
+    price: preciosCoral.comunCORS200,
+  },
+  {
+    id: "CORS300",
+    title: "CORS300 SOFA 300",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SOFA_230.png",
+    price: preciosCoral.comunCORS300,
+  },
+];
+
+/*----------------PIEZAS GAMMA--------------*/
+const piezasGamma = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "GAMCGD",
+    title: "GAMCGD CHAISELONGUE GRANDE BRAZO LARGO DERECHO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCGD.png",
+    price: preciosGamma.comunGAMCGDI,
+    medida: 80,
+  },
+  {
+    id: "GAMCGI",
+    title: "GAMCGI CHAISELONGUE GRANDE BRAZO LARGO IZQ. (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCGI.png",
+    price: preciosGamma.comunGAMCGDI,
+    medida: 80,
+  },
+  {
+    id: "GAMCMAD",
+    title: "GAMCMAD CHAISELONGUE MAXI BRAZO LARGO DERECHO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCMAD.png",
+    price: preciosGamma.comunGAMCMADI,
+    medida: 90,
+  },
+  {
+    id: "GAMCMAI",
+    title: "GAMCMAI CHAISELONGUE MAXI BRAZO LARGO IZQ. (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCMAI.png",
+    price: preciosGamma.comunGAMCMADI,
+    medida: 90,
+  },
+  {
+    id: "GAMMGR",
+    title: "GAMMGR MODULO GRANDE SIN BRAZO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMGR.png",
+    price: preciosGamma.comunGAMMGR,
+    medida: 80,
+  },
+  {
+    id: "GAMMGRD",
+    title: "GAMMGRD MODULO GRANDE BRAZO IZQUIERDO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMGRD.png",
+    price: preciosGamma.comunGAMMGRDI,
+    medida: 100,
+  },
+  {
+    id: "GAMML",
+    title: "GAMML MODULO L SIN BRAZO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMML.png",
+    price: preciosGamma.comunGAMMGRDI,
+    medida: 100,
+  },
+  {
+    id: "GAMMLD",
+    title: "GAMMLD MODULO L BRAZO DERECHA (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMLD.png",
+    price: preciosGamma.comunGAMMLDI,
+    medida: 120,
+  },
+  {
+    id: "GAMMLI",
+    title: "GAMMLI MODULO L BRAZO IZQ (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMLI.png",
+    price: preciosGamma.comunGAMMLDI,
+    medida: 120,
+  },
+  {
+    id: "GAMMMA",
+    title: "GAMMMA MODULO MAXI SIN BRAZO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMA.png",
+    price: preciosGamma.comunGAMMMA,
+    medida: 90,
+  },
+  {
+    id: "GAMMMAD",
+    title: "GAMMMAD MODULO MAXI BRAZO DERECHO (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMAD.png",
+    price: preciosGamma.comunGAMMMADI,
+    medida: 110,
+  },
+  {
+    id: "GAMMMAI",
+    title: "GAMMMAI MODULO MAXI BRAZO IZQ (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMAI.png",
+    price: preciosGamma.comunGAMMMADI,
+    medida: 110,
+  },
+  {
+    id: "GAMMXL",
+    title: "GAMMXL MODULO XL SIN BRAZO (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXL.png",
+    price: preciosGamma.comunGAMMXL,
+    medida: 110,
+  },
+  {
+    id: "GAMMXLD",
+    title: "GAMMXLD MODULO XL BRAZO DERECHA (130)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXLD.png",
+    price: preciosGamma.comunGAMMXLDI,
+    medida: 130,
+  },
+  {
+    id: "GAMMXLI",
+    title: "GAMMXLI MODULO XL BRAZO IZQ (130)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXLI.png",
+    price: preciosGamma.comunGAMMXLDI,
+    medida: 130,
+  },
+  {
+    id: "GAMMXXL",
+    title: "GAMMXXL MODULO XXL SIN BRAZO (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXL.png",
+    price: preciosGamma.comunGAMMXXL,
+    medida: 120,
+  },
+  {
+    id: "GAMMXXLD",
+    title: "GAMMXXLD MODULO XXL BRAZO DERECHA (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXLD.png",
+    price: preciosGamma.comunGAMMXXLDI,
+    medida: 140,
+  },
+  {
+    id: "GAMMXXLI",
+    title: "GAMMXXLI MODULO XXL BRAZO IZQ. (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXLI.png",
+    price: preciosGamma.comunGAMMXXLDI,
+    medida: 140,
+  },
+  {
+    id: "GAMRTD",
+    title: "GAMRTD RINCON TERMINAL DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMRTD.png",
+    price: preciosGamma.comunGAMRTDI,
+    medida: 0,
+  },
+  {
+    id: "GAMRTI",
+    title: "GAMRTI RINCON TERMINAL IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMRTI.png",
+    price: preciosGamma.comunGAMRTDI,
+    medida: 0,
+  },
+  {
+    id: "GAMTD",
+    title: "GAMTD TERMINAL DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMTD.png",
+    price: preciosGamma.comunGAMRTDI,
+    medida: 0,
+  },
+  {
+    id: "GAMTI",
+    title: "GAMTI TERMINAL IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMTI.png",
+    price: preciosGamma.comunGAMRTDI,
+    medida: 0,
+  },
+];
+//SUPLEMENTOS GAMMA
+const suplementosGamma = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+  },
+  {
+    id: "GAMPL",
+    title: "GAMPL POSAPIES L (100X70)",
+    price: supGamma.supGAMPL,
+  },
+];
+/*-------------------PIEZAS LINO--------------------*/
+const piezasLino = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "LINCGRD",
+    title: "LINCGRD Chaise longue grande (104 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_DER.png",
+    price: preciosLino.comunLINCGR,
+    medida: 104,
+  },
+  ,
+  {
+    id: "LINCGRI",
+    title: "LINCGRI Chaise longue grande (104 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_IZQ.png",
+    price: preciosLino.comunLINCGR,
+    medida: 104,
+  },
+  {
+    id: "LINCMAD",
+    title: "LINCMAD Chaise longue maxi (114 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_DER.png",
+    price: preciosLino.comunLINCMA,
+    medida: 114,
+  },
+  {
+    id: "LINCMAI",
+    title: "LINCMAI Chaise longue maxi (114 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_IZQ.png",
+    price: preciosLino.comunLINCMA,
+    medida: 114,
+  },
+  /*--------PIEZAS MEDIANAS-------*/
+  {
+    id: "LINCMDD",
+    title: "LINCMDD Chaise longue mediano (94 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_DER.png",
+    price: preciosLino.comunLINCMD,
+    medida: 94,
+  },
+  {
+    id: "LINCMDI",
+    title: "LINCMDI Chaise longue mediano (94 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_IZQ.png",
+    price: preciosLino.comunLINCMD,
+    medida: 94,
+  },
+  {
+    id: "LINMMDD",
+    title: "LINMMDD modulo mediano (94 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_DER.png",
+    price: preciosLino.comunLINMMDI,
+    medida: 94,
+  },
+  {
+    id: "LINMMDI",
+    title: "LINMMDI modulo mediano (94 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_IZQ.png",
+    price: preciosLino.comunLINMMDI,
+    medida: 94,
+  },
+  {
+    id: "LINMMD",
+    title: "LINMMD modulo mediano sin brazo (70 cm).",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_SB.png",
+    price: preciosLino.comunLINMMD,
+    medida: 94,
+  },
+  /*--------ARRIBA MEDIANAS-------*/
+  {
+    id: "LINCMED",
+    title: "LINCMED Chaise longue mega (124 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_DER.png",
+    price: preciosLino.comunLINCME,
+  },
+  {
+    id: "LINCMEI",
+    title: "LINCMEI Chaise longue mega (124 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_IZQ.png",
+    price: preciosLino.comunLINCME,
+  },
+  {
+    id: "LINMGR",
+    title: "LINMGR Módulo grande (80 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_SB.png",
+    price: preciosLino.comunLINMGR,
+  },
+  {
+    id: "LINMGRD",
+    title: "LINMGRD Módulo grande (104 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_DER.png",
+    price: preciosLino.comunLINMGRDI,
+  },
+  {
+    id: "LINMGRI",
+    title: "LINMGRI Módulo grande (104 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_IZQ.png",
+    price: preciosLino.comunLINMGRDI,
+  },
+  {
+    id: "LINMMA",
+    title: "LINMMA Módulo maxi (90 cm) sin brazo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_SB.png",
+    price: preciosLino.comunLINMMA,
+  },
+  {
+    id: "LINMMAD",
+    title: "LINMMAD Módulo maxi (114 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_DER.png",
+    price: preciosLino.comunLINMMADI,
+  },
+  {
+    id: "LINMMAI",
+    title: "LINMMAI Módulo maxi (114 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_IZQ.png",
+    price: preciosLino.comunLINMMADI,
+  },
+  {
+    id: "LINMME",
+    title: "LINMME Módulo mega (100 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_SB.png",
+    price: preciosLino.comunLINMME,
+  },
+  {
+    id: "LINMMED",
+    title: "LINMMED Módulo mega (124 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_DER.png",
+    price: preciosLino.comunLINMMEDI,
+  },
+  {
+    id: "LINMMEI",
+    title: "LINMMEI Módulo mega (124 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_IZQ.png",
+    price: preciosLino.comunLINMMEDI,
+  },
+  {
+    id: "LINMXL",
+    title: "LINMXL Módulo XL (110 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_SB.png",
+    price: preciosLino.comunLINMXL,
+  },
+  {
+    id: "LINMXLD",
+    title: "LINMXLD Módulo XL (134 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_DER.png",
+    price: preciosLino.comunLINMXLDI,
+  },
+  {
+    id: "LINMXLI",
+    title: "LINMXLI Módulo XL (134 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_IZQ.png",
+    price: preciosLino.comunLINMXLDI,
+  },
+  {
+    id: "LINRA",
+    title: "LINRA Rincón abierto (113 x 113 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RA.png",
+    price: preciosLino.comunLINRA,
+  },
+  {
+    id: "LINRTD",
+    title: "LINRTD Rincón terminal derecho (108 x 205 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_DER.png",
+    price: preciosLino.comunLINRTDI,
+  },
+  {
+    id: "LINRTI",
+    title: "LINRTI Rincón terminal izquierdo (108 x 205 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_IZQ.png",
+    price: preciosLino.comunLINRTDI,
+  },
+  {
+    id: "LINTGRD",
+    title: "LINTGRD Terminal grande (123 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_DER.png",
+    price: preciosLino.comunLINTGRDI,
+  },
+  {
+    id: "LINTGRI",
+    title: "LINTGRI Terminal grande (123 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_IZQ.png",
+    price: preciosLino.comunLINTGRDI,
+  },
+  {
+    id: "LINTMAD",
+    title: "LINTMAD Terminal maxi (133 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_DER.png",
+    price: preciosLino.comunLINTMADI,
+  },
+  {
+    id: "LINTMAI",
+    title: "LINTMAI Terminal maxi (133 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_IZQ.png",
+    price: preciosLino.comunLINTMADI,
+  },
+];
+/*----------------PIEZAS SIROCO--------------*/
+const piezasSiroco = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "SIRCGRD",
+    title: "SIRCGRD ECO CHAISELONGUE GRANDE BRAZO DERECHA (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCGRD.png",
+    price: preciosSiroco.comunSIRCGRDI,
+    medida: 110,
+  },
+  {
+    id: "SIRCGRI",
+    title: "SIRCGRI ECO CHAISELONGUE GRANDE BRAZO IZQUIERDA (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCGRI.png",
+    price: preciosSiroco.comunSIRCGRDI,
+    medida: 110,
+  },
+  {
+    id: "SIRCMAD",
+    title: "SIRCMAD ECO CHAISELONGUE MAXI BRAZO DERECHA (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMAD.png",
+    price: preciosSiroco.comunSIRCMADI,
+    medida: 120,
+  },
+  {
+    id: "SIRCMAI",
+    title: "SIRCMAI ECO CHAISELONGUE MAXI BRAZO IZQUIERDA (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMAI.png",
+    price: preciosSiroco.comunSIRCMADI,
+    medida: 120,
+  },
+  {
+    id: "SIRCMDD",
+    title: "SIRCMDD ECO CHAISELONGUE MEDIANO BRAZO DERECHA (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMDD.png",
+    price: preciosSiroco.comunSIRCMDDI,
+    medida: 100,
+  },
+  {
+    id: "SIRCMDI",
+    title: "SIRCMDI ECO CHAISELONGUE MEDIANO BRAZO DERECHA (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMDI.png",
+    price: preciosSiroco.comunSIRCMDDI,
+    medida: 100,
+  },
+  {
+    id: "SIRMGR",
+    title: "SIRMGR ECO MODULO GRANDE SIN BRAZO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGR.png",
+    price: preciosSiroco.comunSIRMGR,
+    medida: 80,
+  },
+  {
+    id: "SIRMGRI",
+    title: "SIRMGRI ECO MODULO GRANDE BRAZO IZQUIERDA (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGRI.png",
+    price: preciosSiroco.comunSIRMGRDI,
+    medida: 110,
+  },
+  {
+    id: "SIRMGRD",
+    title: "SIRMGRD ECO MODULO GRANDE BRAZO DERECHA (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGRD.png",
+    price: preciosSiroco.comunSIRMGRDI,
+    medida: 110,
+  },
+  {
+    id: "SIRMMA",
+    title: "SIRMMA ECO MODULO MAXI SIN BRAZO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMA.png",
+    price: preciosSiroco.comunSIRMMA,
+    medida: 90,
+  },
+  {
+    id: "SIRMMAD",
+    title: "SIRMMAD ECO MODULO MAXI BRAZO DERECHA (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMAD.png",
+    price: preciosSiroco.comunSIRMMADI,
+    medida: 120,
+  },
+  {
+    id: "SIRMMAI",
+    title: "SIRMMAI ECO MODULO MAXI BRAZO IZQ. (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMAI.png",
+    price: preciosSiroco.comunSIRMMADI,
+    medida: 120,
+  },
+  {
+    id: "SIRMMD",
+    title: "SIRMMD ECO MODULO MEDIANO SIN BRAZO (70)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMD.png",
+    price: preciosSiroco.comunSIRMMD,
+    medida: 70,
+  },
+  {
+    id: "SIRMMDD",
+    title: "SIRMMDD ECO MODULO MEDIANO BRAZO DERECHA (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMDD.png",
+    price: preciosSiroco.comunSIRMMDDI,
+    medida: 100,
+  },
+  {
+    id: "SIRMMDI",
+    title: "SIRMMDI ECO MODULO MEDIANO BRAZO IZQ. (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMDI.png",
+    price: preciosSiroco.comunSIRMMDDI,
+    medida: 100,
+  },
+  {
+    id: "SIRMXL",
+    title: "SIRMXL ECO MODULO XL SIN BRAZO (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXL.png",
+    price: preciosSiroco.comunSIRMXL,
+    medida: 110,
+  },
+  {
+    id: "SIRMXLD",
+    title: "SIRMXLD ECO MODULO XL BRAZO DERECHA (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXLD.png",
+    price: preciosSiroco.comunSIRMXLDI,
+    medida: 140,
+  },
+  {
+    id: "SIRMXLI",
+    title: "SIRMXLI ECO MODULO XL BRAZO IZQ. (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXLI.png",
+    price: preciosSiroco.comunSIRMXLDI,
+    medida: 140,
+  },
+  {
+    id: "SIRRC",
+    title: "SIRRC ECO RINCON CERRADO (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRC.png",
+    price: preciosSiroco.comunSIRRC,
+    medida: 0,
+  },
+  {
+    id: "SIRRTD",
+    title: "SIRRTD ECO RINCON TERMINAL DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRTD.png",
+    price: preciosSiroco.comunSIRRTDI,
+    medida: 0,
+  },
+  {
+    id: "SIRRTI",
+    title: "SIRRTI ECO RINCON TERMINAL IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRTI.png",
+    price: preciosSiroco.comunSIRRTDI,
+    medida: 0,
+  },
+  {
+    id: "SIRTD",
+    title: "SIRTD ECO TERMINAL DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRTD.png",
+    price: preciosSiroco.comunSIRTD,
+    medida: 80,
+  },
+  {
+    id: "SIRTI",
+    title: "SIRTI ECO TERMINAL IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRTI.png",
+    price: preciosSiroco.comunSIRTD,
+    medida: 80,
+  },
+];
+/*----------------PIEZAS YUTE--------------*/
+const piezas = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "YUTCGRD",
+    title: "YUTCGRD Chaise longue grande (104 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_DER.png",
+    price: precios.comunYUTCGR,
+    medida: 104,
+  },
+  {
+    id: "YUTCGRI",
+    title: "YUTCGRI Chaise longue grande (104 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_IZQ.png",
+    price: precios.comunYUTCGR,
+    medida: 104,
+  },
+  {
+    id: "YUTCMAD",
+    title: "YUTCMAD Chaise longue maxi (114 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_DER.png",
+    price: precios.comunYUTCMA,
+    medida: 114,
+  },
+  {
+    id: "YUTCMAI",
+    title: "YUTCMAI Chaise longue maxi (114 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_IZQ.png",
+    price: precios.comunYUTCMA,
+    medida: 114,
+  },
+  {
+    id: "YUTCMED",
+    title: "YUTCMED Chaise longue mega (124 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_DER.png",
+    price: precios.comunYUTCME,
+  },
+  {
+    id: "YUTCMEI",
+    title: "YUTCMEI Chaise longue mega (124 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_IZQ.png",
+    price: precios.comunYUTCME,
+  },
+  {
+    id: "YUTMGR",
+    title: "YUTMGR Módulo grande (80 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_SB.png",
+    price: precios.comunYUTMGR,
+  },
+  {
+    id: "YUTMGRD",
+    title: "YUTMGRD Módulo grande (104 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_DER.png",
+    price: precios.comunYUTMGRDI,
+  },
+  {
+    id: "YUTMGRI",
+    title: "YUTMGRI Módulo grande (104 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_IZQ.png",
+    price: precios.comunYUTMGRDI,
+  },
+  {
+    id: "YUTMMAD",
+    title: "YUTMMAD Módulo maxi (114 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_DER.png",
+    price: precios.comunYUTMMADI,
+  },
+  {
+    id: "YUTMMAI",
+    title: "YUTMMAI Módulo maxi (114 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_IZQ.png",
+    price: precios.comunYUTMMADI,
+  },
+  {
+    id: "YUTMME",
+    title: "YUTMME Módulo mega (100 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_SB.png",
+    price: precios.comunYUTMME,
+  },
+  {
+    id: "YUTMMED",
+    title: "YUTMMED Módulo mega (124 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_DER.png",
+    price: precios.comunYUTMMEDI,
+  },
+  {
+    id: "YUTMMEI",
+    title: "YUTMMEI Módulo mega (124 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_IZQ.png",
+    price: precios.comunYUTMMEDI,
+  },
+  {
+    id: "YUTMXL",
+    title: "YUTMXL Módulo XL (110 cm) sin brazo",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_SB.png",
+    price: precios.comunYUTMXL,
+  },
+  {
+    id: "YUTMXLD",
+    title: "YUTMXLD Módulo XL (134 cm) brazo dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_DER.png",
+    price: precios.comunYUTMXLDI,
+  },
+  {
+    id: "YUTMXLI",
+    title: "YUTMXLI Módulo XL (134 cm) brazo izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_IZQ.png",
+    price: precios.comunYUTMXLDI,
+  },
+  {
+    id: "YUTRA",
+    title: "YUTRA Rincón abierto (113 x 113 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RA.png",
+    price: precios.comunYUTRA,
+  },
+  {
+    id: "YUTRTD",
+    title: "YUTRTD Rincón terminal derecho (108 x 205 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_DER.png",
+    price: precios.comunYUTRT,
+  },
+  {
+    id: "YUTRTI",
+    title: "YUTRTI Rincón terminal izquierdo (108 x 205 cm)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_IZQ.png",
+    price: precios.comunYUTRT,
+  },
+  {
+    id: "YUTTGRD",
+    title: "YUTTGRD Terminal grande (123 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_DER.png",
+    price: precios.comunYUTTGR,
+  },
+  {
+    id: "YUTTGRI",
+    title: "YUTTGRI Terminal grande (123 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_IZQ.png",
+    price: precios.comunYUTTGR,
+  },
+  {
+    id: "YUTTMAD",
+    title: "YUTTMAD Terminal maxi (133 cm) dcho.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_DER.png",
+    price: precios.comunYUTTMA,
+  },
+  {
+    id: "YUTTMAI",
+    title: "YUTTMAI Terminal maxi (133 cm) izqdo.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_IZQ.png",
+    price: precios.comunYUTTMA,
   },
 ];
 
