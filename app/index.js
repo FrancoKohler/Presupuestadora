@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let materialesBarine = new Set();
     let materialesCoral = new Set();
     let materialesGamma = new Set();
+    let materialesNadir = new Set();
     let materialesSiroco = new Set();
     switch (modeloSeleccionado) {
       case "Yute":
@@ -90,6 +91,18 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         console.log("Materiales para Gamma:", Array.from(materialesGamma)); // Depuración
+        break;
+      case "Nadir":
+        piezasAMostrar = piezasNadir;
+        // Poblar materiales específicos de "Nadir"
+        piezasNadir.forEach((piezaNadir) => {
+          if (piezaNadir.price) {
+            piezaNadir.price.forEach((precio) => {
+              materialesNadir.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Nadir:", Array.from(materialesNadir)); // Depuración
         break;
       case "Siroco":
         piezasAMostrar = piezasSiroco;
@@ -163,6 +176,14 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (modeloSeleccionado === "Gamma") {
       // Agregar materiales del modelo Gamma
       materialesGamma.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Nadir") {
+      // Agregar materiales del modelo Gamma
+      materialesNadir.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -390,6 +411,7 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
     piezasCoral,
     piezasGamma,
     piezasLino,
+    piezasNadir,
     piezasSiroco,
   ];
   let precioMaterial;
@@ -463,6 +485,9 @@ function cambiarPreciosPorModelo(modelo) {
     case "Lino":
       nuevosPrecios = preciosLino;
       break;
+    case "Nadir":
+      nuevosPrecios = preciosNadir;
+      break;
     case "Siroco":
       nuevosPrecios = preciosSiroco;
       break;
@@ -520,6 +545,12 @@ function cambiarPreciosPorModelo(modelo) {
       ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
       : [];
   });
+  piezasNadir.forEach((piezaNadir) => {
+    // Asegúrate de que pieza.price sea un array antes de usar filter
+    piezaNadir.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioNadir) => precioNadir.id === piezaNadir.id)
+      : [];
+  });
   piezasSiroco.forEach((piezaSiroco) => {
     // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaSiroco.price = Array.isArray(nuevosPrecios)
@@ -570,6 +601,7 @@ function mostrarImagenes() {
               piezaId === "LINRA" ||
               piezaId === "ALTR" ||
               piezaId === "BARR" ||
+              piezaId === "NADRA" ||
               piezaId === "SIRRC"
             ) {
               const rect = imgElement.getBoundingClientRect();
