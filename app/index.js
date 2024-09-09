@@ -20,7 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const modeloSeleccionado = modeloSelect.value;
     let piezasAMostrar;
     let materialesSet = new Set();
-
+    let materialesBarine = new Set();
+    let materialesCoral = new Set();
+    let materialesGamma = new Set();
+    let materialesSiroco = new Set();
     switch (modeloSeleccionado) {
       case "Yute":
         piezasAMostrar = piezas;
@@ -38,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
+        console.log("Materiales para Agora:", Array.from(materialesSet)); // Depuración
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
@@ -49,54 +53,58 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
+        console.log("Materiales para Altano:", Array.from(materialesSet)); // Depuración
         break;
       case "Barine":
         piezasAMostrar = piezasBarine;
         // Poblar materiales específicos de "Barine"
-        piezasBarine.forEach((pieza) => {
-          if (pieza.price) {
-            pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+        piezasBarine.forEach((piezaBarine) => {
+          if (piezaBarine.price) {
+            piezaBarine.price.forEach((precio) => {
+              materialesBarine.add(precio.material);
             });
           }
         });
+        console.log("Materiales para Barine:", Array.from(materialesBarine)); // Depuración
         break;
       case "Coral":
         piezasAMostrar = piezasCoral;
         // Poblar materiales específicos de "Coral"
-        piezasCoral.forEach((pieza) => {
-          if (pieza.price) {
-            pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+        piezasCoral.forEach((piezaCoral) => {
+          if (piezaCoral.price) {
+            piezaCoral.price.forEach((precio) => {
+              materialesCoral.add(precio.material);
             });
           }
         });
+        console.log("Materiales para Coral:", Array.from(materialesCoral)); // Depuración
         break;
       case "Gamma":
         piezasAMostrar = piezasGamma;
         // Poblar materiales específicos de "Gamma"
-        piezasGamma.forEach((pieza) => {
-          if (pieza.price) {
-            pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+        piezasGamma.forEach((piezaGamma) => {
+          if (piezaGamma.price) {
+            piezaGamma.price.forEach((precio) => {
+              materialesGamma.add(precio.material);
             });
           }
         });
+        console.log("Materiales para Gamma:", Array.from(materialesGamma)); // Depuración
         break;
       case "Siroco":
         piezasAMostrar = piezasSiroco;
         // Poblar materiales específicos de "Siroco"
-        piezasSiroco.forEach((pieza) => {
-          if (pieza.price) {
-            pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+        piezasSiroco.forEach((piezaSiroco) => {
+          if (piezaSiroco.price) {
+            piezaSiroco.price.forEach((precio) => {
+              materialesSiroco.add(precio.material);
             });
           }
         });
+        console.log("Materiales para Siroco:", Array.from(materialesSiroco)); // Depuración
         break;
       default:
         piezasAMostrar = [];
-        materialesSet = [];
     }
 
     // Actualizar los dropdowns de piezas
@@ -136,8 +144,40 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Barine") {
+      // Agregar materiales del modelo Barine
+      materialesBarine.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Coral") {
+      // Agregar materiales del modelo Coral
+      materialesCoral.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Gamma") {
+      // Agregar materiales del modelo Gamma
+      materialesGamma.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Siroco") {
+      // Agregar materiales del modelo Siroco
+      materialesSiroco.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else {
-      // Restaurar las opciones originales si no es "Agora" ni "Altano"
+      // Restaurar las opciones originales
       opcionesOriginalesTela.forEach((option) =>
         telaDropdown.appendChild(option)
       );

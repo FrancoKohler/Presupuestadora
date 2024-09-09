@@ -1841,6 +1841,9 @@ const suplementos = [
     price: supAgora.supAGOPT,
   },
 ];
+
+//PIEZAS
+
 /*-------------------PIEZAS AGORA--------------------*/
 const piezasAgora = [
   {
@@ -2611,7 +2614,7 @@ const piezasBarine = [
     title: "BARCGD CHAISELONGUE GRANDE (110) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGD.png",
-    price: precios.comunBARCG,
+    price: preciosBarine.comunBARCG,
     medida: 110,
   },
   {
@@ -2619,7 +2622,7 @@ const piezasBarine = [
     title: "BARCGI CHAISELONGUE GRANDE (110) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCGI.png",
-    price: precios.comunBARCG,
+    price: preciosBarine.comunBARCG,
     medida: 110,
   },
   {
@@ -2627,7 +2630,7 @@ const piezasBarine = [
     title: "BARCMAD CHAISELONGUE MAXI (120) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAD.png",
-    price: precios.comunBARCMADI,
+    price: preciosBarine.comunBARCMADI,
     medida: 120,
   },
   {
@@ -2635,7 +2638,7 @@ const piezasBarine = [
     title: "BARCMAI CHAISELONGUE MAXI (120) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMAI.png",
-    price: precios.comunBARCMADI,
+    price: preciosBarine.comunBARCMADI,
     medida: 120,
   },
   {
@@ -2643,7 +2646,7 @@ const piezasBarine = [
     title: "BARCMDD CHAISELONGUE MEDIANO (100) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDD.png",
-    price: precios.comunBARCMDDI,
+    price: preciosBarine.comunBARCMDDI,
     medida: 100,
   },
   {
@@ -2651,7 +2654,7 @@ const piezasBarine = [
     title: "BARCMDI CHAISELONGUE MEDIANO (100) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMDI.png",
-    price: precios.comunBARCMDDI,
+    price: preciosBarine.comunBARCMDDI,
     medida: 100,
   },
   {
@@ -2659,7 +2662,7 @@ const piezasBarine = [
     title: "BARCMED CHAISELONGUE MEGA (130) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMED.png",
-    price: precios.comunBARCMEDI,
+    price: preciosBarine.comunBARCMEDI,
     medida: 130,
   },
   {
@@ -2667,7 +2670,7 @@ const piezasBarine = [
     title: "BARCMEI CHAISELONGUE MEGA (130) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARCMEI.png",
-    price: precios.comunBARCMEDI,
+    price: preciosBarine.comunBARCMEDI,
     medida: 130,
   },
   {
@@ -2675,7 +2678,7 @@ const piezasBarine = [
     title: "BARMG BARINE MODULO GRANDE (80) SIN BRAZO.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMG.png",
-    price: precios.comunBARMG,
+    price: preciosBarine.comunBARMG,
     medida: 80,
   },
   {
@@ -2683,7 +2686,7 @@ const piezasBarine = [
     title: "BARMGD MODULO GRANDE (110) BRAZO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGD.png",
-    price: precios.comunBARMGDI,
+    price: preciosBarine.comunBARMGDI,
     medida: 110,
   },
   {
@@ -2691,7 +2694,7 @@ const piezasBarine = [
     title: "BARMGI MODULO GRANDE (110) BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMGI.png",
-    price: precios.comunBARMGDI,
+    price: preciosBarine.comunBARMGDI,
     medida: 110,
   },
   {
@@ -2699,7 +2702,7 @@ const piezasBarine = [
     title: "BARML MODULO MEGA (100) SIN BRAZO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARML.png",
-    price: precios.comuncomunBARML,
+    price: preciosBarine.comuncomunBARML,
     medida: 100,
   },
   {
@@ -2707,7 +2710,7 @@ const piezasBarine = [
     title: "BARMLD MODULO MEGA (130) BRAZO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLD.png",
-    price: precios.comunBARMLDI,
+    price: preciosBarine.comunBARMLDI,
     medida: 130,
   },
   {
@@ -2715,7 +2718,7 @@ const piezasBarine = [
     title: "BARMLI MODULO MEGA (130) BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMLI.png",
-    price: precios.comunBARMLDI,
+    price: preciosBarine.comunBARMLDI,
     medida: 130,
   },
   {
@@ -2723,7 +2726,7 @@ const piezasBarine = [
     title: "BARMMA MODULO MAXI (90) SIN BRAZO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMA.png",
-    price: precios.comunBARMMA,
+    price: preciosBarine.comunBARMMA,
     medida: 90,
   },
   {
@@ -2731,7 +2734,7 @@ const piezasBarine = [
     title: "BARMMAD MODULO MAXI (120) BRAZO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAD.png",
-    price: precios.comunBARMMADI,
+    price: preciosBarine.comunBARMMADI,
     medida: 120,
   },
   {
@@ -2739,7 +2742,7 @@ const piezasBarine = [
     title: "BARMMAI MODULO MAXI (120) BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMAI.png",
-    price: precios.comunBARMMADI,
+    price: preciosBarine.comunBARMMADI,
     medida: 120,
   },
   {
@@ -2747,7 +2750,7 @@ const piezasBarine = [
     title: "BARMMD MODULO MEDIANO (70) SIN BRAZO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMD.png",
-    price: precios.comunBARMMD,
+    price: preciosBarine.comunBARMMD,
     medida: 70,
   },
   {
@@ -2755,7 +2758,7 @@ const piezasBarine = [
     title: "BARMMDD MODULO MEDIANO (100) BRAZO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDD.png",
-    price: precios.comunBARMMDDI,
+    price: preciosBarine.comunBARMMDDI,
     medida: 100,
   },
   {
@@ -2763,7 +2766,7 @@ const piezasBarine = [
     title: "BARMMDI MODULO MEDIANO (100) BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMMDI.png",
-    price: precios.comunBARMMDDI,
+    price: preciosBarine.comunBARMMDDI,
     medida: 100,
   },
   {
@@ -2771,7 +2774,7 @@ const piezasBarine = [
     title: "BARMXL MODULO XL (110) SIN BRAZO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXL.png",
-    price: precios.comunBARMXL,
+    price: preciosBarine.comunBARMXL,
     medida: 110,
   },
   {
@@ -2779,7 +2782,7 @@ const piezasBarine = [
     title: "BARMXLD MODULO XL (140) BRAZO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLD.png",
-    price: precios.comunBARMXLDI,
+    price: preciosBarine.comunBARMXLDI,
     medida: 140,
   },
   {
@@ -2787,7 +2790,7 @@ const piezasBarine = [
     title: "BARMXLI MODULO XL (140) BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXLI.png",
-    price: precios.comunBARMXLDI,
+    price: preciosBarine.comunBARMXLDI,
     medida: 140,
   },
   {
@@ -2795,7 +2798,7 @@ const piezasBarine = [
     title: "BARMXXL MODULO XXL (120) SIN BRAZO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXL.png",
-    price: precios.comunBARMXXL,
+    price: preciosBarine.comunBARMXXL,
     medida: 120,
   },
   {
@@ -2803,7 +2806,7 @@ const piezasBarine = [
     title: "BARMXXLD MODULO XXL (150) BRAZO DERECHO.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLD.png",
-    price: precios.comunBARMXXLDI,
+    price: preciosBarine.comunBARMXXLDI,
     medida: 150,
   },
   {
@@ -2811,7 +2814,7 @@ const piezasBarine = [
     title: "BARMXXLI MODULO XXL (150) BRAZO IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARMXXLI.png",
-    price: precios.comunBARMXXLDI,
+    price: preciosBarine.comunBARMXXLDI,
     medida: 150,
   },
   {
@@ -2819,7 +2822,7 @@ const piezasBarine = [
     title: "BARR RINCON CERRADO (110 x 110)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARR.png",
-    price: precios.comunBARR,
+    price: preciosBarine.comunBARR,
     medida: 110,
   },
   {
@@ -2827,7 +2830,7 @@ const piezasBarine = [
     title: "BARTGD TERMINAL GRANDE (123) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGD.png",
-    price: precios.comunBARTGDI,
+    price: preciosBarine.comunBARTGDI,
     medida: 123,
   },
   {
@@ -2835,7 +2838,7 @@ const piezasBarine = [
     title: "BARTGI TERMINAL GRANDE (123) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTGI.png",
-    price: precios.comunBARTGDI,
+    price: preciosBarine.comunBARTGDI,
     medida: 123,
   },
   {
@@ -2843,7 +2846,7 @@ const piezasBarine = [
     title: "BARTMAD TERMINAL MAZI (133) DERECHO.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAD.png",
-    price: precios.comunBARTMADI,
+    price: preciosBarine.comunBARTMADI,
     medida: 133,
   },
   {
@@ -2851,7 +2854,7 @@ const piezasBarine = [
     title: "BARTMAI TERMINAL MAXI (133) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMAI.png",
-    price: precios.comunBARTMADI,
+    price: preciosBarine.comunBARTMADI,
     medida: 133,
   },
   {
@@ -2859,7 +2862,7 @@ const piezasBarine = [
     title: "BARTMED TERMINAL MEGA (133) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMED.png",
-    price: precios.comunBARTGDI,
+    price: preciosBarine.comunBARTGDI,
     medida: 143,
   },
   {
@@ -2867,7 +2870,7 @@ const piezasBarine = [
     title: "BARTMEI TERMINAL MEGA (133) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BARINE/BARTMEI.png",
-    price: precios.comunBARTGDI,
+    price: preciosBarine.comunBARTGDI,
     medida: 143,
   },
 ];
@@ -3716,7 +3719,7 @@ const piezas = [
     price: precios.comunYUTTMA,
   },
 ];
-
+/*----------------------------TELAS------------------------*/
 const muestras = {
   Brixton: [
     { img: "assets/TELAS/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
