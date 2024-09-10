@@ -1,11 +1,3 @@
-let opcionesOriginalesTela = [];
-
-window.onload = function () {
-  const telaDropdown = document.getElementById("tela");
-  opcionesOriginalesTela = Array.from(telaDropdown.options).map((option) =>
-    option.cloneNode(true)
-  );
-};
 //CAMBIO DE PIEZAS E INPUTS SEGUN MODELOS
 document.addEventListener("DOMContentLoaded", function () {
   const modeloSelect = document.getElementById("modelo");
@@ -19,18 +11,36 @@ document.addEventListener("DOMContentLoaded", function () {
   function actualizarPiezasSegunModelo() {
     const modeloSeleccionado = modeloSelect.value;
     let piezasAMostrar;
-    let materialesSet = new Set();
+    let materialesAgora = new Set();
     let materialesBarine = new Set();
     let materialesCoral = new Set();
     let materialesGamma = new Set();
+    let materialesLino = new Set();
     let materialesNadir = new Set();
     let materialesSiroco = new Set();
+    let materialesAltano = new Set();
+    let materialesYute = new Set();
+
     switch (modeloSeleccionado) {
       case "Yute":
         piezasAMostrar = piezas;
+        piezas.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesYute.add(precio.material);
+            });
+          }
+        });
         break;
       case "Lino":
         piezasAMostrar = piezasLino;
+        piezasLino.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesLino.add(precio.material);
+            });
+          }
+        });
         break;
       case "Agora":
         piezasAMostrar = piezasAgora;
@@ -38,11 +48,11 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAgora.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+              materialesAgora.add(precio.material);
             });
           }
         });
-        console.log("Materiales para Agora:", Array.from(materialesSet)); // Depuración
+        console.log("Materiales para Agora:", Array.from(materialesAgora)); // Depuración
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
@@ -50,11 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAltano.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
-              materialesSet.add(precio.material);
+              materialesAltano.add(precio.material); // <- Usamos "materialesAltano"
             });
           }
         });
-        console.log("Materiales para Altano:", Array.from(materialesSet)); // Depuración
+        console.log("Materiales para Altano:", Array.from(materialesAltano)); // <- Depuración
         break;
       case "Barine":
         piezasAMostrar = piezasBarine;
@@ -136,22 +146,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
+    // Actualizar el dropdown de tela según el modelo
     const telaDropdown = document.getElementById("tela");
     telaDropdown.innerHTML = ""; // Limpiar las opciones existentes
-    //CAMBIOS DE LOS SUPLEMENTOS SEGUN LOS MODELOS
-    if (modeloSeleccionado === "Agora" || modeloSeleccionado === "Altano") {
-      // Mostrar los suplementos específicos según el modelo
-      document.getElementById("suplemento").style.display = "none";
-      if (modeloSeleccionado === "Agora") {
-        document.getElementById("suplemento-cojines").style.display = "flex";
-        document.getElementById("suplementoPatas").style.display = "none";
-      } else if (modeloSeleccionado === "Altano") {
-        document.getElementById("suplementoPatas").style.display = "flex";
-        document.getElementById("suplemento-cojines").style.display = "none";
-      }
 
-      // Agregar las opciones de materiales específicos
-      materialesSet.forEach((material) => {
+    if (modeloSeleccionado === "Agora") {
+      // Agregar materiales del modelo Agora
+      materialesAgora.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Altano") {
+      // Agregar materiales del modelo Altano
+      materialesAltano.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -181,8 +190,16 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Lino") {
+      // Agregar materiales del modelo Lino
+      materialesLino.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Nadir") {
-      // Agregar materiales del modelo Gamma
+      // Agregar materiales del modelo Nadir
       materialesNadir.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
@@ -197,20 +214,21 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
-    } else {
-      // Restaurar las opciones originales
-      opcionesOriginalesTela.forEach((option) =>
-        telaDropdown.appendChild(option)
-      );
-      document.getElementById("suplemento").style.display = "flex";
-      document.getElementById("suplemento-cojines").style.display = "none";
-      document.getElementById("suplementoPatas").style.display = "none";
+    } else if (modeloSeleccionado === "Yute") {
+      // Agregar materiales del modelo Siroco
+      materialesYute.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     }
 
     // Actualizar las imágenes y el resumen después de cambiar el modelo
     mostrarImagenes();
     generarResumen();
   }
+
   /*--------------COJINES-------------*/
 
   const dropdownCjs = ["cojin1", "cojin2", "cojin3", "cojin4"];
@@ -292,26 +310,24 @@ document.addEventListener("DOMContentLoaded", function () {
   generarResumen();
 });
 
-/*-----------------GRABADO DE LA IMAGEN DE LA MUESTRA SELECCIONADA----------*/
+/*-----------------NO SE USA PARTE DE ESTE SCRIPT ACTUALMENTE PARA FACILITAR UX----------*/
 let resumen = { nombre: "" };
 let categoriaSeleccionada = "";
 
-// Asegurarse de que el DOM esté completamente cargado antes de ejecutar el script
-document.addEventListener("DOMContentLoaded", () => {
-  // Configuración inicial
+/* document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("category-select")
     .addEventListener("change", seleccionarCategoria);
   document.getElementById("search-input").addEventListener("input", buscarTela);
-});
-//SELECCION DE CATEGORIA
+}); */
+
 function seleccionarCategoria() {
   categoriaSeleccionada = document.getElementById("category-select").value;
   document.getElementById("search-input").value = "";
   document.getElementById("dropdown-content").innerHTML = "";
   document.getElementById("dropdown-content").style.display = "none";
 }
-//BUSQUEDA DE LA TELA SEGUN LA CATEGORIA SELECCIONADA
+
 function buscarTela() {
   const input = document.getElementById("search-input").value.toLowerCase();
   const dropdownContent = document.getElementById("dropdown-content");
@@ -776,8 +792,9 @@ function generarResumen() {
   const cojinesSeleccionados = obtenerCojinesSeleccionados();
   const suplementoSeleccionados = obtenerSuplementosSeleccionados();
   const tela = document.getElementById("tela").value;
+  const tipoTela = document.getElementById("telaInput").value;
   const pata = document.getElementById("patas").value;
-  const categoriaSeleccionada = resumen.nombre;
+  /* const categoriaSeleccionada = resumen.nombre; NO EN USO PARA FACILITAR UX*/
   const modeloSeleccionado = document.getElementById("modelo").value;
   const piezasFiltradas = piezasSeleccionadas.filter(
     (pieza) => pieza.id !== "None"
@@ -799,7 +816,6 @@ function generarResumen() {
   );
   const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
   const motorTotal = motorValue * 179;
-
   const precioTotal =
     precioPiezas + precioCojines + motorTotal + precioSuplementos;
   const suplementosTotal = precioCojines + motorTotal + precioSuplementos;
@@ -820,8 +836,10 @@ function generarResumen() {
   }
 
   const resumenElement = document.getElementById("resumen");
+  //Resumen y cada item tiene una condicio nde aparicion segun el input y su existencia en cada modelo
   resumenElement.innerHTML = `
-    <li>Modelo: ${modelo}</li>
+    <li>Modelo: ${modelo}</li> 
+    
     ${
       piezasFiltradas.length > 0
         ? `<li>Piezas seleccionadas:</li><ul>` +
@@ -839,6 +857,7 @@ function generarResumen() {
           "</ul>"
         : ""
     }
+  
     ${
       cojinesSeleccionados.length > 0
         ? `<li>Cojines seleccionados:</li><ul>` +
@@ -874,12 +893,13 @@ function generarResumen() {
         : ""
     }
     <li>Serie seleccionada: ${tela}</li>
+  
     ${
       modeloSeleccionado === "Altano"
         ? `<li>Pata seleccionada: ${pata}</li>`
         : ""
-    }
-    <li>Tela seleccionada: <span id="telaSeleccion"> ${categoriaSeleccionada} </span></li>
+    }<!-- Comentario: FILTRO EN RESUMEN SI ES PIEZA ALTANO -->
+    <li>Tela seleccionada: <span id="telaSeleccion"> ${tipoTela} </span></li>
      ${
        suplementosTotal > 1
          ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${suplementosTotal.toFixed(
@@ -904,3 +924,27 @@ function generarResumen() {
 }
 
 generarResumen();
+
+//ALERTA SI EL INPUT DE TELAS TIENE VALOR NULO
+const telaInput = document.getElementById("telaInput");
+const generateBtn = document.getElementById("generateBtn");
+generateBtn.addEventListener("click", function () {
+  // Verificar si el valor del input es nulo o vacío
+  if (!telaInput.value.trim()) {
+    // Mostrar una alerta si está vacío
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Asegurate de ingresar una tela para tu configuración",
+      confirmButtonText: `
+    <i class="fa fa-thumbs-up"></i> Volver
+  `,
+      customClass: {
+        popup: "my-popup",
+        title: "my-title",
+        text: "my-text",
+        confirmButton: "my-confirm-button",
+      },
+    });
+  }
+});

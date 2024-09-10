@@ -4394,6 +4394,7 @@ const piezas = [
   },
 ];
 /*----------------------------TELAS------------------------*/
+//NO SE USAN PERO SE GUARDA LA DATA PARA FUTURAS IMPLEMENTACIONES
 const muestras = {
   Brixton: [
     { img: "assets/TELAS/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },

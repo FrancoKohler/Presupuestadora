@@ -467,3 +467,27 @@ li {
 .suggestions-list li:hover {
   background-color: #f0f0f0;
 }
+/*---------------SWEET ALERT BOTON PDF---------*/
+.my-popup {
+  background-color: white;
+}
+.my-title {
+  background-color: white;
+}
+.my-text {
+  background-color: white;
+}
+.my-confirm-button {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 1.5rem;
+  font-family: "Montserrat";
+  color: aliceblue;
+  background-color: #d1c2a5;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1.5rem;
+  transition: 1s;
+}

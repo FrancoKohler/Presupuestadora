@@ -18,6 +18,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jspdf-html2canvas@latest/dist/jspdf-html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <script src="https://unpkg.com/pdf-lib"></script>
+    <!--SCRIPT PARA SWEETALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <body>
     <header>TEMASDOS</header>
     <div class="titulo-solicitud">
@@ -205,16 +207,26 @@
         <div class="form-inputs">
             <a class="seccion-titulo"> Serie</a>
             <label for="modelo" class="input-title">Selecciona el tejido o piel para la configuración</label>
-            <select  name="tela" id="tela" class="dropdown">
-                <!-- LLENO CON JS -->
+            
+           <select  name="tela" id="tela" class="dropdown">
+                
             </select>
         </div>
-        <div class="custom-select">
+         <div class="custom-select">
         <div class="teladiv">
             <div class="tela-div-h">
                 <a class="seccion-titulo">Tela</a>
-                <label for="modelo" class="input-title">Selecciona la categoría y busca la tela</label>
+                <label for="modelo" class="input-title">Ingresa la tela para tu configuración*</label>
+                <input
+                        class="top-input"
+                        type="tela"
+                        id="telaInput"
+                        name="tela"
+                        required
+                        />
+                
             </div>
+            <!--INPUT OCULTO PARA SIMPLIFICAR EL SCRIPT, SE GUARDA PARA FUTUROS USOS 
             <div class="category-select">
                 <select class="dropdown-select" id="category-select" onchange="seleccionarCategoria()">
                     <option value="">Selecciona una categoría</option>
@@ -233,7 +245,7 @@
             </div>
             <div id="dropdown-content" class="dropdown-content"></div>
         </div>
-    </div>
+    </div> -->
 
      <div id="overlay" class="overlay">
         <div class="overlay-content">
