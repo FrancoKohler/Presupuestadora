@@ -221,7 +221,6 @@ select {
   transform-origin: 0% 0%;
 }
 .pre-config {
-  border-top: #000000 solid 2px;
   width: fit-content;
   padding-top: 1.5rem;
   padding-right: 1.5rem;

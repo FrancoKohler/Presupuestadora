@@ -595,6 +595,10 @@ function mostrarImagenes() {
         // Asegúrate de que la imagen esté cargada antes de posicionarla
         const imageLoadPromise = new Promise((resolve) => {
           imgElement.onload = () => {
+            if (selectedOption.textContent.toLowerCase().includes("sofa")) {
+              imgElement.style.paddingLeft = "15px";
+              imgElement.style.borderTop = "none";
+            }
             if (
               piezaId === "YUTRA" ||
               piezaId === "AGOR" ||
@@ -640,6 +644,23 @@ function mostrarImagenes() {
   Promise.all(promises).then(() => {
     console.log("Todas las imágenes están cargadas y posicionadas.");
     // Aquí puedes proceder con el siguiente paso, como llamar a html2canvas.
+  });
+}
+function renderResults(results) {
+  const resultsContainer = document.getElementById(`pieza${i}`);
+  resultsContainer.innerHTML = ""; // Limpiamos los resultados previos
+
+  results.forEach((item) => {
+    const div = document.createElement("div");
+    div.textContent = item.titulo;
+    div.id = item.id;
+
+    // Si el título contiene la palabra "sofa", aplicamos el padding
+    if (item.titulo.toLowerCase().includes("sofa")) {
+      div.style.paddingLeft = "5px";
+    }
+
+    resultsContainer.appendChild(div);
   });
 }
 
