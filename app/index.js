@@ -314,12 +314,12 @@ document.addEventListener("DOMContentLoaded", function () {
 let resumen = { nombre: "" };
 let categoriaSeleccionada = "";
 
-/* document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("category-select")
     .addEventListener("change", seleccionarCategoria);
   document.getElementById("search-input").addEventListener("input", buscarTela);
-}); */
+});
 
 function seleccionarCategoria() {
   categoriaSeleccionada = document.getElementById("category-select").value;
@@ -792,9 +792,8 @@ function generarResumen() {
   const cojinesSeleccionados = obtenerCojinesSeleccionados();
   const suplementoSeleccionados = obtenerSuplementosSeleccionados();
   const tela = document.getElementById("tela").value;
-  const tipoTela = document.getElementById("telaInput").value;
   const pata = document.getElementById("patas").value;
-  /* const categoriaSeleccionada = resumen.nombre; NO EN USO PARA FACILITAR UX*/
+  const categoriaSeleccionada = resumen.nombre;
   const modeloSeleccionado = document.getElementById("modelo").value;
   const piezasFiltradas = piezasSeleccionadas.filter(
     (pieza) => pieza.id !== "None"
@@ -899,7 +898,7 @@ function generarResumen() {
         ? `<li>Pata seleccionada: ${pata}</li>`
         : ""
     }<!-- Comentario: FILTRO EN RESUMEN SI ES PIEZA ALTANO -->
-    <li>Tela seleccionada: <span id="telaSeleccion"> ${tipoTela} </span></li>
+    <li>Tela seleccionada: <span id="telaSeleccion"> ${categoriaSeleccionada} </span></li>
      ${
        suplementosTotal > 1
          ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${suplementosTotal.toFixed(
