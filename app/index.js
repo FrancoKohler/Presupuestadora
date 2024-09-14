@@ -165,6 +165,9 @@ document.addEventListener("DOMContentLoaded", function () {
         option.value = material;
         option.textContent = material;
         telaDropdown.appendChild(option);
+        // Establecer display flex para el elemento con id suplementoPatas
+        const suplementoPatas = document.getElementById("suplementoPatas");
+        suplementoPatas.style.display = "flex";
       });
     } else if (modeloSeleccionado === "Barine") {
       // Agregar materiales del modelo Barine
