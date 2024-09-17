@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         console.log("Materiales para Nadir:", Array.from(materialesNadir)); // Depuración
         break;
-      case "Siroco":
+      case "Sirocco Eco":
         piezasAMostrar = piezasSiroco;
         // Poblar materiales específicos de "Siroco"
         piezasSiroco.forEach((piezaSiroco) => {
@@ -124,7 +124,10 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Siroco:", Array.from(materialesSiroco)); // Depuración
+        console.log(
+          "Materiales para Sirocco Eco:",
+          Array.from(materialesSiroco)
+        ); // Depuración
         break;
       default:
         piezasAMostrar = [];
@@ -209,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
-    } else if (modeloSeleccionado === "Siroco") {
+    } else if (modeloSeleccionado === "Sirocco Eco") {
       // Agregar materiales del modelo Siroco
       materialesSiroco.forEach((material) => {
         const option = document.createElement("option");
@@ -507,7 +510,7 @@ function cambiarPreciosPorModelo(modelo) {
     case "Nadir":
       nuevosPrecios = preciosNadir;
       break;
-    case "Siroco":
+    case "Sirocco Eco":
       nuevosPrecios = preciosSiroco;
       break;
     case "Yute":
