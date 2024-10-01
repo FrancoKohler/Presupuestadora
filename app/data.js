@@ -41,6 +41,20 @@ const precios = {
     { material: "PIEL C", precio: 1781 },
     { material: "PIEL D", precio: 2024 },
   ],
+  comunYUTRRDI: [
+    { material: "SERIE 1", precio: 1091 },
+    { material: "SERIE 2", precio: 1134 },
+    { material: "SERIE 3", precio: 1178 },
+    { material: "SERIE 4", precio: 1221 },
+    { material: "SERIE 5", precio: 1286 },
+    { material: "SERIE 6", precio: 1351 },
+    { material: "SERIE 7", precio: 1438 },
+    { material: "PROMO", precio: 1627 },
+    { material: "PIEL A", precio: 1722 },
+    { material: "PIEL B", precio: 1855 },
+    { material: "PIEL C", precio: 2083 },
+    { material: "PIEL D", precio: 2349 },
+  ],
   comunYUTMGR: [
     { material: "SERIE 1", precio: 823 },
     { material: "SERIE 2", precio: 852 },
@@ -196,6 +210,7 @@ const precios = {
     { material: "PIEL D", precio: 1682 },
   ],
 };
+
 /*----------------------CORAL----------------------*/
 const preciosCoral = {
   comunCORS: [
@@ -1899,7 +1914,7 @@ const preciosBertina = {
     { material: "SERIE 6", precio: 609 },
     { material: "SERIE 7", precio: 646 },
   ],
-  comunBERP80CB: [
+  comunBERP8060: [
     { material: "SERIE 1", precio: 315 },
     { material: "SERIE 2", precio: 332 },
     { material: "SERIE 3", precio: 349 },
@@ -1907,6 +1922,369 @@ const preciosBertina = {
     { material: "SERIE 5", precio: 393 },
     { material: "SERIE 6", precio: 420 },
     { material: "SERIE 7", precio: 445 },
+  ],
+};
+/*---------------PRECIOS BERTINA LITTLE----------------*/
+const preciosBertinaLit = {
+  comunBERCGDI: [
+    { material: "SERIE 1", precio: 880 },
+    { material: "SERIE 2", precio: 926 },
+    { material: "SERIE 3", precio: 971 },
+    { material: "SERIE 4", precio: 1017 },
+    { material: "SERIE 5", precio: 1085 },
+    { material: "SERIE 6", precio: 1154 },
+    { material: "SERIE 7", precio: 1223 },
+  ],
+  comunBERCMPDI: [
+    { material: "SERIE 1", precio: 852 },
+    { material: "SERIE 2", precio: 900 },
+    { material: "SERIE 3", precio: 947 },
+    { material: "SERIE 4", precio: 993 },
+    { material: "SERIE 5", precio: 1064 },
+    { material: "SERIE 6", precio: 1134 },
+    { material: "SERIE 7", precio: 1202 },
+  ],
+  comunBERCMADI: [
+    { material: "SERIE 1", precio: 907 },
+    { material: "SERIE 2", precio: 955 },
+    { material: "SERIE 3", precio: 1002 },
+    { material: "SERIE 4", precio: 1050 },
+    { material: "SERIE 5", precio: 1122 },
+    { material: "SERIE 6", precio: 1192 },
+    { material: "SERIE 7", precio: 1264 },
+  ],
+  comunBERCMDDI: [
+    { material: "SERIE 1", precio: 799 },
+    { material: "SERIE 2", precio: 840 },
+    { material: "SERIE 3", precio: 881 },
+    { material: "SERIE 4", precio: 922 },
+    { material: "SERIE 5", precio: 984 },
+    { material: "SERIE 6", precio: 1047 },
+    { material: "SERIE 7", precio: 1109 },
+  ],
+  comunBERCPDI: [
+    { material: "SERIE 1", precio: 774 },
+    { material: "SERIE 2", precio: 814 },
+    { material: "SERIE 3", precio: 853 },
+    { material: "SERIE 4", precio: 893 },
+    { material: "SERIE 5", precio: 952 },
+    { material: "SERIE 6", precio: 1010 },
+    { material: "SERIE 7", precio: 1071 },
+  ],
+  comunBERCMGDI: [
+    { material: "SERIE 1", precio: 897 },
+    { material: "SERIE 2", precio: 945 },
+    { material: "SERIE 3", precio: 995 },
+    { material: "SERIE 4", precio: 1044 },
+    { material: "SERIE 5", precio: 1119 },
+    { material: "SERIE 6", precio: 1192 },
+    { material: "SERIE 7", precio: 1264 },
+  ],
+  comunBERCMMDDI: [
+    { material: "SERIE 1", precio: 872 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 968 },
+    { material: "SERIE 4", precio: 1016 },
+    { material: "SERIE 5", precio: 1088 },
+    { material: "SERIE 6", precio: 1160 },
+    { material: "SERIE 7", precio: 1229 },
+  ],
+  comunBERCMMADI: [
+    { material: "SERIE 1", precio: 921 },
+    { material: "SERIE 2", precio: 970 },
+    { material: "SERIE 3", precio: 1021 },
+    { material: "SERIE 4", precio: 1071 },
+    { material: "SERIE 5", precio: 1147 },
+    { material: "SERIE 6", precio: 1223 },
+    { material: "SERIE 7", precio: 1296 },
+  ],
+  comunBERLMGBDI: [
+    { material: "SERIE 1", precio: 596 },
+    { material: "SERIE 2", precio: 636 },
+    { material: "SERIE 3", precio: 676 },
+    { material: "SERIE 4", precio: 716 },
+    { material: "SERIE 5", precio: 776 },
+    { material: "SERIE 6", precio: 837 },
+    { material: "SERIE 7", precio: 887 },
+  ],
+  comunBERLMGSB: [
+    { material: "SERIE 1", precio: 496 },
+    { material: "SERIE 2", precio: 523 },
+    { material: "SERIE 3", precio: 549 },
+    { material: "SERIE 4", precio: 577 },
+    { material: "SERIE 5", precio: 617 },
+    { material: "SERIE 6", precio: 657 },
+    { material: "SERIE 7", precio: 696 },
+  ],
+  comunBERLMLBDI: [
+    { material: "SERIE 1", precio: 676 },
+    { material: "SERIE 2", precio: 719 },
+    { material: "SERIE 3", precio: 763 },
+    { material: "SERIE 4", precio: 806 },
+    { material: "SERIE 5", precio: 871 },
+    { material: "SERIE 6", precio: 936 },
+    { material: "SERIE 7", precio: 992 },
+  ],
+  comunBERLMLSB: [
+    { material: "SERIE 1", precio: 561 },
+    { material: "SERIE 2", precio: 594 },
+    { material: "SERIE 3", precio: 628 },
+    { material: "SERIE 4", precio: 662 },
+    { material: "SERIE 5", precio: 713 },
+    { material: "SERIE 6", precio: 763 },
+    { material: "SERIE 7", precio: 808 },
+  ],
+  comunBERLMMABDI: [
+    { material: "SERIE 1", precio: 619 },
+    { material: "SERIE 2", precio: 661 },
+    { material: "SERIE 3", precio: 703 },
+    { material: "SERIE 4", precio: 744 },
+    { material: "SERIE 5", precio: 808 },
+    { material: "SERIE 6", precio: 871 },
+    { material: "SERIE 7", precio: 923 },
+  ],
+  comunBERLMMASB: [
+    { material: "SERIE 1", precio: 522 },
+    { material: "SERIE 2", precio: 553 },
+    { material: "SERIE 3", precio: 583 },
+    { material: "SERIE 4", precio: 612 },
+    { material: "SERIE 5", precio: 658 },
+    { material: "SERIE 6", precio: 702 },
+    { material: "SERIE 7", precio: 744 },
+  ],
+  comunBERLMMDBDI: [
+    { material: "SERIE 1", precio: 522 },
+    { material: "SERIE 2", precio: 589 },
+    { material: "SERIE 3", precio: 627 },
+    { material: "SERIE 4", precio: 665 },
+    { material: "SERIE 5", precio: 720 },
+    { material: "SERIE 6", precio: 777 },
+    { material: "SERIE 7", precio: 824 },
+  ],
+  comunBERLMMDSB: [
+    { material: "SERIE 1", precio: 457 },
+    { material: "SERIE 2", precio: 483 },
+    { material: "SERIE 3", precio: 510 },
+    { material: "SERIE 4", precio: 536 },
+    { material: "SERIE 5", precio: 576 },
+    { material: "SERIE 6", precio: 614 },
+    { material: "SERIE 7", precio: 651 },
+  ],
+  comunBERLMPBDI: [
+    { material: "SERIE 1", precio: 545 },
+    { material: "SERIE 2", precio: 581 },
+    { material: "SERIE 3", precio: 617 },
+    { material: "SERIE 4", precio: 652 },
+    { material: "SERIE 5", precio: 706 },
+    { material: "SERIE 6", precio: 759 },
+    { material: "SERIE 7", precio: 805 },
+  ],
+  comunBERLMPSB: [
+    { material: "SERIE 1", precio: 446 },
+    { material: "SERIE 2", precio: 469 },
+    { material: "SERIE 3", precio: 490 },
+    { material: "SERIE 4", precio: 513 },
+    { material: "SERIE 5", precio: 547 },
+    { material: "SERIE 6", precio: 580 },
+    { material: "SERIE 7", precio: 615 },
+  ],
+  comunBERLMXLBDI: [
+    { material: "SERIE 1", precio: 752 },
+    { material: "SERIE 2", precio: 799 },
+    { material: "SERIE 3", precio: 846 },
+    { material: "SERIE 4", precio: 893 },
+    { material: "SERIE 5", precio: 963 },
+    { material: "SERIE 6", precio: 1034 },
+    { material: "SERIE 7", precio: 1096 },
+  ],
+  comunBERLMXLSB: [
+    { material: "SERIE 1", precio: 645 },
+    { material: "SERIE 2", precio: 682 },
+    { material: "SERIE 3", precio: 719 },
+    { material: "SERIE 4", precio: 757 },
+    { material: "SERIE 5", precio: 812 },
+    { material: "SERIE 6", precio: 868 },
+    { material: "SERIE 7", precio: 920 },
+  ],
+  comunBERLMXXLBDI: [
+    { material: "SERIE 1", precio: 777 },
+    { material: "SERIE 2", precio: 828 },
+    { material: "SERIE 3", precio: 878 },
+    { material: "SERIE 4", precio: 927 },
+    { material: "SERIE 5", precio: 1002 },
+    { material: "SERIE 6", precio: 1077 },
+    { material: "SERIE 7", precio: 1142 },
+  ],
+  comunBERLMXXLSB: [
+    { material: "SERIE 1", precio: 669 },
+    { material: "SERIE 2", precio: 709 },
+    { material: "SERIE 3", precio: 749 },
+    { material: "SERIE 4", precio: 788 },
+    { material: "SERIE 5", precio: 847 },
+    { material: "SERIE 6", precio: 906 },
+    { material: "SERIE 7", precio: 961 },
+  ],
+  comunBERLR: [
+    { material: "SERIE 1", precio: 612 },
+    { material: "SERIE 2", precio: 656 },
+    { material: "SERIE 3", precio: 699 },
+    { material: "SERIE 4", precio: 742 },
+    { material: "SERIE 5", precio: 807 },
+    { material: "SERIE 6", precio: 871 },
+    { material: "SERIE 7", precio: 923 },
+  ],
+  comunBERLT1RGDI: [
+    { material: "SERIE 1", precio: 627 },
+    { material: "SERIE 2", precio: 660 },
+    { material: "SERIE 3", precio: 693 },
+    { material: "SERIE 4", precio: 726 },
+    { material: "SERIE 5", precio: 775 },
+    { material: "SERIE 6", precio: 825 },
+    { material: "SERIE 7", precio: 875 },
+  ],
+  comunBERLT1RMADI: [
+    { material: "SERIE 1", precio: 649 },
+    { material: "SERIE 2", precio: 684 },
+    { material: "SERIE 3", precio: 719 },
+    { material: "SERIE 4", precio: 754 },
+    { material: "SERIE 5", precio: 807 },
+    { material: "SERIE 6", precio: 860 },
+    { material: "SERIE 7", precio: 911 },
+  ],
+  comunBERLT2RGDI: [
+    { material: "SERIE 1", precio: 933 },
+    { material: "SERIE 2", precio: 986 },
+    { material: "SERIE 3", precio: 1039 },
+    { material: "SERIE 4", precio: 1092 },
+    { material: "SERIE 5", precio: 1172 },
+    { material: "SERIE 6", precio: 1252 },
+    { material: "SERIE 7", precio: 1327 },
+  ],
+  comunBERLT2RMDDI: [
+    { material: "SERIE 1", precio: 917 },
+    { material: "SERIE 2", precio: 969 },
+    { material: "SERIE 3", precio: 1021 },
+    { material: "SERIE 4", precio: 1074 },
+    { material: "SERIE 5", precio: 1153 },
+    { material: "SERIE 6", precio: 1231 },
+    { material: "SERIE 7", precio: 1305 },
+  ],
+  comunBERL2: [
+    { material: "SERIE 1", precio: 988 },
+    { material: "SERIE 2", precio: 1053 },
+    { material: "SERIE 3", precio: 1118 },
+    { material: "SERIE 4", precio: 1183 },
+    { material: "SERIE 5", precio: 1280 },
+    { material: "SERIE 6", precio: 1378 },
+    { material: "SERIE 7", precio: 1461 },
+  ],
+  comunBERL2BDI: [
+    { material: "SERIE 1", precio: 863 },
+    { material: "SERIE 2", precio: 914 },
+    { material: "SERIE 3", precio: 967 },
+    { material: "SERIE 4", precio: 1018 },
+    { material: "SERIE 5", precio: 1096 },
+    { material: "SERIE 6", precio: 1174 },
+    { material: "SERIE 7", precio: 1245 },
+  ],
+  comunBERL2SB: [
+    { material: "SERIE 1", precio: 735 },
+    { material: "SERIE 2", precio: 773 },
+    { material: "SERIE 3", precio: 812 },
+    { material: "SERIE 4", precio: 849 },
+    { material: "SERIE 5", precio: 906 },
+    { material: "SERIE 6", precio: 963 },
+    { material: "SERIE 7", precio: 1021 },
+  ],
+  comunBERL25: [
+    { material: "SERIE 1", precio: 1005 },
+    { material: "SERIE 2", precio: 1076 },
+    { material: "SERIE 3", precio: 1146 },
+    { material: "SERIE 4", precio: 1215 },
+    { material: "SERIE 5", precio: 1321 },
+    { material: "SERIE 6", precio: 1426 },
+    { material: "SERIE 7", precio: 1512 },
+  ],
+  comunBERL25BDI: [
+    { material: "SERIE 1", precio: 891 },
+    { material: "SERIE 2", precio: 952 },
+    { material: "SERIE 3", precio: 1012 },
+    { material: "SERIE 4", precio: 1073 },
+    { material: "SERIE 5", precio: 1164 },
+    { material: "SERIE 6", precio: 1255 },
+    { material: "SERIE 7", precio: 1330 },
+  ],
+  comunBERL25SB: [
+    { material: "SERIE 1", precio: 780 },
+    { material: "SERIE 2", precio: 832 },
+    { material: "SERIE 3", precio: 885 },
+    { material: "SERIE 4", precio: 937 },
+    { material: "SERIE 5", precio: 1016 },
+    { material: "SERIE 6", precio: 1094 },
+    { material: "SERIE 7", precio: 1160 },
+  ],
+  comunBERL3: [
+    { material: "SERIE 1", precio: 1084 },
+    { material: "SERIE 2", precio: 1158 },
+    { material: "SERIE 3", precio: 1231 },
+    { material: "SERIE 4", precio: 1305 },
+    { material: "SERIE 5", precio: 1416 },
+    { material: "SERIE 6", precio: 1526 },
+    { material: "SERIE 7", precio: 1618 },
+  ],
+  comunBERL3BDI: [
+    { material: "SERIE 1", precio: 960 },
+    { material: "SERIE 2", precio: 1020 },
+    { material: "SERIE 3", precio: 1082 },
+    { material: "SERIE 4", precio: 1143 },
+    { material: "SERIE 5", precio: 1235 },
+    { material: "SERIE 6", precio: 1327 },
+    { material: "SERIE 7", precio: 1407 },
+  ],
+  comunBERL3SB: [
+    { material: "SERIE 1", precio: 848 },
+    { material: "SERIE 2", precio: 902 },
+    { material: "SERIE 3", precio: 955 },
+    { material: "SERIE 4", precio: 1008 },
+    { material: "SERIE 5", precio: 1088 },
+    { material: "SERIE 6", precio: 1167 },
+    { material: "SERIE 7", precio: 1237 },
+  ],
+  comunBERL35: [
+    { material: "SERIE 1", precio: 1126 },
+    { material: "SERIE 2", precio: 1204 },
+    { material: "SERIE 3", precio: 1283 },
+    { material: "SERIE 4", precio: 1360 },
+    { material: "SERIE 5", precio: 1477 },
+    { material: "SERIE 6", precio: 1595 },
+    { material: "SERIE 7", precio: 1691 },
+  ],
+  comunBERL35BDI: [
+    { material: "SERIE 1", precio: 1000 },
+    { material: "SERIE 2", precio: 1065 },
+    { material: "SERIE 3", precio: 1130 },
+    { material: "SERIE 4", precio: 1195 },
+    { material: "SERIE 5", precio: 1293 },
+    { material: "SERIE 6", precio: 1390 },
+    { material: "SERIE 7", precio: 1473 },
+  ],
+  comunBERL35SB: [
+    { material: "SERIE 1", precio: 877 },
+    { material: "SERIE 2", precio: 930 },
+    { material: "SERIE 3", precio: 984 },
+    { material: "SERIE 4", precio: 1036 },
+    { material: "SERIE 5", precio: 1116 },
+    { material: "SERIE 6", precio: 1196 },
+    { material: "SERIE 7", precio: 1268 },
+  ],
+  comunBERRTDI: [
+    { material: "SERIE 1", precio: 1029 },
+    { material: "SERIE 2", precio: 1092 },
+    { material: "SERIE 3", precio: 1154 },
+    { material: "SERIE 4", precio: 1216 },
+    { material: "SERIE 5", precio: 1310 },
+    { material: "SERIE 6", precio: 1404 },
+    { material: "SERIE 7", precio: 1489 },
   ],
 };
 /*-------------------PIEZAS GAMMA--------------------*/
@@ -2453,7 +2831,7 @@ const supAgora = {
     { material: "SERIE 7", precio: 60 },
   ],
 };
-/*----------PRECIOS MISTRAL---------------*/
+/*----------PRECIOS KAPPA---------------*/
 const preciosKappa = {
   comunKAPCGDI: [
     { material: "SERIE 1", precio: 874 },
@@ -3171,6 +3549,23 @@ const preciosMistral = {
     { material: "PIEL B", precio: 2351 },
     { material: "PIEL C", precio: 2689 },
     { material: "PIEL D", precio: 3085 },
+  ],
+};
+/*----------PRECIOS MEMPHIS---------------*/
+const preciosMemphis = {
+  comunMISCGDI: [
+    { material: "SERIE 1", precio: 908 },
+    { material: "SERIE 2", precio: 953 },
+    { material: "SERIE 3", precio: 998 },
+    { material: "SERIE 4", precio: 1043 },
+    { material: "SERIE 5", precio: 1109 },
+    { material: "SERIE 6", precio: 1177 },
+    { material: "SERIE 7", precio: 1247 },
+    { material: "PROMO", precio: 1381 },
+    { material: "PIEL A", precio: 1473 },
+    { material: "PIEL B", precio: 1603 },
+    { material: "PIEL C", precio: 1824 },
+    { material: "PIEL D", precio: 2083 },
   ],
 };
 /*----------PRECIOS NADIR---------------*/
@@ -7433,7 +7828,7 @@ const suplementoBarine = [
     price: supBarine.supBARPR80,
   },
 ];
-/*-------------------PIEZAS BARINE--------------------*/
+/*-------------------PIEZAS BERTINA--------------------*/
 const piezasBertina = [
   {
     id: "None",
@@ -7953,8 +8348,528 @@ const piezasBertina = [
     medida: 180,
   },
 ];
-//SUPLEMENTOS BERTINA
-const suplementoBERTINA = [
+/*-------------------PIEZAS BERTINA LITTLE--------------------*/
+const piezasBertinaLit = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "",
+  },
+  {
+    id: "BERCGD",
+    title: "BERCGD CHAISELONGUE GRANDE (100) BRAZO LARGO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCGD.png",
+    price: preciosBertinaLit.comunBERCGDI,
+    medida: 100,
+  },
+  {
+    id: "BERCGI",
+    title: "BERCGI CHAISELONGUE GRANDE (100) BRAZO LARGO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCGI.png",
+    price: preciosBertinaLit.comunBERCGDI,
+    medida: 100,
+  },
+  {
+    id: "BERCMAD",
+    title: "BERCMAD CHAISELONGUE MAXI (110) BRAZO LARGO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMAD.png",
+    price: preciosBertinaLit.comunBERCMADI,
+    medida: 110,
+  },
+  {
+    id: "BERCMAI",
+    title: "BERCMAI CHAISELONGUE MAXI (110) BRAZO LARGO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMAI.png",
+    price: preciosBertinaLit.comunBERCMADI,
+    medida: 110,
+  },
+  {
+    id: "BERCMDD",
+    title: "BERCMDD CHAISELONGUE MEDIANA (90) BRAZO LARGO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMDD.png",
+    price: preciosBertinaLit.comunBERCMDDI,
+    medida: 90,
+  },
+  {
+    id: "BERCMDI",
+    title: "BERCMDI CHAISELONGUE MEDIANA (90) BRAZO LARGO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMDI.png",
+    price: preciosBertinaLit.comunBERCMDDI,
+    medida: 90,
+  },
+  {
+    id: "BERCMGD",
+    title: "BERCMGD CHAISELONGUE GRANDE (110) CON MARTILLO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMGD.png",
+    price: preciosBertinaLit.comunBERCMGDI,
+    medida: 110,
+  },
+  {
+    id: "BERCMGD",
+    title: "BERCMGD CHAISELONGUE GRANDE (110) CON MARTILLO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMGD.png",
+    price: preciosBertinaLit.comunBERCMGDI,
+    medida: 110,
+  },
+  {
+    id: "BERCMMAD",
+    title: "BERCMMAD CHAISELONGUE MAXI (120) CON MARTILLO DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMAD.png",
+    price: preciosBertinaLit.comunBERCMMADI,
+    medida: 120,
+  },
+  {
+    id: "BERCMMAI",
+    title: "BERCMMAI CHAISELONGUE MAXI (120) CON MARTILLO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMAI.png",
+    price: preciosBertinaLit.comunBERCMMADI,
+    medida: 120,
+  },
+  {
+    id: "BERCMMDD",
+    title: "BERCMMDD CHAISELONGUE MEDIANO (100) CON MARTILLO DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMDD.png",
+    price: preciosBertinaLit.comunBERCMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BERCMMDI",
+    title: "BERCMMDI CHAISELONGUE MEDIANO (100) CON MARTILLO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMDI.png",
+    price: preciosBertinaLit.comunBERCMMDDI,
+    medida: 100,
+  },
+  {
+    id: "BERCMPD",
+    title: "BERCMPD CHAISELONGUE PEQUEÑO (90) CON MARTILLO DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMPD.png",
+    price: preciosBertinaLit.comunBERCMPDI,
+    medida: 90,
+  },
+  {
+    id: "BERCMPI",
+    title: "BERCMPI CHAISELONGUE PEQUEÑO (90) CON MARTILLO IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMPI.png",
+    price: preciosBertinaLit.comunBERCMPDI,
+    medida: 90,
+  },
+  {
+    id: "BERCPD",
+    title: "BERCPD CHAISELONGUE PEQUEÑA (80) BRAZO LARGO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCPD.png",
+    price: preciosBertinaLit.comunBERCPDI,
+    medida: 80,
+  },
+  {
+    id: "BERCPI",
+    title: "BERCPI CHAISELONGUE PEQUEÑA (80) BRAZO LARGO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCPI.png",
+    price: preciosBertinaLit.comunBERCPDI,
+    medida: 80,
+  },
+  {
+    id: "BERLMGBD",
+    title: "BERLMGBD MODULO GRANDE (110) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGBD.png",
+    price: preciosBertinaLit.comunBERLMGBDI,
+    medida: 110,
+  },
+  {
+    id: "BERLMGBI",
+    title: "BERLMGBI MODULO GRANDE (110) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGBI.png",
+    price: preciosBertinaLit.comunBERLMGBDI,
+    medida: 110,
+  },
+  {
+    id: "BERLMGSB",
+    title: "BERLMGSB MODULO GRANDE (80) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGSB.png",
+    price: preciosBertinaLit.comunBERLMGSB,
+    medida: 110,
+  },
+  {
+    id: "BERLMLBD",
+    title: "BERLMLBD MODULO L (130) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLBD.png",
+    price: preciosBertinaLit.comunBERLMLBDI,
+    medida: 130,
+  },
+  {
+    id: "BERLMLBI",
+    title: "BERLMLBI MODULO L (130) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLBI.png",
+    price: preciosBertinaLit.comunBERLMLBDI,
+    medida: 130,
+  },
+  {
+    id: "BERLMLSB",
+    title: "BERLMLSB MODULO L (100) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLSB.png",
+    price: preciosBertinaLit.comunBERLMLSB,
+    medida: 100,
+  },
+  {
+    id: "BERLMMABD",
+    title: "BERLMMABD MODULO MAXI (120) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMABD.png",
+    price: preciosBertinaLit.comunBERLMMABDI,
+    medida: 120,
+  },
+  {
+    id: "BERLMMABI",
+    title: "BERLMMABI MODULO MAXI (120) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMABI.png",
+    price: preciosBertinaLit.comunBERLMMABDI,
+    medida: 120,
+  },
+  {
+    id: "BERLMMASB",
+    title: "BERLMMASB MODULO MAXI (90) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMASB.png",
+    price: preciosBertinaLit.comunBERLMMASB,
+    medida: 90,
+  },
+  {
+    id: "BERLMMDBD",
+    title: "BERLMMDBD MODULO MEDIANO (100) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDBD.png",
+    price: preciosBertinaLit.comunBERLMMDBDI,
+    medida: 100,
+  },
+  {
+    id: "BERLMMDBI",
+    title: "BERLMMDBI MODULO MEDIANO (100) BRAZO IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDBI.png",
+    price: preciosBertinaLit.comunBERLMMDBDI,
+    medida: 100,
+  },
+  {
+    id: "BERLMMDSB",
+    title: "BERLMMDSB MODULO MEDIANO (70) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDSB.png",
+    price: preciosBertinaLit.comunBERLMMDSB,
+    medida: 70,
+  },
+  {
+    id: "BERLMPBD",
+    title: "BERLMPBD MODULO PEQUEÑO (90) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPBD.png",
+    price: preciosBertinaLit.comunBERLMPBDI,
+    medida: 90,
+  },
+  {
+    id: "BERLMPBI",
+    title: "BERLMPBI MODULO PEQUEÑO (90) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPBI.png",
+    price: preciosBertinaLit.comunBERLMPBDI,
+    medida: 90,
+  },
+  {
+    id: "BERLMPSB",
+    title: "BERLMPSB MODULO PEQUEÑO (60) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPSB.png",
+    price: preciosBertinaLit.comunBERLMPSB,
+    medida: 60,
+  },
+  {
+    id: "BERLMXLBD",
+    title: "BERLMXLBD MODULO XL (140) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLBD.png",
+    price: preciosBertinaLit.comunBERLMXLBDI,
+    medida: 140,
+  },
+  {
+    id: "BERLMXLBI",
+    title: "BERLMXLBI MODULO XL (140) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLBI.png",
+    price: preciosBertinaLit.comunBERLMXLBDI,
+    medida: 140,
+  },
+  {
+    id: "BERLMXLSB",
+    title: "BERLMXLSB MODULO XL (110) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLSB.png",
+    price: preciosBertinaLit.comunBERLMXLSB,
+    medida: 110,
+  },
+  {
+    id: "BERLMXXLBD",
+    title: "BERLMXXLBD MODULO XXL (150) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLBD.png",
+    price: preciosBertinaLit.comunBERLMXXLBDI,
+    medida: 150,
+  },
+  {
+    id: "BERLMXXLBI",
+    title: "BERLMXXLBI MODULO XXL (150) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLBI.png",
+    price: preciosBertinaLit.comunBERLMXXLBDI,
+    medida: 150,
+  },
+  {
+    id: "BERLMXXLSB",
+    title: "BERLMXXLSB MODULO XXL (120) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLSB.png",
+    price: preciosBertinaLit.comunBERLMXXLSB,
+    medida: 120,
+  },
+  {
+    id: "BERLR",
+    title: "BERLR RINCON CERRADO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLR.png",
+    price: preciosBertinaLit.comunBERLR,
+    medida: 0,
+  },
+  {
+    id: "BERLT1RGD",
+    title: "BERLT1RGD TERMINAL GRANDE (122) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RGD.png",
+    price: preciosBertinaLit.comunBERLT1RGDI,
+    medida: 122,
+  },
+  {
+    id: "BERLT1RGI",
+    title: "BERLT1RGI TERMINAL GRANDE (122) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RGI.png",
+    price: preciosBertinaLit.comunBERLT1RGDI,
+    medida: 122,
+  },
+  {
+    id: "BERLT1RMAD",
+    title: "BERLT1RMAD TERMINAL MAXI (132) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RMAD.png",
+    price: preciosBertinaLit.comunBERLT1RMADI,
+    medida: 132,
+  },
+  {
+    id: "BERLT1RMAI",
+    title: "BERLT1RMAI TERMINAL MAXI (132) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RMAI.png",
+    price: preciosBertinaLit.comunBERLT1RMADI,
+    medida: 132,
+  },
+  {
+    id: "BERLT2RGD",
+    title: "BERLT2RGD TERMINAL DOBLE GRANDE (202) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RGD.png",
+    price: preciosBertinaLit.comunBERLT2RGDI,
+    medida: 132,
+  },
+  {
+    id: "BERLT2RGI",
+    title: "BERLT2RGI TERMINAL DOBLE GRANDE (202) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RGI.png",
+    price: preciosBertinaLit.comunBERLT2RGDI,
+    medida: 132,
+  },
+  {
+    id: "BERLT2RMDD",
+    title: "BERLT2RMDD TERMINAL DOBLE MEDIANO (182) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RMDD.png",
+    price: preciosBertinaLit.comunBERLT2RMDDI,
+    medida: 182,
+  },
+  {
+    id: "BERLT2RMDI",
+    title: "BERLT2RMDI TERMINAL DOBLE MEDIANO (182) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RMDI.png",
+    price: preciosBertinaLit.comunBERLT2RMDDI,
+    medida: 182,
+  },
+  {
+    id: "BERRTD",
+    title: "BERRTD RINCON TERMINAL DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERRTD.png",
+    price: preciosBertinaLit.comunBERRTDI,
+    medida: 0,
+  },
+  {
+    id: "BERRTI",
+    title: "BERRTI RINCON TERMINAL IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERRTI.png",
+    price: preciosBertinLit.comunBERRTDI,
+    medida: 0,
+  },
+  {
+    id: "BERL2",
+    title: "BERL2 SOFA 2 PLAZAS (180)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2.png",
+    price: preciosBertinaLit.comunBERL2,
+    medida: 180,
+  },
+  {
+    id: "BERL2BD",
+    title: "BERL2BD SOFA 2 PLAZAS BRAZO DERECHO (150)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2BD.png",
+    price: preciosBertinaLit.comunBERL2BDI,
+    medida: 150,
+  },
+  {
+    id: "BERL2BI",
+    title: "BERL2BI SOFA 2 PLAZAS BRAZO IZQ (150)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2BI.png",
+    price: preciosBertinaLit.comunBERL2BDI,
+    medida: 150,
+  },
+  {
+    id: "BERL2SB",
+    title: "BERL2SB SOFA 2 PLAZAS SIN BRAZOS (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2SB.png",
+    price: preciosBertinaLit.comunBERL2SB,
+    medida: 120,
+  },
+  {
+    id: "BERL25",
+    title: "BERL25 SOFA 2,5 PLAZAS (200)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25.png",
+    price: preciosBertinaLit.comunBERL25,
+    medida: 200,
+  },
+  {
+    id: "BERL25BD",
+    title: "BERL25BD SOFA 2,5 PLAZAS BRAZO DERECHO (170)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25BD.png",
+    price: preciosBertinaLit.comunBERL25BDI,
+    medida: 170,
+  },
+  {
+    id: "BERL25BI",
+    title: "BERL25BI SOFA 2,5 PLAZAS BRAZO IZQ (170)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25BI.png",
+    price: preciosBertinaLit.comunBERL25BDI,
+    medida: 170,
+  },
+  {
+    id: "BERL25SB",
+    title: "BERL25SB SOFA 2.5 PLAZAS SIN BRAZOS (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25SB.png",
+    price: preciosBertinaLit.comunBERL25SB,
+    medida: 140,
+  },
+  {
+    id: "BERL3",
+    title: "BERL3 SOFA 3 PLAZAS (220)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3.png",
+    price: preciosBertinaLit.comunBERL3,
+    medida: 220,
+  },
+  {
+    id: "BERL3BD",
+    title: "BERL3BD SOFA 3 PLAZAS BRAZO DERECHO (190)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3BD.png",
+    price: preciosBertinaLit.comunBERL3BDI,
+    medida: 190,
+  },
+  {
+    id: "BERL3BI",
+    title: "BERL3BI SOFA 3 PLAZAS BRAZO IZQ (190)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3BI.png",
+    price: preciosBertinaLit.comunBERL3BDI,
+    medida: 190,
+  },
+  {
+    id: "BERL3SB",
+    title: "BERL3SB SOFA 3 PLAZAS SIN BRAZOS (160)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3SB.png",
+    price: preciosBertinaLit.comunBERL3SB,
+    medida: 160,
+  },
+  {
+    id: "BERL35",
+    title: "BERL35 SOFA 3,5 PLAZAS (240)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35.png",
+    price: preciosBertinaLit.comunBERL35,
+    medida: 240,
+  },
+  {
+    id: "BERL35BD",
+    title: "BERL35BD SOFA 3.5 PLAZAS BRAZO DERECHO (210)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35BD.png",
+    price: preciosBertinaLit.comunBERL35BDI,
+    medida: 210,
+  },
+  {
+    id: "BERL35BI",
+    title: "BERL35BI SOFA 3.5 PLAZAS BRAZO IZQ (210)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35BI.png",
+    price: preciosBertinaLit.comunBERL35BDI,
+    medida: 210,
+  },
+  {
+    id: "BERL35SB",
+    title: "BERL35SB SOFA 3,5 PLAZAS SIN BRAZO (180)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35SB.png",
+    price: preciosBertinaLit.comunBERL35SB,
+    medida: 180,
+  },
+];
+//SUPLEMENTOS BERTINA-BERTINA LITTLE
+const suplementoBertinas = [
   {
     id: "None",
     title: "---Sin pieza seleccionada--",
@@ -7963,17 +8878,17 @@ const suplementoBERTINA = [
   {
     id: "BERPG",
     title: "BERPG POSAPIES GRANDE 80X80",
-    price: preciosBERPG.comunBERPG,
+    price: preciosBertina.comunBERPG,
   },
   {
     id: "BERP80CB",
     title: "BERP80CB POSAPIES GRANDE CON BRAZO",
-    price: preciosBERPG.comunBERP80CB,
+    price: preciosBertina.comunBERP80CB,
   },
   {
     id: "BERP8060",
     title: "BERP8060 POSAPIES GRANDE 80X60",
-    price: preciosBERPG.comunBERP8060,
+    price: preciosBertina.comunBERP8060,
   },
 ];
 /*-------------------PIEZAS CORAL--------------------*/
@@ -8551,7 +9466,7 @@ const suplementosGiant = [
     price: supGamma.supGIAP8060,
   },
 ];
-/*-------------------PIEZAS MISTRAL--------------------*/
+/*-------------------PIEZAS KAPPA--------------------*/
 const piezasKappa = [
   {
     id: "None",
@@ -8934,6 +9849,22 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAP3F.png",
     price: preciosKappa.comunKAP3F,
     medida: 0,
+  },
+];
+/*-------------------PIEZAS MEMPHIS--------------------*/
+const piezasMemphis = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "MISCGD",
+    title: "MISCGD CHAISELONGUE GRANDE (102) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGD.png",
+    price: preciosMistral.comunMISCGDI,
+    medida: 102,
   },
 ];
 /*-------------------PIEZAS MISTRAL--------------------*/
@@ -11229,6 +12160,20 @@ const piezas = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_IZQ.png",
     price: precios.comunYUTRT,
+  },
+  {
+    id: "YUTRRD",
+    title: "YUTRRD RINCON RECTANGULAR DER",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/YUTRRD.png",
+    price: precios.comunYUTRRDI,
+  },
+  {
+    id: "YUTRRI",
+    title: "YUTRRI RINCON RECTANGULAR IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/YUTRRI.png",
+    price: precios.comunYUTRRDI,
   },
   {
     id: "YUTTGRD",
