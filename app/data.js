@@ -229,6 +229,54 @@ const preciosCoral = {
     { material: "PIEL D", precio: 3193 },
   ],
 };
+/*----------------------CORAL----------------------*/
+const preciosDana = {
+  supDANRF6056: [
+    { material: "SERIE 1", precio: 66 },
+    { material: "SERIE 2", precio: 75 },
+    { material: "SERIE 3", precio: 84 },
+    { material: "SERIE 4", precio: 92 },
+    { material: "SERIE 5", precio: 106 },
+    { material: "SERIE 6", precio: 118 },
+    { material: "SERIE 7", precio: 135 },
+  ],
+  supDANRF8056: [
+    { material: "SERIE 1", precio: 66 },
+    { material: "SERIE 2", precio: 75 },
+    { material: "SERIE 3", precio: 84 },
+    { material: "SERIE 4", precio: 92 },
+    { material: "SERIE 5", precio: 106 },
+    { material: "SERIE 6", precio: 118 },
+    { material: "SERIE 7", precio: 135 },
+  ],
+  comunDAN235: [
+    { material: "SERIE 1", precio: 1602 },
+    { material: "SERIE 2", precio: 1674 },
+    { material: "SERIE 3", precio: 1747 },
+    { material: "SERIE 4", precio: 1818 },
+    { material: "SERIE 5", precio: 1928 },
+    { material: "SERIE 6", precio: 2034 },
+    { material: "SERIE 7", precio: 2179 },
+  ],
+  comunDAN215: [
+    { material: "SERIE 1", precio: 1483 },
+    { material: "SERIE 2", precio: 1550 },
+    { material: "SERIE 3", precio: 1617 },
+    { material: "SERIE 4", precio: 1684 },
+    { material: "SERIE 5", precio: 1785 },
+    { material: "SERIE 6", precio: 1884 },
+    { material: "SERIE 7", precio: 2018 },
+  ],
+  comunDANS: [
+    { material: "SERIE 1", precio: 714 },
+    { material: "SERIE 2", precio: 739 },
+    { material: "SERIE 3", precio: 763 },
+    { material: "SERIE 4", precio: 789 },
+    { material: "SERIE 5", precio: 825 },
+    { material: "SERIE 6", precio: 863 },
+    { material: "SERIE 7", precio: 913 },
+  ],
+};
 /*----------------------LINO----------------------*/
 const preciosLino = {
   comunLINCGR: [
@@ -2403,6 +2451,275 @@ const supAgora = {
     { material: "SERIE 5", precio: 52 },
     { material: "SERIE 6", precio: 57 },
     { material: "SERIE 7", precio: 60 },
+  ],
+};
+/*----------PRECIOS MISTRAL---------------*/
+const preciosKappa = {
+  comunKAPCGDI: [
+    { material: "SERIE 1", precio: 874 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 963 },
+    { material: "SERIE 4", precio: 1008 },
+    { material: "SERIE 5", precio: 1074 },
+    { material: "SERIE 6", precio: 1141 },
+    { material: "SERIE 7", precio: 1210 },
+    { material: "PROMO", precio: 1285 },
+    { material: "PIEL A", precio: 1441 },
+    { material: "PIEL B", precio: 1571 },
+    { material: "PIEL C", precio: 1792 },
+    { material: "PIEL D", precio: 2050 },
+  ],
+  comunKAPCMDDI: [
+    { material: "SERIE 1", precio: 860 },
+    { material: "SERIE 2", precio: 902 },
+    { material: "SERIE 3", precio: 945 },
+    { material: "SERIE 4", precio: 988 },
+    { material: "SERIE 5", precio: 1053 },
+    { material: "SERIE 6", precio: 1117 },
+    { material: "SERIE 7", precio: 1184 },
+    { material: "PROMO", precio: 1252 },
+    { material: "PIEL A", precio: 1418 },
+    { material: "PIEL B", precio: 1545 },
+    { material: "PIEL C", precio: 1763 },
+    { material: "PIEL D", precio: 2017 },
+  ],
+  comunKAPCPQDI: [
+    { material: "SERIE 1", precio: 839 },
+    { material: "SERIE 2", precio: 881 },
+    { material: "SERIE 3", precio: 923 },
+    { material: "SERIE 4", precio: 964 },
+    { material: "SERIE 5", precio: 1027 },
+    { material: "SERIE 6", precio: 1090 },
+    { material: "SERIE 7", precio: 1155 },
+    { material: "PROMO", precio: 1186 },
+    { material: "PIEL A", precio: 1375 },
+    { material: "PIEL B", precio: 1497 },
+    { material: "PIEL C", precio: 1706 },
+    { material: "PIEL D", precio: 1950 },
+  ],
+  comunKAPMGRFDI: [
+    { material: "SERIE 1", precio: 825 },
+    { material: "SERIE 2", precio: 862 },
+    { material: "SERIE 3", precio: 898 },
+    { material: "SERIE 4", precio: 936 },
+    { material: "SERIE 5", precio: 990 },
+    { material: "SERIE 6", precio: 1046 },
+    { material: "SERIE 7", precio: 1109 },
+    { material: "PROMO", precio: 1184 },
+    { material: "PIEL A", precio: 1256 },
+    { material: "PIEL B", precio: 1360 },
+    { material: "PIEL C", precio: 1537 },
+    { material: "PIEL D", precio: 1744 },
+  ],
+  comunKAPMGRRDI: [
+    { material: "SERIE 1", precio: 966 },
+    { material: "SERIE 2", precio: 956 },
+    { material: "SERIE 3", precio: 993 },
+    { material: "SERIE 4", precio: 1029 },
+    { material: "SERIE 5", precio: 1084 },
+    { material: "SERIE 6", precio: 1139 },
+    { material: "SERIE 7", precio: 1207 },
+    { material: "PROMO", precio: 1222 },
+    { material: "PIEL A", precio: 1415 },
+    { material: "PIEL B", precio: 1523 },
+    { material: "PIEL C", precio: 1709 },
+    { material: "PIEL D", precio: 1925 },
+  ],
+  comunKAPMMAFDI: [
+    { material: "SERIE 1", precio: 867 },
+    { material: "SERIE 2", precio: 907 },
+    { material: "SERIE 3", precio: 947 },
+    { material: "SERIE 4", precio: 987 },
+    { material: "SERIE 5", precio: 1046 },
+    { material: "SERIE 6", precio: 1107 },
+    { material: "SERIE 7", precio: 1174 },
+    { material: "PROMO", precio: 1254 },
+    { material: "PIEL A", precio: 1335 },
+    { material: "PIEL B", precio: 1447 },
+    { material: "PIEL C", precio: 1639 },
+    { material: "PIEL D", precio: 1863 },
+  ],
+  comunKAPMMARDI: [
+    { material: "SERIE 1", precio: 955 },
+    { material: "SERIE 2", precio: 955 },
+    { material: "SERIE 3", precio: 1035 },
+    { material: "SERIE 4", precio: 1074 },
+    { material: "SERIE 5", precio: 1133 },
+    { material: "SERIE 6", precio: 1192 },
+    { material: "SERIE 7", precio: 1264 },
+    { material: "PROMO", precio: 1292 },
+    { material: "PIEL A", precio: 1490 },
+    { material: "PIEL B", precio: 1607 },
+    { material: "PIEL C", precio: 1809 },
+    { material: "PIEL D", precio: 2045 },
+  ],
+  comunKAPMMDFDI: [
+    { material: "SERIE 1", precio: 789 },
+    { material: "SERIE 2", precio: 824 },
+    { material: "SERIE 3", precio: 860 },
+    { material: "SERIE 4", precio: 895 },
+    { material: "SERIE 5", precio: 948 },
+    { material: "SERIE 6", precio: 1002 },
+    { material: "SERIE 7", precio: 1062 },
+    { material: "PROMO", precio: 1135 },
+    { material: "PIEL A", precio: 1207 },
+    { material: "PIEL B", precio: 1307 },
+    { material: "PIEL C", precio: 1477 },
+    { material: "PIEL D", precio: 1677 },
+  ],
+  comunKAPMMEFDI: [
+    { material: "SERIE 1", precio: 920 },
+    { material: "SERIE 2", precio: 961 },
+    { material: "SERIE 3", precio: 1003 },
+    { material: "SERIE 4", precio: 1043 },
+    { material: "SERIE 5", precio: 1105 },
+    { material: "SERIE 6", precio: 1167 },
+    { material: "SERIE 7", precio: 1237 },
+    { material: "PROMO", precio: 1346 },
+    { material: "PIEL A", precio: 1430 },
+    { material: "PIEL B", precio: 1549 },
+    { material: "PIEL C", precio: 1752 },
+    { material: "PIEL D", precio: 1989 },
+  ],
+  comunKAPMMDRDI: [
+    { material: "SERIE 1", precio: 884 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 953 },
+    { material: "SERIE 4", precio: 988 },
+    { material: "SERIE 5", precio: 1041 },
+    { material: "SERIE 6", precio: 1094 },
+    { material: "SERIE 7", precio: 1160 },
+    { material: "PROMO", precio: 1180 },
+    { material: "PIEL A", precio: 1363 },
+    { material: "PIEL B", precio: 1469 },
+    { material: "PIEL C", precio: 1650 },
+    { material: "PIEL D", precio: 1859 },
+  ],
+  comunKAPMMDRDI: [
+    { material: "SERIE 1", precio: 884 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 953 },
+    { material: "SERIE 4", precio: 988 },
+    { material: "SERIE 5", precio: 1041 },
+    { material: "SERIE 6", precio: 1094 },
+    { material: "SERIE 7", precio: 1160 },
+    { material: "PROMO", precio: 1180 },
+    { material: "PIEL A", precio: 1363 },
+    { material: "PIEL B", precio: 1469 },
+    { material: "PIEL C", precio: 1650 },
+    { material: "PIEL D", precio: 1859 },
+  ],
+  comunKAPMMERDI: [
+    { material: "SERIE 1", precio: 1007 },
+    { material: "SERIE 2", precio: 1045 },
+    { material: "SERIE 3", precio: 1084 },
+    { material: "SERIE 4", precio: 1123 },
+    { material: "SERIE 5", precio: 1181 },
+    { material: "SERIE 6", precio: 1238 },
+    { material: "SERIE 7", precio: 1312 },
+    { material: "PROMO", precio: 1419 },
+    { material: "PIEL A", precio: 1501 },
+    { material: "PIEL B", precio: 1617 },
+    { material: "PIEL C", precio: 1814 },
+    { material: "PIEL D", precio: 2052 },
+  ],
+  comunKAPMPQFDI: [
+    { material: "SERIE 1", precio: 768 },
+    { material: "SERIE 2", precio: 801 },
+    { material: "SERIE 3", precio: 836 },
+    { material: "SERIE 4", precio: 870 },
+    { material: "SERIE 5", precio: 922 },
+    { material: "SERIE 6", precio: 973 },
+    { material: "SERIE 7", precio: 1031 },
+    { material: "PROMO", precio: 1103 },
+    { material: "PIEL A", precio: 1172 },
+    { material: "PIEL B", precio: 1268 },
+    { material: "PIEL C", precio: 1433 },
+    { material: "PIEL D", precio: 1625 },
+  ],
+  comunKAPMPQRDI: [
+    { material: "SERIE 1", precio: 864 },
+    { material: "SERIE 2", precio: 898 },
+    { material: "SERIE 3", precio: 933 },
+    { material: "SERIE 4", precio: 966 },
+    { material: "SERIE 5", precio: 1017 },
+    { material: "SERIE 6", precio: 1067 },
+    { material: "SERIE 7", precio: 1131 },
+    { material: "PROMO", precio: 1143 },
+    { material: "PIEL A", precio: 1326 },
+    { material: "PIEL B", precio: 1426 },
+    { material: "PIEL C", precio: 1599 },
+    { material: "PIEL D", precio: 1801 },
+  ],
+  comunKAPSF: [
+    { material: "SERIE 1", precio: 890 },
+    { material: "SERIE 2", precio: 933 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1018 },
+    { material: "SERIE 5", precio: 1083 },
+    { material: "SERIE 6", precio: 1147 },
+    { material: "SERIE 7", precio: 1216 },
+    { material: "PROMO", precio: 1385 },
+    { material: "PIEL A", precio: 1476 },
+    { material: "PIEL B", precio: 1604 },
+    { material: "PIEL C", precio: 1822 },
+    { material: "PIEL D", precio: 2077 },
+  ],
+  comunKAPSR: [
+    { material: "SERIE 1", precio: 972 },
+    { material: "SERIE 2", precio: 1016 },
+    { material: "SERIE 3", precio: 1058 },
+    { material: "SERIE 4", precio: 1101 },
+    { material: "SERIE 5", precio: 1165 },
+    { material: "SERIE 6", precio: 1229 },
+    { material: "SERIE 7", precio: 1303 },
+    { material: "PROMO", precio: 1467 },
+    { material: "PIEL A", precio: 1558 },
+    { material: "PIEL B", precio: 1686 },
+    { material: "PIEL C", precio: 1904 },
+    { material: "PIEL D", precio: 2159 },
+  ],
+  comunKAPSR: [
+    { material: "SERIE 1", precio: 890 },
+    { material: "SERIE 2", precio: 933 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1018 },
+    { material: "SERIE 5", precio: 1083 },
+    { material: "SERIE 6", precio: 1147 },
+    { material: "SERIE 7", precio: 1216 },
+    { material: "PROMO", precio: 1385 },
+    { material: "PIEL A", precio: 1476 },
+    { material: "PIEL B", precio: 1604 },
+    { material: "PIEL C", precio: 1822 },
+    { material: "PIEL D", precio: 2077 },
+  ],
+  comunKAP2F: [
+    { material: "SERIE 1", precio: 1121 },
+    { material: "SERIE 2", precio: 1172 },
+    { material: "SERIE 3", precio: 1223 },
+    { material: "SERIE 4", precio: 1276 },
+    { material: "SERIE 5", precio: 1353 },
+    { material: "SERIE 6", precio: 1431 },
+    { material: "SERIE 7", precio: 1517 },
+    { material: "PROMO", precio: 1729 },
+    { material: "PIEL A", precio: 1840 },
+    { material: "PIEL B", precio: 1993 },
+    { material: "PIEL C", precio: 2257 },
+    { material: "PIEL D", precio: 2564 },
+  ],
+  comunKAP2F: [
+    { material: "SERIE 1", precio: 1259 },
+    { material: "SERIE 2", precio: 1321 },
+    { material: "SERIE 3", precio: 1383 },
+    { material: "SERIE 4", precio: 1446 },
+    { material: "SERIE 5", precio: 1539 },
+    { material: "SERIE 6", precio: 1634 },
+    { material: "SERIE 7", precio: 1732 },
+    { material: "PROMO", precio: 1982 },
+    { material: "PIEL A", precio: 2115 },
+    { material: "PIEL B", precio: 2301 },
+    { material: "PIEL C", precio: 2620 },
+    { material: "PIEL D", precio: 2991 },
   ],
 };
 /*----------PRECIOS MISTRAL---------------*/
@@ -7701,6 +8018,47 @@ const suplementoCoral = [
     price: preciosCoral.comunCORS300,
   },
 ];
+/*-------------------PIEZAS DANA--------------------*/
+const piezasDana = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "DAN235",
+    title: "DAN235 SOFA 235",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DAN235.png",
+    price: preciosDana.comunDAN235,
+  },
+  {
+    id: "DAN215",
+    title: "DAN215 SOFA 215",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DAN215.png",
+    price: preciosDana.comunDAN215,
+  },
+  {
+    id: "DANS",
+    title: "DANS DANA SILLON",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DANS.png",
+    price: preciosDana.comunDANS,
+  },
+];
+const respaldoDana = [
+  {
+    id: "DANRF6056",
+    title: "DANRF6056 RESPALDO FINO MICROFIBRA 60X56AL",
+    price: preciosDana.supDANRF6056,
+  },
+  {
+    id: "DANRF8056",
+    title: "DANRF8056 RESPALDO FINO MICROFIBRA 80X56AL",
+    price: preciosDana.supDANRF8056,
+  },
+];
 /*----------------PIEZAS GAMMA--------------*/
 const piezasGamma = [
   {
@@ -8191,6 +8549,391 @@ const suplementosGiant = [
     id: "GIAP8060",
     title: "GIAP8060 POSAPIES GRANDE 80X60",
     price: supGamma.supGIAP8060,
+  },
+];
+/*-------------------PIEZAS MISTRAL--------------------*/
+const piezasKappa = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "SIGMGRFSB",
+    title: "SIGMGRFSB MODULO GRANDE FIJO SIN BRAZO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRFSB.png",
+    price: preciosSigma.comunSIGMGRFSB,
+    medida: 80,
+  },
+  {
+    id: "SIGMGRRSB",
+    title: "SIGMGRRSB MODULO GRANDE RELAX SIN BRAZO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRRSB.png",
+    price: preciosSigma.comunSIGMGRRSB,
+    medida: 80,
+  },
+  {
+    id: "SIGMLFSB",
+    title: "SIGMLFSB MODULO MEGA FIJO SIN BRAZO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLFSB.png",
+    price: preciosSigma.comunSIGMLFSB,
+    medida: 100,
+  },
+  {
+    id: "SIGMLRSB",
+    title: "SIGMLRSB MODULO MEGA RELAX SIN BRAZO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLRSB.png",
+    price: preciosSigma.comunSIGMLRSB,
+    medida: 100,
+  },
+  {
+    id: "SIGMMAFSB",
+    title: "SIGMMAFSB MODULO MAXI FIJO SIN BRAZO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMAFSB.png",
+    price: preciosSigma.comunSIGMMAFSB,
+    medida: 90,
+  },
+  {
+    id: "SIGMMARSB",
+    title: "SIGMMARSB MODULO MAXI RELAX SIN BRAZO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMARSB.png",
+    price: preciosSigma.comunSIGMMARSB,
+    medida: 90,
+  },
+  {
+    id: "SIGMMDFSB",
+    title: "SIGMMDFSB MODULO MEDIANO FIJO SIN BRAZO (70)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDFSB.png",
+    price: preciosSigma.comunSIGMMDFSB,
+    medida: 70,
+  },
+
+  {
+    id: "SIGMMDRSB",
+    title: "SIGMMDRSB MODULO MEDIANO RELAX SIN BRAZO (70)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDRSB.png",
+    price: preciosSigma.comunSIGMMDRSB,
+    medida: 70,
+  },
+  {
+    id: "SIGMPQFSB",
+    title: "SIGMPQFSB MODULO PEQUEÑO FIJO SIN BRAZO (60)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQFSB.png",
+    price: preciosSigma.comunSIGMPQFSB,
+    medida: 60,
+  },
+  {
+    id: "SIGMPQRSB",
+    title: "SIGMPQRSB MODULO PEQUEÑO RELAX SIN BRAZO (60)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQRSB.png",
+    price: preciosSigma.comunSIGMPQRSB,
+    medida: 60,
+  },
+  {
+    id: "SIGRA",
+    title: "SIGRA RINCON ABIERTO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRA.png",
+    price: preciosSigma.comunSIGRA,
+    medida: 0,
+  },
+  {
+    id: "SIGRTGD",
+    title: "SIGRTGD RINCON TERMINAL GRANDE DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGD.png",
+    price: preciosSigma.comunSIGRTGDI,
+    medida: 0,
+  },
+  {
+    id: "SIGRTGI",
+    title: "SIGRTGI RINCON TERMINAL GRANDE IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGI.png",
+    price: preciosSigma.comunSIGRTGDI,
+    medida: 0,
+  },
+  {
+    id: "SIGRTMD",
+    title: "SIGRTMD RINCON TERMINAL MEDIANO DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMD.png",
+    price: preciosSigma.comunSIGRTMDI,
+    medida: 0,
+  },
+  {
+    id: "SIGRTMI",
+    title: "SIGRTMI RINCON TERMINAL MEDIANO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMI.png",
+    price: preciosSigma.comunSIGRTMDI,
+    medida: 0,
+  },
+  {
+    id: "SIGTD",
+    title: "SIGTD TERMINAL DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTD.png",
+    price: preciosSigma.comunSIGTDI,
+    medida: 0,
+  },
+  {
+    id: "SIGTI",
+    title: "SIGTI TERMINAL IZQ.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTI.png",
+    price: preciosSigma.comunSIGTDI,
+    medida: 0,
+  },
+  {
+    id: "KAPCGD",
+    title: "KAPCGD CHAISELONGUE GRANDE DERECHA (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCGD.png",
+    price: preciosKappa.comunKAPCGDI,
+    medida: 113,
+  },
+  {
+    id: "KAPCGI",
+    title: "KAPCGI CHAISELONGUE GRANDE IZQ (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCGI.png",
+    price: preciosKappa.comunKAPCGDI,
+    medida: 113,
+  },
+  {
+    id: "KAPCMDD",
+    title: "KAPCMDD CHAISELONGUE MEDIANO DERECHA (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCMDD.png",
+    price: preciosKappa.comunKAPCMDDI,
+    medida: 103,
+  },
+  {
+    id: "KAPCMDI",
+    title: "KAPCMDI CHAISELONGUE MEDIANO IZQ. (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCMDI.png",
+    price: preciosKappa.comunKAPCMDDI,
+    medida: 103,
+  },
+  {
+    id: "KAPCPQD",
+    title: "KAPCPQD CHAISELONGUE PEQUEÑO DERECHA (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCPQD.png",
+    price: preciosKappa.comunKAPCPQDI,
+    medida: 93,
+  },
+  {
+    id: "KAPCPQI",
+    title: "KAPCPQI CHAISELONGUE PEQUEÑO IZQ (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCPQI.png",
+    price: preciosKappa.comunKAPCPQDI,
+    medida: 93,
+  },
+  {
+    id: "KAPMGRFD",
+    title: "KAPMGRFD MODULO GRANDE FIJO BRAZO DERECHO (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRFD.png",
+    price: preciosKappa.comunKAPMGRFDI,
+    medida: 113,
+  },
+  {
+    id: "KAPMGRFI",
+    title: "KAPMGRFI MODULO GRANDE FIJO BRAZO IZQ (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRFI.png",
+    price: preciosKappa.comunKAPMGRFDI,
+    medida: 113,
+  },
+  {
+    id: "KAPMGRRD",
+    title: "KAPMGRRD MODULO GRANDE RELAX BRAZO DERECHO (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRRD.png",
+    price: preciosKappa.comunKAPMGRRDI,
+    medida: 113,
+  },
+  {
+    id: "KAPMGRRI",
+    title: "KAPMGRRI MODULO GRANDE RELAX BRAZO IZQ (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRRI.png",
+    price: preciosKappa.comunKAPMGRRDI,
+    medida: 113,
+  },
+  {
+    id: "KAPMMAFD",
+    title: "KAPMMAFD MODULO MAXI FIJO BRAZO DERECHA (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMAFD.png",
+    price: preciosKappa.comunKAPMMAFDI,
+    medida: 123,
+  },
+  {
+    id: "KAPMMAFI",
+    title: "KAPMMAFI MODULO MAXI FIJO BRAZO IZQ (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMAFI.png",
+    price: preciosKappa.comunKAPMMAFDI,
+    medida: 123,
+  },
+  {
+    id: "KAPMMARD",
+    title: "KAPMMARD MODULO MAXI RELAX BRAZO DERECHA (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMARD.png",
+    price: preciosKappa.comunKAPMMARDI,
+    medida: 123,
+  },
+  {
+    id: "KAPMMARI",
+    title: "KAPMMARI MODULO MAXI RELAX BRAZO IZQ (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMARI.png",
+    price: preciosKappa.comunKAPMMARDI,
+    medida: 123,
+  },
+  {
+    id: "KAPMMDFD",
+    title: "KAPMMDFD MODULO MEDIANO FIJO BRAZO DERECHO (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDFD.png",
+    price: preciosKappa.comunKAPMMDFDI,
+    medida: 103,
+  },
+  {
+    id: "KAPMMDFI",
+    title: "KAPMMDFI MODULO MEDIANO FIJO BRAZO IZQ (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDFI.png",
+    price: preciosKappa.comunKAPMMDFDI,
+    medida: 103,
+  },
+  {
+    id: "KAPMMDRD",
+    title: "KAPMMDRD MODULO MEDIANO RELAX BRAZO DERECHO (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDRD.png",
+    price: preciosKappa.comunKAPMMDRDI,
+    medida: 103,
+  },
+  {
+    id: "KAPMMDRI",
+    title: "KAPMMDRI MODULO MEDIANO RELAX BRAZO DERECHO (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDRI.png",
+    price: preciosKappa.comunKAPMMDRDI,
+    medida: 103,
+  },
+  {
+    id: "KAPMMEFD",
+    title: "KAPMMEFD MODULO MEGA FIJO BRAZO DERECHA (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMEFD.png",
+    price: preciosKappa.comunKAPMMEFDI,
+    medida: 133,
+  },
+  {
+    id: "KAPMMEFI",
+    title: "KAPMMEFI MODULO MEGA FIJO BRAZO IZQ (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMEFI.png",
+    price: preciosKappa.comunKAPMMEFDI,
+    medida: 133,
+  },
+  {
+    id: "KAPMMERD",
+    title: "KAPMMERD MODULO MEGA RELAX BRAZO DERECHA (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMERD.png",
+    price: preciosKappa.comunKAPMMERDI,
+    medida: 133,
+  },
+  {
+    id: "KAPMMERI",
+    title: "KAPMMERI MODULO MEGA RELAX BRAZO IZQ (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMERI.png",
+    price: preciosKappa.comunKAPMMERDI,
+    medida: 133,
+  },
+  {
+    id: "KAPMPQFD",
+    title: "KAPMPQFD MODULO PEQUEÑO FIJO BRAZO DERECHA (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQFD.png",
+    price: preciosKappa.comunKAPMPQFDI,
+    medida: 93,
+  },
+  {
+    id: "KAPMPQFI",
+    title: "KAPMPQFI MODULO PEQUEÑO FIJO BRAZO IZQ (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQFI.png",
+    price: preciosKappa.comunKAPMPQFDI,
+    medida: 93,
+  },
+  {
+    id: "KAPMPQRD",
+    title: "KAPMPQRD MODULO PEQUEÑO RELAX BRAZO DERECHA (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQRD.png",
+    price: preciosKappa.comunKAPMPQRDI,
+    medida: 93,
+  },
+  {
+    id: "KAPMPQRI",
+    title: "KAPMPQRI MODULO PEQUEÑO RELAX BRAZO IZQ (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQRI.png",
+    price: preciosKappa.comunKAPMPQRDI,
+    medida: 93,
+  },
+  {
+    id: "KAPSF",
+    title: "KAPSF SILLON FIJO (126)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPSF.png",
+    price: preciosKappa.comunKAPSF,
+    medida: 126,
+  },
+  {
+    id: "KAPSR",
+    title: "KAPSR SILLON RELAX (126)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPSR.png",
+    price: preciosKappa.comunKAPSR,
+    medida: 126,
+  },
+  {
+    id: "KAP2F",
+    title: "KAP2F SOFA 2 PLAZAS FIJO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAP2F.png",
+    price: preciosKappa.comunKAP2F,
+    medida: 0,
+  },
+  {
+    id: "KAP3F",
+    title: "KAP3F SOFA 3 PLAZAS FIJO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAP3F.png",
+    price: preciosKappa.comunKAP3F,
+    medida: 0,
   },
 ];
 /*-------------------PIEZAS MISTRAL--------------------*/
