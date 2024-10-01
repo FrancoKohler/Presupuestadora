@@ -8359,7 +8359,7 @@ const piezasBertinaLit = [
     id: "BERCGD",
     title: "BERCGD CHAISELONGUE GRANDE (100) BRAZO LARGO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCGD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCGD.png",
     price: preciosBertinaLit.comunBERCGDI,
     medida: 100,
   },
@@ -8367,7 +8367,7 @@ const piezasBertinaLit = [
     id: "BERCGI",
     title: "BERCGI CHAISELONGUE GRANDE (100) BRAZO LARGO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCGI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCGI.png",
     price: preciosBertinaLit.comunBERCGDI,
     medida: 100,
   },
@@ -8375,7 +8375,7 @@ const piezasBertinaLit = [
     id: "BERCMAD",
     title: "BERCMAD CHAISELONGUE MAXI (110) BRAZO LARGO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMAD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMAD.png",
     price: preciosBertinaLit.comunBERCMADI,
     medida: 110,
   },
@@ -8383,7 +8383,7 @@ const piezasBertinaLit = [
     id: "BERCMAI",
     title: "BERCMAI CHAISELONGUE MAXI (110) BRAZO LARGO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMAI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMAI.png",
     price: preciosBertinaLit.comunBERCMADI,
     medida: 110,
   },
@@ -8391,7 +8391,7 @@ const piezasBertinaLit = [
     id: "BERCMDD",
     title: "BERCMDD CHAISELONGUE MEDIANA (90) BRAZO LARGO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMDD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMDD.png",
     price: preciosBertinaLit.comunBERCMDDI,
     medida: 90,
   },
@@ -8399,7 +8399,7 @@ const piezasBertinaLit = [
     id: "BERCMDI",
     title: "BERCMDI CHAISELONGUE MEDIANA (90) BRAZO LARGO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMDI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMDI.png",
     price: preciosBertinaLit.comunBERCMDDI,
     medida: 90,
   },
@@ -8407,7 +8407,7 @@ const piezasBertinaLit = [
     id: "BERCMGD",
     title: "BERCMGD CHAISELONGUE GRANDE (110) CON MARTILLO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMGD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMGD.png",
     price: preciosBertinaLit.comunBERCMGDI,
     medida: 110,
   },
@@ -8415,7 +8415,7 @@ const piezasBertinaLit = [
     id: "BERCMGD",
     title: "BERCMGD CHAISELONGUE GRANDE (110) CON MARTILLO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMGD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMGD.png",
     price: preciosBertinaLit.comunBERCMGDI,
     medida: 110,
   },
@@ -8423,7 +8423,7 @@ const piezasBertinaLit = [
     id: "BERCMMAD",
     title: "BERCMMAD CHAISELONGUE MAXI (120) CON MARTILLO DERECHA",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMAD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMMAD.png",
     price: preciosBertinaLit.comunBERCMMADI,
     medida: 120,
   },
@@ -8431,7 +8431,7 @@ const piezasBertinaLit = [
     id: "BERCMMAI",
     title: "BERCMMAI CHAISELONGUE MAXI (120) CON MARTILLO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMAI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMMAI.png",
     price: preciosBertinaLit.comunBERCMMADI,
     medida: 120,
   },
@@ -8439,7 +8439,7 @@ const piezasBertinaLit = [
     id: "BERCMMDD",
     title: "BERCMMDD CHAISELONGUE MEDIANO (100) CON MARTILLO DERECHA",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMDD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMMDD.png",
     price: preciosBertinaLit.comunBERCMMDDI,
     medida: 100,
   },
@@ -8447,7 +8447,7 @@ const piezasBertinaLit = [
     id: "BERCMMDI",
     title: "BERCMMDI CHAISELONGUE MEDIANO (100) CON MARTILLO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMMDI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMMDI.png",
     price: preciosBertinaLit.comunBERCMMDDI,
     medida: 100,
   },
@@ -8455,7 +8455,7 @@ const piezasBertinaLit = [
     id: "BERCMPD",
     title: "BERCMPD CHAISELONGUE PEQUEÑO (90) CON MARTILLO DERECHA",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMPD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMPD.png",
     price: preciosBertinaLit.comunBERCMPDI,
     medida: 90,
   },
@@ -8463,7 +8463,7 @@ const piezasBertinaLit = [
     id: "BERCMPI",
     title: "BERCMPI CHAISELONGUE PEQUEÑO (90) CON MARTILLO IZQ.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCMPI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCMPI.png",
     price: preciosBertinaLit.comunBERCMPDI,
     medida: 90,
   },
@@ -8471,7 +8471,7 @@ const piezasBertinaLit = [
     id: "BERCPD",
     title: "BERCPD CHAISELONGUE PEQUEÑA (80) BRAZO LARGO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCPD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCPD.png",
     price: preciosBertinaLit.comunBERCPDI,
     medida: 80,
   },
@@ -8479,7 +8479,7 @@ const piezasBertinaLit = [
     id: "BERCPI",
     title: "BERCPI CHAISELONGUE PEQUEÑA (80) BRAZO LARGO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERCPI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERCPI.png",
     price: preciosBertinaLit.comunBERCPDI,
     medida: 80,
   },
@@ -8487,7 +8487,7 @@ const piezasBertinaLit = [
     id: "BERLMGBD",
     title: "BERLMGBD MODULO GRANDE (110) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMGBD.png",
     price: preciosBertinaLit.comunBERLMGBDI,
     medida: 110,
   },
@@ -8495,7 +8495,7 @@ const piezasBertinaLit = [
     id: "BERLMGBI",
     title: "BERLMGBI MODULO GRANDE (110) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMGBI.png",
     price: preciosBertinaLit.comunBERLMGBDI,
     medida: 110,
   },
@@ -8503,7 +8503,7 @@ const piezasBertinaLit = [
     id: "BERLMGSB",
     title: "BERLMGSB MODULO GRANDE (80) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMGSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMGSB.png",
     price: preciosBertinaLit.comunBERLMGSB,
     medida: 110,
   },
@@ -8511,7 +8511,7 @@ const piezasBertinaLit = [
     id: "BERLMLBD",
     title: "BERLMLBD MODULO L (130) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMLBD.png",
     price: preciosBertinaLit.comunBERLMLBDI,
     medida: 130,
   },
@@ -8519,7 +8519,7 @@ const piezasBertinaLit = [
     id: "BERLMLBI",
     title: "BERLMLBI MODULO L (130) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMLBI.png",
     price: preciosBertinaLit.comunBERLMLBDI,
     medida: 130,
   },
@@ -8527,7 +8527,7 @@ const piezasBertinaLit = [
     id: "BERLMLSB",
     title: "BERLMLSB MODULO L (100) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMLSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMLSB.png",
     price: preciosBertinaLit.comunBERLMLSB,
     medida: 100,
   },
@@ -8535,7 +8535,7 @@ const piezasBertinaLit = [
     id: "BERLMMABD",
     title: "BERLMMABD MODULO MAXI (120) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMABD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMABD.png",
     price: preciosBertinaLit.comunBERLMMABDI,
     medida: 120,
   },
@@ -8543,7 +8543,7 @@ const piezasBertinaLit = [
     id: "BERLMMABI",
     title: "BERLMMABI MODULO MAXI (120) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMABI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMABI.png",
     price: preciosBertinaLit.comunBERLMMABDI,
     medida: 120,
   },
@@ -8551,7 +8551,7 @@ const piezasBertinaLit = [
     id: "BERLMMASB",
     title: "BERLMMASB MODULO MAXI (90) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMASB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMASB.png",
     price: preciosBertinaLit.comunBERLMMASB,
     medida: 90,
   },
@@ -8559,7 +8559,7 @@ const piezasBertinaLit = [
     id: "BERLMMDBD",
     title: "BERLMMDBD MODULO MEDIANO (100) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMDBD.png",
     price: preciosBertinaLit.comunBERLMMDBDI,
     medida: 100,
   },
@@ -8567,7 +8567,7 @@ const piezasBertinaLit = [
     id: "BERLMMDBI",
     title: "BERLMMDBI MODULO MEDIANO (100) BRAZO IZQ.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMDBI.png",
     price: preciosBertinaLit.comunBERLMMDBDI,
     medida: 100,
   },
@@ -8575,7 +8575,7 @@ const piezasBertinaLit = [
     id: "BERLMMDSB",
     title: "BERLMMDSB MODULO MEDIANO (70) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMMDSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMMDSB.png",
     price: preciosBertinaLit.comunBERLMMDSB,
     medida: 70,
   },
@@ -8583,7 +8583,7 @@ const piezasBertinaLit = [
     id: "BERLMPBD",
     title: "BERLMPBD MODULO PEQUEÑO (90) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMPBD.png",
     price: preciosBertinaLit.comunBERLMPBDI,
     medida: 90,
   },
@@ -8591,7 +8591,7 @@ const piezasBertinaLit = [
     id: "BERLMPBI",
     title: "BERLMPBI MODULO PEQUEÑO (90) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMPBI.png",
     price: preciosBertinaLit.comunBERLMPBDI,
     medida: 90,
   },
@@ -8599,7 +8599,7 @@ const piezasBertinaLit = [
     id: "BERLMPSB",
     title: "BERLMPSB MODULO PEQUEÑO (60) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMPSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMPSB.png",
     price: preciosBertinaLit.comunBERLMPSB,
     medida: 60,
   },
@@ -8607,7 +8607,7 @@ const piezasBertinaLit = [
     id: "BERLMXLBD",
     title: "BERLMXLBD MODULO XL (140) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXLBD.png",
     price: preciosBertinaLit.comunBERLMXLBDI,
     medida: 140,
   },
@@ -8615,7 +8615,7 @@ const piezasBertinaLit = [
     id: "BERLMXLBI",
     title: "BERLMXLBI MODULO XL (140) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXLBI.png",
     price: preciosBertinaLit.comunBERLMXLBDI,
     medida: 140,
   },
@@ -8623,7 +8623,7 @@ const piezasBertinaLit = [
     id: "BERLMXLSB",
     title: "BERLMXLSB MODULO XL (110) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXLSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXLSB.png",
     price: preciosBertinaLit.comunBERLMXLSB,
     medida: 110,
   },
@@ -8631,7 +8631,7 @@ const piezasBertinaLit = [
     id: "BERLMXXLBD",
     title: "BERLMXXLBD MODULO XXL (150) BRAZO DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLBD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXXLBD.png",
     price: preciosBertinaLit.comunBERLMXXLBDI,
     medida: 150,
   },
@@ -8639,7 +8639,7 @@ const piezasBertinaLit = [
     id: "BERLMXXLBI",
     title: "BERLMXXLBI MODULO XXL (150) BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLBI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXXLBI.png",
     price: preciosBertinaLit.comunBERLMXXLBDI,
     medida: 150,
   },
@@ -8647,7 +8647,7 @@ const piezasBertinaLit = [
     id: "BERLMXXLSB",
     title: "BERLMXXLSB MODULO XXL (120) SIN BRAZOS",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLMXXLSB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLMXXLSB.png",
     price: preciosBertinaLit.comunBERLMXXLSB,
     medida: 120,
   },
@@ -8655,7 +8655,7 @@ const piezasBertinaLit = [
     id: "BERLR",
     title: "BERLR RINCON CERRADO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLR.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLR.png",
     price: preciosBertinaLit.comunBERLR,
     medida: 0,
   },
@@ -8663,7 +8663,7 @@ const piezasBertinaLit = [
     id: "BERLT1RGD",
     title: "BERLT1RGD TERMINAL GRANDE (122) DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RGD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT1RGD.png",
     price: preciosBertinaLit.comunBERLT1RGDI,
     medida: 122,
   },
@@ -8671,7 +8671,7 @@ const piezasBertinaLit = [
     id: "BERLT1RGI",
     title: "BERLT1RGI TERMINAL GRANDE (122) IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RGI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT1RGI.png",
     price: preciosBertinaLit.comunBERLT1RGDI,
     medida: 122,
   },
@@ -8679,7 +8679,7 @@ const piezasBertinaLit = [
     id: "BERLT1RMAD",
     title: "BERLT1RMAD TERMINAL MAXI (132) DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RMAD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT1RMAD.png",
     price: preciosBertinaLit.comunBERLT1RMADI,
     medida: 132,
   },
@@ -8687,7 +8687,7 @@ const piezasBertinaLit = [
     id: "BERLT1RMAI",
     title: "BERLT1RMAI TERMINAL MAXI (132) IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT1RMAI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT1RMAI.png",
     price: preciosBertinaLit.comunBERLT1RMADI,
     medida: 132,
   },
@@ -8695,7 +8695,7 @@ const piezasBertinaLit = [
     id: "BERLT2RGD",
     title: "BERLT2RGD TERMINAL DOBLE GRANDE (202) DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RGD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT2RGD.png",
     price: preciosBertinaLit.comunBERLT2RGDI,
     medida: 132,
   },
@@ -8703,7 +8703,7 @@ const piezasBertinaLit = [
     id: "BERLT2RGI",
     title: "BERLT2RGI TERMINAL DOBLE GRANDE (202) IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RGI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT2RGI.png",
     price: preciosBertinaLit.comunBERLT2RGDI,
     medida: 132,
   },
@@ -8711,7 +8711,7 @@ const piezasBertinaLit = [
     id: "BERLT2RMDD",
     title: "BERLT2RMDD TERMINAL DOBLE MEDIANO (182) DERECHO",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RMDD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT2RMDD.png",
     price: preciosBertinaLit.comunBERLT2RMDDI,
     medida: 182,
   },
@@ -8719,7 +8719,7 @@ const piezasBertinaLit = [
     id: "BERLT2RMDI",
     title: "BERLT2RMDI TERMINAL DOBLE MEDIANO (182) IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERLT2RMDI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERLT2RMDI.png",
     price: preciosBertinaLit.comunBERLT2RMDDI,
     medida: 182,
   },
@@ -8727,7 +8727,7 @@ const piezasBertinaLit = [
     id: "BERRTD",
     title: "BERRTD RINCON TERMINAL DERECHA",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERRTD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERRTD.png",
     price: preciosBertinaLit.comunBERRTDI,
     medida: 0,
   },
@@ -8735,7 +8735,7 @@ const piezasBertinaLit = [
     id: "BERRTI",
     title: "BERRTI RINCON TERMINAL IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERRTI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERRTI.png",
     price: preciosBertinLit.comunBERRTDI,
     medida: 0,
   },
@@ -8743,7 +8743,7 @@ const piezasBertinaLit = [
     id: "BERL2",
     title: "BERL2 SOFA 2 PLAZAS (180)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL2.png",
     price: preciosBertinaLit.comunBERL2,
     medida: 180,
   },
@@ -8751,7 +8751,7 @@ const piezasBertinaLit = [
     id: "BERL2BD",
     title: "BERL2BD SOFA 2 PLAZAS BRAZO DERECHO (150)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2BD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL2BD.png",
     price: preciosBertinaLit.comunBERL2BDI,
     medida: 150,
   },
@@ -8759,7 +8759,7 @@ const piezasBertinaLit = [
     id: "BERL2BI",
     title: "BERL2BI SOFA 2 PLAZAS BRAZO IZQ (150)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2BI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL2BI.png",
     price: preciosBertinaLit.comunBERL2BDI,
     medida: 150,
   },
@@ -8767,7 +8767,7 @@ const piezasBertinaLit = [
     id: "BERL2SB",
     title: "BERL2SB SOFA 2 PLAZAS SIN BRAZOS (120)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL2SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL2SB.png",
     price: preciosBertinaLit.comunBERL2SB,
     medida: 120,
   },
@@ -8775,7 +8775,7 @@ const piezasBertinaLit = [
     id: "BERL25",
     title: "BERL25 SOFA 2,5 PLAZAS (200)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL25.png",
     price: preciosBertinaLit.comunBERL25,
     medida: 200,
   },
@@ -8783,7 +8783,7 @@ const piezasBertinaLit = [
     id: "BERL25BD",
     title: "BERL25BD SOFA 2,5 PLAZAS BRAZO DERECHO (170)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25BD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL25BD.png",
     price: preciosBertinaLit.comunBERL25BDI,
     medida: 170,
   },
@@ -8791,7 +8791,7 @@ const piezasBertinaLit = [
     id: "BERL25BI",
     title: "BERL25BI SOFA 2,5 PLAZAS BRAZO IZQ (170)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25BI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL25BI.png",
     price: preciosBertinaLit.comunBERL25BDI,
     medida: 170,
   },
@@ -8799,7 +8799,7 @@ const piezasBertinaLit = [
     id: "BERL25SB",
     title: "BERL25SB SOFA 2.5 PLAZAS SIN BRAZOS (140)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL25SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL25SB.png",
     price: preciosBertinaLit.comunBERL25SB,
     medida: 140,
   },
@@ -8807,7 +8807,7 @@ const piezasBertinaLit = [
     id: "BERL3",
     title: "BERL3 SOFA 3 PLAZAS (220)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL3.png",
     price: preciosBertinaLit.comunBERL3,
     medida: 220,
   },
@@ -8815,7 +8815,7 @@ const piezasBertinaLit = [
     id: "BERL3BD",
     title: "BERL3BD SOFA 3 PLAZAS BRAZO DERECHO (190)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3BD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL3BD.png",
     price: preciosBertinaLit.comunBERL3BDI,
     medida: 190,
   },
@@ -8823,7 +8823,7 @@ const piezasBertinaLit = [
     id: "BERL3BI",
     title: "BERL3BI SOFA 3 PLAZAS BRAZO IZQ (190)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3BI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL3BI.png",
     price: preciosBertinaLit.comunBERL3BDI,
     medida: 190,
   },
@@ -8831,7 +8831,7 @@ const piezasBertinaLit = [
     id: "BERL3SB",
     title: "BERL3SB SOFA 3 PLAZAS SIN BRAZOS (160)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL3SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL3SB.png",
     price: preciosBertinaLit.comunBERL3SB,
     medida: 160,
   },
@@ -8839,7 +8839,7 @@ const piezasBertinaLit = [
     id: "BERL35",
     title: "BERL35 SOFA 3,5 PLAZAS (240)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL35.png",
     price: preciosBertinaLit.comunBERL35,
     medida: 240,
   },
@@ -8847,7 +8847,7 @@ const piezasBertinaLit = [
     id: "BERL35BD",
     title: "BERL35BD SOFA 3.5 PLAZAS BRAZO DERECHO (210)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35BD.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL35BD.png",
     price: preciosBertinaLit.comunBERL35BDI,
     medida: 210,
   },
@@ -8855,7 +8855,7 @@ const piezasBertinaLit = [
     id: "BERL35BI",
     title: "BERL35BI SOFA 3.5 PLAZAS BRAZO IZQ (210)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35BI.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL35BI.png",
     price: preciosBertinaLit.comunBERL35BDI,
     medida: 210,
   },
@@ -8863,7 +8863,7 @@ const piezasBertinaLit = [
     id: "BERL35SB",
     title: "BERL35SB SOFA 3,5 PLAZAS SIN BRAZO (180)",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINA/BERL35SB.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERL35SB.png",
     price: preciosBertinaLit.comunBERL35SB,
     medida: 180,
   },
