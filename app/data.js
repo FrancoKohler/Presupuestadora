@@ -8736,7 +8736,7 @@ const piezasBertinaLit = [
     title: "BERRTI RINCON TERMINAL IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/BERTINALITTLE/BERRTI.png",
-    price: preciosBertinLit.comunBERRTDI,
+    price: preciosBertinaLit.comunBERRTDI,
     medida: 0,
   },
   {
@@ -11369,7 +11369,7 @@ const piezasSiroco = [
     medida: 80,
   },
 ];
-/*----------------PIEZAS YUTE--------------*/
+/*----------------PIEZAS TUNDRA--------------*/
 const piezasTundra = [
   {
     id: "None",
@@ -12011,7 +12011,7 @@ const piezasTundra = [
 ];
 
 /*----------------PIEZAS YUTE--------------*/
-const piezas = [
+const piezasYute = [
   {
     id: "None",
     title: "---Sin pieza seleccionada--",

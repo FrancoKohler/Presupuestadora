@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     switch (modeloSeleccionado) {
       case "Yute":
-        piezasAMostrar = piezas;
-        piezas.forEach((pieza) => {
+        piezasAMostrar = piezasYute;
+        piezasYute.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
               materialesYute.add(precio.material);
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Yute") {
-      // Agregar materiales del modelo Siroco
+      // Agregar materiales del modelo Yute
       materialesYute.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
@@ -426,7 +426,7 @@ function obtenerPiezasSeleccionadas() {
 /*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
 function obtenerPrecioPorMaterial(idPieza, tela) {
   const colecciones = [
-    piezas,
+    piezasYute,
     piezasAgora,
     piezasAltano,
     piezasBarine,
@@ -466,7 +466,6 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
     supAgora.supGAMCUAR,
     supAgora.supAGOPT,
     supAgora.supAGOCUA60,
-    supAgora.supAGORA100,
     supAgora.supAGORA90,
     supAgora.supAGORA80,
     supAgora.supAGORA70,
@@ -526,21 +525,19 @@ function cambiarPreciosPorModelo(modelo) {
     return;
   }
   /*-----------PRECIO POR PIEZA------*/
-  piezas.forEach((pieza) => {
+  piezasYute.forEach((piezaYute) => {
     //YUTE PIEZAS
-    // Asegúrate de que pieza.price sea un array antes de usar filter
-    pieza.price = Array.isArray(nuevosPrecios)
-      ? nuevosPrecios.filter((precio) => precio.id === pieza.id)
+
+    piezaYute.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precio) => precio.id === piezaYute.id)
       : [];
   });
   piezasAgora.forEach((piezaAgora) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaAgora.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precioAgora) => precioAgora.id === piezaAgora.id)
       : [];
   });
   piezasAltano.forEach((piezaAltano) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaAltano.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioAltano) => precioAltano.id === piezaAltano.id
@@ -548,7 +545,6 @@ function cambiarPreciosPorModelo(modelo) {
       : [];
   });
   piezasBarine.forEach((piezaBarine) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaBarine.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioBarine) => precioBarine.id === piezaBarine.id
@@ -556,25 +552,21 @@ function cambiarPreciosPorModelo(modelo) {
       : [];
   });
   piezasCoral.forEach((piezaCoral) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaCoral.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((piezaCoral) => piezaCoral.id === piezaCoral.id)
       : [];
   });
   piezasLino.forEach((piezaLino) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaLino.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
       : [];
   });
   piezasNadir.forEach((piezaNadir) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaNadir.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((precioNadir) => precioNadir.id === piezaNadir.id)
       : [];
   });
   piezasSiroco.forEach((piezaSiroco) => {
-    // Asegúrate de que pieza.price sea un array antes de usar filter
     piezaSiroco.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioSiroco) => precioSiroco.id === piezaSiroco.id
