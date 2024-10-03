@@ -767,6 +767,33 @@ const preciosAlpha = {
 
 /*---------------PRECIOS AGORA----------------------*/
 const preciosAgora = {
+  comunAGO31A: [
+    { material: "SERIE 1", precio: 1060 },
+    { material: "SERIE 2", precio: 1107 },
+    { material: "SERIE 3", precio: 1155 },
+    { material: "SERIE 4", precio: 1202 },
+    { material: "SERIE 5", precio: 1274 },
+    { material: "SERIE 6", precio: 1345 },
+    { material: "SERIE 7", precio: 1440 },
+  ],
+  comunAGO3DI1A: [
+    { material: "SERIE 1", precio: 903 },
+    { material: "SERIE 2", precio: 939 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1012 },
+    { material: "SERIE 5", precio: 1066 },
+    { material: "SERIE 6", precio: 1120 },
+    { material: "SERIE 7", precio: 1193 },
+  ],
+  comunAGO35DI1A: [
+    { material: "SERIE 1", precio: 964 },
+    { material: "SERIE 2", precio: 1004 },
+    { material: "SERIE 3", precio: 1043 },
+    { material: "SERIE 4", precio: 1083 },
+    { material: "SERIE 5", precio: 1142 },
+    { material: "SERIE 6", precio: 1201 },
+    { material: "SERIE 7", precio: 1280 },
+  ],
   comunAGOCGR: [
     { material: "SERIE 1", precio: 885 },
     { material: "SERIE 2", precio: 914 },
@@ -2416,6 +2443,270 @@ const preciosGamma = {
     { material: "SERIE 7", precio: 1059 },
   ],
 };
+/*-------------------PIEZAS GIANT LITTLE--------------------*/
+const preciosGiantLit = {
+  comunGIALCGDI: [
+    { material: "SERIE 1", precio: 897 },
+    { material: "SERIE 2", precio: 945 },
+    { material: "SERIE 3", precio: 995 },
+    { material: "SERIE 4", precio: 1044 },
+    { material: "SERIE 5", precio: 1119 },
+    { material: "SERIE 6", precio: 1192 },
+    { material: "SERIE 7", precio: 1264 },
+  ],
+  comunGIALCMADI: [
+    { material: "SERIE 1", precio: 921 },
+    { material: "SERIE 2", precio: 970 },
+    { material: "SERIE 3", precio: 1021 },
+    { material: "SERIE 4", precio: 1071 },
+    { material: "SERIE 5", precio: 1147 },
+    { material: "SERIE 6", precio: 1223 },
+    { material: "SERIE 7", precio: 1296 },
+  ],
+  comunGIALCMDDI: [
+    { material: "SERIE 1", precio: 872 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 968 },
+    { material: "SERIE 4", precio: 1016 },
+    { material: "SERIE 5", precio: 1088 },
+    { material: "SERIE 6", precio: 1160 },
+    { material: "SERIE 7", precio: 1229 },
+  ],
+  comunGIALMGBDI: [
+    { material: "SERIE 1", precio: 637 },
+    { material: "SERIE 2", precio: 669 },
+    { material: "SERIE 3", precio: 701 },
+    { material: "SERIE 4", precio: 733 },
+    { material: "SERIE 5", precio: 782 },
+    { material: "SERIE 6", precio: 830 },
+    { material: "SERIE 7", precio: 894 },
+  ],
+  comunGIALMGSB: [
+    { material: "SERIE 1", precio: 497 },
+    { material: "SERIE 2", precio: 520 },
+    { material: "SERIE 3", precio: 544 },
+    { material: "SERIE 4", precio: 567 },
+    { material: "SERIE 5", precio: 602 },
+    { material: "SERIE 6", precio: 637 },
+    { material: "SERIE 7", precio: 684 },
+  ],
+  comunGIALMLBDI: [
+    { material: "SERIE 1", precio: 711 },
+    { material: "SERIE 2", precio: 747 },
+    { material: "SERIE 3", precio: 783 },
+    { material: "SERIE 4", precio: 819 },
+    { material: "SERIE 5", precio: 872 },
+    { material: "SERIE 6", precio: 927 },
+    { material: "SERIE 7", precio: 998 },
+  ],
+  comunGIALMLSB: [
+    { material: "SERIE 1", precio: 583 },
+    { material: "SERIE 2", precio: 613 },
+    { material: "SERIE 3", precio: 643 },
+    { material: "SERIE 4", precio: 674 },
+    { material: "SERIE 5", precio: 719 },
+    { material: "SERIE 6", precio: 765 },
+    { material: "SERIE 7", precio: 825 },
+  ],
+  comunGIALMMABDI: [
+    { material: "SERIE 1", precio: 666 },
+    { material: "SERIE 2", precio: 700 },
+    { material: "SERIE 3", precio: 734 },
+    { material: "SERIE 4", precio: 768 },
+    { material: "SERIE 5", precio: 820 },
+    { material: "SERIE 6", precio: 871 },
+    { material: "SERIE 7", precio: 939 },
+  ],
+  comunGIALMMASB: [
+    { material: "SERIE 1", precio: 539 },
+    { material: "SERIE 2", precio: 567 },
+    { material: "SERIE 3", precio: 593 },
+    { material: "SERIE 4", precio: 619 },
+    { material: "SERIE 5", precio: 659 },
+    { material: "SERIE 6", precio: 699 },
+    { material: "SERIE 7", precio: 752 },
+  ],
+  comunGIALMMDBDI: [
+    { material: "SERIE 1", precio: 611 },
+    { material: "SERIE 2", precio: 641 },
+    { material: "SERIE 3", precio: 671 },
+    { material: "SERIE 4", precio: 702 },
+    { material: "SERIE 5", precio: 748 },
+    { material: "SERIE 6", precio: 793 },
+    { material: "SERIE 7", precio: 854 },
+  ],
+  comunGIALMMDSB: [
+    { material: "SERIE 1", precio: 479 },
+    { material: "SERIE 2", precio: 500 },
+    { material: "SERIE 3", precio: 522 },
+    { material: "SERIE 4", precio: 543 },
+    { material: "SERIE 5", precio: 575 },
+    { material: "SERIE 6", precio: 606 },
+    { material: "SERIE 7", precio: 649 },
+  ],
+  comunGIALMXLBDI: [
+    { material: "SERIE 1", precio: 742 },
+    { material: "SERIE 2", precio: 781 },
+    { material: "SERIE 3", precio: 820 },
+    { material: "SERIE 4", precio: 858 },
+    { material: "SERIE 5", precio: 917 },
+    { material: "SERIE 6", precio: 974 },
+    { material: "SERIE 7", precio: 1051 },
+  ],
+  comunGIALMXLSB: [
+    { material: "SERIE 1", precio: 605 },
+    { material: "SERIE 2", precio: 635 },
+    { material: "SERIE 3", precio: 666 },
+    { material: "SERIE 4", precio: 697 },
+    { material: "SERIE 5", precio: 742 },
+    { material: "SERIE 6", precio: 788 },
+    { material: "SERIE 7", precio: 848 },
+  ],
+  comunGIALMXXLBDI: [
+    { material: "SERIE 1", precio: 781 },
+    { material: "SERIE 2", precio: 821 },
+    { material: "SERIE 3", precio: 862 },
+    { material: "SERIE 4", precio: 902 },
+    { material: "SERIE 5", precio: 962 },
+    { material: "SERIE 6", precio: 1023 },
+    { material: "SERIE 7", precio: 1102 },
+  ],
+  comunGIALMXXLSB: [
+    { material: "SERIE 1", precio: 643 },
+    { material: "SERIE 2", precio: 675 },
+    { material: "SERIE 3", precio: 707 },
+    { material: "SERIE 4", precio: 739 },
+    { material: "SERIE 5", precio: 788 },
+    { material: "SERIE 6", precio: 836 },
+    { material: "SERIE 7", precio: 899 },
+  ],
+  comunGIALR: [
+    { material: "SERIE 1", precio: 645 },
+    { material: "SERIE 2", precio: 682 },
+    { material: "SERIE 3", precio: 717 },
+    { material: "SERIE 4", precio: 754 },
+    { material: "SERIE 5", precio: 808 },
+    { material: "SERIE 6", precio: 863 },
+    { material: "SERIE 7", precio: 936 },
+  ],
+  comunGIALT1RGDI: [
+    { material: "SERIE 1", precio: 668 },
+    { material: "SERIE 2", precio: 698 },
+    { material: "SERIE 3", precio: 726 },
+    { material: "SERIE 4", precio: 756 },
+    { material: "SERIE 5", precio: 800 },
+    { material: "SERIE 6", precio: 844 },
+    { material: "SERIE 7", precio: 903 },
+  ],
+  comunGIALT1RMADI: [
+    { material: "SERIE 1", precio: 698 },
+    { material: "SERIE 2", precio: 730 },
+    { material: "SERIE 3", precio: 760 },
+    { material: "SERIE 4", precio: 792 },
+    { material: "SERIE 5", precio: 839 },
+    { material: "SERIE 6", precio: 887 },
+    { material: "SERIE 7", precio: 950 },
+  ],
+  comunGIALT2RGDI: [
+    { material: "SERIE 1", precio: 958 },
+    { material: "SERIE 2", precio: 1003 },
+    { material: "SERIE 3", precio: 1049 },
+    { material: "SERIE 4", precio: 1094 },
+    { material: "SERIE 5", precio: 1163 },
+    { material: "SERIE 6", precio: 1231 },
+    { material: "SERIE 7", precio: 1322 },
+  ],
+  comunGIALT2RMDDI: [
+    { material: "SERIE 1", precio: 878 },
+    { material: "SERIE 2", precio: 921 },
+    { material: "SERIE 3", precio: 964 },
+    { material: "SERIE 4", precio: 1008 },
+    { material: "SERIE 5", precio: 1073 },
+    { material: "SERIE 6", precio: 1138 },
+    { material: "SERIE 7", precio: 1226 },
+  ],
+  comunGIAL25: [
+    { material: "SERIE 1", precio: 1084 },
+    { material: "SERIE 2", precio: 1139 },
+    { material: "SERIE 3", precio: 1195 },
+    { material: "SERIE 4", precio: 1249 },
+    { material: "SERIE 5", precio: 1333 },
+    { material: "SERIE 6", precio: 1416 },
+    { material: "SERIE 7", precio: 1526 },
+  ],
+  comunGIAL25BDI: [
+    { material: "SERIE 1", precio: 939 },
+    { material: "SERIE 2", precio: 986 },
+    { material: "SERIE 3", precio: 1032 },
+    { material: "SERIE 4", precio: 1078 },
+    { material: "SERIE 5", precio: 1147 },
+    { material: "SERIE 6", precio: 1216 },
+    { material: "SERIE 7", precio: 1309 },
+  ],
+  comunGIAL25SB: [
+    { material: "SERIE 1", precio: 795 },
+    { material: "SERIE 2", precio: 832 },
+    { material: "SERIE 3", precio: 871 },
+    { material: "SERIE 4", precio: 910 },
+    { material: "SERIE 5", precio: 968 },
+    { material: "SERIE 6", precio: 1026 },
+    { material: "SERIE 7", precio: 1102 },
+  ],
+  comunGIAL3: [
+    { material: "SERIE 1", precio: 1125 },
+    { material: "SERIE 2", precio: 1184 },
+    { material: "SERIE 3", precio: 1244 },
+    { material: "SERIE 4", precio: 1303 },
+    { material: "SERIE 5", precio: 1392 },
+    { material: "SERIE 6", precio: 1480 },
+    { material: "SERIE 7", precio: 1598 },
+  ],
+  comunGIAL3BDI: [
+    { material: "SERIE 1", precio: 1032 },
+    { material: "SERIE 2", precio: 1082 },
+    { material: "SERIE 3", precio: 1131 },
+    { material: "SERIE 4", precio: 1181 },
+    { material: "SERIE 5", precio: 1256 },
+    { material: "SERIE 6", precio: 1332 },
+    { material: "SERIE 7", precio: 1431 },
+  ],
+  comunGIAL3SB: [
+    { material: "SERIE 1", precio: 886 },
+    { material: "SERIE 2", precio: 928 },
+    { material: "SERIE 3", precio: 971 },
+    { material: "SERIE 4", precio: 1013 },
+    { material: "SERIE 5", precio: 1076 },
+    { material: "SERIE 6", precio: 1140 },
+    { material: "SERIE 7", precio: 1224 },
+  ],
+  comunGIAL35: [
+    { material: "SERIE 1", precio: 1190 },
+    { material: "SERIE 2", precio: 1254 },
+    { material: "SERIE 3", precio: 1318 },
+    { material: "SERIE 4", precio: 1383 },
+    { material: "SERIE 5", precio: 1479 },
+    { material: "SERIE 6", precio: 1574 },
+    { material: "SERIE 7", precio: 1703 },
+  ],
+  comunGIAL35BDI: [
+    { material: "SERIE 1", precio: 1048 },
+    { material: "SERIE 2", precio: 1104 },
+    { material: "SERIE 3", precio: 1158 },
+    { material: "SERIE 4", precio: 1214 },
+    { material: "SERIE 5", precio: 1297 },
+    { material: "SERIE 6", precio: 1381 },
+    { material: "SERIE 7", precio: 1491 },
+  ],
+  comunGIAL35SB: [
+    { material: "SERIE 1", precio: 901 },
+    { material: "SERIE 2", precio: 948 },
+    { material: "SERIE 3", precio: 995 },
+    { material: "SERIE 4", precio: 1042 },
+    { material: "SERIE 5", precio: 1114 },
+    { material: "SERIE 6", precio: 1184 },
+    { material: "SERIE 7", precio: 1279 },
+  ],
+};
 /*-------------------PIEZAS GIANT--------------------*/
 const preciosGiant = {
   comunGIACMGDI: [
@@ -2613,9 +2904,10 @@ const supGamma = {
     { material: "SERIE 7", precio: 574 },
   ],
 };
-//PRECIOS SUPLEMENTOS GIANT
+
+//PRECIOS SUPLEMENTOS GIANT TMB PARA LITTLE
 const supGiant = {
-  supGAMPL: [
+  supGIAPG: [
     { material: "SERIE 1", precio: 356 },
     { material: "SERIE 2", precio: 373 },
     { material: "SERIE 3", precio: 390 },
@@ -2633,7 +2925,7 @@ const supGiant = {
     { material: "SERIE 6", precio: 608 },
     { material: "SERIE 7", precio: 644 },
   ],
-  supGIAP80CB: [
+  supGIAP8060: [
     { material: "SERIE 1", precio: 331 },
     { material: "SERIE 2", precio: 348 },
     { material: "SERIE 3", precio: 366 },
@@ -3553,19 +3845,395 @@ const preciosMistral = {
 };
 /*----------PRECIOS MEMPHIS---------------*/
 const preciosMemphis = {
-  comunMISCGDI: [
-    { material: "SERIE 1", precio: 908 },
-    { material: "SERIE 2", precio: 953 },
-    { material: "SERIE 3", precio: 998 },
-    { material: "SERIE 4", precio: 1043 },
-    { material: "SERIE 5", precio: 1109 },
-    { material: "SERIE 6", precio: 1177 },
-    { material: "SERIE 7", precio: 1247 },
-    { material: "PROMO", precio: 1381 },
-    { material: "PIEL A", precio: 1473 },
-    { material: "PIEL B", precio: 1603 },
-    { material: "PIEL C", precio: 1824 },
-    { material: "PIEL D", precio: 2083 },
+  comunMEMCC25DI: [
+    { material: "SERIE 1", precio: 768 },
+    { material: "SERIE 2", precio: 815 },
+    { material: "SERIE 3", precio: 861 },
+    { material: "SERIE 4", precio: 907 },
+    { material: "SERIE 5", precio: 977 },
+    { material: "SERIE 6", precio: 1046 },
+    { material: "SERIE 7", precio: 1959 },
+    { material: "PIEL D", precio: 1108 },
+  ],
+  comunMEMCC3DI: [
+    { material: "SERIE 1", precio: 797 },
+    { material: "SERIE 2", precio: 845 },
+    { material: "SERIE 3", precio: 894 },
+    { material: "SERIE 4", precio: 943 },
+    { material: "SERIE 5", precio: 1016 },
+    { material: "SERIE 6", precio: 1090 },
+    { material: "SERIE 7", precio: 2051 },
+    { material: "PIEL D", precio: 1155 },
+  ],
+  comunMEMCC35DI: [
+    { material: "SERIE 1", precio: 843 },
+    { material: "SERIE 2", precio: 895 },
+    { material: "SERIE 3", precio: 947 },
+    { material: "SERIE 4", precio: 999 },
+    { material: "SERIE 5", precio: 1079 },
+    { material: "SERIE 6", precio: 1157 },
+    { material: "SERIE 7", precio: 2191 },
+    { material: "PIEL D", precio: 1227 },
+  ],
+  comunMEMC25DI: [
+    { material: "SERIE 1", precio: 784 },
+    { material: "SERIE 2", precio: 831 },
+    { material: "SERIE 3", precio: 876 },
+    { material: "SERIE 4", precio: 923 },
+    { material: "SERIE 5", precio: 991 },
+    { material: "SERIE 6", precio: 1061 },
+    { material: "SERIE 7", precio: 2022 },
+    { material: "PIEL D", precio: 1124 },
+  ],
+  comunMEMC3DI: [
+    { material: "SERIE 1", precio: 807 },
+    { material: "SERIE 2", precio: 855 },
+    { material: "SERIE 3", precio: 903 },
+    { material: "SERIE 4", precio: 950 },
+    { material: "SERIE 5", precio: 1022 },
+    { material: "SERIE 6", precio: 1084 },
+    { material: "SERIE 7", precio: 2167 },
+    { material: "PIEL D", precio: 1160 },
+  ],
+  comunMEMC3DI: [
+    { material: "SERIE 1", precio: 807 },
+    { material: "SERIE 2", precio: 855 },
+    { material: "SERIE 3", precio: 903 },
+    { material: "SERIE 4", precio: 950 },
+    { material: "SERIE 5", precio: 1022 },
+    { material: "SERIE 6", precio: 1084 },
+    { material: "SERIE 7", precio: 2167 },
+    { material: "PIEL D", precio: 1160 },
+  ],
+  comunMEMC35DI: [
+    { material: "SERIE 1", precio: 852 },
+    { material: "SERIE 2", precio: 902 },
+    { material: "SERIE 3", precio: 952 },
+    { material: "SERIE 4", precio: 1002 },
+    { material: "SERIE 5", precio: 1076 },
+    { material: "SERIE 6", precio: 1151 },
+    { material: "SERIE 7", precio: 2304 },
+    { material: "PIEL D", precio: 1220 },
+  ],
+  comunMEMRA: [
+    { material: "SERIE 1", precio: 654 },
+    { material: "SERIE 2", precio: 699 },
+    { material: "SERIE 3", precio: 744 },
+    { material: "SERIE 4", precio: 789 },
+    { material: "SERIE 5", precio: 856 },
+    { material: "SERIE 6", precio: 925 },
+    { material: "SERIE 7", precio: 1877 },
+    { material: "PIEL D", precio: 980 },
+  ],
+  comunMEMRTGDI: [
+    { material: "SERIE 1", precio: 1016 },
+    { material: "SERIE 2", precio: 1088 },
+    { material: "SERIE 3", precio: 1160 },
+    { material: "SERIE 4", precio: 1232 },
+    { material: "SERIE 5", precio: 1340 },
+    { material: "SERIE 6", precio: 1488 },
+    { material: "SERIE 7", precio: 2828 },
+    { material: "PIEL D", precio: 1535 },
+  ],
+  comunMEMRTMDI: [
+    { material: "SERIE 1", precio: 990 },
+    { material: "SERIE 2", precio: 1061 },
+    { material: "SERIE 3", precio: 1133 },
+    { material: "SERIE 4", precio: 1206 },
+    { material: "SERIE 5", precio: 1314 },
+    { material: "SERIE 6", precio: 1422 },
+    { material: "SERIE 7", precio: 2791 },
+    { material: "PIEL D", precio: 1507 },
+  ],
+  comunMEMTDI: [
+    { material: "SERIE 1", precio: 600 },
+    { material: "SERIE 2", precio: 632 },
+    { material: "SERIE 3", precio: 664 },
+    { material: "SERIE 4", precio: 697 },
+    { material: "SERIE 5", precio: 744 },
+    { material: "SERIE 6", precio: 793 },
+    { material: "SERIE 7", precio: 1586 },
+    { material: "PIEL D", precio: 939 },
+  ],
+  comunMEM1: [
+    { material: "SERIE 1", precio: 620 },
+    { material: "SERIE 2", precio: 658 },
+    { material: "SERIE 3", precio: 695 },
+    { material: "SERIE 4", precio: 732 },
+    { material: "SERIE 5", precio: 788 },
+    { material: "SERIE 6", precio: 844 },
+    { material: "SERIE 7", precio: 1676 },
+    { material: "PIEL D", precio: 895 },
+  ],
+  comunMEM1G: [
+    { material: "SERIE 1", precio: 443 },
+    { material: "SERIE 2", precio: 471 },
+    { material: "SERIE 3", precio: 497 },
+    { material: "SERIE 4", precio: 524 },
+    { material: "SERIE 5", precio: 564 },
+    { material: "SERIE 6", precio: 604 },
+    { material: "SERIE 7", precio: 1150 },
+    { material: "PIEL D", precio: 640 },
+  ],
+  comunMEM1GDI: [
+    { material: "SERIE 1", precio: 443 },
+    { material: "SERIE 2", precio: 471 },
+    { material: "SERIE 3", precio: 497 },
+    { material: "SERIE 4", precio: 524 },
+    { material: "SERIE 5", precio: 564 },
+    { material: "SERIE 6", precio: 604 },
+    { material: "SERIE 7", precio: 1150 },
+    { material: "PIEL D", precio: 640 },
+  ],
+  comunMEM1M: [
+    { material: "SERIE 1", precio: 423 },
+    { material: "SERIE 2", precio: 449 },
+    { material: "SERIE 3", precio: 477 },
+    { material: "SERIE 4", precio: 503 },
+    { material: "SERIE 5", precio: 544 },
+    { material: "SERIE 6", precio: 584 },
+    { material: "SERIE 7", precio: 1143 },
+    { material: "PIEL D", precio: 619 },
+  ],
+  comunMEM1MA: [
+    { material: "SERIE 1", precio: 457 },
+    { material: "SERIE 2", precio: 483 },
+    { material: "SERIE 3", precio: 511 },
+    { material: "SERIE 4", precio: 537 },
+    { material: "SERIE 5", precio: 578 },
+    { material: "SERIE 6", precio: 618 },
+    { material: "SERIE 7", precio: 1191 },
+    { material: "PIEL D", precio: 655 },
+  ],
+  comunMEM1MADI: [
+    { material: "SERIE 1", precio: 581 },
+    { material: "SERIE 2", precio: 616 },
+    { material: "SERIE 3", precio: 650 },
+    { material: "SERIE 4", precio: 683 },
+    { material: "SERIE 5", precio: 734 },
+    { material: "SERIE 6", precio: 784 },
+    { material: "SERIE 7", precio: 1656 },
+    { material: "PIEL D", precio: 831 },
+  ],
+  comunMEM1MDI: [
+    { material: "SERIE 1", precio: 542 },
+    { material: "SERIE 2", precio: 572 },
+    { material: "SERIE 3", precio: 602 },
+    { material: "SERIE 4", precio: 633 },
+    { material: "SERIE 5", precio: 678 },
+    { material: "SERIE 6", precio: 725 },
+    { material: "SERIE 7", precio: 1461 },
+    { material: "PIEL D", precio: 769 },
+  ],
+  comunMEM1ME: [
+    { material: "SERIE 1", precio: 507 },
+    { material: "SERIE 2", precio: 535 },
+    { material: "SERIE 3", precio: 562 },
+    { material: "SERIE 4", precio: 590 },
+    { material: "SERIE 5", precio: 632 },
+    { material: "SERIE 6", precio: 674 },
+    { material: "SERIE 7", precio: 1319 },
+    { material: "PIEL D", precio: 730 },
+  ],
+  comunMEM1MEDI: [
+    { material: "SERIE 1", precio: 637 },
+    { material: "SERIE 2", precio: 673 },
+    { material: "SERIE 3", precio: 708 },
+    { material: "SERIE 4", precio: 744 },
+    { material: "SERIE 5", precio: 797 },
+    { material: "SERIE 6", precio: 851 },
+    { material: "SERIE 7", precio: 1679 },
+    { material: "PIEL D", precio: 922 },
+  ],
+  comunMEM1P: [
+    { material: "SERIE 1", precio: 400 },
+    { material: "SERIE 2", precio: 424 },
+    { material: "SERIE 3", precio: 448 },
+    { material: "SERIE 4", precio: 473 },
+    { material: "SERIE 5", precio: 510 },
+    { material: "SERIE 6", precio: 546 },
+    { material: "SERIE 7", precio: 1056 },
+    { material: "PIEL D", precio: 579 },
+  ],
+  comunMEM1PDI: [
+    { material: "SERIE 1", precio: 508 },
+    { material: "SERIE 2", precio: 537 },
+    { material: "SERIE 3", precio: 565 },
+    { material: "SERIE 4", precio: 595 },
+    { material: "SERIE 5", precio: 637 },
+    { material: "SERIE 6", precio: 681 },
+    { material: "SERIE 7", precio: 1412 },
+    { material: "PIEL D", precio: 721 },
+  ],
+  comunMEM1XL: [
+    { material: "SERIE 1", precio: 520 },
+    { material: "SERIE 2", precio: 553 },
+    { material: "SERIE 3", precio: 585 },
+    { material: "SERIE 4", precio: 618 },
+    { material: "SERIE 5", precio: 666 },
+    { material: "SERIE 6", precio: 715 },
+    { material: "SERIE 7", precio: 1440 },
+    { material: "PIEL D", precio: 758 },
+  ],
+  comunMEM1XLDI: [
+    { material: "SERIE 1", precio: 651 },
+    { material: "SERIE 2", precio: 693 },
+    { material: "SERIE 3", precio: 735 },
+    { material: "SERIE 4", precio: 777 },
+    { material: "SERIE 5", precio: 840 },
+    { material: "SERIE 6", precio: 904 },
+    { material: "SERIE 7", precio: 1858 },
+    { material: "PIEL D", precio: 958 },
+  ],
+  comunMEM1XXL: [
+    { material: "SERIE 1", precio: 600 },
+    { material: "SERIE 2", precio: 630 },
+    { material: "SERIE 3", precio: 661 },
+    { material: "SERIE 4", precio: 693 },
+    { material: "SERIE 5", precio: 740 },
+    { material: "SERIE 6", precio: 787 },
+    { material: "SERIE 7", precio: 1528 },
+    { material: "PIEL D", precio: 834 },
+  ],
+  comunMEM1XXLDI: [
+    { material: "SERIE 1", precio: 691 },
+    { material: "SERIE 2", precio: 733 },
+    { material: "SERIE 3", precio: 774 },
+    { material: "SERIE 4", precio: 815 },
+    { material: "SERIE 5", precio: 878 },
+    { material: "SERIE 6", precio: 939 },
+    { material: "SERIE 7", precio: 1883 },
+    { material: "PIEL D", precio: 996 },
+  ],
+  comunMEM2: [
+    { material: "SERIE 1", precio: 864 },
+    { material: "SERIE 2", precio: 915 },
+    { material: "SERIE 3", precio: 968 },
+    { material: "SERIE 4", precio: 1019 },
+    { material: "SERIE 5", precio: 1097 },
+    { material: "SERIE 6", precio: 1174 },
+    { material: "SERIE 7", precio: 2426 },
+    { material: "PIEL D", precio: 1245 },
+  ],
+  comunMEM2DI: [
+    { material: "SERIE 1", precio: 735 },
+    { material: "SERIE 2", precio: 779 },
+    { material: "SERIE 3", precio: 821 },
+    { material: "SERIE 4", precio: 864 },
+    { material: "SERIE 5", precio: 929 },
+    { material: "SERIE 6", precio: 994 },
+    { material: "SERIE 7", precio: 2033 },
+    { material: "PIEL D", precio: 1054 },
+  ],
+  comunMEM2SB: [
+    { material: "SERIE 1", precio: 654 },
+    { material: "SERIE 2", precio: 691 },
+    { material: "SERIE 3", precio: 728 },
+    { material: "SERIE 4", precio: 766 },
+    { material: "SERIE 5", precio: 822 },
+    { material: "SERIE 6", precio: 878 },
+    { material: "SERIE 7", precio: 1634 },
+    { material: "PIEL D", precio: 930 },
+  ],
+  comunMEM25: [
+    { material: "SERIE 1", precio: 930 },
+    { material: "SERIE 2", precio: 991 },
+    { material: "SERIE 3", precio: 1051 },
+    { material: "SERIE 4", precio: 1112 },
+    { material: "SERIE 5", precio: 1203 },
+    { material: "SERIE 6", precio: 1294 },
+    { material: "SERIE 7", precio: 2767 },
+    { material: "PIEL D", precio: 1372 },
+  ],
+  comunMEM25DI: [
+    { material: "SERIE 1", precio: 817 },
+    { material: "SERIE 2", precio: 874 },
+    { material: "SERIE 3", precio: 933 },
+    { material: "SERIE 4", precio: 990 },
+    { material: "SERIE 5", precio: 1076 },
+    { material: "SERIE 6", precio: 1162 },
+    { material: "SERIE 7", precio: 2431 },
+    { material: "PIEL D", precio: 1231 },
+  ],
+  comunMEM25SB: [
+    { material: "SERIE 1", precio: 697 },
+    { material: "SERIE 2", precio: 748 },
+    { material: "SERIE 3", precio: 800 },
+    { material: "SERIE 4", precio: 853 },
+    { material: "SERIE 5", precio: 931 },
+    { material: "SERIE 6", precio: 1010 },
+    { material: "SERIE 7", precio: 2129 },
+    { material: "PIEL D", precio: 1071 },
+  ],
+  comunMEM3: [
+    { material: "SERIE 1", precio: 971 },
+    { material: "SERIE 2", precio: 1033 },
+    { material: "SERIE 3", precio: 1094 },
+    { material: "SERIE 4", precio: 1155 },
+    { material: "SERIE 5", precio: 1247 },
+    { material: "SERIE 6", precio: 1338 },
+    { material: "SERIE 7", precio: 2793 },
+    { material: "PIEL D", precio: 1419 },
+  ],
+  comunMEM3: [
+    { material: "SERIE 1", precio: 971 },
+    { material: "SERIE 2", precio: 1033 },
+    { material: "SERIE 3", precio: 1094 },
+    { material: "SERIE 4", precio: 1155 },
+    { material: "SERIE 5", precio: 1247 },
+    { material: "SERIE 6", precio: 1338 },
+    { material: "SERIE 7", precio: 2793 },
+    { material: "PIEL D", precio: 1419 },
+  ],
+  comunMEM3DI: [
+    { material: "SERIE 1", precio: 861 },
+    { material: "SERIE 2", precio: 919 },
+    { material: "SERIE 3", precio: 976 },
+    { material: "SERIE 4", precio: 1033 },
+    { material: "SERIE 5", precio: 1119 },
+    { material: "SERIE 6", precio: 1206 },
+    { material: "SERIE 7", precio: 2491 },
+    { material: "PIEL D", precio: 1278 },
+  ],
+  comunMEM3SB: [
+    { material: "SERIE 1", precio: 766 },
+    { material: "SERIE 2", precio: 819 },
+    { material: "SERIE 3", precio: 871 },
+    { material: "SERIE 4", precio: 923 },
+    { material: "SERIE 5", precio: 1002 },
+    { material: "SERIE 6", precio: 1080 },
+    { material: "SERIE 7", precio: 2153 },
+    { material: "PIEL D", precio: 1144 },
+  ],
+  comunMEM35: [
+    { material: "SERIE 1", precio: 1035 },
+    { material: "SERIE 2", precio: 1104 },
+    { material: "SERIE 3", precio: 1171 },
+    { material: "SERIE 4", precio: 1239 },
+    { material: "SERIE 5", precio: 1342 },
+    { material: "SERIE 6", precio: 1443 },
+    { material: "SERIE 7", precio: 3084 },
+    { material: "PIEL D", precio: 1530 },
+  ],
+  comunMEM35DI: [
+    { material: "SERIE 1", precio: 913 },
+    { material: "SERIE 2", precio: 974 },
+    { material: "SERIE 3", precio: 1034 },
+    { material: "SERIE 4", precio: 1094 },
+    { material: "SERIE 5", precio: 1186 },
+    { material: "SERIE 6", precio: 1276 },
+    { material: "SERIE 7", precio: 2701 },
+    { material: "PIEL D", precio: 1352 },
+  ],
+  comunMEM35SB: [
+    { material: "SERIE 1", precio: 773 },
+    { material: "SERIE 2", precio: 825 },
+    { material: "SERIE 3", precio: 877 },
+    { material: "SERIE 4", precio: 929 },
+    { material: "SERIE 5", precio: 1008 },
+    { material: "SERIE 6", precio: 1086 },
+    { material: "SERIE 7", precio: 2202 },
+    { material: "PIEL D", precio: 1152 },
   ],
 };
 /*----------PRECIOS NADIR---------------*/
@@ -4558,6 +5226,126 @@ const preciosSiroco = {
     { material: "PIEL B", precio: 1275 },
     { material: "PIEL C", precio: 1469 },
     { material: "PIEL D", precio: 1697 },
+  ],
+};
+/*----------PRECIOS SISAL---------------*/
+const preciosSisal = {
+  comunSISCGREDI: [
+    { material: "SERIE 1", precio: 1091 },
+    { material: "SERIE 2", precio: 1134 },
+    { material: "SERIE 3", precio: 1177 },
+    { material: "SERIE 4", precio: 1220 },
+    { material: "SERIE 5", precio: 1283 },
+    { material: "SERIE 6", precio: 1349 },
+    { material: "SERIE 7", precio: 1430 },
+  ],
+  comunSISCMAEDI: [
+    { material: "SERIE 1", precio: 1151 },
+    { material: "SERIE 2", precio: 1194 },
+    { material: "SERIE 3", precio: 1237 },
+    { material: "SERIE 4", precio: 1280 },
+    { material: "SERIE 5", precio: 1345 },
+    { material: "SERIE 6", precio: 1409 },
+    { material: "SERIE 7", precio: 1493 },
+  ],
+  comunSISCMDEDI: [
+    { material: "SERIE 1", precio: 1151 },
+    { material: "SERIE 2", precio: 1194 },
+    { material: "SERIE 3", precio: 1237 },
+    { material: "SERIE 4", precio: 1280 },
+    { material: "SERIE 5", precio: 1345 },
+    { material: "SERIE 6", precio: 1409 },
+    { material: "SERIE 7", precio: 1493 },
+  ],
+  comunSISCMDEDI: [
+    { material: "SERIE 1", precio: 1069 },
+    { material: "SERIE 2", precio: 1111 },
+    { material: "SERIE 3", precio: 1152 },
+    { material: "SERIE 4", precio: 1192 },
+    { material: "SERIE 5", precio: 1255 },
+    { material: "SERIE 6", precio: 1316 },
+    { material: "SERIE 7", precio: 1394 },
+  ],
+  comunSISCMEEDI: [
+    { material: "SERIE 1", precio: 1224 },
+    { material: "SERIE 2", precio: 1271 },
+    { material: "SERIE 3", precio: 1317 },
+    { material: "SERIE 4", precio: 1362 },
+    { material: "SERIE 5", precio: 1431 },
+    { material: "SERIE 6", precio: 1499 },
+    { material: "SERIE 7", precio: 1590 },
+  ],
+  comunSISMGRRE: [
+    { material: "SERIE 1", precio: 1037 },
+    { material: "SERIE 2", precio: 1069 },
+    { material: "SERIE 3", precio: 1103 },
+    { material: "SERIE 4", precio: 1136 },
+    { material: "SERIE 5", precio: 1186 },
+    { material: "SERIE 6", precio: 1236 },
+    { material: "SERIE 7", precio: 1310 },
+  ],
+  comunSISMGRREDI: [
+    { material: "SERIE 1", precio: 1190 },
+    { material: "SERIE 2", precio: 1227 },
+    { material: "SERIE 3", precio: 1262 },
+    { material: "SERIE 4", precio: 1298 },
+    { material: "SERIE 5", precio: 1352 },
+    { material: "SERIE 6", precio: 1407 },
+    { material: "SERIE 7", precio: 1491 },
+  ],
+  comunSISMMARE: [
+    { material: "SERIE 1", precio: 1081 },
+    { material: "SERIE 2", precio: 1114 },
+    { material: "SERIE 3", precio: 1150 },
+    { material: "SERIE 4", precio: 1183 },
+    { material: "SERIE 5", precio: 1233 },
+    { material: "SERIE 6", precio: 1284 },
+    { material: "SERIE 7", precio: 1361 },
+  ],
+  comunSISMMAREDI: [
+    { material: "SERIE 1", precio: 1215 },
+    { material: "SERIE 2", precio: 1252 },
+    { material: "SERIE 3", precio: 1288 },
+    { material: "SERIE 4", precio: 1324 },
+    { material: "SERIE 5", precio: 1379 },
+    { material: "SERIE 6", precio: 1433 },
+    { material: "SERIE 7", precio: 1519 },
+  ],
+  comunSISMMDRE: [
+    { material: "SERIE 1", precio: 1035 },
+    { material: "SERIE 2", precio: 1066 },
+    { material: "SERIE 3", precio: 1098 },
+    { material: "SERIE 4", precio: 1128 },
+    { material: "SERIE 5", precio: 1176 },
+    { material: "SERIE 6", precio: 1223 },
+    { material: "SERIE 7", precio: 1296 },
+  ],
+  comunSISMMDREDI: [
+    { material: "SERIE 1", precio: 1178 },
+    { material: "SERIE 2", precio: 1212 },
+    { material: "SERIE 3", precio: 1247 },
+    { material: "SERIE 4", precio: 1281 },
+    { material: "SERIE 5", precio: 1334 },
+    { material: "SERIE 6", precio: 1386 },
+    { material: "SERIE 7", precio: 1496 },
+  ],
+  comunSISMMERE: [
+    { material: "SERIE 1", precio: 1122 },
+    { material: "SERIE 2", precio: 1156 },
+    { material: "SERIE 3", precio: 1192 },
+    { material: "SERIE 4", precio: 1227 },
+    { material: "SERIE 5", precio: 1278 },
+    { material: "SERIE 6", precio: 1331 },
+    { material: "SERIE 7", precio: 1410 },
+  ],
+  comunSISMMEREDI: [
+    { material: "SERIE 1", precio: 1319 },
+    { material: "SERIE 2", precio: 1369 },
+    { material: "SERIE 3", precio: 1418 },
+    { material: "SERIE 4", precio: 1468 },
+    { material: "SERIE 5", precio: 1542 },
+    { material: "SERIE 6", precio: 1617 },
+    { material: "SERIE 7", precio: 1714 },
   ],
 };
 const preciosTundra = {
@@ -7060,6 +7848,46 @@ const piezasAgora = [
     price: preciosAgora.comunAGO35DI,
     medida: 80,
   },
+  {
+    id: "AGO31A",
+    title: "AGO31A SOFA 3 PLAZAS (208)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO31A.png",
+    price: preciosAgora.comunAGO31A,
+    medida: 208,
+  },
+  {
+    id: "AGO3D1A",
+    title: "AGO3D1A SOFA 3 PLAZAS (184) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO3D1A.png",
+    price: preciosAgora.comunAGO3DI1A,
+    medida: 184,
+  },
+  {
+    id: "AGO3ID1A",
+    title: "AGO3D1A SOFA 3 PLAZAS (184) BRAZO IZQUIERDO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO3D1A.png",
+    price: preciosAgora.comunAGO3DI1A,
+    medida: 184,
+  },
+  {
+    id: "AGO35D1A",
+    title: "AGO35D1A SOFA 3,5 PLAZAS (204) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO35D1A.png",
+    price: preciosAgora.comunAGO35DI1A,
+    medida: 204,
+  },
+  {
+    id: "AGO35I1A",
+    title: "AGO35I1A SOFA 3,5 PLAZAS (204) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO35I1A.png",
+    price: preciosAgora.comunAGO35DI1A,
+    medida: 204,
+  },
 ];
 /*---------------PIEZAS ALTANO-------------*/
 const piezasAltano = [
@@ -9453,17 +10281,385 @@ const suplementosGiant = [
   {
     id: "GIAPG",
     title: "GIAPG POSAPIES GRANDE 80X80",
-    price: supGamma.supGIAPG,
+    price: supGiant.supGIAPG,
   },
   {
     id: "GIAP80CB",
     title: "GIAP80CB POSAPIES GRANDE CON BRAZO",
-    price: supGamma.supGIAP80CB,
+    price: supGiant.supGIAP80CB,
   },
   {
     id: "GIAP8060",
     title: "GIAP8060 POSAPIES GRANDE 80X60",
-    price: supGamma.supGIAP8060,
+    price: supGiant.supGIAP8060,
+  },
+];
+/*----------------PIEZAS GIANT LITTLE--------------*/
+const piezasGiantLit = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "GIALCGD",
+    title: "GIALCGD CHAISELONGUE GRANDE DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCGD.png",
+    price: preciosGiantLit.comunGIALCGDI,
+    medida: 0,
+  },
+  {
+    id: "GIALCGI",
+    title: "GIALCGI CHAISELONGUE GRANDE IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCGI.png",
+    price: preciosGiantLit.comunGIALCGDI,
+    medida: 0,
+  },
+  {
+    id: "GIALCMAD",
+    title: "GIALCMAD CHAISELONGUE MAXI DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMAD.png",
+    price: preciosGiantLit.comunGIALCMADI,
+    medida: 0,
+  },
+  {
+    id: "GIALCMAI",
+    title: "GIALCMAI CHAISELONGUE MAXI IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMAI.png",
+    price: preciosGiantLit.comunGIALCMADI,
+    medida: 0,
+  },
+  {
+    id: "GIALCMDD",
+    title: "GIALCMDD CHAISELONGUE MEDIANO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMDD.png",
+    price: preciosGiantLit.comunGIALCMDDI,
+    medida: 0,
+  },
+  {
+    id: "GIALCMDI",
+    title: "GIALCMDI CHAISELONGUE MEDIANO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMDI.png",
+    price: preciosGiantLit.comunGIALCMDDI,
+    medida: 0,
+  },
+  {
+    id: "GIALMGBD",
+    title: "GIALMGBD MODULO GRANDE (110) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGBD.png",
+    price: preciosGiantLit.comunGIALMGBDI,
+    medida: 110,
+  },
+  {
+    id: "GIALMGBI",
+    title: "GIALMGBI MODULO GRANDE (110) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGBI.png",
+    price: preciosGiantLit.comunGIALMGBDI,
+    medida: 110,
+  },
+  {
+    id: "GIALMGSB",
+    title: "GIALMGSB MODULO GRANDE (80) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGSB.png",
+    price: preciosGiantLit.comunGIALMGSB,
+    medida: 80,
+  },
+  {
+    id: "GIALMLBD",
+    title: "GIALMLBD MODULO MEGA (130) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLBD.png",
+    price: preciosGiantLit.comunGIALMLBDI,
+    medida: 130,
+  },
+  {
+    id: "GIALMLBI",
+    title: "GIALMLBI MODULO MEGA (130) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLBI.png",
+    price: preciosGiantLit.comunGIALMLBDI,
+    medida: 130,
+  },
+  {
+    id: "GIALMLSB",
+    title: "GIALMLSB MODULO MEGA (100) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLSB.png",
+    price: preciosGiantLit.comunGIALMLSB,
+    medida: 100,
+  },
+  {
+    id: "GIALMMABD",
+    title: "GIALMMABD MODULO MAXI (120) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMABD.png",
+    price: preciosGiantLit.comunGIALMMABDI,
+    medida: 120,
+  },
+  {
+    id: "GIALMMABI",
+    title: "GIALMMABI MODULO MAXI (120) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMABI.png",
+    price: preciosGiantLit.comunGIALMMABDI,
+    medida: 120,
+  },
+  {
+    id: "GIALMMASB",
+    title: "GIALMMASB MODULO MAXI (90) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMASB.png",
+    price: preciosGiantLit.comunGIALMMASB,
+    medida: 90,
+  },
+  {
+    id: "GIALMMDBD",
+    title: "GIALMMDBD MODULO MEDIANO (100) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDBD.png",
+    price: preciosGiantLit.comunGIALMMDBDI,
+    medida: 100,
+  },
+  {
+    id: "GIALMMDBI",
+    title: "GIALMMDBI MODULO MEDIANO (100) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDBI.png",
+    price: preciosGiantLit.comunGIALMMDBDI,
+    medida: 100,
+  },
+  {
+    id: "GIALMMDSB",
+    title: "GIALMMDSB MODULO MEDIANO (70) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDSB.png",
+    price: preciosGiantLit.comunGIALMMDSB,
+    medida: 70,
+  },
+  {
+    id: "GIALMXLBD",
+    title: "GIALMXLBD MODULO XL (140) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLBD.png",
+    price: preciosGiantLit.comunGIALMXLBDI,
+    medida: 140,
+  },
+  {
+    id: "GIALMXLBI",
+    title: "GIALMXLBI MODULO XL (140) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLBI.png",
+    price: preciosGiantLit.comunGIALMXLBDI,
+    medida: 140,
+  },
+  {
+    id: "GIALMXLSB",
+    title: "GIALMXLSB MODULO XL (110) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLSB.png",
+    price: preciosGiantLit.comunGIALMXLSB,
+    medida: 110,
+  },
+  {
+    id: "GIALMXXLBD",
+    title: "GIALMXXLBD MODULO XXL (150) BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLBD.png",
+    price: preciosGiantLit.comunGIALMXXLBDI,
+    medida: 150,
+  },
+  {
+    id: "GIALMXXLBI",
+    title: "GIALMXXLBI MODULO XXL (150) BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLBI.png",
+    price: preciosGiantLit.comunGIALMXXLBDI,
+    medida: 150,
+  },
+  {
+    id: "GIALMXXLSB",
+    title: "GIALMXXLSB MODULO XXL (120) SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLSB.png",
+    price: preciosGiantLit.comunGIALMXXLSB,
+    medida: 120,
+  },
+  {
+    id: "GIALR",
+    title: "GIALR RINCON CERRADO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALR.png",
+    price: preciosGiantLit.comunGIALR,
+    medida: 0,
+  },
+  {
+    id: "GIALT1RGD",
+    title: "GIALT1RGD TERMINAL GRANDE (122) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RGD.png",
+    price: preciosGiantLit.comunGIALT1RGDI,
+    medida: 122,
+  },
+  {
+    id: "GIALT1RGI",
+    title: "GIALT1RGI TERMINAL GRANDE (122) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RGI.png",
+    price: preciosGiantLit.comunGIALT1RGDI,
+    medida: 122,
+  },
+  {
+    id: "GIALT1RMAD",
+    title: "GIALT1RMAD TERMINAL MAXI (132) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RMAD.png",
+    price: preciosGiantLit.comunGIALT1RMADI,
+    medida: 132,
+  },
+  {
+    id: "GIALT1RMAI",
+    title: "GIALT1RMAI TERMINAL MAXI (132) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RMAI.png",
+    price: preciosGiantLit.comunGIALT1RMADI,
+    medida: 132,
+  },
+  {
+    id: "GIALT2RGD",
+    title: "GIALT2RGD TERMINAL DOBLE GRANDE (202) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RGD.png",
+    price: preciosGiantLit.comunGIALT2RGDI,
+    medida: 202,
+  },
+  {
+    id: "GIALT2RGI",
+    title: "GIALT2RGI TERMINAL DOBLE GRANDE (202) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RGI.png",
+    price: preciosGiantLit.comunGIALT2RGDI,
+    medida: 202,
+  },
+  {
+    id: "GIALT2RMDD",
+    title: "GIALT2RMDD TERMINAL DOBLE MEDIANO (182) DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RMDD.png",
+    price: preciosGiantLit.comunGIALT2RMDDI,
+    medida: 182,
+  },
+  {
+    id: "GIALT2RMDI",
+    title: "GIALT2RMDI TERMINAL DOBLE MEDIANO (182) IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RMDI.png",
+    price: preciosGiantLit.comunGIALT2RMDDI,
+    medida: 182,
+  },
+  {
+    id: "GIAL25",
+    title: "GIAL25 SOFA 2,5 PLAZAS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25.png",
+    price: preciosGiantLit.comunGIAL25,
+    medida: 0,
+  },
+  {
+    id: "GIAL25BD",
+    title: "GIAL25BD SOFA 2,5 PLAZAS BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25BD.png",
+    price: preciosGiantLit.comunGIAL25BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL25BI",
+    title: "GIAL25BI SOFA 2,5 PLAZAS BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25BI.png",
+    price: preciosGiantLit.comunGIAL25BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL25SB",
+    title: "GIAL25SB SOFA 2.5 PLAZAS SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25SB.png",
+    price: preciosGiantLit.comunGIAL25SB,
+    medida: 0,
+  },
+  {
+    id: "GIAL3",
+    title: "GIAL3 SOFA 3 PLAZAS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3.png",
+    price: preciosGiantLit.comunGIAL3,
+    medida: 0,
+  },
+  {
+    id: "GIAL3BD",
+    title: "GIAL3BD SOFA 3 PLAZAS BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3BD.png",
+    price: preciosGiantLit.comunGIAL3BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL3BI",
+    title: "GIAL3BI SOFA 3 PLAZAS BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3BI.png",
+    price: preciosGiantLit.comunGIAL3BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL3SB",
+    title: "GIAL3SB SOFA 3 PLAZAS SIN BRAZOS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3SB.png",
+    price: preciosGiantLit.comunGIAL3SB,
+    medida: 0,
+  },
+  {
+    id: "GIAL35",
+    title: "GIAL35 SOFA 3,5 PLAZAS",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35.png",
+    price: preciosGiantLit.comunGIAL35,
+    medida: 0,
+  },
+  {
+    id: "GIAL35BD",
+    title: "GIAL35BD SOFA 3.5 PLAZAS BRAZO DERECHO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35BD.png",
+    price: preciosGiantLit.comunGIAL35BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL35BI",
+    title: "GIAL35BI SOFA 3.5 PLAZAS BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35BI.png",
+    price: preciosGiantLit.comunGIAL35BDI,
+    medida: 0,
+  },
+  {
+    id: "GIAL35SB",
+    title: "GIAL35SB SOFA 3,5 PLAZAS SIN BRAZO",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35SB.png",
+    price: preciosGiantLit.comunGIAL35SB,
+    medida: 0,
   },
 ];
 /*-------------------PIEZAS KAPPA--------------------*/
@@ -9859,12 +11055,461 @@ const piezasMemphis = [
     imageUrl: "..",
   },
   {
-    id: "MISCGD",
-    title: "MISCGD CHAISELONGUE GRANDE (102) DERECHO",
+    id: "MEMCC25D",
+    title:
+      "MEMCC25D CHAISELONGUE MEDIANO CON MARTILLO BRAZO CORTO DERECHO (83) ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGD.png",
-    price: preciosMistral.comunMISCGDI,
-    medida: 102,
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC25D.png",
+    price: preciosMemphis.comunMEMCC25DI,
+    medida: 83,
+  },
+  {
+    id: "MEMCC25I",
+    title: "MEMCC25I CHAISELONGUE MEDIANO CON MARTILLO BRAZO CORTO IZQ (83) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC25I.png",
+    price: preciosMemphis.comunMEMCC25DI,
+    medida: 83,
+  },
+  {
+    id: "MEMCC3D",
+    title: "MEMCC3D CHAISELONGUE GRANDE CON MARTILLO BRAZO CORTO DERECHO (93) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC3D.png",
+    price: preciosMemphis.comunMEMCC3DI,
+    medida: 93,
+  },
+  {
+    id: "MEMCC3I",
+    title: "MEMCC3I CHAISELONGUE GRANDE CON MARTILLO BRAZO CORTO IZQ (93) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC3I.png",
+    price: preciosMemphis.comunMEMCC3DI,
+    medida: 93,
+  },
+  {
+    id: "MEMCC35D",
+    title: "MEMCC35D CHAISELONGUE MAXI CON MARTILLO BRAZO CORTO DERECHO (103) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC35D.png",
+    price: preciosMemphis.comunMEMCC35DI,
+    medida: 103,
+  },
+  {
+    id: "MEMCC35I",
+    title: "MEMCC35I CHAISELONGUE MAXI CON MARTILLO BRAZO CORTO IZQ (103) ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC35I.png",
+    price: preciosMemphis.comunMEMCC35DI,
+    medida: 103,
+  },
+  {
+    id: "MEMC25D",
+    title: "MEMC25D CHAISELONGUE MEDIANO BRAZO LARGO DERECHO (83)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC25D.png",
+    price: preciosMemphis.comunMEMC25DI,
+    medida: 83,
+  },
+  {
+    id: "MEMC25I",
+    title: "MEMC25I CHAISELONGUE MEDIANO BRAZO LARGO IZQ (83)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC25I.png",
+    price: preciosMemphis.comunMEMC25DI,
+    medida: 83,
+  },
+  {
+    id: "MEMC3D",
+    title: "MEMC3D CHAISELONGUE GRANDE BRAZO LARGO DERECHO (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC3D.png",
+    price: preciosMemphis.comunMEMC3DI,
+    medida: 93,
+  },
+  {
+    id: "MEMC3I",
+    title: "MEMC3I CHAISELONGUE GRANDE BRAZO LARGO IZQ (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC3D.png",
+    price: preciosMemphis.comunMEMC3DI,
+    medida: 93,
+  },
+  {
+    id: "MEMC35D",
+    title: "MEMC35D CHAISELONGUE MAXI BRAZO LARGO DERECHO (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC35D.png",
+    price: preciosMemphis.comunMEMC35DI,
+    medida: 103,
+  },
+  {
+    id: "MEMC35I",
+    title: "MEMC35I CHAISELONGUE MAXI BRAZO LARGO IZQ (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC35I.png",
+    price: preciosMemphis.comunMEMC35DI,
+    medida: 103,
+  },
+  {
+    id: "MEMRA",
+    title: "MEMRA RINCON ABIERTO (100X100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRA.png",
+    price: preciosMemphis.comunMEMRA,
+    medida: 100,
+  },
+  {
+    id: "MEMRTGD",
+    title: "MEMRTGD RINCON TERMINAL GRANDE DERECHO (108)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTGD.png",
+    price: preciosMemphis.comunMEMRTGDI,
+    medida: 108,
+  },
+  {
+    id: "MEMRTGI",
+    title: "MEMRTGI RINCON TERMINAL GRANDE IZQ (108)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTGI.png",
+    price: preciosMemphis.comunMEMRTGDI,
+    medida: 108,
+  },
+  {
+    id: "MEMRTMD",
+    title: "MEMRTMD RINCON TERMINAL MEDIANO DERECHO (98)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTMD.png",
+    price: preciosMemphis.comunMEMRTMDI,
+    medida: 98,
+  },
+  {
+    id: "MEMRTMI",
+    title: "MEMRTMI RINCON TERMINAL MEDIANO IZQ (98)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTMI.png",
+    price: preciosMemphis.comunMEMRTMDI,
+    medida: 98,
+  },
+  {
+    id: "MEMTD",
+    title: "MEMTD TERMINAL DERECHO (125)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMTD.png",
+    price: preciosMemphis.comunMEMTDI,
+    medida: 125,
+  },
+  {
+    id: "MEMTI",
+    title: "MEMTI TERMINAL IZQ (125)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMTI.png",
+    price: preciosMemphis.comunMEMTDI,
+    medida: 125,
+  },
+  {
+    id: "MEM1",
+    title: "MEM1 TERMINAL IZQ (125)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1.png",
+    price: preciosMemphis.comunMEM1,
+    medida: 125,
+  },
+  {
+    id: "MEM1G",
+    title: "MEM1G MODULO GRANDE SIN BRAZOS (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1.png",
+    price: preciosMemphis.comunMEM1G,
+    medida: 80,
+  },
+  {
+    id: "MEM1GD",
+    title: "MEM1GD MODULO GRANDE BRAZO DERECHO (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1GD.png",
+    price: preciosMemphis.comunMEM1GDI,
+    medida: 93,
+  },
+  {
+    id: "MEM1GI",
+    title: "MEM1GI MODULO GRANDE BRAZO IZQ (93)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1GI.png",
+    price: preciosMemphis.comunMEM1GDI,
+    medida: 93,
+  },
+  {
+    id: "MEM1M",
+    title: "MEM1M MODULO MEDIANO SIN BRAZOS (70)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1M.png",
+    price: preciosMemphis.comunMEM1M,
+    medida: 70,
+  },
+  {
+    id: "MEM1MA",
+    title: "MEM1MA MODULO MAXI SIN BRAZOS (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MA.png",
+    price: preciosMemphis.comunMEM1MA,
+    medida: 90,
+  },
+  {
+    id: "MEM1MAD",
+    title: "MEM1MAD MODULO MAXI BRAZO DERECHO (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MAD.png",
+    price: preciosMemphis.comunMEM1MADI,
+    medida: 103,
+  },
+  {
+    id: "MEM1MAI",
+    title: "MEM1MAI MODULO MAXI BRAZO IZQ (103)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MAI.png",
+    price: preciosMemphis.comunMEM1MADI,
+    medida: 103,
+  },
+  {
+    id: "MEM1MD",
+    title: "MEM1MD MODULO MEDIANO BRAZO DERECHO (83)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MD.png",
+    price: preciosMemphis.comunMEM1MDI,
+    medida: 83,
+  },
+  {
+    id: "MEM1MI",
+    title: "MEM1MI MODULO MEDIANO BRAZO IZQ (83)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MI.png",
+    price: preciosMemphis.comunMEM1MDI,
+    medida: 83,
+  },
+  {
+    id: "MEM1ME",
+    title: "MEM1ME MODULO MEGA SIN BRAZO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1ME.png",
+    price: preciosMemphis.comunMEM1ME,
+    medida: 100,
+  },
+  {
+    id: "MEM1MED",
+    title: "MEM1MED MODULO MEGA BRAZO DERECHO (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MED.png",
+    price: preciosMemphis.comunMEM1MEDI,
+    medida: 113,
+  },
+  {
+    id: "MEM1MEI",
+    title: "MEM1MEI MODULO MEGA BRAZO IZQ (113)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MEI.png",
+    price: preciosMemphis.comunMEM1MEDI,
+    medida: 113,
+  },
+  {
+    id: "MEM1P",
+    title: "MEM1P MODULO PEQUEÑO SIN BRAZOS (60)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1P.png",
+    price: preciosMemphis.comunMEM1P,
+    medida: 60,
+  },
+  {
+    id: "MEM1PD",
+    title: "MEM1PD MODULO PEQUEÑO BRAZO DERECHO (73)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1PD.png",
+    price: preciosMemphis.comunMEM1PDI,
+    medida: 73,
+  },
+  {
+    id: "MEM1PI",
+    title: "MEM1PI MODULO PEQUEÑO BRAZO IZQ (73)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1PI.png",
+    price: preciosMemphis.comunMEM1PDI,
+    medida: 73,
+  },
+  {
+    id: "MEM1XL",
+    title: "MEM1XL MODULO XL BRAZO SIN BRAZO (110)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XL.png",
+    price: preciosMemphis.comunMEM1XL,
+    medida: 110,
+  },
+  {
+    id: "MEM1XLD",
+    title: "MEM1XLD MODULO XL BRAZO DERECHO (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XLD.png",
+    price: preciosMemphis.comunMEM1XLDI,
+    medida: 123,
+  },
+  {
+    id: "MEM1XLDI",
+    title: "MEM1XLDI MODULO XL BRAZO IZQ (123)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XLDI.png",
+    price: preciosMemphis.comunMEM1XLDI,
+    medida: 123,
+  },
+  {
+    id: "MEM1XXL",
+    title: "MEM1XXL MODULO XXL BRAZO SIN BRAZO (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXL.png",
+    price: preciosMemphis.comunMEM1XXL,
+    medida: 120,
+  },
+  {
+    id: "MEM1XXLD",
+    title: "MEM1XXLD MODULO XXL BRAZO DERECHO (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXLD.png",
+    price: preciosMemphis.comunMEM1XXLDI,
+    medida: 133,
+  },
+  {
+    id: "MEM1XXLI",
+    title: "MEM1XXLI MODULO XXL BRAZO IZQ (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXLI.png",
+    price: preciosMemphis.comunMEM1XXLDI,
+    medida: 133,
+  },
+  {
+    id: "MEM2",
+    title: "MEM2 SOFA 2 PLAZAS (146)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2.png",
+    price: preciosMemphis.comunMEM2,
+    medida: 146,
+  },
+  {
+    id: "MEM2D",
+    title: "MEM2D SOFA 2 PLAZAS BRAZO DERECHO (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2.png",
+    price: preciosMemphis.comunMEM2DI,
+    medida: 133,
+  },
+  {
+    id: "MEM2I",
+    title: "MEM2I SOFA 2 PLAZAS BRAZO IZQ (133)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2I.png",
+    price: preciosMemphis.comunMEM2DI,
+    medida: 133,
+  },
+  {
+    id: "MEM2SB",
+    title: "MEM2SB SOFA 2 PLAZAS SIN BRAZO (120)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2SB.png",
+    price: preciosMemphis.comunMEM2SB,
+    medida: 120,
+  },
+  {
+    id: "MEM25",
+    title: "MEM25 SOFA 2,5 PLAZAS (166)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25.png",
+    price: preciosMemphis.comunMEM25,
+    medida: 166,
+  },
+  {
+    id: "MEM25D",
+    title: "MEM25D SOFA 2,5 PLAZAS BRAZO DERECHO (153)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25D.png",
+    price: preciosMemphis.comunMEM25DI,
+    medida: 153,
+  },
+  {
+    id: "MEM25I",
+    title: "MEM25I SOFA 2,5 PLAZAS BRAZO IZQ (153)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25I.png",
+    price: preciosMemphis.comunMEM25DI,
+    medida: 153,
+  },
+  {
+    id: "MEM25SB",
+    title: "MEM25SB SOFA 2,5 PLAZAS SIN BRAZO (140)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25SB.png",
+    price: preciosMemphis.comunMEM25SB,
+    medida: 140,
+  },
+  {
+    id: "MEM3",
+    title: "MEM3 SOFA 3 PLAZAS (186)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3.png",
+    price: preciosMemphis.comunMEM3,
+    medida: 186,
+  },
+  {
+    id: "MEM3D",
+    title: "MEM3D SOFA 3 PLAZAS BRAZO DERECHO (173)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3D.png",
+    price: preciosMemphis.comunMEM3DI,
+    medida: 173,
+  },
+  {
+    id: "MEM3I",
+    title: "MEM3I SOFA 3 PLAZAS BRAZO IZQ (173)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3I.png",
+    price: preciosMemphis.comunMEM3DI,
+    medida: 173,
+  },
+  {
+    id: "MEM3SB",
+    title: "MEM3SB SOFA 3 PLAZAS SIN BRAZO (160)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3SB.png",
+    price: preciosMemphis.comunMEM3SB,
+    medida: 160,
+  },
+  {
+    id: "MEM35",
+    title: "MEM35 SOFA 3,5 PLAZAS (206)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35.png",
+    price: preciosMemphis.comunMEM35,
+    medida: 206,
+  },
+  {
+    id: "MEM35D",
+    title: "MEM35D SOFA 3,5 PLAZAS BRAZO DERECHO (193)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35D.png",
+    price: preciosMemphis.comunMEM35DI,
+    medida: 193,
+  },
+  {
+    id: "MEM35I",
+    title: "MEM35I SOFA 3,5 PLAZAS BRAZO IZQ (193)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35I.png",
+    price: preciosMemphis.comunMEM35DI,
+    medida: 193,
+  },
+  {
+    id: "MEM35SB",
+    title: "MEM35SB SOFA 3,5 PLAZAS SIN BRAZO (180)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35SB.png",
+    price: preciosMemphis.comunMEM35SB,
+    medida: 180,
   },
 ];
 /*-------------------PIEZAS MISTRAL--------------------*/
@@ -11367,6 +13012,182 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRTI.png",
     price: preciosSiroco.comunSIRTD,
     medida: 80,
+  },
+];
+/*----------------PIEZAS SISAL--------------*/
+const piezasSisal = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+  },
+  {
+    id: "SISCGRED",
+    title: "SISCGRED CHAISELONGUE GRANDE CABEZAL MOTOR DERECHO (104)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCGRED.png",
+    price: preciosSisal.comunSISCGREDI,
+    medida: 104,
+  },
+  {
+    id: "SISCGREI",
+    title: "SISCGREI CHAISELONGUE GRANDE CABEZAL MOTOR IZQ (104)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCGREI.png",
+    price: preciosSisal.comunSISCGREDI,
+    medida: 104,
+  },
+  {
+    id: "SISCMAED",
+    title: "SISCMAED CHAISELONGUE MAXI CABEZAL MOTOR DERECHO (114)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAED.png",
+    price: preciosSisal.comunSISCMAEDI,
+    medida: 114,
+  },
+  {
+    id: "SISCMAEI",
+    title: "SISCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQ (114)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAEI.png",
+    price: preciosSisal.comunSISCMAEDI,
+    medida: 114,
+  },
+  {
+    id: "SISCMAEI",
+    title: "SISCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQ (114)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAEI.png",
+    price: preciosSisal.comunSISCMAEDI,
+    medida: 114,
+  },
+  {
+    id: "SISCMDED",
+    title: "SISCMDED CHAISELONGUE MEDIANO CABEZAL MOTOR DERECHO (94)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMDED.png",
+    price: preciosSisal.comunSISCMDEDI,
+    medida: 94,
+  },
+  {
+    id: "SISCMDEI",
+    title: "SISCMDEI CHAISELONGUE MEDIANO CABEZAL MOTOR IZQ (94)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMDEI.png",
+    price: preciosSisal.comunSISCMDEDI,
+    medida: 94,
+  },
+  {
+    id: "SISCMEED",
+    title: "SISCMEED CHAISELONGUE MEGA CABEZAL MOTOR DERECHO (124)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMEED.png",
+    price: preciosSisal.comunSISCMEEDI,
+    medida: 124,
+  },
+  {
+    id: "SISCMEEI",
+    title: "SISCMEEI CHAISELONGUE MEGA CABEZAL MOTOR IZQ (124)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMEEI.png",
+    price: preciosSisal.comunSISCMEEDI,
+    medida: 124,
+  },
+  {
+    id: "SISMGRRE",
+    title: "SISMGRRE MODULO GRANDE RELAX CABEZAL MOTOR SIN BRAZO (80)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRRE.png",
+    price: preciosSisal.comunSISMGRRE,
+    medida: 80,
+  },
+  {
+    id: "SISMGRRED",
+    title: "SISMGRRED MODULO GRANDE RELAX CABEZAL MOTOR BRAZO DERECHO (104)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRRED.png",
+    price: preciosSisal.comunSISMGRREDI,
+    medida: 104,
+  },
+  {
+    id: "SISMGRREI",
+    title: "SISMGRREI MODULO GRANDE RELAX CABEZAL MOTOR BRAZO IZQ (104)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRREI.png",
+    price: preciosSisal.comunSISMGRREDI,
+    medida: 104,
+  },
+  {
+    id: "SISMMARE",
+    title: "SISMMARE MODULO MAXI RELAX CABEZAL MOTOR SIN BRAZO (90)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMARE.png",
+    price: preciosSisal.comunSISMMARE,
+    medida: 90,
+  },
+  {
+    id: "SISMMARED",
+    title: "SISMMARED MODULO MAXI RELAX CABEZAL MOTOR BRAZO DERECHO (114)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMARED.png",
+    price: preciosSisal.comunSISMMAREDI,
+    medida: 114,
+  },
+  {
+    id: "SISMMAREI",
+    title: "SISMMAREI MODULO MAXI RELAX CABEZAL MOTOR BRAZO IZQ (114)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMAREI.png",
+    price: preciosSisal.comunSISMMAREDI,
+    medida: 114,
+  },
+  {
+    id: "SISMMDRE",
+    title: "SISMMDRE MODULO MEDIANO RELAX CABEZAL MOTOR SIN BRAZO (70)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDRE.png",
+    price: preciosSisal.comunSISMMDRE,
+    medida: 70,
+  },
+  {
+    id: "SISMMDRED",
+    title: "SISMMDRED MODULO MEDIANO RELAX CABEZAL MOTOR BRAZO DERECHO (94)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDRED.png",
+    price: preciosSisal.comunSISMMDREDI,
+    medida: 94,
+  },
+  {
+    id: "SISMMDREI",
+    title: "SISMMDREI MODULO MEDIANO RELAX CABEZAL MOTOR BRAZO IZQ (94)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDREI.png",
+    price: preciosSisal.comunSISMMDREDI,
+    medida: 94,
+  },
+  {
+    id: "SISMMERE",
+    title: "SISMMERE MODULO MEGA RELAX CABEZAL MOTOR SIN BRAZO (100)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMERE.png",
+    price: preciosSisal.comunSISMMERE,
+    medida: 100,
+  },
+  {
+    id: "SISMMERED",
+    title: "SISMMERED MODULO MEGA RELAX CABEZAL MOTOR BRAZO DERECHO (124)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMERED.png",
+    price: preciosSisal.comunSISMMEREDI,
+    medida: 124,
+  },
+  {
+    id: "SISMMEREI",
+    title: "SISMMEREI MODULO MEGA RELAX CABEZAL MOTOR BRAZO IZQ (124)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMEREI.png",
+    price: preciosSisal.comunSISMMEREDI,
+    medida: 124,
   },
 ];
 /*----------------PIEZAS TUNDRA--------------*/
