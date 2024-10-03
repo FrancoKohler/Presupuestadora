@@ -12,11 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const modeloSeleccionado = modeloSelect.value;
     let piezasAMostrar;
     let materialesAgora = new Set();
+    let materialesAlpha = new Set();
     let materialesBarine = new Set();
     let materialesBertina = new Set();
     let materialesBertinaLit = new Set();
     let materialesCoral = new Set();
     let materialesGamma = new Set();
+    let materialesGiant = new Set();
+    let materialesGiantLit = new Set();
     let materialesLino = new Set();
     let materialesNadir = new Set();
     let materialesSiroco = new Set();
@@ -34,16 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         break;
-      case "Lino":
-        piezasAMostrar = piezasLino;
-        piezasLino.forEach((pieza) => {
-          if (pieza.price) {
-            pieza.price.forEach((precio) => {
-              materialesLino.add(precio.material);
-            });
-          }
-        });
-        break;
+
       case "Agora":
         piezasAMostrar = piezasAgora;
         // Poblar materiales específicos de "Agora"
@@ -55,6 +49,18 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         console.log("Materiales para Agora:", Array.from(materialesAgora)); // Depuración
+        break;
+      case "Alpha":
+        piezasAMostrar = piezasAlpha;
+        // Poblar materiales específicos de "Alpha"
+        piezasAlpha.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesAlpha.add(precio.material); // <- Usamos "materialesAlpha"
+            });
+          }
+        });
+        console.log("Materiales para Alpha:", Array.from(materialesAlpha)); // <- Depuración
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
@@ -131,6 +137,43 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         console.log("Materiales para Gamma:", Array.from(materialesGamma)); // Depuración
         break;
+      case "Giant":
+        piezasAMostrar = piezasGiant;
+        // Poblar materiales específicos de "Giant"
+        piezasGiant.forEach((piezaGiant) => {
+          if (piezaGiant.price) {
+            piezaGiant.price.forEach((precio) => {
+              materialesGiant.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Giant:", Array.from(materialesGiant)); // Depuración
+        break;
+      case "Giant Little":
+        piezasAMostrar = piezasGiantLit;
+        // Poblar materiales específicos de "Giant Little"
+        piezasGiantLit.forEach((piezaGiantLit) => {
+          if (piezaGiantLit.price) {
+            piezaGiantLit.price.forEach((precio) => {
+              materialesGiantLit.add(precio.material);
+            });
+          }
+        });
+        console.log(
+          "Materiales para Giant Little:",
+          Array.from(materialesGiantLit)
+        ); // Depuración
+        break;
+      case "Lino":
+        piezasAMostrar = piezasLino;
+        piezasLino.forEach((pieza) => {
+          if (pieza.price) {
+            pieza.price.forEach((precio) => {
+              materialesLino.add(precio.material);
+            });
+          }
+        });
+        break;
       case "Nadir":
         piezasAMostrar = piezasNadir;
         // Poblar materiales específicos de "Nadir"
@@ -201,6 +244,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const suplementoPatas = document.getElementById("suplementoPatas");
         suplementoPatas.style.display = "flex";
       });
+    } else if (modeloSeleccionado === "Alpha") {
+      // Agregar materiales del modelo Alpha
+      materialesAlpha.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Barine") {
       // Agregar materiales del modelo Barine
       materialesBarine.forEach((material) => {
@@ -236,6 +287,22 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (modeloSeleccionado === "Gamma") {
       // Agregar materiales del modelo Gamma
       materialesGamma.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Giant") {
+      // Agregar materiales del modelo Gamma
+      materialesGiant.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Giant Little") {
+      // Agregar materiales del modelo Gamma
+      materialesGiantLit.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -451,11 +518,14 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
   const colecciones = [
     piezasAgora,
     piezasAltano,
+    piezasAlpha,
     piezasBarine,
     piezasBertina,
     piezasBertinaLit,
     piezasCoral,
     piezasGamma,
+    piezasGiant,
+    piezasGiantLit,
     piezasLino,
     piezasNadir,
     piezasSiroco,
@@ -519,6 +589,9 @@ function cambiarPreciosPorModelo(modelo) {
     case "Altano":
       nuevosPrecios = preciosAltano;
       break;
+    case "Alpha":
+      nuevosPrecios = preciosAlpha;
+      break;
     case "Barine":
       nuevosPrecios = preciosBarine;
       break;
@@ -533,6 +606,12 @@ function cambiarPreciosPorModelo(modelo) {
       break;
     case "Gamma":
       nuevosPrecios = preciosGamma;
+      break;
+    case "Giant":
+      nuevosPrecios = preciosGiant;
+      break;
+    case "Giant Little":
+      nuevosPrecios = preciosGiantLit;
       break;
     case "Lino":
       nuevosPrecios = preciosLino;
@@ -575,6 +654,11 @@ function cambiarPreciosPorModelo(modelo) {
         )
       : [];
   });
+  piezasAlpha.forEach((piezaAlpha) => {
+    piezaAlpha.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioAlpha) => precioAlpha.id === piezaAlpha.id)
+      : [];
+  });
   piezasBarine.forEach((piezaBarine) => {
     piezaBarine.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
@@ -598,7 +682,19 @@ function cambiarPreciosPorModelo(modelo) {
   });
   piezasCoral.forEach((piezaCoral) => {
     piezaCoral.price = Array.isArray(nuevosPrecios)
-      ? nuevosPrecios.filter((piezaCoral) => piezaCoral.id === piezaCoral.id)
+      ? nuevosPrecios.filter((piezaCoral) => precioCoral.id === piezaCoral.id)
+      : [];
+  });
+  piezasGiant.forEach((piezaGiant) => {
+    piezaGiant.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((piezaGiant) => precioGiant.id === piezaGiant.id)
+      : [];
+  });
+  piezasGiantLit.forEach((piezaGiantLit) => {
+    piezaGiantLit.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (piezaGiantLit) => precioGiantLit.id === piezaGiantLit.id
+        )
       : [];
   });
   piezasLino.forEach((piezaLino) => {
@@ -661,12 +757,13 @@ function mostrarImagenes() {
             if (
               piezaId === "YUTRA" ||
               piezaId === "AGOR" ||
-              piezaId === "LINRA" ||
               piezaId === "ALTR" ||
-              piezaId === "BARR" ||
-              piezaId === "NADRA" ||
+              piezaId === "ALPRA" ||
               piezaId === "BERLR" ||
               piezaId === "BERR" ||
+              piezaId === "BARR" ||
+              piezaId === "NADRA" ||
+              piezaId === "LINRA" ||
               piezaId === "SIRRC"
             ) {
               const rect = imgElement.getBoundingClientRect();
