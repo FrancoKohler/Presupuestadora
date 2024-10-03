@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let piezasAMostrar;
     let materialesAgora = new Set();
     let materialesBarine = new Set();
+    let materialesBertina = new Set();
+    let materialesBertinaLit = new Set();
     let materialesCoral = new Set();
     let materialesGamma = new Set();
     let materialesLino = new Set();
@@ -77,6 +79,33 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         console.log("Materiales para Barine:", Array.from(materialesBarine)); // Depuración
+        break;
+      case "Bertina":
+        piezasAMostrar = piezasBertina;
+        // Poblar materiales específicos de "Bertina"
+        piezasBertina.forEach((piezaBertina) => {
+          if (piezaBertina.price) {
+            piezaBertina.price.forEach((precio) => {
+              materialesBertina.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Bertina:", Array.from(materialesBertina)); // Depuración
+        break;
+      case "Bertina Little":
+        piezasAMostrar = piezasBertinaLit;
+        // Poblar materiales específicos de "Bertina"
+        piezasBertinaLit.forEach((piezaBertinaLit) => {
+          if (piezaBertinaLit.price) {
+            piezaBertinaLit.price.forEach((precio) => {
+              materialesBertinaLit.add(precio.material);
+            });
+          }
+        });
+        console.log(
+          "Materiales para Bertina Little:",
+          Array.from(materialesBertinaLit)
+        ); // Depuración
         break;
       case "Coral":
         piezasAMostrar = piezasCoral;
@@ -188,6 +217,22 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Bertina") {
+      // Agregar materiales del modelo Coral
+      materialesBertina.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Bertina Little") {
+      // Agregar materiales del modelo Coral
+      materialesBertinaLit.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Gamma") {
       // Agregar materiales del modelo Gamma
       materialesGamma.forEach((material) => {
@@ -292,28 +337,6 @@ document.addEventListener("DOMContentLoaded", function () {
       nextIndex++;
     }
   });
-  // POBLAR LAS TELAS
-  const materialesSet = new Set();
-
-  piezas.forEach((pieza) => {
-    if (pieza.price) {
-      pieza.price.forEach((precio) => {
-        materialesSet.add(precio.material);
-      });
-    }
-  });
-
-  const dropdown = document.getElementById("tela");
-  dropdown.innerHTML = "";
-
-  materialesSet.forEach((material) => {
-    const option = document.createElement("option");
-    option.value = material;
-    option.textContent = material;
-    dropdown.appendChild(option);
-  });
-
-  generarResumen();
 });
 
 /*-----------------NO SE USA PARTE DE ESTE SCRIPT ACTUALMENTE PARA FACILITAR UX----------*/
@@ -426,15 +449,17 @@ function obtenerPiezasSeleccionadas() {
 /*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
 function obtenerPrecioPorMaterial(idPieza, tela) {
   const colecciones = [
-    piezasYute,
     piezasAgora,
     piezasAltano,
     piezasBarine,
+    piezasBertina,
+    piezasBertinaLit,
     piezasCoral,
     piezasGamma,
     piezasLino,
     piezasNadir,
     piezasSiroco,
+    piezasYute,
   ];
   let precioMaterial;
 
@@ -497,6 +522,12 @@ function cambiarPreciosPorModelo(modelo) {
     case "Barine":
       nuevosPrecios = preciosBarine;
       break;
+    case "Bertina":
+      nuevosPrecios = preciosBertina;
+      break;
+    case "Bertina Little":
+      nuevosPrecios = preciosBertinaLit;
+      break;
     case "Coral":
       nuevosPrecios = preciosCoral;
       break;
@@ -548,6 +579,20 @@ function cambiarPreciosPorModelo(modelo) {
     piezaBarine.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioBarine) => precioBarine.id === piezaBarine.id
+        )
+      : [];
+  });
+  piezasBertina.forEach((piezaBertina) => {
+    piezaBertina.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioBertina) => precioBertina.id === piezaBertina.id
+        )
+      : [];
+  });
+  piezasBertinaLit.forEach((piezaBertinaLit) => {
+    piezaBertinaLit.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioBertinaLit) => precioBertinaLit.id === piezaBertinaLit.id
         )
       : [];
   });
@@ -620,6 +665,8 @@ function mostrarImagenes() {
               piezaId === "ALTR" ||
               piezaId === "BARR" ||
               piezaId === "NADRA" ||
+              piezaId === "BERLR" ||
+              piezaId === "BERR" ||
               piezaId === "SIRRC"
             ) {
               const rect = imgElement.getBoundingClientRect();
