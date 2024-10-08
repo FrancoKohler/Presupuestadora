@@ -1,4 +1,5 @@
 //CAMBIO DE PIEZAS E INPUTS SEGUN MODELOS
+
 document.addEventListener("DOMContentLoaded", function () {
   const modeloSelect = document.getElementById("modelo");
 
@@ -17,12 +18,24 @@ document.addEventListener("DOMContentLoaded", function () {
     let materialesBertina = new Set();
     let materialesBertinaLit = new Set();
     let materialesCoral = new Set();
+    let materialesDana = new Set();
     let materialesGamma = new Set();
     let materialesGiant = new Set();
     let materialesGiantLit = new Set();
+    let materialesKappa = new Set();
     let materialesLino = new Set();
+    let materialesMemphis = new Set();
+    let materialesMistral = new Set();
     let materialesNadir = new Set();
+    let materialesPA = new Set();
+    let materialesPB = new Set();
+    let materialesSigma = new Set();
     let materialesSiroco = new Set();
+    let materialesSisal = new Set();
+    let materialesTundra = new Set();
+    /* let materialesTucson = new Set(); */
+    let materialesZenith = new Set();
+    let materialesZonda = new Set();
     let materialesAltano = new Set();
     let materialesYute = new Set();
 
@@ -125,6 +138,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         console.log("Materiales para Coral:", Array.from(materialesCoral)); // Depuración
         break;
+      case "Dana":
+        piezasAMostrar = piezasDana;
+        // Poblar materiales específicos de "Dana"
+        piezasDana.forEach((piezaDana) => {
+          if (piezaDana.price) {
+            piezaDana.price.forEach((precio) => {
+              materialesDana.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Dana:", Array.from(materialesDana)); // Depuración
+        break;
       case "Gamma":
         piezasAMostrar = piezasGamma;
         // Poblar materiales específicos de "Gamma"
@@ -164,6 +189,18 @@ document.addEventListener("DOMContentLoaded", function () {
           Array.from(materialesGiantLit)
         ); // Depuración
         break;
+      case "Kappa":
+        piezasAMostrar = piezasKappa;
+        // Poblar materiales específicos de "Kappa"
+        piezasKappa.forEach((piezaKappa) => {
+          if (piezaKappa.price) {
+            piezaKappa.price.forEach((precio) => {
+              materialesKappa.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Kappa:", Array.from(materialesKappa)); // Depuración
+        break;
       case "Lino":
         piezasAMostrar = piezasLino;
         piezasLino.forEach((pieza) => {
@@ -173,6 +210,31 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
+        console.log("Materiales para Lino:", Array.from(materialesLino)); // Depuración
+        break;
+      case "Memphis":
+        piezasAMostrar = piezasMemphis;
+        // Poblar materiales específicos de "Memphis"
+        piezasMemphis.forEach((piezaMemphis) => {
+          if (piezaMemphis.price) {
+            piezaMemphis.price.forEach((precio) => {
+              materialesMemphis.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Memphis:", Array.from(materialesMemphis)); // Depuración
+        break;
+      case "Mistral":
+        piezasAMostrar = piezasMistral;
+        // Poblar materiales específicos de "Mistral"
+        piezasMistral.forEach((piezaMistral) => {
+          if (piezaMistral.price) {
+            piezaMistral.price.forEach((precio) => {
+              materialesMistral.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Mistral:", Array.from(materialesMistral)); // Depuración
         break;
       case "Nadir":
         piezasAMostrar = piezasNadir;
@@ -185,6 +247,42 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         console.log("Materiales para Nadir:", Array.from(materialesNadir)); // Depuración
+        break;
+      case "Platea Alta":
+        piezasAMostrar = piezasPlateaAlta;
+        // Poblar materiales específicos de "Platea Alta"
+        piezasPlateaAlta.forEach((piezaPlateaAlta) => {
+          if (piezaPlateaAlta.price) {
+            piezaPlateaAlta.price.forEach((precio) => {
+              materialesPA.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Platea Alta:", Array.from(materialesPA)); // Depuración
+        break;
+      case "Platea Baja":
+        piezasAMostrar = piezasPlateaBaja;
+        // Poblar materiales específicos de "Platea Baja"
+        piezasPlateaBaja.forEach((piezaPlateaBaja) => {
+          if (piezaPlateaBaja.price) {
+            piezaPlateaBaja.price.forEach((precio) => {
+              materialesPB.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Platea Alta:", Array.from(materialesPB)); // Depuración
+        break;
+      case "Sigma":
+        piezasAMostrar = piezasSigma;
+        // Poblar materiales específicos de "Sigma"
+        piezasSigma.forEach((piezaSigma) => {
+          if (piezaSigma.price) {
+            piezaSigma.price.forEach((precio) => {
+              materialesSigma.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Sigma:", Array.from(materialesSigma)); // Depuración
         break;
       case "Sirocco Eco":
         piezasAMostrar = piezasSiroco;
@@ -200,6 +298,67 @@ document.addEventListener("DOMContentLoaded", function () {
           "Materiales para Sirocco Eco:",
           Array.from(materialesSiroco)
         ); // Depuración
+        break;
+
+      case "Sisal":
+        piezasAMostrar = piezasSisal;
+        // Poblar materiales específicos de "Sisal"
+        piezasSisal.forEach((piezaSisal) => {
+          if (piezaSisal.price) {
+            piezaSisal.price.forEach((precio) => {
+              materialesSisal.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Sisal:", Array.from(materialesSisal)); // Depuración
+        break;
+      case "Tundra":
+        piezasAMostrar = piezasTundra;
+        // Poblar materiales específicos de "Tundra"
+        piezasTundra.forEach((piezaTundra) => {
+          if (piezaTundra.price) {
+            piezaTundra.price.forEach((precio) => {
+              materialesTundra.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Tundra:", Array.from(materialesTundra)); // Depuración
+        break;
+      /* case "Tucson":
+        piezasAMostrar = piezasTucson;
+        
+        piezasTucson.forEach((piezaTucson) => {
+          if (piezaTucson.price) {
+            piezaTucson.price.forEach((precio) => {
+              materialesTucson.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Tucson:", Array.from(materialesTucson));
+        break; */
+      case "Zenith":
+        piezasAMostrar = piezasZenith;
+        // Poblar materiales específicos de "Zenith"
+        piezasZenith.forEach((piezaZenith) => {
+          if (piezaZenith.price) {
+            piezaZenith.price.forEach((precio) => {
+              materialesZenith.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Zenith:", Array.from(materialesZenith)); // Depuración
+        break;
+      case "Zonda":
+        piezasAMostrar = piezasZonda;
+        // Poblar materiales específicos de "Zonda"
+        piezasZonda.forEach((piezaZonda) => {
+          if (piezaZonda.price) {
+            piezaZonda.price.forEach((precio) => {
+              materialesZonda.add(precio.material);
+            });
+          }
+        });
+        console.log("Materiales para Zonda:", Array.from(materialesZonda)); // Depuración
         break;
       default:
         piezasAMostrar = [];
@@ -260,6 +419,22 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Bertina") {
+      // Agregar materiales del modelo Bertina
+      materialesBertina.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Bertina Little") {
+      // Agregar materiales del modelo Bertina Lt
+      materialesBertinaLit.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Coral") {
       // Agregar materiales del modelo Coral
       materialesCoral.forEach((material) => {
@@ -268,17 +443,9 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
-    } else if (modeloSeleccionado === "Bertina") {
-      // Agregar materiales del modelo Coral
-      materialesBertina.forEach((material) => {
-        const option = document.createElement("option");
-        option.value = material;
-        option.textContent = material;
-        telaDropdown.appendChild(option);
-      });
-    } else if (modeloSeleccionado === "Bertina Little") {
-      // Agregar materiales del modelo Coral
-      materialesBertinaLit.forEach((material) => {
+    } else if (modeloSeleccionado === "Dana") {
+      // Agregar materiales del modelo Dana
+      materialesDana.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -293,7 +460,7 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Giant") {
-      // Agregar materiales del modelo Gamma
+      // Agregar materiales del modelo Giant
       materialesGiant.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
@@ -301,8 +468,16 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Giant Little") {
-      // Agregar materiales del modelo Gamma
+      // Agregar materiales del modelo Giant Lt
       materialesGiantLit.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Kappa") {
+      // Agregar materiales del modelo Kappa
+      materialesKappa.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -316,9 +491,41 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Memphis") {
+      // Agregar materiales del modelo Memphis
+      materialesMemphis.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Mistral") {
+      // Agregar materiales del modelo Mistral
+      materialesMistral.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Nadir") {
       // Agregar materiales del modelo Nadir
       materialesNadir.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Platea Alta") {
+      // Agregar materiales del modelo Nadir
+      materialesPA.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Platea Baja") {
+      // Agregar materiales del modelo Nadir
+      materialesPB.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -332,9 +539,57 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
+    } else if (modeloSeleccionado === "Sigma") {
+      // Agregar materiales del modelo Sigma
+      materialesSigma.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Sisal") {
+      // Agregar materiales del modelo Sisal
+      materialesSisal.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } /* else if (modeloSeleccionado === "Tucson") {
+      
+      materialesTucson.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } */ else if (modeloSeleccionado === "Tundra") {
+      // Agregar materiales del modelo Tundra
+      materialesTundra.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
     } else if (modeloSeleccionado === "Yute") {
       // Agregar materiales del modelo Yute
       materialesYute.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Zonda") {
+      // Agregar materiales del modelo Zonda
+      materialesZonda.forEach((material) => {
+        const option = document.createElement("option");
+        option.value = material;
+        option.textContent = material;
+        telaDropdown.appendChild(option);
+      });
+    } else if (modeloSeleccionado === "Zenith") {
+      // Agregar materiales del modelo Zenith
+      materialesZenith.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
@@ -523,13 +778,25 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
     piezasBertina,
     piezasBertinaLit,
     piezasCoral,
+    piezasDana,
     piezasGamma,
     piezasGiant,
     piezasGiantLit,
+    piezasKappa,
     piezasLino,
+    piezasMemphis,
+    piezasMistral,
     piezasNadir,
+    piezasPlateaAlta,
+    piezasPlateaBaja,
     piezasSiroco,
+    piezasSigma,
+    piezasSisal,
+    /* piezasTucson, */
+    piezasTundra,
     piezasYute,
+    piezasZenith,
+    piezasZonda,
   ];
   let precioMaterial;
 
@@ -604,6 +871,9 @@ function cambiarPreciosPorModelo(modelo) {
     case "Coral":
       nuevosPrecios = preciosCoral;
       break;
+    case "Dana":
+      nuevosPrecios = preciosDana;
+      break;
     case "Gamma":
       nuevosPrecios = preciosGamma;
       break;
@@ -613,17 +883,53 @@ function cambiarPreciosPorModelo(modelo) {
     case "Giant Little":
       nuevosPrecios = preciosGiantLit;
       break;
+    case "Kappa":
+      nuevosPrecios = preciosKappa;
+      break;
+    case "Lino":
+      nuevosPrecios = preciosLino;
+      break;
+    case "Memphis":
+      nuevosPrecios = preciosMemphis;
+      break;
+    case "Mistral":
+      nuevosPrecios = preciosMistral;
+      break;
     case "Lino":
       nuevosPrecios = preciosLino;
       break;
     case "Nadir":
       nuevosPrecios = preciosNadir;
       break;
+    case "Platea Alta":
+      nuevosPrecios = preciosPlateaAlta;
+      break;
+    case "Platea Baja":
+      nuevosPrecios = preciosPlateaBaja;
+      break;
+    case "Sigma":
+      nuevosPrecios = preciosSigma;
+      break;
+    case "Sisal":
+      nuevosPrecios = preciosSisal;
+      break;
     case "Sirocco Eco":
       nuevosPrecios = preciosSiroco;
       break;
+    case "Tundra":
+      nuevosPrecios = preciosTundra;
+      break;
+    /* case "Tucson":
+      nuevosPrecios = preciosTucson;
+      break; */
     case "Yute":
       nuevosPrecios = precios;
+      break;
+    case "Zenith":
+      nuevosPrecios = preciosZenith;
+      break;
+    case "Zonda":
+      nuevosPrecios = preciosZonda;
       break;
     default:
       nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
@@ -685,6 +991,11 @@ function cambiarPreciosPorModelo(modelo) {
       ? nuevosPrecios.filter((piezaCoral) => precioCoral.id === piezaCoral.id)
       : [];
   });
+  piezasDana.forEach((piezaDana) => {
+    piezaDana.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((piezaDana) => precioDana.id === piezaDana.id)
+      : [];
+  });
   piezasGiant.forEach((piezaGiant) => {
     piezaGiant.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter((piezaGiant) => precioGiant.id === piezaGiant.id)
@@ -694,6 +1005,30 @@ function cambiarPreciosPorModelo(modelo) {
     piezaGiantLit.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (piezaGiantLit) => precioGiantLit.id === piezaGiantLit.id
+        )
+      : [];
+  });
+  piezasKappa.forEach((piezaKappa) => {
+    piezaKappa.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((piezaKappa) => precioKappa.id === piezaKappa.id)
+      : [];
+  });
+  piezasLino.forEach((piezaLino) => {
+    piezaLino.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioLino) => precioLino.id === piezaLino.id)
+      : [];
+  });
+  piezasMemphis.forEach((piezaMemphis) => {
+    piezaMemphis.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioMemphis) => precioMemphis.id === piezaMemphis.id
+        )
+      : [];
+  });
+  piezasMistral.forEach((piezaMistral) => {
+    piezaMistral.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioMistral) => precioMistral.id === piezaMistral.id
         )
       : [];
   });
@@ -707,11 +1042,54 @@ function cambiarPreciosPorModelo(modelo) {
       ? nuevosPrecios.filter((precioNadir) => precioNadir.id === piezaNadir.id)
       : [];
   });
+  piezasPlateaAlta.forEach((piezaPlateaAlta) => {
+    piezaPlateaAlta.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioPlateaAlta) => precioPlateaAlta.id === piezaPlateaAlta.id
+        )
+      : [];
+  });
+  piezasPlateaBaja.forEach((piezaPlateaBaja) => {
+    piezaPlateaBaja.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioPlateaBaja) => precioPlateaBaja.id === piezaPlateaBaja.id
+        )
+      : [];
+  });
+  piezasSigma.forEach((piezaSigma) => {
+    piezaSigma.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioSigma) => precioSigma.id === piezaSigma.id)
+      : [];
+  });
   piezasSiroco.forEach((piezaSiroco) => {
     piezaSiroco.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioSiroco) => precioSiroco.id === piezaSiroco.id
         )
+      : [];
+  });
+  piezasSisal.forEach((piezaSisal) => {
+    piezaSisal.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioSisal) => precioSisal.id === piezaSisal.id)
+      : [];
+  });
+  /* piezasTucson.forEach((piezaTucson) => {
+    piezaTucson.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioTucson) => precioTucson.id === piezaTucson.id
+        )
+      : [];
+  }); */
+  piezasZenith.forEach((piezaZenith) => {
+    piezaZenith.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter(
+          (precioZenith) => precioZenith.id === piezaZenith.id
+        )
+      : [];
+  });
+  piezasZonda.forEach((piezaZonda) => {
+    piezaZenith.price = Array.isArray(nuevosPrecios)
+      ? nuevosPrecios.filter((precioZonda) => precioZonda.id === piezaZonda.id)
       : [];
   });
 
@@ -762,9 +1140,16 @@ function mostrarImagenes() {
               piezaId === "BERLR" ||
               piezaId === "BERR" ||
               piezaId === "BARR" ||
+              piezaId === "GIAR" ||
               piezaId === "NADRA" ||
+              piezaId === "MEMRA" ||
+              piezaId === "PLAAR" ||
+              piezaId === "PLAR" ||
               piezaId === "LINRA" ||
-              piezaId === "SIRRC"
+              piezaId === "SIGRA" ||
+              piezaId === "SIRRC" ||
+              piezaId === "TUNRA" ||
+              piezaId === "ZENRA"
             ) {
               const rect = imgElement.getBoundingClientRect();
               yutraPosition = {
