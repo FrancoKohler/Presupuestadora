@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let materialesSiroco = new Set();
     let materialesSisal = new Set();
     let materialesTundra = new Set();
-    /* let materialesTucson = new Set(); */
+    let materialesTucson = new Set();
     let materialesZenith = new Set();
     let materialesZonda = new Set();
     let materialesAltano = new Set();
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Bertina Little":
         piezasAMostrar = piezasBertinaLit;
-        // Poblar materiales específicos de "Bertina"
+        // Poblar materiales específicos de "Bertina Lt"
         piezasBertinaLit.forEach((piezaBertinaLit) => {
           if (piezaBertinaLit.price) {
             piezaBertinaLit.price.forEach((precio) => {
@@ -324,9 +324,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         console.log("Materiales para Tundra:", Array.from(materialesTundra)); // Depuración
         break;
-      /* case "Tucson":
+      case "Tucson":
         piezasAMostrar = piezasTucson;
-        
+        // Poblar materiales específicos de "Tucson"
         piezasTucson.forEach((piezaTucson) => {
           if (piezaTucson.price) {
             piezaTucson.price.forEach((precio) => {
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
         console.log("Materiales para Tucson:", Array.from(materialesTucson));
-        break; */
+        break;
       case "Zenith":
         piezasAMostrar = piezasZenith;
         // Poblar materiales específicos de "Zenith"
@@ -555,15 +555,14 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
-    } /* else if (modeloSeleccionado === "Tucson") {
-      
+    } else if (modeloSeleccionado === "Tucson") {
       materialesTucson.forEach((material) => {
         const option = document.createElement("option");
         option.value = material;
         option.textContent = material;
         telaDropdown.appendChild(option);
       });
-    } */ else if (modeloSeleccionado === "Tundra") {
+    } else if (modeloSeleccionado === "Tundra") {
       // Agregar materiales del modelo Tundra
       materialesTundra.forEach((material) => {
         const option = document.createElement("option");
@@ -792,7 +791,7 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
     piezasSiroco,
     piezasSigma,
     piezasSisal,
-    /* piezasTucson, */
+    piezasTucson,
     piezasTundra,
     piezasYute,
     piezasZenith,
@@ -919,9 +918,9 @@ function cambiarPreciosPorModelo(modelo) {
     case "Tundra":
       nuevosPrecios = preciosTundra;
       break;
-    /* case "Tucson":
+    case "Tucson":
       nuevosPrecios = preciosTucson;
-      break; */
+      break;
     case "Yute":
       nuevosPrecios = precios;
       break;
@@ -1073,13 +1072,13 @@ function cambiarPreciosPorModelo(modelo) {
       ? nuevosPrecios.filter((precioSisal) => precioSisal.id === piezaSisal.id)
       : [];
   });
-  /* piezasTucson.forEach((piezaTucson) => {
+  piezasTucson.forEach((piezaTucson) => {
     piezaTucson.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
           (precioTucson) => precioTucson.id === piezaTucson.id
         )
       : [];
-  }); */
+  });
   piezasZenith.forEach((piezaZenith) => {
     piezaZenith.price = Array.isArray(nuevosPrecios)
       ? nuevosPrecios.filter(
@@ -1472,5 +1471,28 @@ generateBtn.addEventListener("click", function () {
         confirmButton: "my-confirm-button",
       },
     });
+  }
+});
+
+/*----------------OVERLAY------------------*/
+// Obtener elementos
+const modal = document.getElementById("modal");
+const openModalBtn = document.getElementById("openModalBtn");
+const closeModalBtn = document.getElementById("closeModalBtn");
+
+// Abrir modal al hacer clic en el botón
+openModalBtn.addEventListener("click", function () {
+  modal.style.display = "block";
+});
+
+// Cerrar modal al hacer clic en la 'X'
+closeModalBtn.addEventListener("click", function () {
+  modal.style.display = "none";
+});
+
+// Cerrar modal al hacer clic fuera del contenido
+window.addEventListener("click", function (event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
   }
 });

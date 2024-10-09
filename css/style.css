@@ -68,24 +68,6 @@ p {
 }
 /*FORM DATOS*/
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  background-attachment: fixed;
-}
-
-aside {
-  padding: 2rem;
-  padding-right: 0;
-  background-color: #004177;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .form-inputs {
   width: 100%;
   display: flex;
@@ -135,6 +117,7 @@ select {
 .tela-seccion {
   padding-bottom: 2rem;
   padding-top: 2rem;
+  margin-bottom: 20px;
   border-bottom: #343434 1px solid;
   width: 40%;
   display: flex;
@@ -232,7 +215,7 @@ select {
 /*RESUMEN*/
 .section-resumen {
   padding-top: 2rem;
-  border-top: #343434 1px solid;
+
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -309,7 +292,7 @@ select {
   cursor: pointer;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 1.5rem;
-  margin-bottom: 4rem;
+  margin: 2rem 5rem 2rem;
   transition: 1s;
 }
 
@@ -490,4 +473,43 @@ li {
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 1.5rem;
   transition: 1s;
+}
+/*--------------OVERLAY--------------*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+/* Contenido del modal */
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  overflow-y: auto;
+  border-radius: 10px;
+  position: relative;
+  position: relative;
+  box-sizing: border-box;
+}
+.contacto-seccion h2 {
+  margin-top: 0; /* Evitar margen adicional en la parte superior */
+}
+/* Botón para cerrar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
 }
