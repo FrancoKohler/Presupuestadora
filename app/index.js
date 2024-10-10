@@ -1094,14 +1094,17 @@ function cambiarPreciosPorModelo(modelo) {
 
   actualizarUI();
 }
-
 function mostrarImagenes() {
   const imagenesDiv = document.getElementById("imagenPiezas");
   imagenesDiv.innerHTML = ""; // Limpiar las imágenes anteriores
-  let yutraPosition = null;
+  imagenesDiv.style.position = "relative"; // Asegurarse de que el contenedor sea relativo
+
   let currentY = 0;
   let currentX = 0;
-  let rotateAfterYutra = false;
+  let rotateAfterYutra = false; // Bandera para saber si rotamos después de YUTRA
+  let maxWidth = 0;
+  let maxHeight = 0;
+  let yutraPosition = { x: 0, y: 0 }; // Posición de YUTRA calculada dinámicamente
 
   const promises = [];
 
@@ -1111,68 +1114,84 @@ function mostrarImagenes() {
       const selectedOption = piezaSelect.options[piezaSelect.selectedIndex];
       const imageUrl = selectedOption.dataset.imageUrl;
       const piezaId = selectedOption.value;
-      const containerHeight =
-        parseInt(selectedOption.dataset.height, 10) || 350;
 
       if (imageUrl && piezaId !== "None") {
         const imgElement = document.createElement("img");
         imgElement.src = imageUrl;
         imgElement.alt = selectedOption.textContent;
-        imgElement.style.margin = "0px";
-        imgElement.style.verticalAlign = "top";
-        imgElement.style.position = "absolute";
+        imgElement.style.position = "absolute"; // Las imágenes deben ser absolutas para poder posicionarlas libremente
         imgElement.classList.add("img-config");
         imagenesDiv.appendChild(imgElement);
 
-        // Asegúrate de que la imagen esté cargada antes de posicionarla
         const imageLoadPromise = new Promise((resolve) => {
           imgElement.onload = () => {
-            if (selectedOption.textContent.toLowerCase().includes("sofa")) {
-              imgElement.style.paddingLeft = "15px";
-              imgElement.style.borderTop = "none";
-            }
+            const imgRect = imgElement.getBoundingClientRect(); // Tamaño de la imagen cargada
+
+            // Verificar si es YUTRA o piezas especiales similares
             if (
-              piezaId === "YUTRA" ||
-              piezaId === "AGOR" ||
-              piezaId === "ALTR" ||
-              piezaId === "ALPRA" ||
-              piezaId === "BERLR" ||
-              piezaId === "BERR" ||
-              piezaId === "BARR" ||
-              piezaId === "GIAR" ||
-              piezaId === "NADRA" ||
-              piezaId === "MEMRA" ||
-              piezaId === "PLAAR" ||
-              piezaId === "PLAR" ||
-              piezaId === "LINRA" ||
-              piezaId === "SIGRA" ||
-              piezaId === "SIRRC" ||
-              piezaId === "TUNRA" ||
-              piezaId === "ZENRA"
+              [
+                "YUTRA",
+                "AGOR",
+                "ALTR",
+                "ALPRA",
+                "BERLR",
+                "BERR",
+                "BARR",
+                "GIAR",
+                "NADRA",
+                "MEMRA",
+                "PLAAR",
+                "PLAR",
+                "LINRA",
+                "SIGRA",
+                "SIRRC",
+                "TUNRA",
+                "ZENRA",
+              ].includes(piezaId)
             ) {
-              const rect = imgElement.getBoundingClientRect();
-              yutraPosition = {
-                left: rect.left - imagenesDiv.getBoundingClientRect().left,
-                top: rect.top - imagenesDiv.getBoundingClientRect().top,
-                width: rect.width,
-                height: rect.height,
-              };
-              currentY = yutraPosition.top + yutraPosition.height;
-              currentX = yutraPosition.left + yutraPosition.width;
-              rotateAfterYutra = true;
-            } else if (rotateAfterYutra) {
-              imgElement.style.transform = "rotate(90deg)";
+              // Colocar la pieza "YUTRA" o similares en la posición actual
               imgElement.style.left = `${currentX}px`;
               imgElement.style.top = `${currentY}px`;
 
-              const imgRect = imgElement.getBoundingClientRect();
-              currentY += imgRect.height;
+              // Actualizar la posición de YUTRA basado en su tamaño dinámico
+              yutraPosition.x = currentX; // Actualizamos la posición X de YUTRA
+              yutraPosition.y = currentY; // Actualizamos la posición Y de YUTRA
+
+              // Actualizar las dimensiones máximas del contenedor
+              maxWidth = Math.max(maxWidth, currentX + imgRect.width);
+              maxHeight = Math.max(maxHeight, currentY + imgRect.height);
+
+              // Actualizar las posiciones actuales para las siguientes imágenes
+              currentX += imgRect.width; // Mover el siguiente elemento a la derecha
+              rotateAfterYutra = true; // Bandera para empezar a rotar después
+            } else if (rotateAfterYutra) {
+              // Las piezas después de YUTRA se deben rotar y alinear a la derecha de YUTRA
+
+              // Colocamos las piezas rotadas con respecto a YUTRA
+              imgElement.style.transform = "rotate(90deg)";
+
+              // Colocar la imagen al lado derecho de la imagen "YUTRA"
+              imgElement.style.left = `${yutraPosition.x + imgRect.height}px`; // Se debe colocar al lado derecho de YUTRA
+              imgElement.style.top = `${yutraPosition.y}px`; // Alinear verticalmente con YUTRA
+
+              // Actualizar la posición para las siguientes piezas
+              yutraPosition.x += imgRect.height; // Ajustamos la posición X basada en el alto tras rotar
+
+              // Actualizar las dimensiones máximas del contenedor
+              maxWidth = Math.max(maxWidth, yutraPosition.x + imgRect.height);
+              maxHeight = Math.max(maxHeight, yutraPosition.y + imgRect.width);
             } else {
-              imgElement.style.position = "relative";
-              imgElement.style.display = "inline-block";
-              imgElement.style.left = "0";
-              imgElement.style.top = "0";
+              // Para las piezas que no son "YUTRA" y no están rotadas
+              imgElement.style.left = `${currentX}px`;
+              imgElement.style.top = `${currentY}px`;
+
+              currentX += imgRect.width; // Mover a la derecha para la siguiente pieza
+
+              // Actualizar las dimensiones máximas del contenedor
+              maxWidth = Math.max(maxWidth, currentX);
+              maxHeight = Math.max(maxHeight, currentY + imgRect.height);
             }
+
             resolve();
           };
         });
@@ -1182,12 +1201,14 @@ function mostrarImagenes() {
     }
   }
 
-  // Una vez que todas las imágenes hayan terminado de cargarse, podemos continuar
+  // Esperar a que todas las imágenes se carguen y ajustar el tamaño del contenedor
   Promise.all(promises).then(() => {
+    imagenesDiv.style.width = `${maxWidth}px`;
+    imagenesDiv.style.height = `${maxHeight}px`;
     console.log("Todas las imágenes están cargadas y posicionadas.");
-    // Aquí puedes proceder con el siguiente paso, como llamar a html2canvas.
   });
 }
+
 function renderResults(results) {
   const resultsContainer = document.getElementById(`pieza${i}`);
   resultsContainer.innerHTML = ""; // Limpiamos los resultados previos
@@ -1266,21 +1287,37 @@ function obtenerPrecioCojin(id, tela) {
 
   return precioMaterial.precio;
 }
-/*-------------------AGREGAR COJINES---------------------------*/
-let nextCojinIndex = 2;
+/*-------------------AGREGAR PIEZAS-----------------*/
+const piezas = document.querySelectorAll(".dropdown");
+const button = document.getElementById("showPiezas");
 
-// Inicialmente, ocultar los elementos cojin1 a cojin4
+/*---------Creo variable inicail para ver con cuantos empieza---------*/
+let visibleCount = 3;
+
+// Agregar evento al botón
+button.addEventListener("click", () => {
+  if (visibleCount < piezas.length) {
+    piezas[visibleCount].classList.remove("hidden"); // Muestra la siguiente pieza
+    visibleCount++; // Incrementa el contador de visibles
+  }
+
+  // Si ya están visibles todas, deshabilitar el botón
+  if (visibleCount === piezas.length) {
+    button.disabled = true;
+    button.textContent = "No hay más piezas para agregar";
+  }
+});
+/*-------------------AGREGAR COJINES---------------------------*/
+/*-------------------MISMO QUE EN PIEZAS---------------------------*/
+let nextCojinIndex = 2;
 for (let i = 2; i <= 4; i++) {
   document.getElementById("cojin" + i).style.display = "none";
 }
 
 // Agregar el evento de clic al botón showCojin
 document.getElementById("showCojin").addEventListener("click", function () {
-  // Verificar si hay más elementos para mostrar
   if (nextCojinIndex <= 4) {
-    // Mostrar el siguiente elemento
     document.getElementById("cojin" + nextCojinIndex).style.display = "flex";
-    // Incrementar el contador para el siguiente elemento
     nextCojinIndex++;
   }
 });
@@ -1475,22 +1512,21 @@ generateBtn.addEventListener("click", function () {
 });
 
 /*----------------OVERLAY------------------*/
-// Obtener elementos
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 
-// Abrir modal al hacer clic en el botón
+/*-----------ABRIR EL MODAL AL APRETAREL BOTON----------*/
 openModalBtn.addEventListener("click", function () {
   modal.style.display = "block";
 });
 
-// Cerrar modal al hacer clic en la 'X'
+/*-----------CIERRE DEL MODAL AL APRETAR "X"----------*/
 closeModalBtn.addEventListener("click", function () {
   modal.style.display = "none";
 });
 
-// Cerrar modal al hacer clic fuera del contenido
+/*-----------CIERRE DEL MODAL AL APRETAR FUERA----------*/
 window.addEventListener("click", function (event) {
   if (event.target === modal) {
     modal.style.display = "none";
