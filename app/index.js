@@ -1102,9 +1102,7 @@ function mostrarImagenes() {
   let currentY = 0;
   let currentX = 0;
   let rotateAfterYutra = false; // Bandera para saber si rotamos después de YUTRA
-  let maxWidth = 0;
-  let maxHeight = 0;
-  let yutraPosition = { x: 0, y: 0 }; // Posición de YUTRA calculada dinámicamente
+  let yutraPosition = { x: 0, y: 0, width: 0, height: 0 }; // Posición y tamaño de YUTRA calculada dinámicamente
 
   const promises = [];
 
@@ -1153,43 +1151,40 @@ function mostrarImagenes() {
               imgElement.style.left = `${currentX}px`;
               imgElement.style.top = `${currentY}px`;
 
-              // Actualizar la posición de YUTRA basado en su tamaño dinámico
-              yutraPosition.x = currentX; // Actualizamos la posición X de YUTRA
-              yutraPosition.y = currentY; // Actualizamos la posición Y de YUTRA
-
-              // Actualizar las dimensiones máximas del contenedor
-              maxWidth = Math.max(maxWidth, currentX + imgRect.width);
-              maxHeight = Math.max(maxHeight, currentY + imgRect.height);
+              // Actualizar la posición y tamaño de YUTRA basado en su tamaño dinámico
+              yutraPosition.x = currentX;
+              yutraPosition.y = currentY;
+              yutraPosition.width = imgRect.width;
+              yutraPosition.height = imgRect.height;
 
               // Actualizar las posiciones actuales para las siguientes imágenes
               currentX += imgRect.width; // Mover el siguiente elemento a la derecha
               rotateAfterYutra = true; // Bandera para empezar a rotar después
             } else if (rotateAfterYutra) {
-              // Las piezas después de YUTRA se deben rotar y alinear a la derecha de YUTRA
+              // Las piezas después de YUTRA deben rotarse y estar pegadas a YUTRA
 
-              // Colocamos las piezas rotadas con respecto a YUTRA
+              // Aplicar la rotación de 90 grados
               imgElement.style.transform = "rotate(90deg)";
 
-              // Colocar la imagen al lado derecho de la imagen "YUTRA"
-              imgElement.style.left = `${yutraPosition.x + imgRect.height}px`; // Se debe colocar al lado derecho de YUTRA
-              imgElement.style.top = `${yutraPosition.y}px`; // Alinear verticalmente con YUTRA
+              // Colocar la imagen al lado derecho de YUTRA (eje x)
+              imgElement.style.left = `${
+                yutraPosition.x + yutraPosition.width
+              }px`;
 
-              // Actualizar la posición para las siguientes piezas
-              yutraPosition.x += imgRect.height; // Ajustamos la posición X basada en el alto tras rotar
+              // Colocar la imagen rotada alineada con la parte inferior de YUTRA (eje y)
+              // Restamos la altura de la imagen rotada (que es el ancho original antes de la rotación) para alinearla correctamente
+              imgElement.style.top = `${
+                yutraPosition.y + (yutraPosition.height - imgRect.width)
+              }px`;
 
-              // Actualizar las dimensiones máximas del contenedor
-              maxWidth = Math.max(maxWidth, yutraPosition.x + imgRect.height);
-              maxHeight = Math.max(maxHeight, yutraPosition.y + imgRect.width);
+              // Ajustar la posición en X sumando la **altura** de la imagen rotada
+              yutraPosition.x += imgRect.height; // Actualizamos la posición en X tomando en cuenta el alto de la imagen rotada
             } else {
               // Para las piezas que no son "YUTRA" y no están rotadas
               imgElement.style.left = `${currentX}px`;
               imgElement.style.top = `${currentY}px`;
 
               currentX += imgRect.width; // Mover a la derecha para la siguiente pieza
-
-              // Actualizar las dimensiones máximas del contenedor
-              maxWidth = Math.max(maxWidth, currentX);
-              maxHeight = Math.max(maxHeight, currentY + imgRect.height);
             }
 
             resolve();
@@ -1201,10 +1196,8 @@ function mostrarImagenes() {
     }
   }
 
-  // Esperar a que todas las imágenes se carguen y ajustar el tamaño del contenedor
+  // Esperar a que todas las imágenes se carguen
   Promise.all(promises).then(() => {
-    imagenesDiv.style.width = `${maxWidth}px`;
-    imagenesDiv.style.height = `${maxHeight}px`;
     console.log("Todas las imágenes están cargadas y posicionadas.");
   });
 }

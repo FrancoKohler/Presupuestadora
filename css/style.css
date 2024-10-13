@@ -207,19 +207,10 @@ select {
 .img-config {
   transform-origin: 0% 0%;
 }
-.pre-config {
-  width: fit-content;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  display: block;
-  justify-content: center;
-  align-self: center;
-  height: fit-content;
-}
+
 /*RESUMEN*/
 .section-resumen {
   padding-top: 2rem;
-
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -312,6 +303,12 @@ li {
 }
 #imagenPiezas {
   position: relative;
+  width: fit-content;
+  padding-top: 1.5rem;
+  padding-right: 20rem;
+  display: block;
+  justify-content: center;
+  align-self: center;
 }
 
 /*DROPDOWN*/
