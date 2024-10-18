@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function actualizarPiezasSegunModelo() {
     const modeloSeleccionado = modeloSelect.value;
     let piezasAMostrar;
+    let respaldosAMostrar;
+    const suplementoRespaldos = document.querySelector(".suplemento-respaldos");
     let materialesAgora = new Set();
     let materialesAlpha = new Set();
     let materialesBarine = new Set();
@@ -42,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     switch (modeloSeleccionado) {
       case "Yute":
         piezasAMostrar = piezasYute;
+        suplementoRespaldos.style.display = "none";
         piezasYute.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
@@ -53,6 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       case "Agora":
         piezasAMostrar = piezasAgora;
+        respaldosAMostrar = respaldosAgora;
+        suplementoRespaldos.style.display = "flex";
         // Poblar materiales específicos de "Agora"
         piezasAgora.forEach((pieza) => {
           if (pieza.price) {
@@ -61,10 +66,18 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Agora:", Array.from(materialesAgora)); // Depuración
+        respaldosAgora.forEach((respaldo) => {
+          if (respaldo.price) {
+            respaldo.price.forEach((precio) => {
+              materialesAgora.add(precio.material);
+            });
+          }
+        });
+
         break;
       case "Alpha":
         piezasAMostrar = piezasAlpha;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Alpha"
         piezasAlpha.forEach((pieza) => {
           if (pieza.price) {
@@ -73,10 +86,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Alpha:", Array.from(materialesAlpha)); // <- Depuración
+
         break;
       case "Altano":
         piezasAMostrar = piezasAltano;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Altano"
         piezasAltano.forEach((pieza) => {
           if (pieza.price) {
@@ -85,10 +99,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Altano:", Array.from(materialesAltano)); // <- Depuración
+
         break;
       case "Barine":
         piezasAMostrar = piezasBarine;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Barine"
         piezasBarine.forEach((piezaBarine) => {
           if (piezaBarine.price) {
@@ -97,10 +112,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Barine:", Array.from(materialesBarine)); // Depuración
+
         break;
       case "Bertina":
         piezasAMostrar = piezasBertina;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Bertina"
         piezasBertina.forEach((piezaBertina) => {
           if (piezaBertina.price) {
@@ -109,10 +125,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Bertina:", Array.from(materialesBertina)); // Depuración
+
         break;
       case "Bertina Little":
         piezasAMostrar = piezasBertinaLit;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Bertina Lt"
         piezasBertinaLit.forEach((piezaBertinaLit) => {
           if (piezaBertinaLit.price) {
@@ -121,13 +138,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log(
-          "Materiales para Bertina Little:",
-          Array.from(materialesBertinaLit)
-        ); // Depuración
+
         break;
       case "Coral":
         piezasAMostrar = piezasCoral;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Coral"
         piezasCoral.forEach((piezaCoral) => {
           if (piezaCoral.price) {
@@ -136,10 +151,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Coral:", Array.from(materialesCoral)); // Depuración
+
         break;
       case "Dana":
         piezasAMostrar = piezasDana;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Dana"
         piezasDana.forEach((piezaDana) => {
           if (piezaDana.price) {
@@ -148,10 +164,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Dana:", Array.from(materialesDana)); // Depuración
+
         break;
       case "Gamma":
         piezasAMostrar = piezasGamma;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Gamma"
         piezasGamma.forEach((piezaGamma) => {
           if (piezaGamma.price) {
@@ -160,10 +177,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Gamma:", Array.from(materialesGamma)); // Depuración
+
         break;
       case "Giant":
         piezasAMostrar = piezasGiant;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Giant"
         piezasGiant.forEach((piezaGiant) => {
           if (piezaGiant.price) {
@@ -172,10 +190,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Giant:", Array.from(materialesGiant)); // Depuración
+
         break;
       case "Giant Little":
         piezasAMostrar = piezasGiantLit;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Giant Little"
         piezasGiantLit.forEach((piezaGiantLit) => {
           if (piezaGiantLit.price) {
@@ -184,13 +203,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log(
-          "Materiales para Giant Little:",
-          Array.from(materialesGiantLit)
-        ); // Depuración
+
         break;
       case "Kappa":
         piezasAMostrar = piezasKappa;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Kappa"
         piezasKappa.forEach((piezaKappa) => {
           if (piezaKappa.price) {
@@ -199,10 +216,12 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Kappa:", Array.from(materialesKappa)); // Depuración
+
         break;
       case "Lino":
         piezasAMostrar = piezasLino;
+        suplementoRespaldos.style.display = "none";
+        // Poblar materiales específicos de "Lino"
         piezasLino.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
@@ -210,10 +229,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Lino:", Array.from(materialesLino)); // Depuración
+
         break;
       case "Memphis":
         piezasAMostrar = piezasMemphis;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Memphis"
         piezasMemphis.forEach((piezaMemphis) => {
           if (piezaMemphis.price) {
@@ -222,10 +242,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Memphis:", Array.from(materialesMemphis)); // Depuración
+
         break;
       case "Mistral":
         piezasAMostrar = piezasMistral;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Mistral"
         piezasMistral.forEach((piezaMistral) => {
           if (piezaMistral.price) {
@@ -234,10 +255,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Mistral:", Array.from(materialesMistral)); // Depuración
+
         break;
       case "Nadir":
         piezasAMostrar = piezasNadir;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Nadir"
         piezasNadir.forEach((piezaNadir) => {
           if (piezaNadir.price) {
@@ -246,10 +268,12 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Nadir:", Array.from(materialesNadir)); // Depuración
+
         break;
       case "Platea Alta":
         piezasAMostrar = piezasPlateaAlta;
+        respaldosAMostrar = respaldosPlateaBaja;
+        suplementoRespaldos.style.display = "flex";
         // Poblar materiales específicos de "Platea Alta"
         piezasPlateaAlta.forEach((piezaPlateaAlta) => {
           if (piezaPlateaAlta.price) {
@@ -258,10 +282,19 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Platea Alta:", Array.from(materialesPA)); // Depuración
+        respaldosPlateaBaja.forEach((respaldo) => {
+          if (respaldo.price) {
+            respaldo.price.forEach((precio) => {
+              materialesPB.add(precio.material);
+            });
+          }
+        });
+
         break;
       case "Platea Baja":
         piezasAMostrar = piezasPlateaBaja;
+        respaldosAMostrar = respaldosPlateaBaja;
+        suplementoRespaldos.style.display = "flex";
         // Poblar materiales específicos de "Platea Baja"
         piezasPlateaBaja.forEach((piezaPlateaBaja) => {
           if (piezaPlateaBaja.price) {
@@ -270,10 +303,17 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Platea Alta:", Array.from(materialesPB)); // Depuración
+        respaldosPlateaBaja.forEach((respaldo) => {
+          if (respaldo.price) {
+            respaldo.price.forEach((precio) => {
+              materialesPB.add(precio.material);
+            });
+          }
+        });
         break;
       case "Sigma":
         piezasAMostrar = piezasSigma;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Sigma"
         piezasSigma.forEach((piezaSigma) => {
           if (piezaSigma.price) {
@@ -282,10 +322,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Sigma:", Array.from(materialesSigma)); // Depuración
+
         break;
       case "Sirocco Eco":
         piezasAMostrar = piezasSiroco;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Siroco"
         piezasSiroco.forEach((piezaSiroco) => {
           if (piezaSiroco.price) {
@@ -294,14 +335,12 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log(
-          "Materiales para Sirocco Eco:",
-          Array.from(materialesSiroco)
-        ); // Depuración
+
         break;
 
       case "Sisal":
         piezasAMostrar = piezasSisal;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Sisal"
         piezasSisal.forEach((piezaSisal) => {
           if (piezaSisal.price) {
@@ -310,10 +349,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Sisal:", Array.from(materialesSisal)); // Depuración
+
         break;
       case "Tundra":
         piezasAMostrar = piezasTundra;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Tundra"
         piezasTundra.forEach((piezaTundra) => {
           if (piezaTundra.price) {
@@ -322,10 +362,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Tundra:", Array.from(materialesTundra)); // Depuración
+
         break;
       case "Tucson":
         piezasAMostrar = piezasTucson;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Tucson"
         piezasTucson.forEach((piezaTucson) => {
           if (piezaTucson.price) {
@@ -334,10 +375,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Tucson:", Array.from(materialesTucson));
+
         break;
       case "Zenith":
         piezasAMostrar = piezasZenith;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Zenith"
         piezasZenith.forEach((piezaZenith) => {
           if (piezaZenith.price) {
@@ -346,10 +388,11 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Zenith:", Array.from(materialesZenith)); // Depuración
+
         break;
       case "Zonda":
         piezasAMostrar = piezasZonda;
+        suplementoRespaldos.style.display = "none";
         // Poblar materiales específicos de "Zonda"
         piezasZonda.forEach((piezaZonda) => {
           if (piezaZonda.price) {
@@ -358,7 +401,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
           }
         });
-        console.log("Materiales para Zonda:", Array.from(materialesZonda)); // Depuración
+
         break;
       default:
         piezasAMostrar = [];
@@ -379,6 +422,46 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.appendChild(option);
       });
     }
+    let nextIndex = 3;
+    // Actualizar los dropdowns de piezas
+    for (let i = 1; i <= 8; i++) {
+      const dropdown = document.getElementById(`output${i}`);
+      dropdown.innerHTML = "";
+
+      // Agregar las nuevas opciones
+      respaldosAMostrar.forEach((respaldo) => {
+        const option = document.createElement("option");
+        option.value = respaldo.id;
+        option.textContent = `${respaldo.title}`;
+        option.dataset.price = JSON.stringify(respaldo.price);
+        dropdown.appendChild(option);
+      });
+    }
+
+    // Función para ocultar los dropdowns que no están poblados
+    function hideUnpopulatedDropdowns() {
+      for (let i = 3; i <= 8; i++) {
+        const dropdown = document.getElementById(`output${i}`);
+        dropdown.style.display = "none"; // Ocultar los dropdowns adicionales
+      }
+    }
+
+    // Llamar a la función para ocultar dropdowns al inicio
+    hideUnpopulatedDropdowns();
+
+    /*--------------BOTON AGREGAR OUTPUTS PARA----------------*/
+    document.getElementById("showMore").addEventListener("click", function () {
+      // Verificar si hay más elementos para mostrar (en este caso, de 1 a 8)
+      if (nextIndex <= 8) {
+        // Mostrar el siguiente elemento
+        const nextDropdown = document.getElementById("output" + nextIndex);
+        if (nextDropdown) {
+          nextDropdown.style.display = "flex"; // Mostrar el dropdown
+        }
+        // Incrementar el contador para el siguiente elemento
+        nextIndex++;
+      }
+    });
 
     // Actualizar el dropdown de tela según el modelo
     const telaDropdown = document.getElementById("tela");
@@ -530,6 +613,11 @@ document.addEventListener("DOMContentLoaded", function () {
         option.value = material;
         option.textContent = material;
         telaDropdown.appendChild(option);
+        // Establecer display flex para el elemento con id suplementoPatas
+        const suplementoRespaldo = document.getElementById(
+          "suplementoRespaldos"
+        );
+        suplementoRespaldo.style.display = "flex";
       });
     } else if (modeloSeleccionado === "Sirocco Eco") {
       // Agregar materiales del modelo Siroco
@@ -618,111 +706,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   populateDropdownsCojines(cojines);
-  /*--------------SUPLEMENTOS AGORA-------------*/
-  const dropdownIds = [
-    "output1",
-    "output2",
-    "output3",
-    "output4",
-    "output5",
-    "output6",
-    "output7",
-    "output8",
-  ];
-  function populateDropdowns(options) {
-    dropdownIds.forEach((selectId) => {
-      const select = document.getElementById(selectId);
-      options.forEach((option) => {
-        const optionElement = document.createElement("option");
-        optionElement.value = option.id;
-        optionElement.textContent = option.title;
-        select.appendChild(optionElement);
-      });
-    });
-  }
-
-  // Contador para rastrear cuál es el siguiente elemento a mostrar
-  let nextIndex = 5;
-  for (let i = 5; i <= 8; i++) {
-    document.getElementById("output" + i).style.display = "none";
-  }
-  // Llenar todos los selects con todas las opciones
-  populateDropdowns(suplementos);
-  /*--------------BOTON AGREGAR OUTPUTS PARA----------------*/
-  document.getElementById("showMore").addEventListener("click", function () {
-    // Verificar si hay más elementos para mostrar
-    if (nextIndex <= 8) {
-      // Mostrar el siguiente elemento
-      document.getElementById("output" + nextIndex).style.display = "flex";
-      // Incrementar el contador para el siguiente elemento
-      nextIndex++;
-    }
-  });
 });
-
-/*-----------------NO SE USA PARTE DE ESTE SCRIPT ACTUALMENTE PARA FACILITAR UX----------*/
-let resumen = { nombre: "" };
-let categoriaSeleccionada = "";
-
-document.addEventListener("DOMContentLoaded", () => {
-  document
-    .getElementById("category-select")
-    .addEventListener("change", seleccionarCategoria);
-  document.getElementById("search-input").addEventListener("input", buscarTela);
-});
-
-function seleccionarCategoria() {
-  categoriaSeleccionada = document.getElementById("category-select").value;
-  document.getElementById("search-input").value = "";
-  document.getElementById("dropdown-content").innerHTML = "";
-  document.getElementById("dropdown-content").style.display = "none";
-}
-
-function buscarTela() {
-  const input = document.getElementById("search-input").value.toLowerCase();
-  const dropdownContent = document.getElementById("dropdown-content");
-  dropdownContent.innerHTML = "";
-
-  if (!categoriaSeleccionada) {
-    alert("Por favor, selecciona una categoría primero.");
-    return;
-  }
-
-  const muestrasArray = muestras[categoriaSeleccionada];
-
-  if (!muestrasArray) {
-    console.error(
-      `La categoría seleccionada (${categoriaSeleccionada}) no existe en el objeto muestras.`
-    );
-    return;
-  }
-
-  muestrasArray.forEach((item) => {
-    if (item.nombre.toLowerCase().includes(input)) {
-      const div = document.createElement("div");
-      div.classList.add("dropdown-item");
-
-      const img = document.createElement("img");
-      img.src = item.img;
-      img.alt = item.nombre;
-      img.style.width = "50px";
-      img.style.height = "50px";
-      img.style.marginRight = "10px";
-
-      const span = document.createElement("span");
-      span.innerText = item.nombre;
-
-      div.appendChild(img);
-      div.appendChild(span);
-      div.classList.add("tela-span");
-      div.onclick = () => seleccionarMuestra(item.nombre);
-      dropdownContent.appendChild(div);
-    }
-  });
-
-  dropdownContent.style.display =
-    dropdownContent.children.length > 0 ? "block" : "none";
-}
 
 function seleccionarMuestra(nombre) {
   resumen.nombre = nombre;
@@ -767,6 +751,87 @@ function obtenerPiezasSeleccionadas() {
   }
   return piezasSeleccionadas;
 }
+
+function obtenerRespaldosSeleccionados() {
+  const respaldosSeleccionados = [];
+  for (let i = 1; i <= 8; i++) {
+    const respaldoSelect = document.getElementById(`output${i}`);
+
+    if (respaldoSelect.selectedIndex !== -1) {
+      const respaldoSeleccionada = {
+        id: respaldoSelect.value,
+        nombre: respaldoSelect.options[respaldoSelect.selectedIndex].text,
+      };
+      if (respaldoSeleccionada.id !== "None") {
+        respaldosSeleccionados.push(respaldoSeleccionada);
+      }
+    }
+  }
+  return respaldosSeleccionados;
+}
+
+const piezas = document.querySelectorAll(".dropdown");
+const button = document.getElementById("showPiezas");
+
+for (let i = 0; i < 6 && i < piezas.length; i++) {
+  piezas[i].classList.remove("hidden");
+}
+visibleCount = 4; // Actualiza el contador de piezas visibles
+
+// Agregar evento al botón
+button.addEventListener("click", () => {
+  if (visibleCount < piezas.length) {
+    piezas[visibleCount].classList.remove("hidden"); // Muestra la siguiente pieza
+    visibleCount++; // Incrementa el contador de visibles
+  }
+
+  // Si ya están visibles todas, deshabilitar el botón
+  if (visibleCount === piezas.length) {
+    button.disabled = true;
+    button.textContent = "No hay más piezas para agregar";
+  }
+});
+
+/*-------------------MISMO QUE EN PIEZAS---------------------------*/
+let nextCojinIndex = 3;
+for (let i = 3; i <= 4; i++) {
+  document.getElementById("cojin" + i).style.display = "none";
+}
+
+// Agregar el evento de clic al botón showCojin
+document.getElementById("showCojin").addEventListener("click", function () {
+  if (nextCojinIndex <= 4) {
+    document.getElementById("cojin" + nextCojinIndex).style.display = "flex";
+    nextCojinIndex++;
+  }
+});
+function obtenerPrecioRespaldo(idRespaldo, tela) {
+  const colecciones = [respaldosAgora, respaldosPlateaBaja];
+  let precioMaterial;
+  console.log(
+    `Buscando precio para Respaldo ID: ${idRespaldo}, Material: ${tela}`
+  );
+
+  // Iterar sobre cada colección
+  for (const coleccion of colecciones) {
+    // Buscar el respaldo en la colección correspondiente
+    const respaldo = coleccion.find((p) => p && p.id === idRespaldo);
+
+    // Comprobar si se encontró el respaldo y si su precio es un array
+    if (respaldo && Array.isArray(respaldo.price)) {
+      // Buscar el precio correspondiente al material
+      precioMaterial = respaldo.price.find((p) => p.material === tela);
+
+      // Si se encuentra el precio, devolverlo como un número
+      if (precioMaterial) {
+        return parseFloat(precioMaterial.precio) || 0; // Retornar precio convertido
+      }
+    }
+  }
+
+  // Si no se encuentra ningún precio, retornar 0 o un valor por defecto
+  return 0;
+}
 /*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
 function obtenerPrecioPorMaterial(idPieza, tela) {
   const colecciones = [
@@ -808,6 +873,7 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
       }
     }
   }
+  /*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
 
   // Si la pieza no se encuentra en las colecciones anteriores, verificar si es un cojín
   const cojinesCollection = [
@@ -931,10 +997,9 @@ function cambiarPreciosPorModelo(modelo) {
       nuevosPrecios = preciosZonda;
       break;
     default:
-      nuevosPrecios = precios; // Por defecto, usa el array de precios inicial
+      nuevosPrecios = precios;
   }
 
-  // Verificar si nuevosPrecios es un array
   if (!Array.isArray(nuevosPrecios)) {
     console.error("Error: nuevosPrecios no es un array");
     return;
@@ -1248,7 +1313,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /*-------------------COJINES Y PRECIOS---------------------*/
 function obtenerCojinesSeleccionados() {
   const cojinesSeleccionados = [];
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 3; i++) {
     const cojinSelect = document.getElementById(`cojin${i}`);
     if (cojinSelect.selectedIndex !== -1) {
       const cojinSeleccionado = {
@@ -1280,77 +1345,17 @@ function obtenerPrecioCojin(id, tela) {
 
   return precioMaterial.precio;
 }
-/*-------------------AGREGAR PIEZAS-----------------*/
-const piezas = document.querySelectorAll(".dropdown");
-const button = document.getElementById("showPiezas");
-
-/*---------Creo variable inicail para ver con cuantos empieza---------*/
-let visibleCount = 3;
-
-// Agregar evento al botón
-button.addEventListener("click", () => {
-  if (visibleCount < piezas.length) {
-    piezas[visibleCount].classList.remove("hidden"); // Muestra la siguiente pieza
-    visibleCount++; // Incrementa el contador de visibles
-  }
-
-  // Si ya están visibles todas, deshabilitar el botón
-  if (visibleCount === piezas.length) {
-    button.disabled = true;
-    button.textContent = "No hay más piezas para agregar";
-  }
-});
-/*-------------------AGREGAR COJINES---------------------------*/
-/*-------------------MISMO QUE EN PIEZAS---------------------------*/
-let nextCojinIndex = 2;
-for (let i = 2; i <= 4; i++) {
-  document.getElementById("cojin" + i).style.display = "none";
-}
-
-// Agregar el evento de clic al botón showCojin
-document.getElementById("showCojin").addEventListener("click", function () {
-  if (nextCojinIndex <= 4) {
-    document.getElementById("cojin" + nextCojinIndex).style.display = "flex";
-    nextCojinIndex++;
-  }
-});
-/*-------------------SUPLEMENTOS Y PRECIOS---------------------*/
-function obtenerSuplementosSeleccionados() {
-  const suplementoSeleccionados = [];
-  for (let i = 1; i <= 4; i++) {
-    const supSelect = document.getElementById(`output${i}`);
-    if (supSelect.selectedIndex !== -1) {
-      const suplementoSeleccionado = {
-        id: supSelect.value,
-        nombre: supSelect.options[supSelect.selectedIndex].text,
-      };
-      if (suplementoSeleccionado.id !== "None") {
-        suplementoSeleccionados.push(suplementoSeleccionado);
-      }
-    }
-  }
-  return suplementoSeleccionados;
-}
-function obtenerPrecioSuplemento(id, tela) {
-  const suplementoSeleccionado = suplementos.find((sup) => sup.id === id);
-  if (!suplementoSeleccionado || !suplementoSeleccionado.price) {
-    return 0;
-  }
-  const precioMaterial = suplementoSeleccionado.price.find(
-    (p) => p.material === tela
-  );
-  return precioMaterial ? parseFloat(precioMaterial.precio) || 0 : 0;
-}
-
 function generarResumen() {
   const modelo = document.getElementById("modelo").value;
+  const respaldosSeleccionados = obtenerRespaldosSeleccionados();
   const piezasSeleccionadas = obtenerPiezasSeleccionadas();
   const cojinesSeleccionados = obtenerCojinesSeleccionados();
-  const suplementoSeleccionados = obtenerSuplementosSeleccionados();
   const tela = document.getElementById("tela").value;
+  const telaIngreso = document.getElementById("telaNombre").value; // Captura el valor de tela ingresada
   const pata = document.getElementById("patas").value;
   const categoriaSeleccionada = resumen.nombre;
   const modeloSeleccionado = document.getElementById("modelo").value;
+
   const piezasFiltradas = piezasSeleccionadas.filter(
     (pieza) => pieza.id !== "None"
   );
@@ -1358,28 +1363,28 @@ function generarResumen() {
     const precioPieza = obtenerPrecioPorMaterial(pieza.id, tela);
     return total + precioPieza;
   }, 0);
+
   const precioCojines = cojinesSeleccionados.reduce((total, cojin) => {
     const precioCojin = obtenerPrecioCojin(cojin.id, tela);
     return total + precioCojin;
   }, 0);
-  const precioSuplementos = suplementoSeleccionados.reduce(
-    (total, suplemento) => {
-      const precioSuplemento = obtenerPrecioSuplemento(suplemento.id, tela);
-      return total + precioSuplemento;
-    },
-    0
-  );
+
+  const precioRespaldos = respaldosSeleccionados.reduce((total, respaldo) => {
+    const precioRespaldo = obtenerPrecioRespaldo(respaldo.id, tela);
+    return total + precioRespaldo;
+  }, 0);
+
   const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
   const motorTotal = motorValue * 179;
   const precioTotal =
-    precioPiezas + precioCojines + motorTotal + precioSuplementos;
-  const suplementosTotal = precioCojines + motorTotal + precioSuplementos;
+    precioPiezas + precioCojines + motorTotal + precioRespaldos;
+
+  const suplementosTotal = precioCojines + motorTotal;
   const codigoDescuento = document.getElementById("descuento").value;
   const descuento = obtenerDescuento(codigoDescuento);
   const precioConDescuento = precioTotal * (1 - descuento);
 
   function obtenerDescuento(codigo) {
-    /*GET DEL 1-50*/
     const match = codigo.match(/^GET(\d{1,2})$/);
     if (match) {
       const descuento = parseInt(match[1], 10); // Extrae el número del código
@@ -1391,13 +1396,12 @@ function generarResumen() {
   }
 
   const resumenElement = document.getElementById("resumen");
-  //Resumen y cada item tiene una condicio nde aparicion segun el input y su existencia en cada modelo
   resumenElement.innerHTML = `
     <li>Modelo: ${modelo}</li> 
     
     ${
       piezasFiltradas.length > 0
-        ? `<li>Piezas seleccionadas:</li><ul>` +
+        ? `<li >Piezas seleccionadas:</li><ul>` +
           piezasFiltradas
             .map(
               (pieza) =>
@@ -1430,16 +1434,24 @@ function generarResumen() {
           "</ul>"
         : ""
     }
+    
+    <li>Serie seleccionada: ${tela}</li>
+  
     ${
-      suplementoSeleccionados.length > 0
-        ? `<li>Suplementos seleccionados:</li><ul>` +
-          suplementoSeleccionados
+      modeloSeleccionado === "Altano"
+        ? `<li>Pata seleccionada: ${pata}</li>`
+        : ""
+    }
+    ${
+      respaldosSeleccionados.length > 0
+        ? `<li>Respaldo seleccionadas:</li><ul>` +
+          respaldosSeleccionados
             .map(
-              (suplemento) =>
+              (respaldo) =>
                 `<li>${
-                  suplemento.nombre
-                } &nbsp <span id="preciosMaterialSuplemento"> ${obtenerPrecioSuplemento(
-                  suplemento.id,
+                  respaldo.nombre
+                } &nbsp <span id="preciosRespaldo"> ${obtenerPrecioRespaldo(
+                  respaldo.id,
                   tela
                 ).toFixed(2)}€</span></li>`
             )
@@ -1447,14 +1459,7 @@ function generarResumen() {
           "</ul>"
         : ""
     }
-    <li>Serie seleccionada: ${tela}</li>
-  
-    ${
-      modeloSeleccionado === "Altano"
-        ? `<li>Pata seleccionada: ${pata}</li>`
-        : ""
-    }<!-- Comentario: FILTRO EN RESUMEN SI ES PIEZA ALTANO -->
-    <li>Tela seleccionada: <span id="telaSeleccion"> ${categoriaSeleccionada} </span></li>
+    <li>Tela seleccionada: <span id="telaSeleccion"> ${telaIngreso} </span></li>  <!-- Aquí se refleja el valor de la tela ingresada -->
      ${
        suplementosTotal > 1
          ? `<li>Precio Suplemento: <span id="precioMotor"> &nbsp${suplementosTotal.toFixed(
@@ -1479,30 +1484,6 @@ function generarResumen() {
 }
 
 generarResumen();
-
-//ALERTA SI EL INPUT DE TELAS TIENE VALOR NULO
-const telaInput = document.getElementById("telaInput");
-const generateBtn = document.getElementById("generateBtn");
-generateBtn.addEventListener("click", function () {
-  // Verificar si el valor del input es nulo o vacío
-  if (!telaInput.value.trim()) {
-    // Mostrar una alerta si está vacío
-    Swal.fire({
-      icon: "error",
-      title: "Oops...",
-      text: "Asegurate de ingresar una tela para tu configuración",
-      confirmButtonText: `
-    <i class="fa fa-thumbs-up"></i> Volver
-  `,
-      customClass: {
-        popup: "my-popup",
-        title: "my-title",
-        text: "my-text",
-        confirmButton: "my-confirm-button",
-      },
-    });
-  }
-});
 
 /*----------------OVERLAY------------------*/
 const modal = document.getElementById("modal");

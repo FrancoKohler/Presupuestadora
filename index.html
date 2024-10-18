@@ -11,6 +11,9 @@
    <script defer src="./app/data.js"></script>
    <script defer src="./app/index.js"></script>
    <script defer src="./app/pdfgenerator.js"></script>
+   <script defer src="./app/imgmodelos.js"></script>
+   
+   
    
    
   <!--SCRIPTS PARA HTMLCANVAS Y JSKIT-->
@@ -227,6 +230,13 @@
             
                 </select>
                 </div>
+                <div class="form-inputs div-referencia">
+                    <a class="input-title"> Imagen de referencia</a>
+                    
+                    <div class="img-referencia" id="imgReferencia"></div>
+                    <p class="textoReferencia"> *Imagen de referencia de otra configuración</p>
+
+                </div>
         </div>
     </section>
     
@@ -237,7 +247,7 @@
             <label for="modelo" class="input-title">Selecciona el tejido o piel para la configuración</label>
             
            <select  name="tela" id="tela" class="dropdown">
-            <option value="">Seleccione una tela</option>
+            <!-- <option value="">Seleccione una tela</option> -->
                
             </select>
         </div>
@@ -246,41 +256,9 @@
             <div class="tela-div-h">
                 <a class="seccion-titulo">Tela</a>
                 <label for="modelo" class="input-title">Ingresa la tela para tu configuración*</label>  
+                <input id="telaNombre" type="text" class="dropdown" placeholder="Escribe el nombre de la tela">
             </div>
             
-            <!-- <div class="category-select">
-                <select class="dropdown-select" id="category-select" onchange="seleccionarCategoria()">
-                    <option value="">Selecciona una categoría</option>
-                    <option value="Brixton">Brixton</option>
-                    <option value="Camila">Camila</option>
-                    <option value="Montreal">Montreal</option>
-                    <option value="Osaka">Osaka</option>
-                    <option value="Terranova">Terranova</option>
-                    <option value="TelaCliente">Tela Cliente</option>
-                </select>
-                
-            </div>
-            <div class="select-box">
-                <input class="search-input" type="text" id="search-input" placeholder="Buscar tela..." oninput="buscarTela()">
-                <div class="search-icon" onclick="buscarTela()"><img class="lupa" src="./assets/Search.png" alt="Search"></div>
-            </div>
-            <div id="dropdown-content" class="dropdown-content"></div>
-        </div>
-    </div> 
-
-     <div id="overlay" class="overlay">
-        <div class="overlay-content">
-            <span class="close-btn" onclick="cerrarOverlay()">×</span>
-            <img id="overlay-img" src="" alt="Imagen de la tela">
-        </div>
-    </div>
-
-<div id="overlay" class="overlay">
-    <div class="overlay-content">
-        <span class="close-btn" onclick="cerrarOverlay()">×</span>
-        <img id="overlay-img" src="" alt="Imagen de la tela">
-    </div>
-</div> -->
     </section>
     <!--PIEZA SELECTOR-->
     <section class="pieza-seccion" >
@@ -333,9 +311,43 @@
                     <a class="seccion-titulo configuracion-titulo"> Configuración</a>
                     <div class="pre-config" id="imagenPiezas">
                     <!--LLENO EN JS-->
-                    <canvas width=200 height=200>
+                    <canvas width=500 height=500>
                     </div>
             </section>
+                
+                <!-------------SUPLEMENTO RESPALDOS---------->
+                <div class="suplemento-respaldos" id="suplementoRespaldos">
+                    <a class="a-cojines"> Respaldos</a>
+                    <label for="pieza" class="input-title">Selecciona los suplementos necesarios</label>
+                          
+                  <select name="pieza" id="output1" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output2" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output3" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output4" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output5" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output6" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output7" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <select name="pieza" id="output8" class="dropdown-agora">
+                  <!--LLENO CON JS-->
+                  </select>
+                  <!-------BTN AGREGAR------->
+                  <button id="showMore" class="btn-agregar">Agregar más</button>
+                  </div>
+               
                 
                 <!---------------SUPLEMENTO COJINES----------->
                 
@@ -355,40 +367,10 @@
                 </select>
                 <!-------BTN AGREGAR------->
                 <button id="showCojin" class="btn-agregar">Agregar más</button>
+                </div>
                
                 
-                <!-------------SUPLEMENTO AGORA---------->
-                <div class="suplemento-cojines" id="suplemento-cojines">
-                  <a class="a-cojines"> Resplados-Posapies(Opcional)</a>
-                  <label for="pieza" class="input-title">Selecciona los suplementos necesarios</label>
-                        
-                <select name="pieza" id="output1" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output2" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output3" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output4" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output5" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output6" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output7" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <select name="pieza" id="output8" class="dropdown-agora">
-                <!--LLENO CON JS-->
-                </select>
-                <!-------BTN AGREGAR------->
-                <button id="showMore" class="btn-agregar">Agregar más</button>
-                </div>
+                
                 <!---------SUPLEMENTOS ALTANO-------->
                 <span class="form-inputs altano-patas" id="suplementoPatas">
                 <label for="patas" class="a-cojines">Patas</label>

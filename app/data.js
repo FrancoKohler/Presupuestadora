@@ -800,8 +800,8 @@ const preciosAgora = {
     { material: "SERIE 3", precio: 943 },
     { material: "SERIE 4", precio: 971 },
     { material: "SERIE 5", precio: 1016 },
-    { material: "SERIE 6", precio: 943 },
-    { material: "SERIE 7", precio: 1013 },
+    { material: "SERIE 6", precio: 1059 },
+    { material: "SERIE 7", precio: 1117 },
   ],
   comunAGOCMA: [
     { material: "SERIE 1", precio: 919 },
@@ -820,6 +820,88 @@ const preciosAgora = {
     { material: "SERIE 5", precio: 1124 },
     { material: "SERIE 6", precio: 1175 },
     { material: "SERIE 7", precio: 1241 },
+  ],
+  supAGORR70: [
+    { material: "SERIE 1", precio: 106 },
+    { material: "SERIE 2", precio: 116 },
+    { material: "SERIE 3", precio: 127 },
+    { material: "SERIE 4", precio: 137 },
+    { material: "SERIE 5", precio: 152 },
+    { material: "SERIE 6", precio: 166 },
+    { material: "SERIE 7", precio: 187 },
+  ],
+  supAGORR80: [
+    { material: "SERIE 1", precio: 111 },
+    { material: "SERIE 2", precio: 120 },
+    { material: "SERIE 3", precio: 130 },
+    { material: "SERIE 4", precio: 140 },
+    { material: "SERIE 5", precio: 155 },
+    { material: "SERIE 6", precio: 170 },
+    { material: "SERIE 7", precio: 190 },
+  ],
+  supAGORR90: [
+    { material: "SERIE 1", precio: 114 },
+    { material: "SERIE 2", precio: 123 },
+    { material: "SERIE 3", precio: 133 },
+    { material: "SERIE 4", precio: 144 },
+    { material: "SERIE 5", precio: 158 },
+    { material: "SERIE 6", precio: 173 },
+    { material: "SERIE 7", precio: 194 },
+  ],
+  supAGORA100: [
+    { material: "SERIE 1", precio: 225 },
+    { material: "SERIE 2", precio: 236 },
+    { material: "SERIE 3", precio: 247 },
+    { material: "SERIE 4", precio: 259 },
+    { material: "SERIE 5", precio: 275 },
+    { material: "SERIE 6", precio: 292 },
+    { material: "SERIE 7", precio: 315 },
+  ],
+  supAGORA90: [
+    { material: "SERIE 1", precio: 206 },
+    { material: "SERIE 2", precio: 215 },
+    { material: "SERIE 3", precio: 225 },
+    { material: "SERIE 4", precio: 235 },
+    { material: "SERIE 5", precio: 249 },
+    { material: "SERIE 6", precio: 263 },
+    { material: "SERIE 7", precio: 282 },
+  ],
+  supAGORA80: [
+    { material: "SERIE 1", precio: 195 },
+    { material: "SERIE 2", precio: 204 },
+    { material: "SERIE 3", precio: 213 },
+    { material: "SERIE 4", precio: 223 },
+    { material: "SERIE 5", precio: 237 },
+    { material: "SERIE 6", precio: 252 },
+    { material: "SERIE 7", precio: 270 },
+  ],
+  supAGORA70: [
+    { material: "SERIE 1", precio: 182 },
+    { material: "SERIE 2", precio: 193 },
+    { material: "SERIE 3", precio: 202 },
+    { material: "SERIE 4", precio: 211 },
+    { material: "SERIE 5", precio: 226 },
+    { material: "SERIE 6", precio: 239 },
+    { material: "SERIE 7", precio: 259 },
+  ],
+  supAGORR100: [
+    { material: "SERIE 1", precio: 122 },
+    { material: "SERIE 2", precio: 131 },
+    { material: "SERIE 3", precio: 141 },
+    { material: "SERIE 4", precio: 152 },
+    { material: "SERIE 5", precio: 166 },
+    { material: "SERIE 6", precio: 182 },
+    { material: "SERIE 7", precio: 202 },
+  ],
+
+  supAGOCUA60: [
+    { material: "SERIE 1", precio: 50 },
+    { material: "SERIE 2", precio: 55 },
+    { material: "SERIE 3", precio: 58 },
+    { material: "SERIE 4", precio: 63 },
+    { material: "SERIE 5", precio: 68 },
+    { material: "SERIE 6", precio: 74 },
+    { material: "SERIE 7", precio: 82 },
   ],
   comunAGOMGR: [
     { material: "SERIE 1", precio: 516 },
@@ -867,13 +949,13 @@ const preciosAgora = {
     { material: "SERIE 7", precio: 730 },
   ],
   comunAGOMMEDI: [
-    { material: "SERIE 1", precio: 577 },
-    { material: "SERIE 2", precio: 596 },
-    { material: "SERIE 3", precio: 616 },
-    { material: "SERIE 4", precio: 634 },
-    { material: "SERIE 5", precio: 662 },
-    { material: "SERIE 6", precio: 691 },
-    { material: "SERIE 7", precio: 730 },
+    { material: "SERIE 1", precio: 726 },
+    { material: "SERIE 2", precio: 759 },
+    { material: "SERIE 3", precio: 792 },
+    { material: "SERIE 4", precio: 825 },
+    { material: "SERIE 5", precio: 874 },
+    { material: "SERIE 6", precio: 925 },
+    { material: "SERIE 7", precio: 991 },
   ],
   comunAGOMXL: [
     { material: "SERIE 1", precio: 613 },
@@ -954,7 +1036,7 @@ const preciosAgora = {
     { material: "SERIE 4", precio: 1253 },
     { material: "SERIE 5", precio: 1328 },
     { material: "SERIE 6", precio: 1402 },
-    { material: "SERIE 7", precio: 1504 },
+    { material: "SERIE 7", precio: 1501 },
   ],
   comunAGO3DI: [
     { material: "SERIE 1", precio: 962 },
@@ -3013,87 +3095,6 @@ const supAgora = {
     { material: "SERIE 5", precio: 432 },
     { material: "SERIE 6", precio: 451 },
     { material: "SERIE 7", precio: 479 },
-  ],
-  supAGOCUA60: [
-    { material: "SERIE 1", precio: 50 },
-    { material: "SERIE 2", precio: 55 },
-    { material: "SERIE 3", precio: 58 },
-    { material: "SERIE 4", precio: 63 },
-    { material: "SERIE 5", precio: 68 },
-    { material: "SERIE 6", precio: 74 },
-    { material: "SERIE 7", precio: 82 },
-  ],
-  supAGORA100: [
-    { material: "SERIE 1", precio: 225 },
-    { material: "SERIE 2", precio: 236 },
-    { material: "SERIE 3", precio: 247 },
-    { material: "SERIE 4", precio: 259 },
-    { material: "SERIE 5", precio: 275 },
-    { material: "SERIE 6", precio: 292 },
-    { material: "SERIE 7", precio: 315 },
-  ],
-  supAGORA90: [
-    { material: "SERIE 1", precio: 206 },
-    { material: "SERIE 2", precio: 215 },
-    { material: "SERIE 3", precio: 225 },
-    { material: "SERIE 4", precio: 235 },
-    { material: "SERIE 5", precio: 249 },
-    { material: "SERIE 6", precio: 263 },
-    { material: "SERIE 7", precio: 282 },
-  ],
-  supAGORA80: [
-    { material: "SERIE 1", precio: 195 },
-    { material: "SERIE 2", precio: 204 },
-    { material: "SERIE 3", precio: 213 },
-    { material: "SERIE 4", precio: 223 },
-    { material: "SERIE 5", precio: 237 },
-    { material: "SERIE 6", precio: 252 },
-    { material: "SERIE 7", precio: 270 },
-  ],
-  supAGORA70: [
-    { material: "SERIE 1", precio: 182 },
-    { material: "SERIE 2", precio: 193 },
-    { material: "SERIE 3", precio: 202 },
-    { material: "SERIE 4", precio: 211 },
-    { material: "SERIE 5", precio: 226 },
-    { material: "SERIE 6", precio: 239 },
-    { material: "SERIE 7", precio: 259 },
-  ],
-  supAGORR100: [
-    { material: "SERIE 1", precio: 122 },
-    { material: "SERIE 2", precio: 131 },
-    { material: "SERIE 3", precio: 141 },
-    { material: "SERIE 4", precio: 152 },
-    { material: "SERIE 5", precio: 166 },
-    { material: "SERIE 6", precio: 182 },
-    { material: "SERIE 7", precio: 202 },
-  ],
-  supAGORR90: [
-    { material: "SERIE 1", precio: 114 },
-    { material: "SERIE 2", precio: 123 },
-    { material: "SERIE 3", precio: 133 },
-    { material: "SERIE 4", precio: 144 },
-    { material: "SERIE 5", precio: 158 },
-    { material: "SERIE 6", precio: 173 },
-    { material: "SERIE 7", precio: 194 },
-  ],
-  supAGORR80: [
-    { material: "SERIE 1", precio: 111 },
-    { material: "SERIE 2", precio: 120 },
-    { material: "SERIE 3", precio: 130 },
-    { material: "SERIE 4", precio: 140 },
-    { material: "SERIE 5", precio: 155 },
-    { material: "SERIE 6", precio: 170 },
-    { material: "SERIE 7", precio: 190 },
-  ],
-  supAGORR70: [
-    { material: "SERIE 1", precio: 106 },
-    { material: "SERIE 2", precio: 116 },
-    { material: "SERIE 3", precio: 127 },
-    { material: "SERIE 4", precio: 137 },
-    { material: "SERIE 5", precio: 152 },
-    { material: "SERIE 6", precio: 166 },
-    { material: "SERIE 7", precio: 187 },
   ],
   supGAMCUA60: [
     { material: "SERIE 1", precio: 64 },
@@ -8513,7 +8514,7 @@ const cojines = [
     price: supAgora.supGAMCUAR,
   },
 ];
-const suplementos = [
+const respaldosAgora = [
   {
     id: "None",
     title: "---Sin suplemento seleccionado--",
@@ -8521,53 +8522,48 @@ const suplementos = [
   {
     id: "AGORR70",
     title: "AGORR70 Respaldo relleno de pluma (70x52cm) con rulo trasero",
-    price: supAgora.supAGORR70,
+    price: preciosAgora.supAGORR70,
   },
   {
     id: "AGORR80",
     title: "AGORR80 Respaldo relleno de pluma (80x52cm) con rulo trasero",
-    price: supAgora.supAGORR80,
+    price: preciosAgora.supAGORR80,
   },
   {
     id: "AGORR90",
     title: "AGORR90 Respaldo relleno de pluma (90x52cm) con rulo trasero",
-    price: supAgora.supAGORR90,
+    price: preciosAgora.supAGORR90,
   },
   {
     id: "AGORR100",
     title: "AGORR100 Respaldo relleno de pluma (100x52cm) con rulo trasero",
-    price: supAgora.supAGORR100,
+    price: preciosAgora.supAGORR100,
   },
   {
     id: "AGORA70",
     title: "AGORA70 Respaldo relleno de pluma (70 cm) articulado multiposición",
-    price: supAgora.supAGORA70,
+    price: preciosAgora.supAGORA70,
   },
   {
     id: "AGORA80",
     title: "AGORA80 Respaldo relleno de pluma(80 cm) articulado multiposición",
-    price: supAgora.supAGORA80,
+    price: preciosAgora.supAGORA80,
   },
   {
     id: "AGORA90",
     title: "AGORA90 Respaldo relleno de pluma (90 cm) articulado multiposición",
-    price: supAgora.supAGORA90,
+    price: preciosAgora.supAGORA90,
   },
   {
     id: "AGORA100",
     title:
       "AGORA100 Respaldo relleno de pluma(100 cm) articulado multiposición ",
-    price: supAgora.supAGORA100,
+    price: preciosAgora.supAGORA100,
   },
   {
     id: "AGOCUA60",
     title: "AGOCUA60 Cuadrante 60x60 cm ",
-    price: supAgora.supAGOCUA60,
-  },
-  {
-    id: "AGOPT",
-    title: "Posapiés terminal (108x60 cm) ",
-    price: supAgora.supAGOPT,
+    price: preciosAgora.supAGOCUA60,
   },
 ];
 const suplementosAlpha = [
@@ -8978,7 +8974,7 @@ const piezasAgora = [
     title: "AGOMME modulo mega (100 cm) sin brazo.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M100_SB.png",
-    price: preciosAgora.comunLINCGR,
+    price: preciosAgora.comunAGOMME,
     medida: 80,
   },
   {
@@ -9002,7 +8998,7 @@ const piezasAgora = [
     title: "AGOMXL modulo XL (110 cm) sin brazo.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_SB.png",
-    price: preciosAgora.comunAGOMXLDI,
+    price: preciosAgora.comunAGOMXL,
     medida: 80,
   },
   {
@@ -9010,6 +9006,14 @@ const piezasAgora = [
     title: "AGOMXLD modulo XL (110 cm) dcho.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_DER.png",
+    price: preciosAgora.comunAGOMXLDI,
+    medida: 80,
+  },
+  {
+    id: "AGOMXLI",
+    title: "AGOMXLI modulo XL (110 cm) izq.",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_IZQ.png",
     price: preciosAgora.comunAGOMXLDI,
     medida: 80,
   },
@@ -9023,7 +9027,7 @@ const piezasAgora = [
   },
   {
     id: "AGORTD",
-    title: "AGORTD Rincón terminal derecho (108 x 205 cm)",
+    title: "AGORTD Rincón terminal (108 x 200 cm) derecho",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_DER.png",
     price: preciosAgora.comunAGORTDI,
@@ -9031,34 +9035,10 @@ const piezasAgora = [
   },
   {
     id: "AGORTI",
-    title: "AGORTI Rincón terminal grande (123 cm) izq.",
+    title: "AGORTI Rincón terminal (108 x 200 cm) izq.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_IZQ.png",
     price: preciosAgora.comunAGORTDI,
-    medida: 80,
-  },
-  {
-    id: "AGOTGRD",
-    title: "AGOTGRD terminal grande (123 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_80_DER.png",
-    price: preciosAgora.comunAGOTGRDI,
-    medida: 80,
-  },
-  {
-    id: "AGOTGRD",
-    title: "AGOTGRD terminal grande (123 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_80_IZQ.png",
-    price: preciosAgora.comunAGOTGRDI,
-    medida: 80,
-  },
-  {
-    id: "AGOTGRD",
-    title: "AGOTGRD terminal grande (123 cm) dcho.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_DER.png",
-    price: preciosAgora.comunAGOTGRDI,
     medida: 80,
   },
   {
@@ -9067,7 +9047,7 @@ const piezasAgora = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_DER.png",
     price: preciosAgora.comunAGOTMADI,
-    medida: 80,
+    medida: 133,
   },
   {
     id: "AGOTMAI",
@@ -9075,23 +9055,23 @@ const piezasAgora = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_IZQ.png",
     price: preciosAgora.comunAGOTMADI,
-    medida: 80,
+    medida: 133,
   },
   {
     id: "AGOTMED",
-    title: "AGOTMED terminal maxi (143cm) dcho.",
+    title: "AGOTMED terminal mega (143cm) dcho.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_IZQ.png",
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_DER.png",
     price: preciosAgora.comunAGOTMEDI,
-    medida: 80,
+    medida: 143,
   },
   {
     id: "AGOTMEI",
-    title: "AGOTMEI terminal maxi (143cm) izq.",
+    title: "AGOTMEI terminal mega (143cm) izq.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_IZQ.png",
     price: preciosAgora.comunAGOTMEDI,
-    medida: 80,
+    medida: 143,
   },
   {
     id: "AGOT2RGD",
@@ -9188,6 +9168,13 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO35I1A.png",
     price: preciosAgora.comunAGO35DI1A,
     medida: 204,
+  },
+  {
+    id: "AGOPT",
+    title: "AGOPT Posapiés terminal (108x60 cm) ",
+    price: supAgora.supAGOPT,
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGOPT.png",
   },
 ];
 /*---------------PIEZAS ALTANO-------------*/
@@ -17765,60 +17752,3 @@ const piezasZonda = [
     medida: 0,
   },
 ];
-
-/*----------------------------TELAS------------------------*/
-
-const muestras = {
-  Brixton: [
-    { img: "assets/TELAS/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_13.png", nombre: "BRIXTON_13" },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_16.png", nombre: "BRIXTON_16" },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_32.png", nombre: "BRIXTON_32 " },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_80.png", nombre: "BRIXTON_80" },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_101.png", nombre: "BRIXTON_101" },
-    { img: "assets/TELAS/BRIXTON/BRIXTON_245.png", nombre: "BRIXTON_245" },
-  ],
-  Camila: [
-    { img: "assets/TELAS/CAMILA/CAMILA_10.png", nombre: "CAMILA_10" },
-    { img: "assets/TELAS/CAMILA/CAMILA_28.png", nombre: "CAMILA_28" },
-    { img: "assets/TELAS/CAMILA/CAMILA_32.png", nombre: "CAMILA_32" },
-    { img: "assets/TELAS/CAMILA/CAMILA_51.png", nombre: "CAMILA_51" },
-    { img: "assets/TELAS/CAMILA/CAMILA_53.png", nombre: "CAMILA_53" },
-    { img: "assets/TELAS/CAMILA/CAMILA_56.png", nombre: "CAMILA_56" },
-    { img: "assets/TELAS/CAMILA/CAMILA_60.png", nombre: "CAMILA_60" },
-    { img: "assets/TELAS/CAMILA/CAMILA_90.png", nombre: "CAMILA_90" },
-  ],
-  Montreal: [
-    { img: "assets/TELAS/MONTREAL/MONTREAL-01.jpg", nombre: "MONTREAL-01" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-02.jpg", nombre: "MONTREAL-02" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-03.jpg", nombre: "MONTREAL-03" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-04.jpg", nombre: "MONTREAL-04" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-05.jpg", nombre: "MONTREAL-05" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-06.jpg", nombre: "MONTREAL-06" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-07.jpg", nombre: "MONTREAL-07" },
-    { img: "assets/TELAS/MONTREAL/MONTREAL-08.jpg", nombre: "MONTREAL-08" },
-  ],
-  Osaka: [
-    { img: "assets/TELAS/OSAKA/OSAKA-01.jpg", nombre: "OSAKA-01" },
-    { img: "assets/TELAS/OSAKA/OSAKA-02.jpg", nombre: "OSAKA-02" },
-    { img: "assets/TELAS/OSAKA/OSAKA-03.jpg", nombre: "OSAKA-03" },
-    { img: "assets/TELAS/OSAKA/OSAKA-04.jpg", nombre: "OSAKA-04" },
-    { img: "assets/TELAS/OSAKA/OSAKA-05.jpg", nombre: "OSAKA-05" },
-    { img: "assets/TELAS/OSAKA/OSAKA-06.jpg", nombre: "OSAKA-06" },
-    { img: "assets/TELAS/OSAKA/OSAKA-08.jpg", nombre: "OSAKA-08" },
-  ],
-  Terranova: [
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-01.jpg", nombre: "TERRANOVA-01" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-02.jpg", nombre: "TERRANOVA-02" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-03.jpg", nombre: "TERRANOVA-03" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-04.jpg", nombre: "TERRANOVA-04" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-05.jpg", nombre: "TERRANOVA-05" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-06.jpg", nombre: "TERRANOVA-06" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-07.jpg", nombre: "TERRANOVA-07" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
-    { img: "assets/TELAS/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
-  ],
-  TelaCliente: [
-    { img: "assets/TELAS/TELACLIENTE/Telacliente.png", nombre: "Tela Cliente" },
-  ],
-};

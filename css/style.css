@@ -66,6 +66,19 @@ p {
 .configuracion-titulo {
   padding-bottom: 2rem;
 }
+/*DIV IMG REFERENCIAS*/
+.div-referencia {
+  padding-top: 1rem;
+}
+.textoReferencia {
+  font-family: "Minion";
+  font-size: 12px;
+  font-weight: 300;
+}
+.referencia-img {
+  width: 40%;
+  height: auto;
+}
 /*FORM DATOS*/
 
 .form-inputs {
@@ -149,14 +162,7 @@ select {
 .input-cojines {
   margin-bottom: 1rem;
 }
-.suplemento-cojines {
-  width: 100%;
-  display: block;
-  flex-direction: column;
 
-  margin-top: 2rem;
-  font-family: "Montserrat";
-}
 /*------------SUPLEMENTO ALTANO-----------*/
 .altano-patas {
   display: none;
@@ -166,7 +172,6 @@ select {
   width: 100%;
   display: block;
   flex-direction: column;
-
   margin-top: 2rem;
   font-family: "Montserrat";
 }
@@ -177,8 +182,15 @@ select {
 }
 /*SUPLEMENTO PATAS*/
 .suplementoPatas,
-.suplemento-cojines {
+.suplemento-respaldos {
   display: none;
+}
+.suplemento-respaldos {
+  width: 100%;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family: "Montserrat";
+  margin-top: 5rem;
 }
 /* SECCION CONFIGURACION Y RESUMEN */
 .configuracion-seccion {

@@ -1,0 +1,56 @@
+/*----------------------------TELAS------------------------*/
+
+const muestras = {
+  Brixton: [
+    { img: "assets/TELAS/BRIXTON/BRIXTON_10.png", nombre: "BRIXTON_10" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_13.png", nombre: "BRIXTON_13" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_16.png", nombre: "BRIXTON_16" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_32.png", nombre: "BRIXTON_32 " },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_80.png", nombre: "BRIXTON_80" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_101.png", nombre: "BRIXTON_101" },
+    { img: "assets/TELAS/BRIXTON/BRIXTON_245.png", nombre: "BRIXTON_245" },
+  ],
+  Camila: [
+    { img: "assets/TELAS/CAMILA/CAMILA_10.png", nombre: "CAMILA_10" },
+    { img: "assets/TELAS/CAMILA/CAMILA_28.png", nombre: "CAMILA_28" },
+    { img: "assets/TELAS/CAMILA/CAMILA_32.png", nombre: "CAMILA_32" },
+    { img: "assets/TELAS/CAMILA/CAMILA_51.png", nombre: "CAMILA_51" },
+    { img: "assets/TELAS/CAMILA/CAMILA_53.png", nombre: "CAMILA_53" },
+    { img: "assets/TELAS/CAMILA/CAMILA_56.png", nombre: "CAMILA_56" },
+    { img: "assets/TELAS/CAMILA/CAMILA_60.png", nombre: "CAMILA_60" },
+    { img: "assets/TELAS/CAMILA/CAMILA_90.png", nombre: "CAMILA_90" },
+  ],
+  Montreal: [
+    { img: "assets/TELAS/MONTREAL/MONTREAL-01.jpg", nombre: "MONTREAL-01" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-02.jpg", nombre: "MONTREAL-02" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-03.jpg", nombre: "MONTREAL-03" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-04.jpg", nombre: "MONTREAL-04" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-05.jpg", nombre: "MONTREAL-05" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-06.jpg", nombre: "MONTREAL-06" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-07.jpg", nombre: "MONTREAL-07" },
+    { img: "assets/TELAS/MONTREAL/MONTREAL-08.jpg", nombre: "MONTREAL-08" },
+  ],
+  Osaka: [
+    { img: "assets/TELAS/OSAKA/OSAKA-01.jpg", nombre: "OSAKA-01" },
+    { img: "assets/TELAS/OSAKA/OSAKA-02.jpg", nombre: "OSAKA-02" },
+    { img: "assets/TELAS/OSAKA/OSAKA-03.jpg", nombre: "OSAKA-03" },
+    { img: "assets/TELAS/OSAKA/OSAKA-04.jpg", nombre: "OSAKA-04" },
+    { img: "assets/TELAS/OSAKA/OSAKA-05.jpg", nombre: "OSAKA-05" },
+    { img: "assets/TELAS/OSAKA/OSAKA-06.jpg", nombre: "OSAKA-06" },
+    { img: "assets/TELAS/OSAKA/OSAKA-08.jpg", nombre: "OSAKA-08" },
+  ],
+  Terranova: [
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-01.jpg", nombre: "TERRANOVA-01" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-02.jpg", nombre: "TERRANOVA-02" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-03.jpg", nombre: "TERRANOVA-03" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-04.jpg", nombre: "TERRANOVA-04" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-05.jpg", nombre: "TERRANOVA-05" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-06.jpg", nombre: "TERRANOVA-06" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-07.jpg", nombre: "TERRANOVA-07" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-08.jpg", nombre: "TERRANOVA-08" },
+    { img: "assets/TELAS/TERRANOVA/TERRANOVA-09.jpg", nombre: "TERRANOVA-09" },
+  ],
+  TelaCliente: [
+    { img: "assets/TELAS/TELACLIENTE/Telacliente.png", nombre: "Tela Cliente" },
+  ],
+};
