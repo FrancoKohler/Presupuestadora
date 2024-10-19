@@ -565,13 +565,23 @@ const preciosLino = {
 const preciosAlpha = {
   comunALPCGRDI: [
     { material: "SERIE 1", precio: 917 },
-    { material: "SERIE 2", precio: 1029 },
-    { material: "SERIE 3", precio: 1077 },
-    { material: "SERIE 4", precio: 1125 },
-    { material: "SERIE 5", precio: 1198 },
-    { material: "SERIE 6", precio: 1270 },
-    { material: "SERIE 7", precio: 1346 },
-    { material: "PIEL D", precio: 2189 },
+    { material: "SERIE 2", precio: 961 },
+    { material: "SERIE 3", precio: 1005 },
+    { material: "SERIE 4", precio: 1050 },
+    { material: "SERIE 5", precio: 1116 },
+    { material: "SERIE 6", precio: 1183 },
+    { material: "SERIE 7", precio: 1254 },
+    { material: "PIEL D", precio: 2128 },
+  ],
+  comunALPCMDDI: [
+    { material: "SERIE 1", precio: 895 },
+    { material: "SERIE 2", precio: 939 },
+    { material: "SERIE 3", precio: 984 },
+    { material: "SERIE 4", precio: 1027 },
+    { material: "SERIE 5", precio: 1094 },
+    { material: "SERIE 6", precio: 1161 },
+    { material: "SERIE 7", precio: 1230 },
+    { material: "PIEL D", precio: 2001 },
   ],
   comunALPCMADI: [
     { material: "SERIE 1", precio: 982 },
@@ -584,14 +594,14 @@ const preciosAlpha = {
     { material: "PIEL D", precio: 2189 },
   ],
   comunALPM102DI: [
-    { material: "SERIE 1", precio: 895 },
-    { material: "SERIE 2", precio: 939 },
-    { material: "SERIE 3", precio: 984 },
-    { material: "SERIE 4", precio: 1027 },
-    { material: "SERIE 5", precio: 1094 },
-    { material: "SERIE 6", precio: 1161 },
-    { material: "SERIE 7", precio: 1230 },
-    { material: "PIEL D", precio: 2001 },
+    { material: "SERIE 1", precio: 679 },
+    { material: "SERIE 2", precio: 714 },
+    { material: "SERIE 3", precio: 748 },
+    { material: "SERIE 4", precio: 782 },
+    { material: "SERIE 5", precio: 833 },
+    { material: "SERIE 6", precio: 885 },
+    { material: "SERIE 7", precio: 938 },
+    { material: "PIEL D", precio: 1620 },
   ],
   comunALPM110SB: [
     { material: "SERIE 1", precio: 608 },
@@ -711,7 +721,7 @@ const preciosAlpha = {
     { material: "SERIE 5", precio: 1353 },
     { material: "SERIE 6", precio: 1424 },
     { material: "SERIE 7", precio: 1509 },
-    { material: "PIEL D", precio: 1836 },
+    { material: "PIEL D", precio: 2836 },
   ],
   comunALP25DI: [
     { material: "SERIE 1", precio: 1013 },
@@ -741,7 +751,7 @@ const preciosAlpha = {
     { material: "SERIE 5", precio: 1350 },
     { material: "SERIE 6", precio: 1444 },
     { material: "SERIE 7", precio: 1531 },
-    { material: "PIEL D", precio: 2796 },
+    { material: "PIEL D", precio: 2795 },
   ],
   comunALP35: [
     { material: "SERIE 1", precio: 1407 },
@@ -754,6 +764,16 @@ const preciosAlpha = {
     { material: "PIEL D", precio: 3288 },
   ],
   comunALP35DI: [
+    { material: "SERIE 1", precio: 1115 },
+    { material: "SERIE 2", precio: 1179 },
+    { material: "SERIE 3", precio: 1243 },
+    { material: "SERIE 4", precio: 1305 },
+    { material: "SERIE 5", precio: 1400 },
+    { material: "SERIE 6", precio: 1496 },
+    { material: "SERIE 7", precio: 1585 },
+    { material: "PIEL D", precio: 2845 },
+  ],
+  comunALP4: [
     { material: "SERIE 1", precio: 1556 },
     { material: "SERIE 2", precio: 1628 },
     { material: "SERIE 3", precio: 1700 },
@@ -848,23 +868,15 @@ const preciosAgora = {
     { material: "SERIE 6", precio: 173 },
     { material: "SERIE 7", precio: 194 },
   ],
-  supAGORA100: [
-    { material: "SERIE 1", precio: 225 },
-    { material: "SERIE 2", precio: 236 },
-    { material: "SERIE 3", precio: 247 },
-    { material: "SERIE 4", precio: 259 },
-    { material: "SERIE 5", precio: 275 },
-    { material: "SERIE 6", precio: 292 },
-    { material: "SERIE 7", precio: 315 },
-  ],
-  supAGORA90: [
-    { material: "SERIE 1", precio: 206 },
-    { material: "SERIE 2", precio: 215 },
-    { material: "SERIE 3", precio: 225 },
-    { material: "SERIE 4", precio: 235 },
-    { material: "SERIE 5", precio: 249 },
-    { material: "SERIE 6", precio: 263 },
-    { material: "SERIE 7", precio: 282 },
+
+  supAGORA70: [
+    { material: "SERIE 1", precio: 182 },
+    { material: "SERIE 2", precio: 193 },
+    { material: "SERIE 3", precio: 202 },
+    { material: "SERIE 4", precio: 211 },
+    { material: "SERIE 5", precio: 226 },
+    { material: "SERIE 6", precio: 239 },
+    { material: "SERIE 7", precio: 259 },
   ],
   supAGORA80: [
     { material: "SERIE 1", precio: 195 },
@@ -875,14 +887,23 @@ const preciosAgora = {
     { material: "SERIE 6", precio: 252 },
     { material: "SERIE 7", precio: 270 },
   ],
-  supAGORA70: [
-    { material: "SERIE 1", precio: 182 },
-    { material: "SERIE 2", precio: 193 },
-    { material: "SERIE 3", precio: 202 },
-    { material: "SERIE 4", precio: 211 },
-    { material: "SERIE 5", precio: 226 },
-    { material: "SERIE 6", precio: 239 },
-    { material: "SERIE 7", precio: 259 },
+  supAGORA90: [
+    { material: "SERIE 1", precio: 206 },
+    { material: "SERIE 2", precio: 215 },
+    { material: "SERIE 3", precio: 225 },
+    { material: "SERIE 4", precio: 235 },
+    { material: "SERIE 5", precio: 249 },
+    { material: "SERIE 6", precio: 263 },
+    { material: "SERIE 7", precio: 282 },
+  ],
+  supAGORA100: [
+    { material: "SERIE 1", precio: 225 },
+    { material: "SERIE 2", precio: 236 },
+    { material: "SERIE 3", precio: 247 },
+    { material: "SERIE 4", precio: 259 },
+    { material: "SERIE 5", precio: 275 },
+    { material: "SERIE 6", precio: 292 },
+    { material: "SERIE 7", precio: 315 },
   ],
   supAGORR100: [
     { material: "SERIE 1", precio: 122 },
@@ -1059,6 +1080,33 @@ const preciosAgora = {
 };
 /*----------------------Altano----------------------*/
 const preciosAltano = {
+  comunALT5: [
+    { material: "SERIE 1", precio: 1644 },
+    { material: "SERIE 2", precio: 1740 },
+    { material: "SERIE 3", precio: 1836 },
+    { material: "SERIE 4", precio: 1934 },
+    { material: "SERIE 5", precio: 2078 },
+    { material: "SERIE 6", precio: 2220 },
+    { material: "SERIE 7", precio: 2354 },
+  ],
+  comunALT45: [
+    { material: "SERIE 1", precio: 1564 },
+    { material: "SERIE 2", precio: 1654 },
+    { material: "SERIE 3", precio: 1744 },
+    { material: "SERIE 4", precio: 1836 },
+    { material: "SERIE 5", precio: 1970 },
+    { material: "SERIE 6", precio: 2104 },
+    { material: "SERIE 7", precio: 2230 },
+  ],
+  comunALT40: [
+    { material: "SERIE 1", precio: 1462 },
+    { material: "SERIE 2", precio: 1546 },
+    { material: "SERIE 3", precio: 1630 },
+    { material: "SERIE 4", precio: 1714 },
+    { material: "SERIE 5", precio: 1840 },
+    { material: "SERIE 6", precio: 1968 },
+    { material: "SERIE 7", precio: 2086 },
+  ],
   comunALTADI: [
     { material: "SERIE 1", precio: 1088 },
     { material: "SERIE 2", precio: 1060 },
@@ -3075,14 +3123,14 @@ const supAlpha = {
     { material: "PIEL D", precio: 667 },
   ],
   supALPPXL: [
-    { material: "SERIE 1", precio: 317 },
-    { material: "SERIE 2", precio: 331 },
-    { material: "SERIE 3", precio: 345 },
-    { material: "SERIE 4", precio: 359 },
-    { material: "SERIE 5", precio: 380 },
-    { material: "SERIE 6", precio: 401 },
-    { material: "SERIE 7", precio: 425 },
-    { material: "PIEL D", precio: 667 },
+    { material: "SERIE 1", precio: 364 },
+    { material: "SERIE 2", precio: 377 },
+    { material: "SERIE 3", precio: 392 },
+    { material: "SERIE 4", precio: 406 },
+    { material: "SERIE 5", precio: 426 },
+    { material: "SERIE 6", precio: 447 },
+    { material: "SERIE 7", precio: 474 },
+    { material: "PIEL D", precio: 706 },
   ],
 };
 //SUPLEMENTOS AGORA
@@ -8546,7 +8594,7 @@ const respaldosAgora = [
   },
   {
     id: "AGORA80",
-    title: "AGORA80 Respaldo relleno de pluma(80 cm) articulado multiposición",
+    title: "AGORA80 Respaldo relleno de pluma (80 cm) articulado multiposición",
     price: preciosAgora.supAGORA80,
   },
   {
@@ -8557,7 +8605,7 @@ const respaldosAgora = [
   {
     id: "AGORA100",
     title:
-      "AGORA100 Respaldo relleno de pluma(100 cm) articulado multiposición ",
+      "AGORA100 Respaldo relleno de pluma (100 cm) articulado multiposición ",
     price: preciosAgora.supAGORA100,
   },
   {
@@ -8583,7 +8631,7 @@ const suplementosAlpha = [
   },
   {
     id: "ALPPMD",
-    title: "ALPPMA POSAPIES MEDIANO (70X60)",
+    title: "ALPPMD POSAPIES MEDIANO (70X60)",
     price: supAlpha.supALPPMD,
   },
   {
@@ -8599,6 +8647,22 @@ const piezasAlpha = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+  },
+  {
+    id: "ALPCMAD",
+    title: "ALPCMAD CHAISELONGUE MAXI 116 CM. BRAZO DERECHA",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAD.png",
+    price: preciosAlpha.comunALPCMADI,
+    medida: 116,
+  },
+  {
+    id: "ALPCMAI",
+    title: "ALPCMAI CHAISELONGUE MAXI 116 CM. BRAZO IZQ",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAI.png",
+    price: preciosAlpha.comunALPCMADI,
+    medida: 116,
   },
   {
     id: "ALPCGRD",
@@ -8617,21 +8681,22 @@ const piezasAlpha = [
     medida: 106,
   },
   {
-    id: "ALPCMAD",
-    title: "ALPCMAD CHAISELONGUE MAXI 116 CM. BRAZO DERECHA",
+    id: "ALPCMDD",
+    title: "ALPCMDD CHAISELONGUE MEDIANA 96 CM. BRAZO DERECHA",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAD.png",
-    price: preciosAlpha.comunALPCMADI,
-    medida: 116,
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMDD.png",
+    price: preciosAlpha.comunALPCMDDI,
+    medida: 96,
   },
   {
-    id: "ALPCMAI",
-    title: "ALPCMAI CHAISELONGUE MAXI 116 CM. BRAZO IZQ",
+    id: "ALPCMDI",
+    title: "ALPCMDI CHAISELONGUE MEDIANA 96 CM. BRAZO IZQ",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAI.png",
-    price: preciosAlpha.comunALPCMADI,
-    medida: 116,
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMDI.png",
+    price: preciosAlpha.comunALPCMDDI,
+    medida: 96,
   },
+
   {
     id: "ALPM102D",
     title: "ALPM102D MODULO GRANDE 106 CM BRAZO DERECHO",
@@ -8729,14 +8794,6 @@ const piezasAlpha = [
     medida: 96,
   },
   {
-    id: "ALPM92I",
-    title: "ALPM92I MODULO MEDIANO 96 CM BRAZO IZQ.",
-    imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM92I.png",
-    price: preciosAlpha.comunALPM92DI,
-    medida: 96,
-  },
-  {
     id: "ALPRA",
     title: "ALPRA RINCON ABIERTO",
     imageUrl:
@@ -8770,19 +8827,19 @@ const piezasAlpha = [
   },
   {
     id: "ALPTD",
-    title: "ALPTD TERMINAL DERECHA",
+    title: "ALPTD TERMINAL DERECHA (123 cm)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTD.png",
     price: preciosAlpha.comunALPTDI,
-    medida: 0,
+    medida: 123,
   },
   {
     id: "ALPTI",
-    title: "ALPTI TERMINAL IZQ",
+    title: "ALPTI TERMINAL IZQ (123 cm)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTI.png",
     price: preciosAlpha.comunALPTDI,
-    medida: 0,
+    medida: 123,
   },
   {
     id: "ALP25",
@@ -8834,7 +8891,7 @@ const piezasAlpha = [
   },
   {
     id: "ALP35",
-    title: "ALP35 SOFA 3,5 PLAZAS 232 CM.",
+    title: "ALP35 SOFA 3,5 PLAZAS 232 CM. (Comp. por dos modulos)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP35.png",
     price: preciosAlpha.comunALP35,
@@ -8858,10 +8915,10 @@ const piezasAlpha = [
   },
   {
     id: "ALP4",
-    title: "ALP4 SOFA 4 PLAZAS 272 CM.",
+    title: "ALP4 SOFA 4 PLAZAS 272 CM. (Comp. por dos modulos)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP4.png",
-    price: preciosAlpha.comunALP35DI,
+    price: preciosAlpha.comunALP4,
     medida: 272,
   },
 ];
@@ -9175,6 +9232,7 @@ const piezasAgora = [
     price: supAgora.supAGOPT,
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGOPT.png",
+    medida: 60,
   },
 ];
 /*---------------PIEZAS ALTANO-------------*/
@@ -9540,6 +9598,30 @@ const piezasAltano = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT251ASB.png",
     price: preciosAltano.comunALT251ASB,
+  },
+  {
+    id: "ALT5",
+    title: "ALT5 sofa 5 plazas (280 cm) (Comp. por dos modulos)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT5.png",
+    price: preciosAltano.comunALT5,
+    medida: 280,
+  },
+  {
+    id: "ALT45",
+    title: "ALT45 sofa 4,5 plazas (260 cm) (Comp. por dos modulos)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT45.png",
+    price: preciosAltano.comunALT45,
+    medida: 260,
+  },
+  {
+    id: "ALT40",
+    title: "ALT40 sofa 4 plazas (240 cm) (Comp. por dos modulos)",
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT40.png",
+    price: preciosAltano.comunALT40,
+    medida: 240,
   },
   {
     id: "ALT3",

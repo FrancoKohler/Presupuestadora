@@ -162,7 +162,11 @@ select {
 .input-cojines {
   margin-bottom: 1rem;
 }
-
+/*------------SUPLEMENTOS POSAPIES--------*/
+.suplementoPatas,
+.suplemento-respaldos .posapies {
+  display: none;
+}
 /*------------SUPLEMENTO ALTANO-----------*/
 .altano-patas {
   display: none;
@@ -181,10 +185,6 @@ select {
   cursor: pointer;
 }
 /*SUPLEMENTO PATAS*/
-.suplementoPatas,
-.suplemento-respaldos {
-  display: none;
-}
 .suplemento-respaldos {
   width: 100%;
   flex-direction: column;
@@ -525,4 +525,29 @@ li {
   right: 15px;
   font-size: 24px;
   cursor: pointer;
+}
+/*Botones de navegacion*/
+.sideBtns {
+  position: fixed;
+  left: 50px;
+  bottom: 2px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+}
+.sideBtns img {
+  width: 35px;
+  cursor: pointer;
+  border: 1px solid #343434;
+  border-radius: 15px;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
+.sideBtns img:hover {
+  width: 45px;
+  transition: 0.5s;
 }

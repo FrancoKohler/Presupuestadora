@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let piezasAMostrar;
     let respaldosAMostrar;
     const suplementoRespaldos = document.querySelector(".suplemento-respaldos");
+
     let materialesAgora = new Set();
     let materialesAlpha = new Set();
     let materialesBarine = new Set();
@@ -424,11 +425,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     let nextIndex = 3;
     // Actualizar los dropdowns de piezas
-    for (let i = 1; i <= 8; i++) {
+    /* for (let i = 1; i <= 8; i++) {
       const dropdown = document.getElementById(`output${i}`);
       dropdown.innerHTML = "";
 
-      // Agregar las nuevas opciones
       respaldosAMostrar.forEach((respaldo) => {
         const option = document.createElement("option");
         option.value = respaldo.id;
@@ -436,7 +436,7 @@ document.addEventListener("DOMContentLoaded", function () {
         option.dataset.price = JSON.stringify(respaldo.price);
         dropdown.appendChild(option);
       });
-    }
+    } */
 
     // Función para ocultar los dropdowns que no están poblados
     function hideUnpopulatedDropdowns() {
@@ -613,7 +613,7 @@ document.addEventListener("DOMContentLoaded", function () {
         option.value = material;
         option.textContent = material;
         telaDropdown.appendChild(option);
-        // Establecer display flex para el elemento con id suplementoPatas
+        // Establecer display flex para el elemento con id
         const suplementoRespaldo = document.getElementById(
           "suplementoRespaldos"
         );

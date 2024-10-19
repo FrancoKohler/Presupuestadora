@@ -12,6 +12,8 @@
    <script defer src="./app/index.js"></script>
    <script defer src="./app/pdfgenerator.js"></script>
    <script defer src="./app/imgmodelos.js"></script>
+   <script defer src="./app/test.js"></script>
+   <script defer src="./app/dropdowns.js"></script>
    
    
    
@@ -195,7 +197,7 @@
     <!--MODELO SELECTOR-->
     
     </section>
-    <section class="modelo-seccion" >
+    <section class="modelo-seccion" id="seccionModelo">
         <div class="form-inputs">
             <a class="seccion-titulo"> Modelo</a>
                 <label for="modelo" class="input-title">Selecciona el modelo para la configuración</label>
@@ -241,7 +243,7 @@
     </section>
     
     <!--TELA SELECTOR-->
-     <section class="tela-seccion">
+     <section class="tela-seccion" id="seccionTela">
         <div class="form-inputs">
             <a class="seccion-titulo"> Serie</a>
             <label for="modelo" class="input-title">Selecciona el tejido o piel para la configuración</label>
@@ -261,7 +263,7 @@
             
     </section>
     <!--PIEZA SELECTOR-->
-    <section class="pieza-seccion" >
+    <section class="pieza-seccion" id="seccionPiezas" >
         <div class="form-inputs">
             
                 <a class="seccion-titulo"> Piezas</a>
@@ -293,7 +295,7 @@
                 <!-------BTN AGREGAR------->
                 <button id="showPiezas" class="btn-agregar">Agregar más</button>
                 <!--SUMPLEMENTO MOTOR-->
-                <div class="suplemento" id="suplemento">
+                <div class="suplemento" id="suplementoMotor">
                     <a class="input-motor"> Suplemento Motor = 179€ </a>
                           <input
                           class="input-motor"
@@ -369,10 +371,15 @@
                 <button id="showCojin" class="btn-agregar">Agregar más</button>
                 </div>
                
-                
+                <!--SUPLEMENTO ALPHA-->
+                <div class="form-inputs posapies" id="seccionPosapies">
+                    <label for="posapies" class="a-cojines">Posapies</label>
+                <label for="posapies" class="input-title">Selecciona los posapies</label>
+                <!-----------FILLED IN JS---->
+                </div>
                 
                 <!---------SUPLEMENTOS ALTANO-------->
-                <span class="form-inputs altano-patas" id="suplementoPatas">
+                <div class="form-inputs altano-patas" id="suplementoPatas">
                 <label for="patas" class="a-cojines">Patas</label>
                 <label for="pieza" class="input-title">Selecciona las patas</label>
                 <select name="pais" id="patas" class="dropdown">
@@ -384,7 +391,7 @@
 (13,5 cms. altura) </option>
                 
                 </select>
-                </span>
+                </div>
                 
             </div>
             
@@ -392,7 +399,7 @@
     </section>
                 
     <!-------------RESUMEN SECCION-------------->
-    <section class="section-resumen">
+    <section class="section-resumen" id="seccionResumen">
                 <a class="seccion-titulo">Resumen</a>
                 <ul class="ul-config" id="resumen">
                     <!--LI LLENO WITH JS-->
@@ -402,8 +409,15 @@
             <input class="descuento-input" type="text" id="descuento" placeholder="Descuento">
             </div>
     </section>
-    
+    <!--BTN NAV-->
     <button class="btn-pdf" id="openModalBtn">CONTINUAR</button>
-    
+    <div class="sideBtns">
+        
+        <a class="nav-boton" href="#seccionModelo"><img src="./assets/model.png" alt="img modelo" onclick="navegarASeccion('seccionModelo')" ></a>
+        <a class="nav-boton" href="#seccionPiezas"><img src="./assets/pieza.png" alt="img piezas" onclick="navegarASeccionPz('seccionPiezas')"></a>
+        <a class="nav-boton" href="#seccionTela"><img src="./assets/tela.png" alt="img tela" onclick="navegarASeccionTela('seccionTela')" ></a>
+        <a class="nav-boton" href="#seccionResumen"><img src="./assets/resumen.png" alt="img resumen" onclick="navegarASeccionResumen('seccionResumen')" ></a>
+        
+    </div>
   </body>
 </html>
