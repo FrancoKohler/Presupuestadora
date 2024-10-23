@@ -62,7 +62,24 @@ function buscarTela() {
   dropdownContent.style.display =
     dropdownContent.children.length > 0 ? "block" : "none";
 }
+function seleccionarMuestra(nombre) {
+  resumen.nombre = nombre;
+  const selectedOption = document.getElementById("selected-option");
+  if (selectedOption) {
+    selectedOption.innerText = nombre;
+    selectedOption.dataset.nombre = nombre;
+  }
+  console.log("Muestra seleccionada:", resumen.nombre);
+  document.getElementById("dropdown-content").style.display = "none";
+  generarResumen();
+}
 
+function cerrarOverlay() {
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = "none";
+  }
+}
 /*------- <div class="category-select">
 <select class="dropdown-select" id="category-select" onchange="seleccionarCategoria()">
     <option value="">Selecciona una categoría</option>

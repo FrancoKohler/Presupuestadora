@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5e615db2b03dc943e61acfa7/1594816802492-7H0LNNB09741O23X5IMY/favicon.ico?format=100w">
@@ -8,15 +8,29 @@
     <!--LINK CSS-->
     <link rel="stylesheet" href="./css/style.css" />
     <!--LINK JS-->
-   <script defer src="./app/data.js"></script>
-   <script defer src="./app/index.js"></script>
-   <script defer src="./app/pdfgenerator.js"></script>
-   <script defer src="./app/imgmodelos.js"></script>
-   <script defer src="./app/test.js"></script>
-   <script defer src="./app/dropdowns.js"></script>
-   
-   
-   
+     <!-----DATA PIEZAS Y PRECIOS------>
+    <script defer src="./app/data/BUTACAS/butacas.js"></script>
+    <script defer src="./app/data/MODELOS/piezasA.js"></script>
+    <script defer src="./app/data/MODELOS/piezasB.js"></script>
+    <script defer src="./app/data/MODELOS/piezasC-K.js"></script>
+    <script defer src="./app/data/MODELOS/piezasL-N.js"></script>
+    <script defer src="./app/data/MODELOS/piezasP.js"></script>
+    <script defer src="./app/data/MODELOS/piezasS-T.js"></script>
+    <script defer src="./app/data/MODELOS/piezasY-Z.js"></script>
+    <script defer src="./app/data/cojines.js"></script>
+    <script defer src="./app/data/posapies.js"></script>
+    <script defer src="./app/data/respaldos.js"></script>   
+        <!-----SCRIPTS------>
+    <script defer src="./app/index.js"></script>
+    <script defer src="./app/showmore.js"></script>
+    <script defer src="./app/pdfgenerator.js"></script>
+    <script defer src="./app/data/imgmodelos.js"></script>
+    <script defer src="./app/atajos.js"></script>
+    <script defer src="./app/switchs/switchs.js"></script>
+    <script defer src="./app/switchs/switchpatas.js"></script>
+    <script defer src="./app/switchs/switchprecios.js"></script>
+    <script defer src="./app/piezasconfiguracion.js"></script>
+
    
   <!--SCRIPTS PARA HTMLCANVAS Y JSKIT-->
     <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
@@ -203,33 +217,47 @@
                 <label for="modelo" class="input-title">Selecciona el modelo para la configuración</label>
                 
                 <select name="modelo" id="modelo" class="dropdown">
-                <option value="Agora">Agora</option>
-                <option value="Alpha">Alpha</option>
-                <option value="Altano">Altano</option>
-                <option value="Barine">Barine</option>
-                <option value="Bertina">Bertina</option>
-                <option value="Bertina Little">Bertina Little</option>
-                <option value="Coral">Coral</option>
-                <option value="Dana">Dana</option>
-                <option value="Gamma">Gamma</option> 
-                <option value="Giant">Giant</option>
-                <option value="Giant Little">Giant Little</option>
-                <option value="Kappa">Kappa</option> 
-                <option value="Lino">Lino</option>
-                <option value="Memphis">Memphis</option>
-                <option value="Mistral">Mistral</option>
-                <option value="Nadir">Nadir</option>
-                <option value="Platea Alta">Platea Alta</option>
-                <option value="Platea Baja">Platea Baja</option>
-                <option value="Sigma">Sigma</option>
-                <option value="Sirocco Eco">Sirocco Eco</option>
-                <option value="Sisal">Sisal</option>
-                <option value="Tucson">Tucson</option>
-                <option value="Tundra">Tundra</option>
-                <option value="Yute">Yute</option>
-                <option value="Zenith">Zenith</option>
-                <option value="Zonda">Zonda</option>
-            
+                    <optgroup label="Sofás">
+                        <option value="Agora">Agora</option>
+                        <option value="Alpha">Alpha</option>
+                        <option value="Altano">Altano</option>
+                        <option value="Barine">Barine</option>
+                        <option value="Bertina">Bertina</option>
+                        <option value="Bertina Little">Bertina Little</option>
+                        <option value="Gamma">Gamma</option> 
+                        <option value="Giant">Giant</option>
+                        <option value="Giant Little">Giant Little</option>
+                        <option value="Kappa">Kappa</option> 
+                        <option value="Lino">Lino</option>
+                        <option value="Memphis">Memphis</option>
+                        <option value="Mistral">Mistral</option>
+                        <option value="Nadir">Nadir</option>
+                        <option value="Platea Alta">Platea Alta</option>
+                        <option value="Platea Baja">Platea Baja</option>
+                        <option value="Sigma">Sigma</option>
+                        <option value="Sirocco Eco">Sirocco Eco</option>
+                        <option value="Sisal">Sisal</option>
+                        <option value="Tucson">Tucson</option>
+                        <option value="Tundra">Tundra</option>
+                        <option value="Yute">Yute</option>
+                        <option value="Zenith">Zenith</option>
+                        <option value="Zonda">Zonda</option>
+                    </optgroup>
+                    <optgroup label="Butacas">
+                        <option value="Ares">Ares</option>
+                        <option value="Bruma">Bruma</option>
+                        <option value="Coral">Coral</option>
+                        <option value="Coralina">Coralina</option>
+                        <option value="Crono">Crono</option>
+                        <option value="Dana">Dana</option>
+                        <option value="Dino">Dino</option>
+                        <option value="Eros">Eros</option>
+                        <option value="Omega">Omega</option>
+                        <option value="Tassos">Tassos</option>
+                        <option value="Tita">Tita</option>
+                    </optgroup>
+                       
+                
                 </select>
                 </div>
                 <div class="form-inputs div-referencia">
@@ -280,6 +308,7 @@
                 <select name="pieza" id="pieza4" class="dropdown">
                 <!--LLENO CON JS-->
                 </select>
+                <!-- Los selects ocultos inicialmente -->
                 <select name="pieza" id="pieza5" class="dropdown hidden">
                 <!--LLENO CON JS-->
                 </select>
@@ -295,7 +324,7 @@
                 <!-------BTN AGREGAR------->
                 <button id="showPiezas" class="btn-agregar">Agregar más</button>
                 <!--SUMPLEMENTO MOTOR-->
-                <div class="suplemento" id="suplementoMotor">
+                <div class="suplemento-motor" id="suplementoMotor">
                     <a class="input-motor"> Suplemento Motor = 179€ </a>
                           <input
                           class="input-motor"
@@ -320,33 +349,33 @@
                 <!-------------SUPLEMENTO RESPALDOS---------->
                 <div class="suplemento-respaldos" id="suplementoRespaldos">
                     <a class="a-cojines"> Respaldos</a>
-                    <label for="pieza" class="input-title">Selecciona los suplementos necesarios</label>
+                    <label for="suplementos" class="input-title">Selecciona los suplementos necesarios</label>
                           
-                  <select name="pieza" id="output1" class="dropdown-agora">
+                  <select name="suplementos" id="outputR1" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output2" class="dropdown-agora">
+                  <select name="suplementos" id="outputR2" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output3" class="dropdown-agora">
+                  <select name="suplementos" id="outputR3" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output4" class="dropdown-agora">
+                  <select name="suplementos" id="outputR4" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output5" class="dropdown-agora">
+                  <select name="suplementos" id="outputR5" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output6" class="dropdown-agora">
+                  <select name="suplementos" id="outputR6" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output7" class="dropdown-agora">
+                  <select name="suplementos" id="outputR7" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <select name="pieza" id="output8" class="dropdown-agora">
+                  <select name="suplementos" id="outputR8" class="dropdown-agora">
                   <!--LLENO CON JS-->
                   </select>
-                  <!-------BTN AGREGAR------->
+                  <!-------BTN AGREGAR RESPALDOS------->
                   <button id="showMore" class="btn-agregar">Agregar más</button>
                   </div>
                
@@ -354,7 +383,7 @@
                 <!---------------SUPLEMENTO COJINES----------->
                 
                 <a class="a-cojines"> Suplemento Cojines</a>
-                <label for="pieza" class="input-title">Selecciona los cojines</label>
+                <label for="cojin" class="input-title">Selecciona los cojines</label>
                 <select name="cojin" id="cojin1" class="dropdown">
                 <!--LLENO CON JS-->
                 </select>
@@ -371,24 +400,37 @@
                 <button id="showCojin" class="btn-agregar">Agregar más</button>
                 </div>
                
-                <!--SUPLEMENTO ALPHA-->
-                <div class="form-inputs posapies" id="seccionPosapies">
+                <!--SUPLEMENTO POSAPIES-->
+                <div class="form-inputs posapies" id="seccionPosapies" class="seccion-posapies">
                     <label for="posapies" class="a-cojines">Posapies</label>
                 <label for="posapies" class="input-title">Selecciona los posapies</label>
-                <!-----------FILLED IN JS---->
+                <select name="posapies" id="posapies1" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies2" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies3" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies4" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies5" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies6" class="dropdown">
+                <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies7" class="dropdown">
+                     <!-----------FILLED IN JS----></select>
+                <select name="posapies" id="posapies8" class="dropdown">
+                    <!-----------FILLED IN JS----></select>
+                
+                <!-------BTN AGREGAR------->
+                <button id="showPosapies" class="btn-agregar">Agregar más</button>
                 </div>
                 
-                <!---------SUPLEMENTOS ALTANO-------->
-                <div class="form-inputs altano-patas" id="suplementoPatas">
+                <!---------SUPLEMENTOS PATAS-------->
+                <div class="form-inputs patas-div" id="suplementoPatas">
                 <label for="patas" class="a-cojines">Patas</label>
                 <label for="pieza" class="input-title">Selecciona las patas</label>
-                <select name="pais" id="patas" class="dropdown">
-                <option value="Pata níquel negro (16 cms. altura)">Pata níquel negro
-(16 cms. altura)</option>
-                <option value="Pata metálica mate (15 cms. altura)">Pata metálica mate
-(15 cms. altura) </option>
-                <option value="Pata metálica mate (13,5 cms. altura)">Pata metálica mate
-(13,5 cms. altura) </option>
+                <select name="patas" id="patas" class="dropdown">
+                <!---EN JS-->
                 
                 </select>
                 </div>
@@ -414,8 +456,9 @@
     <div class="sideBtns">
         
         <a class="nav-boton" href="#seccionModelo"><img src="./assets/model.png" alt="img modelo" onclick="navegarASeccion('seccionModelo')" ></a>
-        <a class="nav-boton" href="#seccionPiezas"><img src="./assets/pieza.png" alt="img piezas" onclick="navegarASeccionPz('seccionPiezas')"></a>
         <a class="nav-boton" href="#seccionTela"><img src="./assets/tela.png" alt="img tela" onclick="navegarASeccionTela('seccionTela')" ></a>
+        <a class="nav-boton" href="#seccionPiezas"><img src="./assets/pieza.png" alt="img piezas" onclick="navegarASeccionPz('seccionPiezas')"></a>
+        
         <a class="nav-boton" href="#seccionResumen"><img src="./assets/resumen.png" alt="img resumen" onclick="navegarASeccionResumen('seccionResumen')" ></a>
         
     </div>

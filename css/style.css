@@ -149,8 +149,7 @@ select {
   font-size: 2rem;
   font-family: "Domaine";
 }
-/*SUPLEMENTO MOTOR*/
-.suplemento,
+
 .suplementoPatas {
   display: flex;
   flex-direction: row;
@@ -162,13 +161,22 @@ select {
 .input-cojines {
   margin-bottom: 1rem;
 }
-/*------------SUPLEMENTOS POSAPIES--------*/
+/*------------SUPLEMENTOS--------*/
+.suplemento-motor,
 .suplementoPatas,
-.suplemento-respaldos .posapies {
+.suplemento-respaldos,
+.seccion-posapies {
   display: none;
 }
-/*------------SUPLEMENTO ALTANO-----------*/
-.altano-patas {
+.suplemento-motor {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  font-family: "Montserrat";
+}
+/*------------SUPLEMENTO PATAS-----------*/
+.patas-div {
   display: none;
 }
 /*------------SUPLEMENTO AGORA------------*/
@@ -231,14 +239,18 @@ select {
   width: 40%;
   margin: auto;
 }
-
+.itemsResumen {
+  font-size: 13px;
+}
 /* Estilos para el título del resumen */
 .resumen-a {
   font-family: "Domaine";
   font-size: 1.5rem;
   color: #343434;
 }
-
+.precioResumen {
+  font-weight: 600;
+}
 /* Estilos para la lista de resumen */
 .ul-config li {
   display: flex;
@@ -529,8 +541,8 @@ li {
 /*Botones de navegacion*/
 .sideBtns {
   position: fixed;
-  left: 50px;
-  bottom: 2px;
+  left: 250px;
+  bottom: 180px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
