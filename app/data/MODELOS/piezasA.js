@@ -228,54 +228,61 @@ const piezasAlpha = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "-",
   },
   {
     id: "ALPCMAD",
-    title: "ALPCMAD CHAISELONGUE MAXI 116 CM. BRAZO DERECHA",
+    title: "ALPCMAD CHAISE LONGUE MAXI 116 CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAD.png",
     price: preciosAlpha.comunALPCMADI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALPCMAI",
-    title: "ALPCMAI CHAISELONGUE MAXI 116 CM. BRAZO IZQ",
+    title: "ALPCMAI CHAISE LONGUE MAXI 116 CM. BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMAI.png",
     price: preciosAlpha.comunALPCMADI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALPCGRD",
-    title: "ALPCGRD CHAISELONGUE GRANDE 106 CM. BRAZO DERECHA",
+    title: "ALPCGRD CHAISE LONGUE GRANDE 106 CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCGRD.png",
     price: preciosAlpha.comunALPCGRDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALPCGRI",
-    title: "ALPCGRI CHAISELONGUE GRANDE 106 CM. BRAZO IZQ.",
+    title: "ALPCGRI CHAISE LONGUE GRANDE 106 CM. BRAZO IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCGRI.png",
     price: preciosAlpha.comunALPCGRDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALPCMDD",
-    title: "ALPCMDD CHAISELONGUE MEDIANA 96 CM. BRAZO DERECHA",
+    title: "ALPCMDD CHAISE LONGUE MEDIANA 96 CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMDD.png",
     price: preciosAlpha.comunALPCMDDI,
     medida: 96,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALPCMDI",
-    title: "ALPCMDI CHAISELONGUE MEDIANA 96 CM. BRAZO IZQ",
+    title: "ALPCMDI CHAISE LONGUE MEDIANA 96 CM. BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPCMDI.png",
     price: preciosAlpha.comunALPCMDDI,
     medida: 96,
+    categoria: "CHAISE LONGUE",
   },
 
   {
@@ -285,6 +292,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM102D.png",
     price: preciosAlpha.comunALPM102DI,
     medida: 106,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM102I",
@@ -293,6 +301,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM102I.png",
     price: preciosAlpha.comunALPM102DI,
     medida: 106,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM110SB",
@@ -301,6 +310,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM110SB.png",
     price: preciosAlpha.comunALPM110SB,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM112D",
@@ -309,6 +319,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM112D.png",
     price: preciosAlpha.comunALPM112DI,
     medida: 116,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM112I",
@@ -317,6 +328,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM112I.png",
     price: preciosAlpha.comunALPM112DI,
     medida: 116,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM132D",
@@ -325,6 +337,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM132D.png",
     price: preciosAlpha.comunALPM132DI,
     medida: 136,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM132I",
@@ -333,6 +346,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM132I.png",
     price: preciosAlpha.comunALPM132DI,
     medida: 136,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM70SB",
@@ -341,6 +355,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM70SB.png",
     price: preciosAlpha.comunALPM70SB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM80SB",
@@ -349,6 +364,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM80SB.png",
     price: preciosAlpha.comunALPM80SB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM90SB",
@@ -357,6 +373,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM90SB.png",
     price: preciosAlpha.comunALPM90SB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM92D",
@@ -365,6 +382,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM92D.png",
     price: preciosAlpha.comunALPM92DI,
     medida: 96,
+    categoria: "MODULOS",
   },
   {
     id: "ALPM92I",
@@ -373,6 +391,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPM92I.png",
     price: preciosAlpha.comunALPM92DI,
     medida: 96,
+    categoria: "MODULOS",
   },
   {
     id: "ALPRA",
@@ -381,6 +400,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRA.png",
     price: preciosAlpha.comunALPRA,
     medida: 0,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALPRTD",
@@ -389,6 +409,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRTD.png",
     price: preciosAlpha.comunALPRTDI,
     medida: 0,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALPRTI",
@@ -397,6 +418,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRTI.png",
     price: preciosAlpha.comunALPRTDI,
     medida: 0,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALPS",
@@ -405,6 +427,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPS.png",
     price: preciosAlpha.comunALPS,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "ALPTD",
@@ -413,6 +436,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTD.png",
     price: preciosAlpha.comunALPTDI,
     medida: 123,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALPTI",
@@ -421,6 +445,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTI.png",
     price: preciosAlpha.comunALPTDI,
     medida: 123,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALP25",
@@ -429,6 +454,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP25.png",
     price: preciosAlpha.comunALP25,
     medida: 192,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP25D",
@@ -437,6 +463,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP25D.png",
     price: preciosAlpha.comunALP25DI,
     medida: 166,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP25I",
@@ -445,6 +472,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP25I.png",
     price: preciosAlpha.comunALP25DI,
     medida: 166,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP3",
@@ -453,6 +481,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP3.png",
     price: preciosAlpha.comunALP3,
     medida: 212,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP3D",
@@ -461,6 +490,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP3D.png",
     price: preciosAlpha.comunALP3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP3I",
@@ -469,6 +499,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP3I.png",
     price: preciosAlpha.comunALP3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP35",
@@ -477,6 +508,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP35.png",
     price: preciosAlpha.comunALP35,
     medida: 232,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP35D",
@@ -485,6 +517,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP35D.png",
     price: preciosAlpha.comunALP35DI,
     medida: 206,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP35I",
@@ -493,6 +526,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP35I.png",
     price: preciosAlpha.comunALP35DI,
     medida: 206,
+    categoria: "SOFÁS",
   },
   {
     id: "ALP4",
@@ -501,6 +535,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALP4.png",
     price: preciosAlpha.comunALP4,
     medida: 272,
+    categoria: "SOFÁS",
   },
 ];
 
@@ -720,46 +755,52 @@ const piezasAgora = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "AGOCGRD",
-    title: "AGOCGRD Chaise longue grande (104 cm) dcho.",
+    title: "AGOCGRD CHAISE LONGUE GRANDE (104 CM) DCHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_80_DER.png",
     price: preciosAgora.comunAGOCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOCGRI",
-    title: "AGOCGRI Chaise longue grande (104 cm) izq.",
+    title: "AGOCGRI CHAISE LONGUE GRANDE (104 cm) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_80_IZQ.png",
     price: preciosAgora.comunAGOCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOCMAD",
-    title: "AGOCMAD Chaise longue maxi (114 cm) dcho.",
+    title: "AGOCMAD CHAISE LONGUE MAXI (114 CM) DCHO.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_90_DER.png",
     price: preciosAgora.comunAGOCMA,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOCMAI",
-    title: "AGOCMAI Chaise longue maxi (114 cm) izq.",
+    title: "AGOCMAI CHAISE LONGUE MAXI (114 CM) IZQ.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_90_IZQ.png",
     price: preciosAgora.comunAGOCMA,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOCMED",
-    title: "AGOCMAD Chaise longue mega (124 cm) dcho.",
+    title: "AGOCMAD CHAISE LONGUE MEGA (124 cm) DCHO.",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_100_DER.png",
     price: preciosAgora.comunAGOCME,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOCMEI",
@@ -768,6 +809,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_100_IZQ.png",
     price: preciosAgora.comunAGOCME,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "AGOMGR",
@@ -776,6 +818,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M80_SB.png",
     price: preciosAgora.comunAGOMGR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMGRD",
@@ -784,6 +827,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M80_DER.png",
     price: preciosAgora.comunAGOMGRDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMGRI",
@@ -792,6 +836,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M80_IZQ.png",
     price: preciosAgora.comunAGOMGRDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMMA",
@@ -800,6 +845,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M90_SB.png",
     price: preciosAgora.comunAGOMMA,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMMAD",
@@ -808,6 +854,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M90_DER.png",
     price: preciosAgora.comunAGOMMADI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMMAI",
@@ -816,6 +863,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M90_IZQ.png",
     price: preciosAgora.comunAGOMMADI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMME",
@@ -824,6 +872,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M100_SB.png",
     price: preciosAgora.comunAGOMME,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMMED",
@@ -832,6 +881,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M100_DER.png",
     price: preciosAgora.comunAGOMMEDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMMEI",
@@ -840,6 +890,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M100_IZQ.png",
     price: preciosAgora.comunAGOMMEDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMXL",
@@ -848,6 +899,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_SB.png",
     price: preciosAgora.comunAGOMXL,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMXLD",
@@ -856,6 +908,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_DER.png",
     price: preciosAgora.comunAGOMXLDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOMXLI",
@@ -864,6 +917,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M110_IZQ.png",
     price: preciosAgora.comunAGOMXLDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "AGOR",
@@ -872,6 +926,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGOR.png",
     price: preciosAgora.comunAGOR,
     medida: 80,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGORTD",
@@ -880,6 +935,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_DER.png",
     price: preciosAgora.comunAGORTDI,
     medida: 80,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGORTI",
@@ -888,6 +944,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_IZQ.png",
     price: preciosAgora.comunAGORTDI,
     medida: 80,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOTMAD",
@@ -896,6 +953,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_DER.png",
     price: preciosAgora.comunAGOTMADI,
     medida: 133,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOTMAI",
@@ -904,6 +962,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_IZQ.png",
     price: preciosAgora.comunAGOTMADI,
     medida: 133,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOTMED",
@@ -912,6 +971,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_DER.png",
     price: preciosAgora.comunAGOTMEDI,
     medida: 143,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOTMEI",
@@ -920,6 +980,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_IZQ.png",
     price: preciosAgora.comunAGOTMEDI,
     medida: 143,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOT2RGD",
@@ -928,6 +989,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TDB_80_DER.png",
     price: preciosAgora.comunAGOT2RGDI,
     medida: 80,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGOT2RGI",
@@ -936,6 +998,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TDB_80_IZQ.png",
     price: preciosAgora.comunAGOT2RGDI,
     medida: 80,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "AGO3",
@@ -944,6 +1007,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/3PL.png",
     price: preciosAgora.comunAGO3,
     medida: 80,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO3D",
@@ -952,6 +1016,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/3PL.png",
     price: preciosAgora.comunAGO3DI,
     medida: 80,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO3I",
@@ -960,6 +1025,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/3PL.png",
     price: preciosAgora.comunAGO3DI,
     medida: 80,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO35D",
@@ -968,6 +1034,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/35PL_DER.png",
     price: preciosAgora.comunAGO35DI,
     medida: 80,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO35I",
@@ -976,6 +1043,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/35PL_IZQ.png",
     price: preciosAgora.comunAGO35DI,
     medida: 80,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO31A",
@@ -984,6 +1052,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO31A.png",
     price: preciosAgora.comunAGO31A,
     medida: 208,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO3D1A",
@@ -992,6 +1061,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO3D1A.png",
     price: preciosAgora.comunAGO3DI1A,
     medida: 184,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO3ID1A",
@@ -1000,6 +1070,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO3D1A.png",
     price: preciosAgora.comunAGO3DI1A,
     medida: 184,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO35D1A",
@@ -1008,6 +1079,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO35D1A.png",
     price: preciosAgora.comunAGO35DI1A,
     medida: 204,
+    categoria: "SOFÁS",
   },
   {
     id: "AGO35I1A",
@@ -1016,6 +1088,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGO35I1A.png",
     price: preciosAgora.comunAGO35DI1A,
     medida: 204,
+    categoria: "SOFÁS",
   },
 ];
 
@@ -1418,6 +1491,7 @@ const piezasAltano = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "ALTAD",
@@ -1426,6 +1500,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTAD.png",
     price: preciosAltano.comunALTADI,
     medida: 170,
+    categoria: "ANGULAR",
   },
   {
     id: "ALTAI",
@@ -1434,6 +1509,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTAI.png",
     price: preciosAltano.comunALTADI,
     medida: 170,
+    categoria: "ANGULAR",
   },
   {
     id: "ALTCMGD",
@@ -1442,6 +1518,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMGD.png",
     price: preciosAltano.comunALTCMGDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTCMGI",
@@ -1450,6 +1527,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMGI.png",
     price: preciosAltano.comunALTCMGDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTCMMAD",
@@ -1458,6 +1536,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMMAD.png",
     price: preciosAltano.comunALTCMMADI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTCMMAI",
@@ -1466,6 +1545,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMMAI.png",
     price: preciosAltano.comunALTCMMADI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTCMMDD",
@@ -1474,6 +1554,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMMDD.png",
     price: preciosAltano.comunALTCMMDDI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTCMMDI",
@@ -1482,6 +1563,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTCMMDI.png",
     price: preciosAltano.comunALTCMMDDI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ALTMGBD",
@@ -1490,6 +1572,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMGBD.png",
     price: preciosAltano.comunALTMGBDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMGBI",
@@ -1498,6 +1581,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMGBI.png",
     price: preciosAltano.comunALTMGBDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMGSB",
@@ -1506,6 +1590,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMGSB.png",
     price: preciosAltano.comunALTMGSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMLBD",
@@ -1514,6 +1599,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMLBD.png",
     price: preciosAltano.comunALTMLBDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMLBI",
@@ -1522,6 +1608,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMLBI.png",
     price: preciosAltano.comunALTMLBDI,
     medida: 120,
+    categoria: "MODULOS",
   },
 
   {
@@ -1531,6 +1618,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMLSB.png",
     price: preciosAltano.comunALTMLSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMABD",
@@ -1539,6 +1627,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMABD.png",
     price: preciosAltano.comunALTMMABDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMABI",
@@ -1547,6 +1636,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMABI.png",
     price: preciosAltano.comunALTMMABDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMASB",
@@ -1555,6 +1645,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMASB.png",
     price: preciosAltano.comunALTMMASB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMDBD",
@@ -1563,6 +1654,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMDBD.png",
     price: preciosAltano.comunALTMMDBDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMDBI",
@@ -1571,6 +1663,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMDBI.png",
     price: preciosAltano.comunALTMMDBDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMMDSB",
@@ -1579,6 +1672,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMMDSB.png",
     price: preciosAltano.comunALTMMDSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXLBD",
@@ -1587,6 +1681,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXLBD.png",
     price: preciosAltano.comunALTMXLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXLBI",
@@ -1595,6 +1690,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXLBI.png",
     price: preciosAltano.comunALTMXLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXLSB",
@@ -1603,6 +1699,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXLSB.png",
     price: preciosAltano.comunALTMXLSB,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXXLBD",
@@ -1611,6 +1708,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXXLBD.png",
     price: preciosAltano.comunALTMXXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXXLBI",
@@ -1619,6 +1717,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXXLBI.png",
     price: preciosAltano.comunALTMXXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ALTMXXLSB",
@@ -1627,6 +1726,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTMXXLSB.png",
     price: preciosAltano.comunALTMXXLSB,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ALTR",
@@ -1635,6 +1735,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTR.png",
     price: preciosAltano.comunALTR,
     medida: 108,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTRTD",
@@ -1643,6 +1744,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTRTD.png",
     price: preciosAltano.comunALTRTDI,
     medida: 108,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTRTI",
@@ -1651,6 +1753,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTRTI.png",
     price: preciosAltano.comunALTRTDI,
     medida: 108,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT1RGD",
@@ -1659,6 +1762,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RGD.png",
     price: preciosAltano.comunALTT1RGDI,
     medida: 123,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT1RGI",
@@ -1667,6 +1771,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RGI.png",
     price: preciosAltano.comunALTT1RGDI,
     medida: 123,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT1RMAD",
@@ -1675,6 +1780,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RMAD.png",
     price: preciosAltano.comunALTT1RMADI,
     medida: 133,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT1RMAI",
@@ -1683,6 +1789,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RMAI.png",
     price: preciosAltano.comunALTT1RMADI,
     medida: 133,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT2RGD",
@@ -1691,6 +1798,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RGD.png",
     price: preciosAltano.comunALTT2RGDI,
     medida: 203,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT2RGI",
@@ -1699,6 +1807,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RGI.png",
     price: preciosAltano.comunALTT2RGDI,
     medida: 203,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT2RMDD",
@@ -1707,6 +1816,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RMDD.png",
     price: preciosAltano.comunALTT2RMDDI,
     medida: 183,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALTT2RMDI",
@@ -1715,6 +1825,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RMDI.png",
     price: preciosAltano.comunALTT2RMDDI,
     medida: 183,
+    categoria: "RINCONES/ TERMINALES",
   },
   {
     id: "ALT2",
@@ -1723,6 +1834,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT2.png",
     price: preciosAltano.comunALT2,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT2BD",
@@ -1731,6 +1843,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT2BD.png",
     price: preciosAltano.comunALT2BDI,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT2BI",
@@ -1739,6 +1852,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT2BI.png",
     price: preciosAltano.comunALT2BDI,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT2SB",
@@ -1747,6 +1861,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT2SB.png",
     price: preciosAltano.comunALT2SB,
     medida: 120,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT21A",
@@ -1755,6 +1870,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT21A.png",
     price: preciosAltano.comunALT21A,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT21ABD",
@@ -1763,6 +1879,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT21ABD.png",
     price: preciosAltano.comunALT21ABDI,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT21ABI",
@@ -1771,6 +1888,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT21ABI.png",
     price: preciosAltano.comunALT21ABDI,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT21ASB",
@@ -1779,6 +1897,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT21ASB.png",
     price: preciosAltano.comunALT2SB,
     medida: 120,
+    categoria: "SOFÁS",
   },
 
   {
@@ -1788,6 +1907,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT25.png",
     price: preciosAltano.comunALT25,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT25BD",
@@ -1796,6 +1916,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT25BD.png",
     price: preciosAltano.comunALT25BDI,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT25BI",
@@ -1804,6 +1925,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT25BI.png",
     price: preciosAltano.comunALT25BDI,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT25SB",
@@ -1812,6 +1934,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT25SB.png",
     price: preciosAltano.comunALT25SB,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT251A",
@@ -1820,6 +1943,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT251A.png",
     price: preciosAltano.comunALT25,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT251ABD",
@@ -1828,6 +1952,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT251ABD.png",
     price: preciosAltano.comunALT251ABDI,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT251ABI",
@@ -1836,6 +1961,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT251ABI.png",
     price: preciosAltano.comunALT251ABDI,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT251ASB",
@@ -1844,6 +1970,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT251ASB.png",
     price: preciosAltano.comunALT251ASB,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT5",
@@ -1852,6 +1979,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT5.png",
     price: preciosAltano.comunALT5,
     medida: 280,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT51A",
@@ -1860,6 +1988,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT51A.png",
     price: preciosAltano.comunALT5,
     medida: 280,
+    categoria: "SOFÁS",
   },
 
   {
@@ -1869,6 +1998,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT45.png",
     price: preciosAltano.comunALT45,
     medida: 260,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT451A",
@@ -1877,6 +2007,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT451A.png",
     price: preciosAltano.comunALT45,
     medida: 260,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT40",
@@ -1885,6 +2016,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT40.png",
     price: preciosAltano.comunALT40,
     medida: 240,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT401A",
@@ -1893,6 +2025,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT401A.png",
     price: preciosAltano.comunALT40,
     medida: 240,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT3",
@@ -1901,6 +2034,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT3.png",
     price: preciosAltano.comunALT3,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT3BD",
@@ -1909,6 +2043,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT3BD.png",
     price: preciosAltano.comunALT3BDI,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT3BI",
@@ -1917,6 +2052,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT3BI.png",
     price: preciosAltano.comunALT3BDI,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT3SB",
@@ -1925,6 +2061,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT3SB.png",
     price: preciosAltano.comunALT3SB,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT31A",
@@ -1933,6 +2070,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT31A.png",
     price: preciosAltano.comunALT3,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT31ABD",
@@ -1941,6 +2079,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT31ABD.png",
     price: preciosAltano.comunALT31ABDI,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT31ABI",
@@ -1949,6 +2088,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT31ABI.png",
     price: preciosAltano.comunALT31ABDI,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT31ASB",
@@ -1957,6 +2097,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT31ASB.png",
     price: preciosAltano.comunALT31ASB,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT35",
@@ -1965,6 +2106,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT35.png",
     price: preciosAltano.comunALT35,
     medida: 220,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT35BD",
@@ -1973,6 +2115,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT35BD.png",
     price: preciosAltano.comunALT35BDI,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT35BI",
@@ -1981,6 +2124,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT35BI.png",
     price: preciosAltano.comunALT35BDI,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT35SB",
@@ -1989,6 +2133,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT35SB.png",
     price: preciosAltano.comunALT35SB,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT351A",
@@ -1997,6 +2142,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT351A.png",
     price: preciosAltano.comunALT35,
     medida: 220,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT351ABD",
@@ -2005,6 +2151,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT351ABD.png",
     price: preciosAltano.comunALT35BDI,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT351ABI",
@@ -2013,6 +2160,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALT351ABI.png",
     price: preciosAltano.comunALT35BDI,
     medida: 200,
+    categoria: "SOFÁS",
   },
   {
     id: "ALT351ASB",
@@ -2021,5 +2169,6 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/asset/MODELOS/ALTANO/ALT351ASB.png",
     price: preciosAltano.comunALT35SB,
     medida: 200,
+    categoria: "SOFÁS",
   },
 ];

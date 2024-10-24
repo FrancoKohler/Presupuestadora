@@ -701,22 +701,88 @@ document.addEventListener("DOMContentLoaded", function () {
       default:
         piezasAMostrar = [];
     }
-    //--------------------PIEZAS
-    // Actualizar los dropdowns de piezas
-    for (let i = 1; i <= 8; i++) {
-      const dropdown = document.getElementById(`pieza${i}`);
-      dropdown.innerHTML = ""; // Limpiar las opciones existentes
+    /*-------PIEZAS DROPDOWNS Y CATEGORIAS---------*/
+    const coleccionPiezas = {
+      Agora: piezasAgora,
+      Alpha: piezasAlpha,
+      Altano: piezasAltano,
+      Barine: piezasBarine,
+      Bertina: piezasBertina,
+      "Bertina Little": piezasBertinaLit,
+      Gamma: piezasGamma,
+      Giant: piezasGiant,
+      "Giant Little": piezasGiantLit,
+      Kappa: piezasKappa,
+      Lino: piezasLino,
+      Memphis: piezasMemphis,
+      Mistral: piezasMistral,
+      Nadir: piezasNadir,
+      "Platea Alta": piezasPlateaAlta,
+      "Platea Baja": piezasPlateaBaja,
+      Sigma: piezasSigma,
+      "Sirocco Eco": piezasSiroco,
+      Sisal: piezasSisal,
+      Tucson: piezasTucson,
+      Tundra: piezasTundra,
+      Yute: piezasYute,
+      Zenith: piezasZenith,
+      Zonda: piezasZonda,
+      Ares: piezasAres,
+      Bruma: piezasBruma,
+      Coral: piezasCoral,
+      Coralina: piezasCoralina,
+      Crono: piezasCronos,
+      Dana: piezasDana,
+      Dino: piezasDino,
+      Eros: piezasEros,
+      Omega: piezasOmega,
+      Tassos: piezasTassos,
+      Tita: piezasTita,
+    };
 
-      // Agregar las nuevas opciones
-      piezasAMostrar.forEach((pieza) => {
-        const option = document.createElement("option");
-        option.value = pieza.id;
-        option.textContent = `${pieza.title}`;
-        option.dataset.price = JSON.stringify(pieza.price);
-        option.dataset.imageUrl = pieza.imageUrl;
-        dropdown.appendChild(option);
-      });
+    // Función para actualizar los dropdowns de piezas
+    function actualizarPiezasSegunModelo() {
+      const modeloSeleccionado = document.getElementById("modelo").value; // Obtener el modelo seleccionado
+      const piezasAMostrar = coleccionPiezas[modeloSeleccionado] || []; // Obtener las piezas del modelo seleccionado
+
+      // Obtener las categorías de las piezas
+      const categorias = [
+        ...new Set(piezasAMostrar.map((pieza) => pieza.categoria)),
+      ];
+
+      // Actualizar los dropdowns de piezas
+      for (let i = 1; i <= 8; i++) {
+        const dropdown = document.getElementById(`pieza${i}`);
+        dropdown.innerHTML = "";
+
+        // Crea un OPTGORUP por categoria
+        categorias.forEach((categoria) => {
+          const optgroup = document.createElement("optgroup");
+          optgroup.label = categoria ? categoria.toUpperCase() : "";
+
+          // Filtrar las piezas del modelo seleccionado por categoría
+          piezasAMostrar
+            .filter((pieza) => pieza.categoria === categoria)
+            .forEach((pieza) => {
+              const option = document.createElement("option");
+              option.value = pieza.id;
+              option.textContent = pieza.title.toUpperCase();
+              option.dataset.price = JSON.stringify(pieza.price);
+              option.dataset.imageUrl = pieza.imageUrl;
+              optgroup.appendChild(option);
+            });
+          dropdown.appendChild(optgroup);
+        });
+      }
     }
+
+    // Escuchar el cambio en el dropdown del modelo
+    document
+      .getElementById("modelo")
+      .addEventListener("change", actualizarPiezasSegunModelo);
+
+    // Cargar las piezas del modelo seleccionado inicialmente (si hay un valor por defecto)
+    actualizarPiezasSegunModelo();
 
     /*--------------POSAPIES------*/
 
