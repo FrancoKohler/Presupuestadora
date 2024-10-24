@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const suplementoPosapies = document.getElementById("seccionPosapies");
     const suplementoRespaldos = document.querySelector(".suplemento-respaldos");
     const suplementoMotor = document.querySelector(".suplemento-motor");
+    const suplementoBateria = document.querySelector(".suplemento-bateria");
     let materialesAgora = new Set();
     let materialesAlpha = new Set();
     let materialesAres = new Set();
@@ -318,6 +319,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasEros;
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
+        suplementoBateria.style.display = "flex";
         // Poblar materiales específicos de "Eros"
         piezasEros.forEach((piezaEros) => {
           if (piezaEros.price) {
@@ -414,6 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoMotor.style.display = "flex";
+        suplementoBateria.style.display = "flex";
         // Poblar materiales específicos de "Lino"
         piezasLino.forEach((pieza) => {
           if (pieza.price) {
@@ -449,6 +452,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Mistral":
         piezasAMostrar = piezasMistral;
         suplementoRespaldos.style.display = "none";
+        suplementoBateria.style.display = "flex";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Mistral"
         piezasMistral.forEach((piezaMistral) => {
@@ -486,6 +490,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Omega":
         piezasAMostrar = piezasOmega;
         suplementoRespaldos.style.display = "none";
+        suplementoBateria.style.display = "flex";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Omega"
         piezasOmega.forEach((piezaOmega) => {
@@ -606,6 +611,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasTassos;
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
+        suplementoBateria.style.display = "flex";
         // Poblar materiales específicos de "Tassos"
         piezasTassos.forEach((piezaTassos) => {
           if (piezaTassos.price) {
@@ -635,6 +641,7 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoPatas.style.display = "none";
+        suplementoBateria.style.display = "flex";
         // Poblar materiales específicos de "Tundra"
         piezasTundra.forEach((piezaTundra) => {
           if (piezaTundra.price) {
@@ -742,24 +749,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Función para actualizar los dropdowns de piezas
     function actualizarPiezasSegunModelo() {
-      const modeloSeleccionado = document.getElementById("modelo").value; // Obtener el modelo seleccionado
+      const modeloSeleccionado = document.getElementById("modelo").value;
       const piezasAMostrar = coleccionPiezas[modeloSeleccionado] || []; // Obtener las piezas del modelo seleccionado
-
-      // Obtener las categorías de las piezas
       const categorias = [
         ...new Set(piezasAMostrar.map((pieza) => pieza.categoria)),
       ];
-
-      // Actualizar los dropdowns de piezas
       for (let i = 1; i <= 8; i++) {
         const dropdown = document.getElementById(`pieza${i}`);
         dropdown.innerHTML = "";
-
-        // Crea un OPTGORUP por categoria
         categorias.forEach((categoria) => {
           const optgroup = document.createElement("optgroup");
           optgroup.label = categoria ? categoria.toUpperCase() : "";
-
           // Filtrar las piezas del modelo seleccionado por categoría
           piezasAMostrar
             .filter((pieza) => pieza.categoria === categoria)
@@ -1092,6 +1092,7 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Yute") {
+      suplementoBateria.style.display = "flex";
       // Agregar materiales del modelo Yute
       materialesYute.forEach((material) => {
         const option = document.createElement("option");
@@ -1100,6 +1101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Zonda") {
+      suplementoBateria.style.display = "flex";
       // Agregar materiales del modelo Zonda
       materialesZonda.forEach((material) => {
         const option = document.createElement("option");
@@ -1108,6 +1110,7 @@ document.addEventListener("DOMContentLoaded", function () {
         telaDropdown.appendChild(option);
       });
     } else if (modeloSeleccionado === "Zenith") {
+      suplementoBateria.style.display = "flex";
       // Agregar materiales del modelo Zenith
       materialesZenith.forEach((material) => {
         const option = document.createElement("option");

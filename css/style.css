@@ -162,13 +162,15 @@ select {
   margin-bottom: 1rem;
 }
 /*------------SUPLEMENTOS--------*/
+.suplemento-bateria,
 .suplemento-motor,
 .suplementoPatas,
 .suplemento-respaldos,
 .seccion-posapies {
   display: none;
 }
-.suplemento-motor {
+.suplemento-motor,
+.suplemento-bateria {
   flex-direction: row;
   align-items: center;
   margin-top: 2rem;

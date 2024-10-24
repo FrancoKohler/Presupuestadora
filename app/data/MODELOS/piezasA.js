@@ -400,7 +400,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRA.png",
     price: preciosAlpha.comunALPRA,
     medida: 0,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALPRTD",
@@ -409,7 +409,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRTD.png",
     price: preciosAlpha.comunALPRTDI,
     medida: 0,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALPRTI",
@@ -418,7 +418,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPRTI.png",
     price: preciosAlpha.comunALPRTDI,
     medida: 0,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALPS",
@@ -427,7 +427,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPS.png",
     price: preciosAlpha.comunALPS,
     medida: 0,
-    categoria: "SOFÁS",
+    categoria: "BUTACA",
   },
   {
     id: "ALPTD",
@@ -436,7 +436,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTD.png",
     price: preciosAlpha.comunALPTDI,
     medida: 123,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALPTI",
@@ -445,7 +445,7 @@ const piezasAlpha = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALPHA/ALPTI.png",
     price: preciosAlpha.comunALPTDI,
     medida: 123,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALP25",
@@ -926,7 +926,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGOR.png",
     price: preciosAgora.comunAGOR,
     medida: 80,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGORTD",
@@ -935,7 +935,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_DER.png",
     price: preciosAgora.comunAGORTDI,
     medida: 80,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGORTI",
@@ -944,7 +944,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/RT_IZQ.png",
     price: preciosAgora.comunAGORTDI,
     medida: 80,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOTMAD",
@@ -953,7 +953,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_DER.png",
     price: preciosAgora.comunAGOTMADI,
     medida: 133,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOTMAI",
@@ -962,7 +962,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_90_IZQ.png",
     price: preciosAgora.comunAGOTMADI,
     medida: 133,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOTMED",
@@ -971,7 +971,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_DER.png",
     price: preciosAgora.comunAGOTMEDI,
     medida: 143,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOTMEI",
@@ -980,7 +980,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TER_100_IZQ.png",
     price: preciosAgora.comunAGOTMEDI,
     medida: 143,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOT2RGD",
@@ -989,7 +989,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TDB_80_DER.png",
     price: preciosAgora.comunAGOT2RGDI,
     medida: 80,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGOT2RGI",
@@ -998,7 +998,7 @@ const piezasAgora = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/TDB_80_IZQ.png",
     price: preciosAgora.comunAGOT2RGDI,
     medida: 80,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "AGO3",
@@ -1735,7 +1735,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTR.png",
     price: preciosAltano.comunALTR,
     medida: 108,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTRTD",
@@ -1744,7 +1744,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTRTD.png",
     price: preciosAltano.comunALTRTDI,
     medida: 108,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTRTI",
@@ -1753,7 +1753,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTRTI.png",
     price: preciosAltano.comunALTRTDI,
     medida: 108,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT1RGD",
@@ -1762,7 +1762,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RGD.png",
     price: preciosAltano.comunALTT1RGDI,
     medida: 123,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT1RGI",
@@ -1771,7 +1771,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RGI.png",
     price: preciosAltano.comunALTT1RGDI,
     medida: 123,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT1RMAD",
@@ -1780,7 +1780,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RMAD.png",
     price: preciosAltano.comunALTT1RMADI,
     medida: 133,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT1RMAI",
@@ -1789,7 +1789,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT1RMAI.png",
     price: preciosAltano.comunALTT1RMADI,
     medida: 133,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT2RGD",
@@ -1798,7 +1798,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RGD.png",
     price: preciosAltano.comunALTT2RGDI,
     medida: 203,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT2RGI",
@@ -1807,7 +1807,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RGI.png",
     price: preciosAltano.comunALTT2RGDI,
     medida: 203,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT2RMDD",
@@ -1816,7 +1816,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RMDD.png",
     price: preciosAltano.comunALTT2RMDDI,
     medida: 183,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALTT2RMDI",
@@ -1825,7 +1825,7 @@ const piezasAltano = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ALTANO/ALTT2RMDI.png",
     price: preciosAltano.comunALTT2RMDDI,
     medida: 183,
-    categoria: "RINCONES/ TERMINALES",
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ALT2",

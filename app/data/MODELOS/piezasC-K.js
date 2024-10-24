@@ -37,7 +37,8 @@ const piezasCoral = [
   {
     id: "None",
     title: "---Sin pieza seleccionada--",
-    imageUrl: "..",
+    imageUrl: "",
+    categoria: "",
   },
   {
     id: "CORS",
@@ -45,6 +46,7 @@ const piezasCoral = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SILLÓN.png",
     price: preciosCoral.comunCORS,
+    categoria: "BUTACA",
   },
   {
     id: "CORS200",
@@ -52,6 +54,7 @@ const piezasCoral = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SOFA_200.png",
     price: preciosCoral.comunCORS200,
+    categoria: "SOFÁS",
   },
   {
     id: "CORS300",
@@ -59,6 +62,7 @@ const piezasCoral = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/CORAL/SOFA_230.png",
     price: preciosCoral.comunCORS300,
+    categoria: "SOFÁS",
   },
 ];
 //SUPLEMENTOS CORAL
@@ -67,6 +71,7 @@ const suplementoCoral = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "CORCUA",
@@ -129,6 +134,7 @@ const piezasDana = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "DAN235",
@@ -136,6 +142,7 @@ const piezasDana = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DAN235.png",
     price: preciosDana.comunDAN235,
+    categoria: "SOFÁS",
   },
   {
     id: "DAN215",
@@ -143,6 +150,7 @@ const piezasDana = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DAN215.png",
     price: preciosDana.comunDAN215,
+    categoria: "SOFÁS",
   },
   {
     id: "DANS",
@@ -150,6 +158,7 @@ const piezasDana = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/DANA/DANS.png",
     price: preciosDana.comunDANS,
+    categoria: "BUTACA",
   },
 ];
 
@@ -302,38 +311,43 @@ const piezasGamma = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "GAMCGD",
-    title: "GAMCGD CHAISELONGUE GRANDE BRAZO LARGO DERECHO (80)",
+    title: "GAMCGD CHAISE LONGUE GRANDE BRAZO LARGO DERECHO (80)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCGD.png",
     price: preciosGamma.comunGAMCGDI,
     medida: 80,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GAMCGI",
-    title: "GAMCGI CHAISELONGUE GRANDE BRAZO LARGO IZQ. (80)",
+    title: "GAMCGI CHAISE LONGUE GRANDE BRAZO LARGO IZQ. (80)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCGI.png",
     price: preciosGamma.comunGAMCGDI,
     medida: 80,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GAMCMAD",
-    title: "GAMCMAD CHAISELONGUE MAXI BRAZO LARGO DERECHO (90)",
+    title: "GAMCMAD CHAISE LONGUE MAXI BRAZO LARGO DERECHO (90)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCMAD.png",
     price: preciosGamma.comunGAMCMADI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GAMCMAI",
-    title: "GAMCMAI CHAISELONGUE MAXI BRAZO LARGO IZQ. (90)",
+    title: "GAMCMAI CHAISE LONGUE MAXI BRAZO LARGO IZQ. (90)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMCMAI.png",
     price: preciosGamma.comunGAMCMADI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GAMMGR",
@@ -342,6 +356,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMGR.png",
     price: preciosGamma.comunGAMMGR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMGRD",
@@ -350,6 +365,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMGRD.png",
     price: preciosGamma.comunGAMMGRDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GAMML",
@@ -358,6 +374,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMML.png",
     price: preciosGamma.comunGAMMGRDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMLD",
@@ -366,6 +383,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMLD.png",
     price: preciosGamma.comunGAMMLDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMLI",
@@ -374,6 +392,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMLI.png",
     price: preciosGamma.comunGAMMLDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMMA",
@@ -382,6 +401,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMA.png",
     price: preciosGamma.comunGAMMMA,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMMAD",
@@ -390,6 +410,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMAD.png",
     price: preciosGamma.comunGAMMMADI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMMAI",
@@ -398,6 +419,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMMAI.png",
     price: preciosGamma.comunGAMMMADI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXL",
@@ -406,6 +428,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXL.png",
     price: preciosGamma.comunGAMMXL,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXLD",
@@ -414,6 +437,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXLD.png",
     price: preciosGamma.comunGAMMXLDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXLI",
@@ -422,6 +446,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXLI.png",
     price: preciosGamma.comunGAMMXLDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXXL",
@@ -430,6 +455,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXL.png",
     price: preciosGamma.comunGAMMXXL,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXXLD",
@@ -438,6 +464,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXLD.png",
     price: preciosGamma.comunGAMMXXLDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GAMMXXLI",
@@ -446,6 +473,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMMXXLI.png",
     price: preciosGamma.comunGAMMXXLDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GAMRTD",
@@ -454,6 +482,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMRTD.png",
     price: preciosGamma.comunGAMRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GAMRTI",
@@ -462,6 +491,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMRTI.png",
     price: preciosGamma.comunGAMRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GAMTD",
@@ -470,6 +500,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMTD.png",
     price: preciosGamma.comunGAMRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GAMTI",
@@ -478,6 +509,7 @@ const piezasGamma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GAMMA/GAMTI.png",
     price: preciosGamma.comunGAMRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 /*-------------------PIEZAS GIANT LITTLE--------------------*/
@@ -934,54 +966,61 @@ const piezasGiantLit = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: " ",
   },
   {
     id: "GIALCGD",
-    title: "GIALCGD CHAISELONGUE GRANDE DERECHO",
+    title: "GIALCGD CHAISE LONGUE GRANDE DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCGD.png",
     price: preciosGiantLit.comunGIALCGDI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALCGI",
-    title: "GIALCGI CHAISELONGUE GRANDE IZQ",
+    title: "GIALCGI CHAISE LONGUE GRANDE IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCGI.png",
     price: preciosGiantLit.comunGIALCGDI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALCMAD",
-    title: "GIALCMAD CHAISELONGUE MAXI DERECHO",
+    title: "GIALCMAD CHAISE LONGUE MAXI DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMAD.png",
     price: preciosGiantLit.comunGIALCMADI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALCMAI",
-    title: "GIALCMAI CHAISELONGUE MAXI IZQ",
+    title: "GIALCMAI CHAISE LONGUE MAXI IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMAI.png",
     price: preciosGiantLit.comunGIALCMADI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALCMDD",
-    title: "GIALCMDD CHAISELONGUE MEDIANO DERECHO",
+    title: "GIALCMDD CHAISE LONGUE MEDIANO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMDD.png",
     price: preciosGiantLit.comunGIALCMDDI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALCMDI",
-    title: "GIALCMDI CHAISELONGUE MEDIANO DERECHO",
+    title: "GIALCMDI CHAISE LONGUE MEDIANO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALCMDI.png",
     price: preciosGiantLit.comunGIALCMDDI,
     medida: 0,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIALMGBD",
@@ -990,6 +1029,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGBD.png",
     price: preciosGiantLit.comunGIALMGBDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMGBI",
@@ -998,6 +1038,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGBI.png",
     price: preciosGiantLit.comunGIALMGBDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMGSB",
@@ -1006,6 +1047,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMGSB.png",
     price: preciosGiantLit.comunGIALMGSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMLBD",
@@ -1014,6 +1056,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLBD.png",
     price: preciosGiantLit.comunGIALMLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMLBI",
@@ -1022,6 +1065,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLBI.png",
     price: preciosGiantLit.comunGIALMLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMLSB",
@@ -1030,6 +1074,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMLSB.png",
     price: preciosGiantLit.comunGIALMLSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMABD",
@@ -1038,6 +1083,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMABD.png",
     price: preciosGiantLit.comunGIALMMABDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMABI",
@@ -1046,6 +1092,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMABI.png",
     price: preciosGiantLit.comunGIALMMABDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMASB",
@@ -1054,6 +1101,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMASB.png",
     price: preciosGiantLit.comunGIALMMASB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMDBD",
@@ -1062,6 +1110,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDBD.png",
     price: preciosGiantLit.comunGIALMMDBDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMDBI",
@@ -1070,6 +1119,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDBI.png",
     price: preciosGiantLit.comunGIALMMDBDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMMDSB",
@@ -1078,6 +1128,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMMDSB.png",
     price: preciosGiantLit.comunGIALMMDSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXLBD",
@@ -1086,6 +1137,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLBD.png",
     price: preciosGiantLit.comunGIALMXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXLBI",
@@ -1094,6 +1146,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLBI.png",
     price: preciosGiantLit.comunGIALMXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXLSB",
@@ -1102,6 +1155,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXLSB.png",
     price: preciosGiantLit.comunGIALMXLSB,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXXLBD",
@@ -1110,6 +1164,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLBD.png",
     price: preciosGiantLit.comunGIALMXXLBDI,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXXLBI",
@@ -1118,6 +1173,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLBI.png",
     price: preciosGiantLit.comunGIALMXXLBDI,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "GIALMXXLSB",
@@ -1126,6 +1182,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALMXXLSB.png",
     price: preciosGiantLit.comunGIALMXXLSB,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIALR",
@@ -1134,6 +1191,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALR.png",
     price: preciosGiantLit.comunGIALR,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT1RGD",
@@ -1142,6 +1200,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RGD.png",
     price: preciosGiantLit.comunGIALT1RGDI,
     medida: 122,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT1RGI",
@@ -1150,6 +1209,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RGI.png",
     price: preciosGiantLit.comunGIALT1RGDI,
     medida: 122,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT1RMAD",
@@ -1158,6 +1218,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RMAD.png",
     price: preciosGiantLit.comunGIALT1RMADI,
     medida: 132,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT1RMAI",
@@ -1166,6 +1227,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT1RMAI.png",
     price: preciosGiantLit.comunGIALT1RMADI,
     medida: 132,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT2RGD",
@@ -1174,6 +1236,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RGD.png",
     price: preciosGiantLit.comunGIALT2RGDI,
     medida: 202,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT2RGI",
@@ -1182,6 +1245,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RGI.png",
     price: preciosGiantLit.comunGIALT2RGDI,
     medida: 202,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT2RMDD",
@@ -1190,6 +1254,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RMDD.png",
     price: preciosGiantLit.comunGIALT2RMDDI,
     medida: 182,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIALT2RMDI",
@@ -1198,6 +1263,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIALT2RMDI.png",
     price: preciosGiantLit.comunGIALT2RMDDI,
     medida: 182,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAL25",
@@ -1206,6 +1272,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25.png",
     price: preciosGiantLit.comunGIAL25,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL25BD",
@@ -1214,6 +1281,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25BD.png",
     price: preciosGiantLit.comunGIAL25BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL25BI",
@@ -1222,6 +1290,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25BI.png",
     price: preciosGiantLit.comunGIAL25BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL25SB",
@@ -1230,6 +1299,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL25SB.png",
     price: preciosGiantLit.comunGIAL25SB,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL3",
@@ -1238,6 +1308,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3.png",
     price: preciosGiantLit.comunGIAL3,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL3BD",
@@ -1246,6 +1317,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3BD.png",
     price: preciosGiantLit.comunGIAL3BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL3BI",
@@ -1254,6 +1326,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3BI.png",
     price: preciosGiantLit.comunGIAL3BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL3SB",
@@ -1262,6 +1335,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL3SB.png",
     price: preciosGiantLit.comunGIAL3SB,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL35",
@@ -1270,6 +1344,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35.png",
     price: preciosGiantLit.comunGIAL35,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL35BD",
@@ -1278,6 +1353,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35BD.png",
     price: preciosGiantLit.comunGIAL35BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL35BI",
@@ -1286,6 +1362,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35BI.png",
     price: preciosGiantLit.comunGIAL35BDI,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "GIAL35SB",
@@ -1294,6 +1371,7 @@ const piezasGiantLit = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANTLITTLE/GIAL35SB.png",
     price: preciosGiantLit.comunGIAL35SB,
     medida: 0,
+    categoria: "SOFÁS",
   },
 ];
 /*----------------PIEZAS GIANT--------------*/
@@ -1302,70 +1380,79 @@ const piezasGiant = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: " ",
   },
   {
     id: "GIACMGD",
-    title: "GIACMGD CHAISELONGUE GRANDE CON MARTILLO (110 cm) DERECHO",
+    title: "GIACMGD CHAISE LONGUE GRANDE CON MARTILLO (110 cm) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMGD.png",
     price: preciosGiant.comunGIACMGDI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMGI",
-    title: "GIACMGI CHAISELONGUE GRANDE CON MARTILLO (110 cm) IZQ",
+    title: "GIACMGI CHAISE LONGUE GRANDE CON MARTILLO (110 cm) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMGI.png",
     price: preciosGiant.comunGIACMGDI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMAD",
-    title: "GIACMMAD CHAISELONGUE MAXI CON MARTILLO (120 cm) DERECHA",
+    title: "GIACMMAD CHAISE LONGUE MAXI CON MARTILLO (120 cm) DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMAD.png",
     price: preciosGiant.comunGIACMMADI,
     medida: 120,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMAI",
-    title: "GIACMMAI CHAISELONGUE MAXI CON MARTILLO (120 cm) DERECHA",
+    title: "GIACMMAI CHAISE LONGUE MAXI CON MARTILLO (120 cm) DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMAI.png",
     price: preciosGiant.comunGIACMMADI,
     medida: 120,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMDD",
-    title: "GIACMMDD CHAISELONGUE MEDIANO CON MARTILLO (100 cm) DERECHA",
+    title: "GIACMMDD CHAISE LONGUE MEDIANO CON MARTILLO (100 cm) DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMDD.png",
     price: preciosGiant.comunGIACMMDDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMDI",
-    title: "GIACMMDI CHAISELONGUE MEDIANO CON MARTILLO (100 cm) IZQ",
+    title: "GIACMMDI CHAISE LONGUE MEDIANO CON MARTILLO (100 cm) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMDI.png",
     price: preciosGiant.comunGIACMMDDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMED",
-    title: "GIACMMED CHAISELONGUE MEGA CON MARTILLO (130 cm) DERECHA",
+    title: "GIACMMED CHAISE LONGUE MEGA CON MARTILLO (130 cm) DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMED.png",
     price: preciosGiant.comunGIACMMEDI,
     medida: 130,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIACMMEI",
-    title: "GIACMMEI CHAISELONGUE MEGA CON MARTILLO (130 cm) IZQ",
+    title: "GIACMMEI CHAISE LONGUE MEGA CON MARTILLO (130 cm) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIACMMEI.png",
     price: preciosGiant.comunGIACMMEDI,
     medida: 130,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "GIAMGBD",
@@ -1374,6 +1461,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMGBD.png",
     price: preciosGiant.comunGIAMGBDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMGBI",
@@ -1382,6 +1470,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMGBI.png",
     price: preciosGiant.comunGIAMGBDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMGRSB",
@@ -1390,6 +1479,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMGRSB.png",
     price: preciosGiant.comunGIAMGRSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMLBD",
@@ -1398,6 +1488,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMLBD.png",
     price: preciosGiant.comunGIAMLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMLBI",
@@ -1406,6 +1497,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMLBI.png",
     price: preciosGiant.comunGIAMLBDI,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMLSB",
@@ -1414,6 +1506,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMLSB.png",
     price: preciosGiant.comunGIAMLSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMMABD",
@@ -1422,6 +1515,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMMABD.png",
     price: preciosGiant.comunGIAMMABDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMMABI",
@@ -1430,6 +1524,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMMABI.png",
     price: preciosGiant.comunGIAMMABDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMMASB",
@@ -1438,6 +1533,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMMASB.png",
     price: preciosGiant.comunGIAMMASB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXLBD",
@@ -1446,6 +1542,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXLBD.png",
     price: preciosGiant.comunGIAMXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXLBI",
@@ -1454,6 +1551,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXLBI.png",
     price: preciosGiant.comunGIAMXLBDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXLSB",
@@ -1462,6 +1560,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXLSB.png",
     price: preciosGiant.comunGIAMXLSB,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXXLBD",
@@ -1470,6 +1569,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXXLBD.png",
     price: preciosGiant.comunGIAMXXLBDI,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXXLBI",
@@ -1478,6 +1578,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXXLBI.png",
     price: preciosGiant.comunGIAMXXLBDI,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXXLSB",
@@ -1486,6 +1587,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXXLSB.png",
     price: preciosGiant.comunGIAMXXLSB,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "GIAMXXLSB",
@@ -1494,6 +1596,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAMXXLSB.png",
     price: preciosGiant.comunGIAMXXLSB,
     medida: 120,
+    categoria: "MODULOS",
   },
 
   {
@@ -1503,6 +1606,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAPR.png",
     price: preciosGiant.comunGIAPR,
     medida: 128,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAPT",
@@ -1511,6 +1615,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAPT.png",
     price: preciosGiant.comunGIAPT,
     medida: 60,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAR",
@@ -1519,6 +1624,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAR.png",
     price: preciosGiant.comunGIAR,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT1RGD",
@@ -1527,6 +1633,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT1RGD.png",
     price: preciosGiant.comunGIAT1RGDI,
     medida: 122,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT1RGI",
@@ -1535,6 +1642,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT1RGI.png",
     price: preciosGiant.comunGIAT1RGDI,
     medida: 122,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT1RMAD",
@@ -1543,6 +1651,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT1RMAD.png",
     price: preciosGiant.comunGIAT1RMADI,
     medida: 132,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT1RMAI",
@@ -1551,6 +1660,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT1RMAI.png",
     price: preciosGiant.comunGIAT1RMADI,
     medida: 132,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT2RGD",
@@ -1559,6 +1669,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT2RGD.png",
     price: preciosGiant.comunGIAT2RGDI,
     medida: 202,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "GIAT2RGI",
@@ -1567,6 +1678,7 @@ const piezasGiant = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/GIANT/GIAT2RGI.png",
     price: preciosGiant.comunGIAT2RGDI,
     medida: 202,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 
@@ -2269,6 +2381,7 @@ const piezasKappa = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: " ",
   },
   {
     id: "SIGMGRFSB",
@@ -2277,6 +2390,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRFSB.png",
     price: preciosSigma.comunSIGMGRFSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRRSB",
@@ -2285,6 +2399,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRRSB.png",
     price: preciosSigma.comunSIGMGRRSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLFSB",
@@ -2293,6 +2408,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLFSB.png",
     price: preciosSigma.comunSIGMLFSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLRSB",
@@ -2301,6 +2417,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLRSB.png",
     price: preciosSigma.comunSIGMLRSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMAFSB",
@@ -2309,6 +2426,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMAFSB.png",
     price: preciosSigma.comunSIGMMAFSB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMARSB",
@@ -2317,6 +2435,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMARSB.png",
     price: preciosSigma.comunSIGMMARSB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDFSB",
@@ -2325,6 +2444,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDFSB.png",
     price: preciosSigma.comunSIGMMDFSB,
     medida: 70,
+    categoria: "MODULOS",
   },
 
   {
@@ -2334,6 +2454,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDRSB.png",
     price: preciosSigma.comunSIGMMDRSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQFSB",
@@ -2342,6 +2463,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQFSB.png",
     price: preciosSigma.comunSIGMPQFSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQRSB",
@@ -2350,6 +2472,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQRSB.png",
     price: preciosSigma.comunSIGMPQRSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "SIGRA",
@@ -2358,6 +2481,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRA.png",
     price: preciosSigma.comunSIGRA,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTGD",
@@ -2366,6 +2490,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGD.png",
     price: preciosSigma.comunSIGRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTGI",
@@ -2374,6 +2499,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGI.png",
     price: preciosSigma.comunSIGRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTMD",
@@ -2382,6 +2508,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMD.png",
     price: preciosSigma.comunSIGRTMDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTMI",
@@ -2390,6 +2517,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMI.png",
     price: preciosSigma.comunSIGRTMDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGTD",
@@ -2398,6 +2526,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTD.png",
     price: preciosSigma.comunSIGTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGTI",
@@ -2406,54 +2535,61 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTI.png",
     price: preciosSigma.comunSIGTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "KAPCGD",
-    title: "KAPCGD CHAISELONGUE GRANDE DERECHA (113)",
+    title: "KAPCGD CHAISE LONGUE GRANDE DERECHA (113)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCGD.png",
     price: preciosKappa.comunKAPCGDI,
     medida: 113,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPCGI",
-    title: "KAPCGI CHAISELONGUE GRANDE IZQ (113)",
+    title: "KAPCGI CHAISE LONGUE GRANDE IZQ (113)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCGI.png",
     price: preciosKappa.comunKAPCGDI,
     medida: 113,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPCMDD",
-    title: "KAPCMDD CHAISELONGUE MEDIANO DERECHA (103)",
+    title: "KAPCMDD CHAISE LONGUE MEDIANO DERECHA (103)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCMDD.png",
     price: preciosKappa.comunKAPCMDDI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPCMDI",
-    title: "KAPCMDI CHAISELONGUE MEDIANO IZQ. (103)",
+    title: "KAPCMDI CHAISE LONGUE MEDIANO IZQ. (103)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCMDI.png",
     price: preciosKappa.comunKAPCMDDI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPCPQD",
-    title: "KAPCPQD CHAISELONGUE PEQUEÑO DERECHA (93)",
+    title: "KAPCPQD CHAISE LONGUE PEQUEÑO DERECHA (93)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCPQD.png",
     price: preciosKappa.comunKAPCPQDI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPCPQI",
-    title: "KAPCPQI CHAISELONGUE PEQUEÑO IZQ (93)",
+    title: "KAPCPQI CHAISE LONGUE PEQUEÑO IZQ (93)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPCPQI.png",
     price: preciosKappa.comunKAPCPQDI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "KAPMGRFD",
@@ -2462,6 +2598,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRFD.png",
     price: preciosKappa.comunKAPMGRFDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMGRFI",
@@ -2470,6 +2607,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRFI.png",
     price: preciosKappa.comunKAPMGRFDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMGRRD",
@@ -2478,6 +2616,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRRD.png",
     price: preciosKappa.comunKAPMGRRDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMGRRI",
@@ -2486,6 +2625,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMGRRI.png",
     price: preciosKappa.comunKAPMGRRDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMAFD",
@@ -2494,6 +2634,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMAFD.png",
     price: preciosKappa.comunKAPMMAFDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMAFI",
@@ -2502,6 +2643,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMAFI.png",
     price: preciosKappa.comunKAPMMAFDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMARD",
@@ -2510,6 +2652,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMARD.png",
     price: preciosKappa.comunKAPMMARDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMARI",
@@ -2518,6 +2661,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMARI.png",
     price: preciosKappa.comunKAPMMARDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMDFD",
@@ -2526,6 +2670,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDFD.png",
     price: preciosKappa.comunKAPMMDFDI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMDFI",
@@ -2534,6 +2679,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDFI.png",
     price: preciosKappa.comunKAPMMDFDI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMDRD",
@@ -2542,6 +2688,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDRD.png",
     price: preciosKappa.comunKAPMMDRDI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMDRI",
@@ -2550,6 +2697,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMDRI.png",
     price: preciosKappa.comunKAPMMDRDI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMEFD",
@@ -2558,6 +2706,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMEFD.png",
     price: preciosKappa.comunKAPMMEFDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMEFI",
@@ -2566,6 +2715,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMEFI.png",
     price: preciosKappa.comunKAPMMEFDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMERD",
@@ -2574,6 +2724,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMERD.png",
     price: preciosKappa.comunKAPMMERDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMMERI",
@@ -2582,6 +2733,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMMERI.png",
     price: preciosKappa.comunKAPMMERDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMPQFD",
@@ -2590,6 +2742,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQFD.png",
     price: preciosKappa.comunKAPMPQFDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMPQFI",
@@ -2598,6 +2751,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQFI.png",
     price: preciosKappa.comunKAPMPQFDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMPQRD",
@@ -2606,6 +2760,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQRD.png",
     price: preciosKappa.comunKAPMPQRDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "KAPMPQRI",
@@ -2614,6 +2769,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPMPQRI.png",
     price: preciosKappa.comunKAPMPQRDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "KAPSF",
@@ -2622,6 +2778,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPSF.png",
     price: preciosKappa.comunKAPSF,
     medida: 126,
+    categoria: "BUTACA",
   },
   {
     id: "KAPSR",
@@ -2630,6 +2787,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAPSR.png",
     price: preciosKappa.comunKAPSR,
     medida: 126,
+    categoria: "BUTACA",
   },
   {
     id: "KAP2F",
@@ -2638,6 +2796,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAP2F.png",
     price: preciosKappa.comunKAP2F,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "KAP3F",
@@ -2646,6 +2805,7 @@ const piezasKappa = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/KAPPA/KAP3F.png",
     price: preciosKappa.comunKAP3F,
     medida: 0,
+    categoria: "SOFÁS",
   },
 ];
 
@@ -2655,22 +2815,25 @@ const piezasSigma = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "",
   },
   {
     id: "SIGCGD",
-    title: "SIGCGD CHAISELONGUE GRANDE (99) DERECHA",
+    title: "SIGCGD CHAISE LONGUE GRANDE (99) DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCGD.png",
     price: preciosSigma.comunSIGCGDI,
     medida: 99,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGCGI",
-    title: "SIGCGI CHAISELONGUE GRANDE (99) IZQ",
+    title: "SIGCGI CHAISE LONGUE GRANDE (99) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCGI.png",
     price: preciosSigma.comunSIGCGDI,
     medida: 99,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGCMDD",
@@ -2679,6 +2842,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCMDD.png",
     price: preciosSigma.comunSIGCMDDI,
     medida: 89,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGCMDI",
@@ -2687,6 +2851,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCMDI.png",
     price: preciosSigma.comunSIGCMDDI,
     medida: 89,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGCPQD",
@@ -2695,6 +2860,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCPQD.png",
     price: preciosSigma.comunSIGCPQDI,
     medida: 79,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGCPQI",
@@ -2703,6 +2869,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGCPQI.png",
     price: preciosSigma.comunSIGCPQDI,
     medida: 79,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIGMGRFD",
@@ -2711,6 +2878,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRFD.png",
     price: preciosSigma.comunSIGMGRFDI,
     medida: 99,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRFI",
@@ -2719,6 +2887,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRFI.png",
     price: preciosSigma.comunSIGMGRFDI,
     medida: 99,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRFSB",
@@ -2727,6 +2896,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRFSB.png",
     price: preciosSigma.comunSIGMGRFSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRRD",
@@ -2735,6 +2905,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRRD.png",
     price: preciosSigma.comunSIGMGRRDI,
     medida: 99,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRRI",
@@ -2743,6 +2914,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRRI.png",
     price: preciosSigma.comunSIGMGRRDI,
     medida: 99,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMGRRSB",
@@ -2751,6 +2923,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMGRRSB.png",
     price: preciosSigma.comunSIGMGRRSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLFD",
@@ -2759,6 +2932,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLFD.png",
     price: preciosSigma.comunSIGMLFDI,
     medida: 119,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLFI",
@@ -2767,6 +2941,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLFI.png",
     price: preciosSigma.comunSIGMLFDI,
     medida: 119,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLFSB",
@@ -2775,6 +2950,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLFSB.png",
     price: preciosSigma.comunSIGMLFSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLRD",
@@ -2783,6 +2959,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLRD.png",
     price: preciosSigma.comunSIGMLRDI,
     medida: 119,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLRI",
@@ -2791,6 +2968,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLRI.png",
     price: preciosSigma.comunSIGMLRDI,
     medida: 119,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMLRSB",
@@ -2799,6 +2977,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMLRSB.png",
     price: preciosSigma.comunSIGMLRSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMAFD",
@@ -2807,6 +2986,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMAFD.png",
     price: preciosSigma.comunSIGMMAFDI,
     medida: 109,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMAFI",
@@ -2815,6 +2995,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMAFI.png",
     price: preciosSigma.comunSIGMMAFDI,
     medida: 109,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMAFSB",
@@ -2823,6 +3004,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMAFSB.png",
     price: preciosSigma.comunSIGMMAFSB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMARD",
@@ -2831,6 +3013,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMARD.png",
     price: preciosSigma.comunSIGMMARDI,
     medida: 109,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMARI",
@@ -2839,6 +3022,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMARI.png",
     price: preciosSigma.comunSIGMMARDI,
     medida: 109,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMARSB",
@@ -2847,6 +3031,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMARSB.png",
     price: preciosSigma.comunSIGMMARSB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDFD",
@@ -2855,6 +3040,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDFD.png",
     price: preciosSigma.comunSIGMMDFDI,
     medida: 89,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDFI",
@@ -2863,6 +3049,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDFI.png",
     price: preciosSigma.comunSIGMMDFDI,
     medida: 89,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDFSB",
@@ -2871,6 +3058,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDFSB.png",
     price: preciosSigma.comunSIGMMDFSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDRD",
@@ -2879,6 +3067,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDRD.png",
     price: preciosSigma.comunSIGMMDRDI,
     medida: 89,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDRI",
@@ -2887,6 +3076,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDRI.png",
     price: preciosSigma.comunSIGMMDRDI,
     medida: 89,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMMDRSB",
@@ -2895,6 +3085,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMMDRSB.png",
     price: preciosSigma.comunSIGMMDRSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQFD",
@@ -2903,6 +3094,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQFD.png",
     price: preciosSigma.comunSIGMPQFDI,
     medida: 79,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQFI",
@@ -2911,6 +3103,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQFI.png",
     price: preciosSigma.comunSIGMPQFDI,
     medida: 79,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQFSB",
@@ -2919,6 +3112,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQFSB.png",
     price: preciosSigma.comunSIGMPQFSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQRD",
@@ -2927,6 +3121,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQRD.png",
     price: preciosSigma.comunSIGMPQRDI,
     medida: 79,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQRI",
@@ -2935,6 +3130,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQRI.png",
     price: preciosSigma.comunSIGMPQRDI,
     medida: 79,
+    categoria: "MODULOS",
   },
   {
     id: "SIGMPQRSB",
@@ -2943,6 +3139,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGMPQRSB.png",
     price: preciosSigma.comunSIGMPQRSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "SIGRA",
@@ -2951,6 +3148,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRA.png",
     price: preciosSigma.comunSIGRA,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTGD",
@@ -2959,6 +3157,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGD.png",
     price: preciosSigma.comunSIGRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTGI",
@@ -2967,6 +3166,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTGI.png",
     price: preciosSigma.comunSIGRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTMD",
@@ -2975,6 +3175,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMD.png",
     price: preciosSigma.comunSIGRTMDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGRTMI",
@@ -2983,6 +3184,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGRTMI.png",
     price: preciosSigma.comunSIGRTMDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGTD",
@@ -2991,6 +3193,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTD.png",
     price: preciosSigma.comunSIGTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIGTI",
@@ -2999,6 +3202,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIGTI.png",
     price: preciosSigma.comunSIGTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIG1F",
@@ -3007,6 +3211,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIG1F.png",
     price: preciosSigma.comunSIG1F,
     medida: 0,
+    categoria: "BUTACA",
   },
   {
     id: "SIG1R",
@@ -3015,6 +3220,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIG1R.png",
     price: preciosSigma.comunSIG1R,
     medida: 0,
+    categoria: "BUTACA",
   },
   {
     id: "SIG2F",
@@ -3023,6 +3229,7 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIG2F.png",
     price: preciosSigma.comunSIG2F,
     medida: 0,
+    categoria: "SOFÁS",
   },
   {
     id: "SIG3F",
@@ -3031,5 +3238,6 @@ const piezasSigma = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIGMA/SIG3F.png",
     price: preciosSigma.comunSIG3F,
     medida: 0,
+    categoria: "SOFÁS",
   },
 ];

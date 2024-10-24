@@ -206,7 +206,6 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
   return 0;
 }
 
-// RESUMEN
 document.addEventListener("DOMContentLoaded", function () {
   const selectElements = document.querySelectorAll("select");
 
@@ -216,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
       mostrarImagenes();
     });
   });
-
+  // MOTOR INPUT
   const motorInput = document.getElementById("motor");
   motorInput.addEventListener("input", function () {
     const motorValue = parseInt(motorInput.value, 10);
@@ -226,9 +225,19 @@ document.addEventListener("DOMContentLoaded", function () {
     ).textContent = `Total Motor: ${motorTotal}€`;
     generarResumen();
   });
+  const bateriaInput = document.getElementById("bateria");
+  bateriaInput.addEventListener("input", function () {
+    const bateriaValue = parseInt(bateriaInput.value, 10);
+    const bateriaTotal = bateriaValue * 211;
+    document.getElementById(
+      "outputBateria"
+    ).textContent = `Total Batería: ${bateriaTotal}€`;
+    generarResumen();
+  });
 
   generarResumen();
 });
+
 /*-------------------COJINES Y PRECIOS---------------------*/
 function obtenerCojinesSeleccionados() {
   const cojinesSeleccionados = [];
@@ -303,15 +312,19 @@ function generarResumen() {
 
   const motorValue = parseInt(document.getElementById("motor").value, 10) || 0;
   const motorTotal = motorValue * 179;
+  const bateriaValue =
+    parseInt(document.getElementById("bateria").value, 10) || 0;
+  const bateriaTotal = bateriaValue * 179;
   const precioTotal =
     precioPiezas +
     precioCojines +
     motorTotal +
     precioRespaldos +
     motorTotal +
+    bateriaTotal +
     precioPosapies;
 
-  const suplementosTotal = precioCojines + motorTotal;
+  const suplementosTotal = precioCojines + motorTotal + bateriaTotal;
   const codigoDescuento = document.getElementById("descuento").value;
   const descuento = obtenerDescuento(codigoDescuento);
   const precioConDescuento = precioTotal * (1 - descuento);
@@ -445,6 +458,13 @@ function generarResumen() {
     ${
       motorTotal > 1
         ? `<li>Precio Motor: <span id="motorTotal"> &nbsp${motorTotal.toFixed(
+            2
+          )}€</span></li>`
+        : ""
+    }
+    ${
+      bateriaTotal > 1
+        ? `<li>Precio Batería: <span id="bateriaTotal"> &nbsp${bateriaTotal.toFixed(
             2
           )}€</span></li>`
         : ""

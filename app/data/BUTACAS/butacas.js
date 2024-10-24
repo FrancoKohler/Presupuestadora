@@ -27,6 +27,7 @@ const piezasAres = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/ARES/ARES.png",
     price: preciosAres.comunAres,
     medida: 74,
+    categoria: "BUTACAS",
   },
 ];
 /*--------BRUMA-------*/
@@ -59,6 +60,7 @@ const piezasBruma = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/BRUMA/BRUS.png",
     price: preciosBruma.comunBRUS,
     medida: 65,
+    categoria: "BUTACAS",
   },
 ];
 /*-----------CORALINA-----*/
@@ -89,6 +91,7 @@ const piezasCoralina = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/CORALINA/CORAS.png",
     price: preciosCoralina.comunCoras,
     medida: 98,
+    categoria: "BUTACAS",
   },
 ];
 /*----------CRONOS-------*/
@@ -121,6 +124,7 @@ const piezasCronos = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/CRONO/CROS.png",
     price: preciosCrono.comunCROS,
     medida: 92,
+    categoria: "BUTACAS",
   },
 ];
 /*-----------DINO------*/
@@ -153,6 +157,7 @@ const piezasDino = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/DINO/DINS.png",
     price: preciosDino.comunDINS,
     medida: 92,
+    categoria: "BUTACAS",
   },
 ];
 /*------------EROS--------*/
@@ -199,6 +204,7 @@ const piezasEros = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/EROS/ERO.png",
     price: preciosEros.comunERO,
     medida: 78,
+    categoria: "BUTACAS",
   },
   {
     id: "EROM",
@@ -207,6 +213,7 @@ const piezasEros = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/EROS/EROM.png",
     price: preciosEros.comunEROM,
     medida: 78,
+    categoria: "BUTACAS",
   },
 ];
 
@@ -254,6 +261,7 @@ const piezasOmega = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/OMEGA/OME.png",
     price: preciosOmega.comunOME,
     medida: 67,
+    categoria: "BUTACAS",
   },
   {
     id: "OMEM",
@@ -262,6 +270,7 @@ const piezasOmega = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/OMEGA/OMEM.png",
     price: preciosOmega.comunOMEM,
     medida: 78,
+    categoria: "BUTACAS",
   },
 ];
 /*---------TASSOS--------*/
@@ -308,6 +317,7 @@ const piezasTassos = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/TASSOS/TAS.png",
     price: preciosTassos.comunTAS,
     medida: 67,
+    categoria: "BUTACAS",
   },
   {
     id: "TASM",
@@ -316,6 +326,7 @@ const piezasTassos = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/TASSOS/TASM.png",
     price: preciosTassos.comunTASM,
     medida: 78,
+    categoria: "BUTACAS",
   },
 ];
 /*---------TITA-------*/
@@ -343,5 +354,6 @@ const piezasTita = [
       "https://francokohler.github.io/Presupuestadora/assets/BUTACAS/TITA/TITS.png",
     price: preciosTita.comunTITA,
     medida: 68,
+    categoria: "BUTACAS",
   },
 ];
