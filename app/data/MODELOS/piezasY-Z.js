@@ -1316,6 +1316,7 @@ const piezasYute = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "YUTE",
   },
   {
     id: "YUTCGRD",
@@ -1324,6 +1325,7 @@ const piezasYute = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_DER.png",
     price: precios.comunYUTCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTCGRI",
@@ -1332,6 +1334,7 @@ const piezasYute = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_80_IZQ.png",
     price: precios.comunYUTCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTCMAD",
@@ -1340,6 +1343,7 @@ const piezasYute = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_DER.png",
     price: precios.comunYUTCMA,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTCMAI",
@@ -1348,6 +1352,7 @@ const piezasYute = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_90_IZQ.png",
     price: precios.comunYUTCMA,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTCMED",
@@ -1355,6 +1360,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_DER.png",
     price: precios.comunYUTCME,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTCMEI",
@@ -1362,6 +1368,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/CH_100_IZQ.png",
     price: precios.comunYUTCME,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "YUTMGR",
@@ -1369,6 +1376,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_SB.png",
     price: precios.comunYUTMGR,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMGRD",
@@ -1376,6 +1384,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_DER.png",
     price: precios.comunYUTMGRDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMGRI",
@@ -1383,6 +1392,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M80_IZQ.png",
     price: precios.comunYUTMGRDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMMAD",
@@ -1390,6 +1400,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_DER.png",
     price: precios.comunYUTMMADI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMMAI",
@@ -1397,6 +1408,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M90_IZQ.png",
     price: precios.comunYUTMMADI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMME",
@@ -1404,6 +1416,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_SB.png",
     price: precios.comunYUTMME,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMMED",
@@ -1411,6 +1424,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_DER.png",
     price: precios.comunYUTMMEDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMMEI",
@@ -1418,6 +1432,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M100_IZQ.png",
     price: precios.comunYUTMMEDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMXL",
@@ -1425,6 +1440,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_SB.png",
     price: precios.comunYUTMXL,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMXLD",
@@ -1432,6 +1448,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_DER.png",
     price: precios.comunYUTMXLDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTMXLI",
@@ -1439,6 +1456,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/M110_IZQ.png",
     price: precios.comunYUTMXLDI,
+    categoria: "MODULOS",
   },
   {
     id: "YUTRA",
@@ -1446,6 +1464,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RA.png",
     price: precios.comunYUTRA,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTRTD",
@@ -1453,6 +1472,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_DER.png",
     price: precios.comunYUTRT,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTRTI",
@@ -1460,6 +1480,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/RT_IZQ.png",
     price: precios.comunYUTRT,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTRRD",
@@ -1467,6 +1488,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/YUTRRD.png",
     price: precios.comunYUTRRDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTRRI",
@@ -1474,6 +1496,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/YUTRRI.png",
     price: precios.comunYUTRRDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTTGRD",
@@ -1481,6 +1504,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_DER.png",
     price: precios.comunYUTTGR,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTTGRI",
@@ -1488,6 +1512,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_80_IZQ.png",
     price: precios.comunYUTTGR,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTTMAD",
@@ -1495,6 +1520,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_DER.png",
     price: precios.comunYUTTMA,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "YUTTMAI",
@@ -1502,6 +1528,7 @@ const piezasYute = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/YUTE/TER_90_IZQ.png",
     price: precios.comunYUTTMA,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 /*----------------PIEZAS ZENITH--------------*/
@@ -1510,14 +1537,16 @@ const piezasZenith = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "ZENITH",
   },
   {
     id: "ZENCGRD",
-    title: "ZENCGRD CHAISELONGUE GRANDE DERECHO (100)",
+    title: "ZENCGRD CHAISE LONGUE GRANDE DERECHO (100)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCGRD.png",
     price: preciosZenith.comunZENCGRD,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCGRI",
@@ -1526,6 +1555,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCGRI.png",
     price: preciosZenith.comunZENCGRD,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCMAD",
@@ -1534,6 +1564,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCMAD.png",
     price: preciosZenith.comunZENCMADI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCMAI",
@@ -1542,6 +1573,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCMAI.png",
     price: preciosZenith.comunZENCMADI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCMDD",
@@ -1550,6 +1582,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCMDD.png",
     price: preciosZenith.comunZENCMDDI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCMDI",
@@ -1558,6 +1591,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCMDI.png",
     price: preciosZenith.comunZENCMDDI,
     medida: 90,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCXXLD",
@@ -1566,6 +1600,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCXXLD.png",
     price: preciosZenith.comunZENCXXLDI,
     medida: 140,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENCXXLI",
@@ -1574,6 +1609,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENCXXLI.png",
     price: preciosZenith.comunZENCXXLDI,
     medida: 140,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZENMGRF",
@@ -1582,6 +1618,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRF.png",
     price: preciosZenith.comunZENMGRF,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMGRFD",
@@ -1590,6 +1627,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRFD.png",
     price: preciosZenith.comunZENMGRFDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMGRFI",
@@ -1598,6 +1636,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRFI.png",
     price: preciosZenith.comunZENMGRFDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMGRR",
@@ -1606,6 +1645,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRR.png",
     price: preciosZenith.comunZENMGRR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMGRRD",
@@ -1614,6 +1654,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRRD.png",
     price: preciosZenith.comunZENMGRRDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMGRRI",
@@ -1622,6 +1663,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMGRRI.png",
     price: preciosZenith.comunZENMGRRDI,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMAF",
@@ -1630,6 +1672,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMAF.png",
     price: preciosZenith.comunZENMMAF,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMAFD",
@@ -1638,6 +1681,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMAFD.png",
     price: preciosZenith.comunZENMMAFDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMAFI",
@@ -1646,6 +1690,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMAFI.png",
     price: preciosZenith.comunZENMMAFDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMAR",
@@ -1654,6 +1699,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMAR.png",
     price: preciosZenith.comunZENMMAR,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMARD",
@@ -1662,6 +1708,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMARD.png",
     price: preciosZenith.comunZENMMARDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMARI",
@@ -1670,6 +1717,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMARI.png",
     price: preciosZenith.comunZENMMARDI,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDF",
@@ -1678,6 +1726,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDF.png",
     price: preciosZenith.comunZENMMDF,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDFD",
@@ -1686,6 +1735,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDFD.png",
     price: preciosZenith.comunZENMMDFDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDFI",
@@ -1694,6 +1744,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDFI.png",
     price: preciosZenith.comunZENMMDFDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDR",
@@ -1702,6 +1753,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDR.png",
     price: preciosZenith.comunZENMMDFDI,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDRD",
@@ -1710,6 +1762,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDRD.png",
     price: preciosZenith.comunZENMMDRDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDRI",
@@ -1718,6 +1771,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDRI.png",
     price: preciosZenith.comunZENMMDRDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMDRI",
@@ -1726,6 +1780,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMDRI.png",
     price: preciosZenith.comunZENMMDRDI,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMEF",
@@ -1734,6 +1789,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMEF.png",
     price: preciosZenith.comunZENMMEF,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMEFD",
@@ -1742,6 +1798,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMEFD.png",
     price: preciosZenith.comunZENMMEFDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMEFI",
@@ -1750,6 +1807,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMEFI.png",
     price: preciosZenith.comunZENMMEFDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMER",
@@ -1758,6 +1816,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMER.png",
     price: preciosZenith.comunZENMMER,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMERD",
@@ -1766,6 +1825,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMERD.png",
     price: preciosZenith.comunZENMMERDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMMERI",
@@ -1774,6 +1834,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMMERI.png",
     price: preciosZenith.comunZENMMERDI,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLF",
@@ -1782,6 +1843,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLF.png",
     price: preciosZenith.comunZENMXXLF,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLFD",
@@ -1790,6 +1852,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLFD.png",
     price: preciosZenith.comunZENMXXLFDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLFI",
@@ -1798,6 +1861,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLFD.png",
     price: preciosZenith.comunZENMXXLFDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLR",
@@ -1806,6 +1870,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLR.png",
     price: preciosZenith.comunZENMXXLR,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLRD",
@@ -1814,6 +1879,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLRD.png",
     price: preciosZenith.comunZENMXXLRDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ZENMXXLRI",
@@ -1822,6 +1888,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENMXXLRI.png",
     price: preciosZenith.comunZENMXXLRDI,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "ZENRA",
@@ -1830,6 +1897,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENRA.png",
     price: preciosZenith.comunZENRA,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
 
   {
@@ -1839,6 +1907,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENRTD.png",
     price: preciosZenith.comunZENRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ZENRTI",
@@ -1847,6 +1916,7 @@ const piezasZenith = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZENITH/ZENRTI.png",
     price: preciosZenith.comunZENRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 
@@ -1856,135 +1926,152 @@ const piezasZonda = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "ZONDA",
   },
   {
     id: "ZONCGRD",
-    title: "ZONCGRD CHAISELONGUE GRANDE CABEZAL MANUAL DERECHO (88)",
+    title: "ZONCGRD CHAISE LONGUE GRANDE CABEZAL MANUAL DERECHO (88)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCGRD.png",
     price: preciosZonda.comunZONCGRDI,
     medida: 88,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCGRI",
-    title: "ZONCGRI CHAISELONGUE GRANDE CABEZAL MANUAL IZQ (88)",
+    title: "ZONCGRI CHAISE LONGUE GRANDE CABEZAL MANUAL IZQ (88)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCGRI.png",
     price: preciosZonda.comunZONCGRDI,
     medida: 88,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCGRED",
-    title: "ZONCGRED CHAISELONGUE GRANDE CABEZAL MOTOR DERECHO (88)",
+    title: "ZONCGRED CHAISE LONGUE GRANDE CABEZAL MOTOR DERECHO (88)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCGRED.png",
     price: preciosZonda.comunZONCGREDI,
     medida: 88,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCGREI",
-    title: "ZONCGREI CHAISELONGUE GRANDE CABEZAL MOTOR IZQ (88)",
+    title: "ZONCGREI CHAISE LONGUE GRANDE CABEZAL MOTOR IZQ (88)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCGREI.png",
     price: preciosZonda.comunZONCGRDI,
     medida: 88,
+    categoria: "CHAISE LONGUE",
   },
 
   {
     id: "ZONCMAD",
-    title: "ZONCMAD CHAISELONGUE MAXI CABEZAL MANUAL DERECHO (98)",
+    title: "ZONCMAD CHAISE LONGUE MAXI CABEZAL MANUAL DERECHO (98)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMAD.png",
     price: preciosZonda.comunZONCMADI,
     medida: 98,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMAI",
-    title: "ZONCMAI CHAISELONGUE MAXI CABEZAL MANUAL DERECHO (98)",
+    title: "ZONCMAI CHAISE LONGUE MAXI CABEZAL MANUAL DERECHO (98)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMAI.png",
     price: preciosZonda.comunZONCMADI,
     medida: 98,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMAED",
-    title: "ZONCMAED CHAISELONGUE MAXI CABEZAL MOTOR DERECHO (98)",
+    title: "ZONCMAED CHAISE LONGUE MAXI CABEZAL MOTOR DERECHO (98)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMAED.png",
     price: preciosZonda.comunZONCMAEDI,
     medida: 98,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMAEI",
-    title: "ZONCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQ (98)",
+    title: "ZONCMAEI CHAISE LONGUE MAXI CABEZAL MOTOR IZQ (98)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMAEI.png",
     price: preciosZonda.comunZONCMAEDI,
     medida: 98,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMDD",
-    title: "ZONCMDD CHAISELONGUE MEDIANO CABEZAL MANUAL DERECHO (78)",
+    title: "ZONCMDD CHAISE LONGUE MEDIANO CABEZAL MANUAL DERECHO (78)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMDD.png",
     price: preciosZonda.comunZONCMDDI,
     medida: 78,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMDI",
-    title: "ZONCMDI CHAISELONGUE MEDIANO CABEZAL MANUAL IZQ (78)",
+    title: "ZONCMDI CHAISE LONGUE MEDIANO CABEZAL MANUAL IZQ (78)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMDI.png",
     price: preciosZonda.comunZONCMDDI,
     medida: 78,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMDED",
-    title: "ZONCMDED CHAISELONGUE MEDIANO CABEZAL MOTOR DERECHO (78)",
+    title: "ZONCMDED CHAISE LONGUE MEDIANO CABEZAL MOTOR DERECHO (78)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMDED.png",
     price: preciosZonda.comunZONCMDEDI,
     medida: 78,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMDEI",
-    title: "ZONCMDEI CHAISELONGUE MEDIANO CABEZAL MOTOR IZQ (78)",
+    title: "ZONCMDEI CHAISE LONGUE MEDIANO CABEZAL MOTOR IZQ (78)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMDEI.png",
     price: preciosZonda.comunZONCMDEDI,
     medida: 78,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMED",
-    title: "ZONCMED CHAISELONGUE MEGA CABEZAL MANUAL DERECHO (108)",
+    title: "ZONCMED CHAISE LONGUE MEGA CABEZAL MANUAL DERECHO (108)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMED.png",
     price: preciosZonda.comunZONCMEDI,
     medida: 108,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMEI",
-    title: "ZONCMEI CHAISELONGUE MEGA CABEZAL MANUAL IZQ (108)",
+    title: "ZONCMEI CHAISE LONGUE MEGA CABEZAL MANUAL IZQ (108)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMEI.png",
     price: preciosZonda.comunZONCMEDI,
     medida: 108,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMEED",
-    title: "ZONCMEED CHAISELONGUE MEGA CABEZAL MOTOR DERECHO (108)",
+    title: "ZONCMEED CHAISE LONGUE MEGA CABEZAL MOTOR DERECHO (108)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMEED.png",
     price: preciosZonda.comunZONCMEEDI,
     medida: 108,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONCMEEI",
-    title: "ZONCMEEI CHAISELONGUE MEGA CABEZAL MOTOR IZQ (108)",
+    title: "ZONCMEEI CHAISE LONGUE MEGA CABEZAL MOTOR IZQ (108)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONCMEEI.png",
     price: preciosZonda.comunZONCMEEDI,
     medida: 108,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "ZONMGRF",
@@ -1993,6 +2080,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRF.png",
     price: preciosZonda.comunZONMGRF,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRFD",
@@ -2001,6 +2089,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRFD.png",
     price: preciosZonda.comunZONMGRFDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRFI",
@@ -2009,6 +2098,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRFI.png",
     price: preciosZonda.comunZONMGRFDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRFE",
@@ -2017,6 +2107,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRFE.png",
     price: preciosZonda.comunZONMGRFE,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRFED",
@@ -2025,6 +2116,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRFED.png",
     price: preciosZonda.comunZONMGRFEDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRFEI",
@@ -2033,6 +2125,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRFEI.png",
     price: preciosZonda.comunZONMGRFEDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRR",
@@ -2041,6 +2134,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRR.png",
     price: preciosZonda.comunZONMGRR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRRD",
@@ -2049,6 +2143,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRRD.png",
     price: preciosZonda.comunZONMGRRDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRRI",
@@ -2057,6 +2152,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRRI.png",
     price: preciosZonda.comunZONMGRRDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRRE",
@@ -2065,6 +2161,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRRE.png",
     price: preciosZonda.comunZONMGRRE,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRRED",
@@ -2073,6 +2170,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRRED.png",
     price: preciosZonda.comunZONMGRREDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMGRREI",
@@ -2081,6 +2179,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMGRREI.png",
     price: preciosZonda.comunZONMGRREDI,
     medida: 88,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAF",
@@ -2089,6 +2188,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAF.png",
     price: preciosZonda.comunZONMMAF,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAFD",
@@ -2097,6 +2197,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAFD.png",
     price: preciosZonda.comunZONMMAFDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAFI",
@@ -2105,6 +2206,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAFI.png",
     price: preciosZonda.comunZONMMAFDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAFE",
@@ -2113,6 +2215,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAFE.png",
     price: preciosZonda.comunZONMMAFE,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAFED",
@@ -2121,6 +2224,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAFED.png",
     price: preciosZonda.comunZONMMAFEDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAFEI",
@@ -2129,6 +2233,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAFEI.png",
     price: preciosZonda.comunZONMMAFEDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAR",
@@ -2137,6 +2242,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAR.png",
     price: preciosZonda.comunZONMMAR,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMARD",
@@ -2145,6 +2251,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMARD.png",
     price: preciosZonda.comunZONMMARDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMARI",
@@ -2153,6 +2260,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMARI.png",
     price: preciosZonda.comunZONMMARDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMARE",
@@ -2161,6 +2269,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMARE.png",
     price: preciosZonda.comunZONMMARE,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMARED",
@@ -2169,6 +2278,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMARED.png",
     price: preciosZonda.comunZONMMAREDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMAREI",
@@ -2177,6 +2287,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMAREI.png",
     price: preciosZonda.comunZONMMAREDI,
     medida: 98,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDF",
@@ -2185,6 +2296,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDF.png",
     price: preciosZonda.comunZONMMDF,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDFD",
@@ -2193,6 +2305,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDFD.png",
     price: preciosZonda.comunZONMMDFDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDFI",
@@ -2201,6 +2314,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDFI.png",
     price: preciosZonda.comunZONMMDFDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDFE",
@@ -2209,6 +2323,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDFE.png",
     price: preciosZonda.comunZONMMDFE,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDFED",
@@ -2217,6 +2332,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDFED.png",
     price: preciosZonda.comunZONMMDFEDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDFEI",
@@ -2225,6 +2341,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDFEI.png",
     price: preciosZonda.comunZONMMDFEDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDR",
@@ -2233,6 +2350,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDR.png",
     price: preciosZonda.comunZONMMDR,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDRD",
@@ -2241,6 +2359,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDRD.png",
     price: preciosZonda.comunZONMMDRDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDRI",
@@ -2249,6 +2368,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDRI.png",
     price: preciosZonda.comunZONMMDRDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDRE",
@@ -2257,6 +2377,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDRE.png",
     price: preciosZonda.comunZONMMDRE,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDRED",
@@ -2265,6 +2386,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDRED.png",
     price: preciosZonda.comunZONMMDREDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMDREI",
@@ -2273,6 +2395,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMDREI.png",
     price: preciosZonda.comunZONMMDREDI,
     medida: 78,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEF",
@@ -2281,6 +2404,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEF.png",
     price: preciosZonda.comunZONMMEF,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEFD",
@@ -2289,6 +2413,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEF.png",
     price: preciosZonda.comunZONMMEFDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEFI",
@@ -2297,6 +2422,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEFI.png",
     price: preciosZonda.comunZONMMEFDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEFE",
@@ -2305,6 +2431,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEFE.png",
     price: preciosZonda.comunZONMMEFE,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEFED",
@@ -2313,6 +2440,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEFED.png",
     price: preciosZonda.comunZONMMEFEDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEFEI",
@@ -2321,6 +2449,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEFEI.png",
     price: preciosZonda.comunZONMMEFEDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMER",
@@ -2329,6 +2458,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMER.png",
     price: preciosZonda.comunZONMMER,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMERD",
@@ -2337,6 +2467,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMERD.png",
     price: preciosZonda.comunZONMMERDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMERI",
@@ -2345,6 +2476,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMERI.png",
     price: preciosZonda.comunZONMMERDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMERE",
@@ -2353,6 +2485,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMERE.png",
     price: preciosZonda.comunZONMMERE,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMERED",
@@ -2361,6 +2494,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMERED.png",
     price: preciosZonda.comunZONMMEREDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMMEREI",
@@ -2369,6 +2503,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMMEREI.png",
     price: preciosZonda.comunZONMMEREDI,
     medida: 108,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLF",
@@ -2377,6 +2512,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLF.png",
     price: preciosZonda.comunZONMXLF,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLFD",
@@ -2385,6 +2521,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLFD.png",
     price: preciosZonda.comunZONMXLFDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLFI",
@@ -2393,6 +2530,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLFI.png",
     price: preciosZonda.comunZONMXLFDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLFE",
@@ -2401,6 +2539,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLFE.png",
     price: preciosZonda.comunZONMXLFE,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLFED",
@@ -2409,6 +2548,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLFED.png",
     price: preciosZonda.comunZONMXLFEDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLFEI",
@@ -2417,6 +2557,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLFEI.png",
     price: preciosZonda.comunZONMXLFEDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLR",
@@ -2425,6 +2566,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLR.png",
     price: preciosZonda.comunZONMXLR,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLRD",
@@ -2433,6 +2575,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLRD.png",
     price: preciosZonda.comunZONMXLRDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLRI",
@@ -2441,6 +2584,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLRI.png",
     price: preciosZonda.comunZONMXLRDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLRE",
@@ -2449,6 +2593,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLRE.png",
     price: preciosZonda.comunZONMXLRE,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLRED",
@@ -2457,6 +2602,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLRED.png",
     price: preciosZonda.comunZONMXLREDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONMXLREI",
@@ -2465,6 +2611,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONMXLREI.png",
     price: preciosZonda.comunZONMXLREDI,
     medida: 118,
+    categoria: "MODULOS",
   },
   {
     id: "ZONRA",
@@ -2473,6 +2620,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONRA.png",
     price: preciosZonda.comunZONRA,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ZONRTD",
@@ -2481,6 +2629,7 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONRTD.png",
     price: preciosZonda.comunZONRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "ZONRTI",
@@ -2489,5 +2638,6 @@ const piezasZonda = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/ZONDA/ZONRTI.png",
     price: preciosZonda.comunZONRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
 ];

@@ -326,54 +326,61 @@ const piezasSiroco = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "SIROCCO ECO",
   },
   {
     id: "SIRCGRD",
-    title: "SIRCGRD ECO CHAISELONGUE GRANDE BRAZO DERECHA (110)",
+    title: "SIRCGRD ECO CHAISE LONGUE GRANDE BRAZO DERECHA (110)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCGRD.png",
     price: preciosSiroco.comunSIRCGRDI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRCGRI",
-    title: "SIRCGRI ECO CHAISELONGUE GRANDE BRAZO IZQUIERDA (110)",
+    title: "SIRCGRI ECO CHAISE LONGUE GRANDE BRAZO IZQUIERDA (110)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCGRI.png",
     price: preciosSiroco.comunSIRCGRDI,
     medida: 110,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRCMAD",
-    title: "SIRCMAD ECO CHAISELONGUE MAXI BRAZO DERECHA (120)",
+    title: "SIRCMAD ECO CHAISE LONGUE MAXI BRAZO DERECHA (120)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMAD.png",
     price: preciosSiroco.comunSIRCMADI,
     medida: 120,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRCMAI",
-    title: "SIRCMAI ECO CHAISELONGUE MAXI BRAZO IZQUIERDA (120)",
+    title: "SIRCMAI ECO CHAISE LONGUE MAXI BRAZO IZQUIERDA (120)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMAI.png",
     price: preciosSiroco.comunSIRCMADI,
     medida: 120,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRCMDD",
-    title: "SIRCMDD ECO CHAISELONGUE MEDIANO BRAZO DERECHA (100)",
+    title: "SIRCMDD ECO CHAISE LONGUE MEDIANO BRAZO DERECHA (100)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMDD.png",
     price: preciosSiroco.comunSIRCMDDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRCMDI",
-    title: "SIRCMDI ECO CHAISELONGUE MEDIANO BRAZO DERECHA (100)",
+    title: "SIRCMDI ECO CHAISE LONGUE MEDIANO BRAZO DERECHA (100)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRCMDI.png",
     price: preciosSiroco.comunSIRCMDDI,
     medida: 100,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SIRMGR",
@@ -382,6 +389,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGR.png",
     price: preciosSiroco.comunSIRMGR,
     medida: 80,
+    categoria: "MODULO",
   },
   {
     id: "SIRMGRI",
@@ -390,6 +398,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGRI.png",
     price: preciosSiroco.comunSIRMGRDI,
     medida: 110,
+    categoria: "MODULO",
   },
   {
     id: "SIRMGRD",
@@ -398,6 +407,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMGRD.png",
     price: preciosSiroco.comunSIRMGRDI,
     medida: 110,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMA",
@@ -406,6 +416,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMA.png",
     price: preciosSiroco.comunSIRMMA,
     medida: 90,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMAD",
@@ -414,6 +425,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMAD.png",
     price: preciosSiroco.comunSIRMMADI,
     medida: 120,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMAI",
@@ -422,6 +434,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMAI.png",
     price: preciosSiroco.comunSIRMMADI,
     medida: 120,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMD",
@@ -430,6 +443,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMD.png",
     price: preciosSiroco.comunSIRMMD,
     medida: 70,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMDD",
@@ -438,6 +452,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMDD.png",
     price: preciosSiroco.comunSIRMMDDI,
     medida: 100,
+    categoria: "MODULO",
   },
   {
     id: "SIRMMDI",
@@ -446,6 +461,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMMDI.png",
     price: preciosSiroco.comunSIRMMDDI,
     medida: 100,
+    categoria: "MODULO",
   },
   {
     id: "SIRMXL",
@@ -454,6 +470,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXL.png",
     price: preciosSiroco.comunSIRMXL,
     medida: 110,
+    categoria: "MODULO",
   },
   {
     id: "SIRMXLD",
@@ -462,6 +479,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXLD.png",
     price: preciosSiroco.comunSIRMXLDI,
     medida: 140,
+    categoria: "MODULO",
   },
   {
     id: "SIRMXLI",
@@ -470,6 +488,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRMXLI.png",
     price: preciosSiroco.comunSIRMXLDI,
     medida: 140,
+    categoria: "MODULO",
   },
   {
     id: "SIRRC",
@@ -478,6 +497,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRC.png",
     price: preciosSiroco.comunSIRRC,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIRRTD",
@@ -486,6 +506,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRTD.png",
     price: preciosSiroco.comunSIRRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIRRTI",
@@ -494,6 +515,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRRTI.png",
     price: preciosSiroco.comunSIRRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIRTD",
@@ -502,6 +524,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRTD.png",
     price: preciosSiroco.comunSIRTD,
     medida: 80,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "SIRTI",
@@ -510,6 +533,7 @@ const piezasSiroco = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SIROCO/SIRTI.png",
     price: preciosSiroco.comunSIRTD,
     medida: 80,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 
@@ -519,78 +543,88 @@ const piezasSisal = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "SISAL",
   },
   {
     id: "SISCGRED",
-    title: "SISCGRED CHAISELONGUE GRANDE CABEZAL MOTOR DERECHO (104)",
+    title: "SISCGRED CHAISE LONGUE GRANDE CABEZAL MOTOR DERECHO (104)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCGRED.png",
     price: preciosSisal.comunSISCGREDI,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCGREI",
-    title: "SISCGREI CHAISELONGUE GRANDE CABEZAL MOTOR IZQ (104)",
+    title: "SISCGREI CHAISE LONGUE GRANDE CABEZAL MOTOR IZQ (104)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCGREI.png",
     price: preciosSisal.comunSISCGREDI,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMAED",
-    title: "SISCMAED CHAISELONGUE MAXI CABEZAL MOTOR DERECHO (114)",
+    title: "SISCMAED CHAISE LONGUE MAXI CABEZAL MOTOR DERECHO (114)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAED.png",
     price: preciosSisal.comunSISCMAEDI,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMAEI",
-    title: "SISCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQ (114)",
+    title: "SISCMAEI CHAISE LONGUE MAXI CABEZAL MOTOR IZQ (114)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAEI.png",
     price: preciosSisal.comunSISCMAEDI,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMAEI",
-    title: "SISCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQ (114)",
+    title: "SISCMAEI CHAISE LONGUE MAXI CABEZAL MOTOR IZQ (114)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMAEI.png",
     price: preciosSisal.comunSISCMAEDI,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMDED",
-    title: "SISCMDED CHAISELONGUE MEDIANO CABEZAL MOTOR DERECHO (94)",
+    title: "SISCMDED CHAISE LONGUE MEDIANO CABEZAL MOTOR DERECHO (94)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMDED.png",
     price: preciosSisal.comunSISCMDEDI,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMDEI",
-    title: "SISCMDEI CHAISELONGUE MEDIANO CABEZAL MOTOR IZQ (94)",
+    title: "SISCMDEI CHAISE LONGUE MEDIANO CABEZAL MOTOR IZQ (94)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMDEI.png",
     price: preciosSisal.comunSISCMDEDI,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMEED",
-    title: "SISCMEED CHAISELONGUE MEGA CABEZAL MOTOR DERECHO (124)",
+    title: "SISCMEED CHAISE LONGUE MEGA CABEZAL MOTOR DERECHO (124)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMEED.png",
     price: preciosSisal.comunSISCMEEDI,
     medida: 124,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISCMEEI",
-    title: "SISCMEEI CHAISELONGUE MEGA CABEZAL MOTOR IZQ (124)",
+    title: "SISCMEEI CHAISE LONGUE MEGA CABEZAL MOTOR IZQ (124)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISCMEEI.png",
     price: preciosSisal.comunSISCMEEDI,
     medida: 124,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "SISMGRRE",
@@ -599,6 +633,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRRE.png",
     price: preciosSisal.comunSISMGRRE,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "SISMGRRED",
@@ -607,6 +642,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRRED.png",
     price: preciosSisal.comunSISMGRREDI,
     medida: 104,
+    categoria: "MODULOS",
   },
   {
     id: "SISMGRREI",
@@ -615,6 +651,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMGRREI.png",
     price: preciosSisal.comunSISMGRREDI,
     medida: 104,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMARE",
@@ -623,6 +660,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMARE.png",
     price: preciosSisal.comunSISMMARE,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMARED",
@@ -631,6 +669,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMARED.png",
     price: preciosSisal.comunSISMMAREDI,
     medida: 114,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMAREI",
@@ -639,6 +678,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMAREI.png",
     price: preciosSisal.comunSISMMAREDI,
     medida: 114,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMDRE",
@@ -647,6 +687,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDRE.png",
     price: preciosSisal.comunSISMMDRE,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMDRED",
@@ -655,6 +696,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDRED.png",
     price: preciosSisal.comunSISMMDREDI,
     medida: 94,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMDREI",
@@ -663,6 +705,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMDREI.png",
     price: preciosSisal.comunSISMMDREDI,
     medida: 94,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMERE",
@@ -671,6 +714,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMERE.png",
     price: preciosSisal.comunSISMMERE,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMERED",
@@ -679,6 +723,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMERED.png",
     price: preciosSisal.comunSISMMEREDI,
     medida: 124,
+    categoria: "MODULOS",
   },
   {
     id: "SISMMEREI",
@@ -687,6 +732,7 @@ const piezasSisal = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/SISAL/SISMMEREI.png",
     price: preciosSisal.comunSISMMEREDI,
     medida: 124,
+    categoria: "MODULOS",
   },
 ];
 
@@ -1876,110 +1922,124 @@ const piezasTucson = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "TUCSON",
   },
   {
     id: "TUCCHGBD",
-    title: "TUCCHGBD CHAISELONGUE GRANDE (116) BRAZO CORTO DERECHO",
+    title: "TUCCHGBD CHAISE LONGUE GRANDE (116) BRAZO CORTO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHGBD.png",
     price: preciosTucson.comunTUCCHGBDI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHGBI",
-    title: "TUCCHGBI CHAISELONGUE GRANDE (116) BRAZO CORTO IZQ",
+    title: "TUCCHGBI CHAISE LONGUE GRANDE (116) BRAZO CORTO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHGBI.png",
     price: preciosTucson.comunTUCCHGBDI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHGD",
-    title: "TUCCHGD CHAISELONGUE GRANDE (116) BRAZO LARGO DERECHO",
+    title: "TUCCHGD CHAISE LONGUE GRANDE (116) BRAZO LARGO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHGD.png",
     price: preciosTucson.comunTUCCHGDI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHGI",
-    title: "TUCCHGI CHAISELONGUE GRANDE (116) BRAZO LARGO IZQ",
+    title: "TUCCHGI CHAISE LONGUE GRANDE (116) BRAZO LARGO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHGI.png",
     price: preciosTucson.comunTUCCHGDI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMABD",
-    title: "TUCCHMABD CHAISELONGUE MAXI (126) BRAZO CORTO DERECHO",
+    title: "TUCCHMABD CHAISE LONGUE MAXI (126) BRAZO CORTO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMABD.png",
     price: preciosTucson.comunTUCCHMABDI,
     medida: 126,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMABI",
-    title: "TUCCHMABI CHAISELONGUE MAXI (126) BRAZO CORTO IZQ",
+    title: "TUCCHMABI CHAISE LONGUE MAXI (126) BRAZO CORTO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMABI.png",
     price: preciosTucson.comunTUCCHMABDI,
     medida: 126,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMBD",
-    title: "TUCCHMBD CHAISELONGUE MEDIANA (106) BRAZO CORTO DERECHO",
+    title: "TUCCHMBD CHAISE LONGUE MEDIANA (106) BRAZO CORTO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMBD.png",
     price: preciosTucson.comunTUCCHMBDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMBI",
-    title: "TUCCHMBI CHAISELONGUE MEDIANA (106) BRAZO CORTO IZQ",
+    title: "TUCCHMBI CHAISE LONGUE MEDIANA (106) BRAZO CORTO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMBI.png",
     price: preciosTucson.comunTUCCHMBDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMD",
-    title: "TUCCHMD CHAISELONGUE MEDIANO (106) BRAZO LARGO DERECHO",
+    title: "TUCCHMD CHAISE LONGUE MEDIANO (106) BRAZO LARGO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMD.png",
     price: preciosTucson.comunTUCCHMDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHMI",
-    title: "TUCCHMI CHAISELONGUE MEDIANO (106) BRAZO LARGO IZQ",
+    title: "TUCCHMI CHAISE LONGUE MEDIANO (106) BRAZO LARGO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHMI.png",
     price: preciosTucson.comunTUCCHMDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHXD",
-    title: "TUCCHXD CHAISELONGUE MAXI (126) BRAZO LARGO DERECHO",
+    title: "TUCCHXD CHAISE LONGUE MAXI (126) BRAZO LARGO DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHXD.png",
     price: preciosTucson.comunTUCCHXDI,
     medida: 126,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCCHXI",
-    title: "TUCCHXI CHAISELONGUE MAXI (126) BRAZO LARGO IZQ",
+    title: "TUCCHXI CHAISE LONGUE MAXI (126) BRAZO LARGO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCCHXD.png",
     price: preciosTucson.comunTUCCHXDI,
     medida: 126,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCRA",
-    title: "TUCRA CHAISELONGUE MAXI (126) BRAZO LARGO IZQ",
+    title: "TUCRA CHAISE LONGUE MAXI (126) BRAZO LARGO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCRA.png",
     price: preciosTucson.comunTUCRA,
-    medida: 0,
+    medida: 126,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUCRB",
@@ -1988,6 +2048,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCRB.png",
     price: preciosTucson.comunTUCRB,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCRTGD",
@@ -1996,6 +2057,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCRTGD.png",
     price: preciosTucson.comunTUCRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCRTGI",
@@ -2004,6 +2066,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCRTGI.png",
     price: preciosTucson.comunTUCRTGDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCRTMD",
@@ -2012,6 +2075,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCRTMD.png",
     price: preciosTucson.comunTUCRTMDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCTD",
@@ -2020,6 +2084,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCTD.png",
     price: preciosTucson.comunTUCTDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCTI",
@@ -2028,6 +2093,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCTI.png",
     price: preciosTucson.comunTUCTDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCTRD",
@@ -2036,6 +2102,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCTRD.png",
     price: preciosTucson.comunTUCTRDI,
     medida: 143,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUCTRI",
@@ -2044,6 +2111,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUCTRI.png",
     price: preciosTucson.comunTUCTRDI,
     medida: 143,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC104D",
@@ -2052,6 +2120,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC104D.png",
     price: preciosTucson.comunTUC104DI,
     medida: 106,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC104I",
@@ -2060,6 +2129,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC104I.png",
     price: preciosTucson.comunTUC104DI,
     medida: 106,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC114D",
@@ -2068,6 +2138,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC114D.png",
     price: preciosTucson.comunTUC114DI,
     medida: 116,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC114I",
@@ -2076,6 +2147,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC114I.png",
     price: preciosTucson.comunTUC114DI,
     medida: 116,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC124D",
@@ -2084,6 +2156,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC124D.png",
     price: preciosTucson.comunTUC124DI,
     medida: 126,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC124I",
@@ -2092,6 +2165,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC124I.png",
     price: preciosTucson.comunTUC124DI,
     medida: 126,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUC2",
@@ -2100,6 +2174,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC2.png",
     price: preciosTucson.comunTUC2,
     medida: 192,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC2",
@@ -2108,6 +2183,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC2.png",
     price: preciosTucson.comunTUC2,
     medida: 192,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC2BD",
@@ -2116,6 +2192,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC2BD.png",
     price: preciosTucson.comunTUC2BDI,
     medida: 156,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC2BI",
@@ -2124,6 +2201,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC2BI.png",
     price: preciosTucson.comunTUC2BDI,
     medida: 156,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC2SB",
@@ -2132,6 +2210,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC2SB.png",
     price: preciosTucson.comunTUC2SB,
     medida: 120,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC25",
@@ -2140,6 +2219,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC25.png",
     price: preciosTucson.comunTUC25,
     medida: 212,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC25BD",
@@ -2148,6 +2228,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC25BD.png",
     price: preciosTucson.comunTUC25BDI,
     medida: 176,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC25BI",
@@ -2156,6 +2237,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC25BI.png",
     price: preciosTucson.comunTUC25BDI,
     medida: 176,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC25SB",
@@ -2164,6 +2246,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC25SB.png",
     price: preciosTucson.comunTUC25SB,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC3",
@@ -2172,6 +2255,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC3.png",
     price: preciosTucson.comunTUC3,
     medida: 232,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC3BD",
@@ -2180,6 +2264,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC3BD.png",
     price: preciosTucson.comunTUC3BDI,
     medida: 196,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC3BI",
@@ -2188,6 +2273,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC3BI.png",
     price: preciosTucson.comunTUC3BDI,
     medida: 196,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC3SB",
@@ -2196,6 +2282,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC3SB.png",
     price: preciosTucson.comunTUC3SB,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC35BD",
@@ -2204,6 +2291,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC35BD.png",
     price: preciosTucson.comunTUC35BDI,
     medida: 216,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC35BI",
@@ -2212,6 +2300,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC35BI.png",
     price: preciosTucson.comunTUC35BDI,
     medida: 216,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC35SB",
@@ -2220,6 +2309,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC35SB.png",
     price: preciosTucson.comunTUC35SB,
     medida: 180,
+    categoria: "SOFÁS",
   },
   {
     id: "TUC60",
@@ -2228,6 +2318,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC60.png",
     price: preciosTucson.comunTUC60,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "TUC70",
@@ -2236,6 +2327,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC70.png",
     price: preciosTucson.comunTUC70,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "TUC80",
@@ -2244,6 +2336,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC80.png",
     price: preciosTucson.comunTUC80,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUC90",
@@ -2252,6 +2345,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC90.png",
     price: preciosTucson.comunTUC90,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUC94D",
@@ -2260,6 +2354,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC94D.png",
     price: preciosTucson.comunTUC94DI,
     medida: 96,
+    categoria: "MODULOS",
   },
   {
     id: "TUC94I",
@@ -2268,6 +2363,7 @@ const piezasTucson = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUCSON/TUC94I.png",
     price: preciosTucson.comunTUC94DI,
     medida: 96,
+    categoria: "MODULOS",
   },
 ];
 
@@ -2277,134 +2373,151 @@ const piezasTundra = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "TUNDRA",
   },
   {
     id: "TUNCGRD",
-    title: "TUNCGRD CHAISELONGUE GRANDE CABEZAL MANUAL DERECHO (95)",
+    title: "TUNCGRD CHAISE LONGUE GRANDE CABEZAL MANUAL DERECHO (95)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCGRD.png",
     price: preciosTundra.comunTUNCGRDI,
     medida: 95,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCGRI",
-    title: "TUNCGRI CHAISELONGUE GRANDE CABEZAL MANUAL IZQ (95)",
+    title: "TUNCGRI CHAISE LONGUE GRANDE CABEZAL MANUAL IZQ (95)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCGRI.png",
     price: preciosTundra.comunTUNCGRDI,
     medida: 95,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCGRED",
-    title: "TUNCGRED CHAISELONGUE GRANDE CABEZAL MOTOR DERECHO (95)",
+    title: "TUNCGRED CHAISE LONGUE GRANDE CABEZAL MOTOR DERECHO (95)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCGRED.png",
     price: preciosTundra.comunTUNCGREDI,
     medida: 95,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCGREI",
-    title: "TUNCGREI CHAISELONGUE GRANDE CABEZAL MOTOR IZQUIERDO (95)",
+    title: "TUNCGREI CHAISE LONGUE GRANDE CABEZAL MOTOR IZQUIERDO (95)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCGREI.png",
     price: preciosTundra.comunTUNCGREDI,
     medida: 95,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMAD",
-    title: "TUNCMAD CHAISELONGUE MAXI CABEZAL MANUAL DERECHO (105)",
+    title: "TUNCMAD CHAISE LONGUE MAXI CABEZAL MANUAL DERECHO (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMAD.png",
     price: preciosTundra.comunTUNCMADI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMAI",
-    title: "TUNCMAI CHAISELONGUE MAXI CABEZAL MANUAL IZQ. (105)",
+    title: "TUNCMAI CHAISE LONGUE MAXI CABEZAL MANUAL IZQ. (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMAI.png",
     price: preciosTundra.comunTUNCMADI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMAEI",
-    title: "TUNCMAEI CHAISELONGUE MAXI CABEZAL MOTOR IZQUIERDO (105)",
+    title: "TUNCMAEI CHAISE LONGUE MAXI CABEZAL MOTOR IZQUIERDO (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMAEI.png",
     price: preciosTundra.comunTUNCMAEDI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMAED",
-    title: "TUNCMAED CHAISELONGUE MAXI CABEZAL MOTOR DERECHO (105)",
+    title: "TUNCMAED CHAISE LONGUE MAXI CABEZAL MOTOR DERECHO (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMAED.png",
     price: preciosTundra.comunTUNCMAEDI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMDD",
-    title: "TUNCMDD CHAISELONGUE MEDIANO CABEZAL MANUAL DERECHO (85)",
+    title: "TUNCMDD CHAISE LONGUE MEDIANO CABEZAL MANUAL DERECHO (85)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMDD.png",
     price: preciosTundra.comunTUNCMDDI,
     medida: 85,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMDI",
-    title: "TUNCMDI CHAISELONGUE MEDIANO CABEZAL MANUAL IZQ (85)",
+    title: "TUNCMDI CHAISE LONGUE MEDIANO CABEZAL MANUAL IZQ (85)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMDI.png",
     price: preciosTundra.comunTUNCMDDI,
     medida: 85,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMDED",
-    title: "TUNCMDED CHAISELONGUE MEDIANO CABEZAL MOTOR DERECHO (85)",
+    title: "TUNCMDED CHAISE LONGUE MEDIANO CABEZAL MOTOR DERECHO (85)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMDED.png",
     price: preciosTundra.comunTUNCMDEDI,
     medida: 85,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMDEI",
-    title: "TUNCMDEI CHAISELONGUE MEGA CABEZAL MANUAL IZQ (115)",
+    title: "TUNCMDEI CHAISE LONGUE MEGA CABEZAL MANUAL IZQ (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMDEI.png",
     price: preciosTundra.comunTUNCMDEDI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMED",
-    title: "TUNCMED CHAISELONGUE MEGA CABEZAL MANUAL DERECHO (115)",
+    title: "TUNCMED CHAISE LONGUE MEGA CABEZAL MANUAL DERECHO (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMED.png",
     price: preciosTundra.comunTUNCMEDI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMEI",
-    title: "TUNCMEI CHAISELONGUE MEGA CABEZAL MANUAL IZQ. (115)",
+    title: "TUNCMEI CHAISE LONGUE MEGA CABEZAL MANUAL IZQ. (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMEI.png",
     price: preciosTundra.comunTUNCMEDI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMEED",
-    title: "TUNCMEED CHAISELONGUE MEGA CABEZAL MOTOR DERECHO (115)",
+    title: "TUNCMEED CHAISE LONGUE MEGA CABEZAL MOTOR DERECHO (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMEED.png",
     price: preciosTundra.comunTUNCMEEDI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNCMEEI",
-    title: "TUNCMEEI CHAISELONGUE MEGA CABEZAL MOTOR DERECHO (115)",
+    title: "TUNCMEEI CHAISE LONGUE MEGA CABEZAL MOTOR DERECHO (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNCMEEI.png",
     price: preciosTundra.comunTUNCMEEDI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "TUNMGRF",
@@ -2413,6 +2526,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRF.png",
     price: preciosTundra.comunTUNMGRF,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRFD",
@@ -2421,6 +2535,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRFD.png",
     price: preciosTundra.comunTUNMGRFDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRFI",
@@ -2429,6 +2544,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRFD.png",
     price: preciosTundra.comunTUNMGRFDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRFE",
@@ -2437,6 +2553,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRFE.png",
     price: preciosTundra.comunTUNMGRFE,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRFED",
@@ -2445,6 +2562,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRFED.png",
     price: preciosTundra.comunTUNMGRFEDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRFEI",
@@ -2453,6 +2571,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRFEI.png",
     price: preciosTundra.comunTUNMGRFEDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRR",
@@ -2461,6 +2580,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRR.png",
     price: preciosTundra.comunTUNMGRR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRRD",
@@ -2469,6 +2589,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRRD.png",
     price: preciosTundra.comunTUNMGRRDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRRI",
@@ -2477,6 +2598,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRRI.png",
     price: preciosTundra.comunTUNMGRRDI,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRRE",
@@ -2485,6 +2607,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRRE.png",
     price: preciosTundra.comunTUNMGRRE,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRRED",
@@ -2493,6 +2616,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRRED.png",
     price: preciosTundra.comunTUNMGRREDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMGRREI",
@@ -2501,6 +2625,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMGRREI.png",
     price: preciosTundra.comunTUNMGRREDI,
     medida: 95,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAF",
@@ -2509,6 +2634,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAF.png",
     price: preciosTundra.comunTUNMMAF,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAFD",
@@ -2517,6 +2643,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAFD.png",
     price: preciosTundra.comunTUNMMAFDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAFI",
@@ -2525,6 +2652,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAFI.png",
     price: preciosTundra.comunTUNMMAFDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAFE",
@@ -2533,6 +2661,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAFE.png",
     price: preciosTundra.comunTUNMMAFE,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAFED",
@@ -2541,6 +2670,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAFED.png",
     price: preciosTundra.comunTUNMMAFEDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAFEI",
@@ -2549,6 +2679,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAFEI.png",
     price: preciosTundra.comunTUNMMAFEDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAR",
@@ -2557,6 +2688,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAR.png",
     price: preciosTundra.comunTUNMMAR,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMARD",
@@ -2565,6 +2697,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMARD.png",
     price: preciosTundra.comunTUNMMARDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMARI",
@@ -2573,6 +2706,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMARI.png",
     price: preciosTundra.comunTUNMMARDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMARE",
@@ -2581,6 +2715,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMARE.png",
     price: preciosTundra.comunTUNMMARE,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMARED",
@@ -2589,6 +2724,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMARED.png",
     price: preciosTundra.comunTUNMMAREDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMAREI",
@@ -2597,6 +2733,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMAREI.png",
     price: preciosTundra.comunTUNMMAREDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDF",
@@ -2605,6 +2742,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDF.png",
     price: preciosTundra.comunTUNMMDF,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDFD",
@@ -2613,6 +2751,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDFD.png",
     price: preciosTundra.comunTUNMMDFDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDFI",
@@ -2621,6 +2760,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDFI.png",
     price: preciosTundra.comunTUNMMDFDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDFE",
@@ -2629,6 +2769,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDFE.png",
     price: preciosTundra.comunTUNMMDFE,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDFED",
@@ -2637,6 +2778,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDFED.png",
     price: preciosTundra.comunTUNMMDFEDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDFEI",
@@ -2645,6 +2787,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDFEI.png",
     price: preciosTundra.comunTUNMMDFEDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDR",
@@ -2653,6 +2796,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDR.png",
     price: preciosTundra.comunTUNMMDR,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDRD",
@@ -2661,6 +2805,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDRD.png",
     price: preciosTundra.comunTUNMMDRDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDRI",
@@ -2669,6 +2814,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDRI.png",
     price: preciosTundra.comunTUNMMDRDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDRE",
@@ -2677,6 +2823,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDRE.png",
     price: preciosTundra.comunTUNMMDRE,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDREI",
@@ -2685,6 +2832,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDREI.png",
     price: preciosTundra.comunTUNMMDREDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMDRED",
@@ -2693,6 +2841,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMDRED.png",
     price: preciosTundra.comunTUNMMDREDI,
     medida: 85,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEF",
@@ -2701,6 +2850,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEF.png",
     price: preciosTundra.comunTUNMMEF,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEFD",
@@ -2709,6 +2859,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEFD.png",
     price: preciosTundra.comunTUNMMEFDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEFI",
@@ -2717,6 +2868,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEFI.png",
     price: preciosTundra.comunTUNMMEFDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEFE",
@@ -2725,6 +2877,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEFE.png",
     price: preciosTundra.comunTUNMMEFE,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEFED",
@@ -2733,6 +2886,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEFED.png",
     price: preciosTundra.comunTUNMMEFEDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEFEI",
@@ -2741,6 +2895,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEFEI.png",
     price: preciosTundra.comunTUNMMEFEDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMER",
@@ -2749,6 +2904,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMER.png",
     price: preciosTundra.comunTUNMMER,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMERD",
@@ -2757,6 +2913,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMERD.png",
     price: preciosTundra.comunTUNMMERDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMERI",
@@ -2765,6 +2922,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMERI.png",
     price: preciosTundra.comunTUNMMERDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMERE",
@@ -2773,6 +2931,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMERE.png",
     price: preciosTundra.comunTUNMMERE,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMERED",
@@ -2781,6 +2940,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMERED.png",
     price: preciosTundra.comunTUNMMEREDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMMEREI",
@@ -2789,6 +2949,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMMEREI.png",
     price: preciosTundra.comunTUNMMEREDI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLF",
@@ -2797,6 +2958,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLF.png",
     price: preciosTundra.comunTUNMXLF,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLFD",
@@ -2805,6 +2967,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLFD.png",
     price: preciosTundra.comunTUNMXLFDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLFI",
@@ -2813,6 +2976,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLFI.png",
     price: preciosTundra.comunTUNMXLFDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLFE",
@@ -2821,6 +2985,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLFE.png",
     price: preciosTundra.comunTUNMXLFE,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLFED",
@@ -2829,6 +2994,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLFED.png",
     price: preciosTundra.comunTUNMXLFEDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLFEI",
@@ -2837,6 +3003,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLFEI.png",
     price: preciosTundra.comunTUNMXLFEDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLR",
@@ -2845,6 +3012,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLR.png",
     price: preciosTundra.comunTUNMXLR,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLRD",
@@ -2853,6 +3021,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLRD.png",
     price: preciosTundra.comunTUNMXLRDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLRI",
@@ -2861,6 +3030,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLRI.png",
     price: preciosTundra.comunTUNMXLRDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLRE",
@@ -2869,6 +3039,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLRE.png",
     price: preciosTundra.comunTUNMXLRE,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLRED",
@@ -2877,6 +3048,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLRED.png",
     price: preciosTundra.comunTUNMXLREDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNMXLREI",
@@ -2885,6 +3057,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNMXLREI.png",
     price: preciosTundra.comunTUNMXLREDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "TUNRA",
@@ -2893,6 +3066,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNRA.png",
     price: preciosTundra.comunTUNRA,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUNRTD",
@@ -2901,6 +3075,7 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNRTD.png",
     price: preciosTundra.comunTUNRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "TUNRTI",
@@ -2909,5 +3084,6 @@ const piezasTundra = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/TUNDRA/TUNRTI.png",
     price: preciosTundra.comunTUNRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
 ];

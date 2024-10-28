@@ -588,54 +588,61 @@ const piezasPlateaAlta = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "PLATEA ALTA",
   },
   {
     id: "PLAACGRD",
-    title: "PLAACGRD CHAISELONGUE GRANDE DERECHO (105)",
+    title: "PLAACGRD CHAISE LONGUE GRANDE DERECHO (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACGRD.png",
     price: preciosPlateaAlta.comunPLAACGRDI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAACGRI",
-    title: "PLAACGRI CHAISELONGUE GRANDE IZQ (105)",
+    title: "PLAACGRI CHAISE LONGUE GRANDE IZQ (105)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACGRI.png",
     price: preciosPlateaAlta.comunPLAACGRDI,
     medida: 105,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAACMAD",
-    title: "PLAACMAD CHAISELONGUE MAXI DERECHO (115)",
+    title: "PLAACMAD CHAISE LONGUE MAXI DERECHO (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACMAD.png",
     price: preciosPlateaAlta.comunPLAACMADI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAACMAI",
-    title: "PLAACMAI CHAISELONGUE MAXI IZQ (115)",
+    title: "PLAACMAI CHAISE LONGUE MAXI IZQ (115)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACMAI.png",
     price: preciosPlateaAlta.comunPLAACMADI,
     medida: 115,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAACMED",
-    title: "PLAACMED CHAISELONGUE MEGA DERECHO (125)",
+    title: "PLAACMED CHAISE LONGUE MEGA DERECHO (125)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACMED.png",
     price: preciosPlateaAlta.comunPLAACMEDI,
     medida: 125,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAACMEI",
-    title: "PLAACMEI CHAISELONGUE MEGA IZQ (125)",
+    title: "PLAACMEI CHAISE LONGUE MEGA IZQ (125)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAACMEI.png",
     price: preciosPlateaAlta.comunPLAACMEDI,
     medida: 125,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAAMGR",
@@ -644,6 +651,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGR.png",
     price: preciosPlateaAlta.comunPLAAMGR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRD",
@@ -652,6 +660,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRD.png",
     price: preciosPlateaAlta.comunPLAAMGRDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRI",
@@ -660,6 +669,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRI.png",
     price: preciosPlateaAlta.comunPLAAMGRDI,
     medida: 105,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRM40",
@@ -668,6 +678,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRM40.png",
     price: preciosPlateaAlta.comunPLAAMGRM40I,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRM40I",
@@ -676,6 +687,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRM40I.png",
     price: preciosPlateaAlta.comunPLAAMGRM40I,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRM70",
@@ -684,6 +696,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRM70.png",
     price: preciosPlateaAlta.comunPLAAMGRM70I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRM70I",
@@ -692,6 +705,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRM70I.png",
     price: preciosPlateaAlta.comunPLAAMGRM70I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRP60",
@@ -700,6 +714,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRP60.png",
     price: preciosPlateaAlta.comunPLAAMGRP60I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMGRP60I",
@@ -708,6 +723,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMGRP60I.png",
     price: preciosPlateaAlta.comunPLAAMGRP60I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMA",
@@ -716,6 +732,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMA.png",
     price: preciosPlateaAlta.comunPLAAMMA,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAD",
@@ -724,6 +741,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAD.png",
     price: preciosPlateaAlta.comunPLAAMMADI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAI",
@@ -732,6 +750,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAI.png",
     price: preciosPlateaAlta.comunPLAAMMADI,
     medida: 115,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAM40",
@@ -740,6 +759,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAM40.png",
     price: preciosPlateaAlta.comunPLAAMMAM40I,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAM40I",
@@ -748,6 +768,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAM40I.png",
     price: preciosPlateaAlta.comunPLAAMMAM40I,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAM70",
@@ -756,6 +777,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAM70.png",
     price: preciosPlateaAlta.comunPLAAMMAM70I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAM70I",
@@ -764,6 +786,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAM70I.png",
     price: preciosPlateaAlta.comunPLAAMMAM70I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAP60",
@@ -772,6 +795,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAP60.png",
     price: preciosPlateaAlta.comunPLAAMMAP60I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMAP60I",
@@ -780,6 +804,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMAP60I.png",
     price: preciosPlateaAlta.comunPLAAMMAP60I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMME",
@@ -788,6 +813,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMME.png",
     price: preciosPlateaAlta.comunPLAAMME,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMED",
@@ -796,6 +822,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMED.png",
     price: preciosPlateaAlta.comunPLAAMMEDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEI",
@@ -804,6 +831,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEI.png",
     price: preciosPlateaAlta.comunPLAAMMEDI,
     medida: 125,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEM40",
@@ -812,6 +840,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEM40.png",
     price: preciosPlateaAlta.comunPLAAMMEM40I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEM40I",
@@ -820,6 +849,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEM40I.png",
     price: preciosPlateaAlta.comunPLAAMMEM40I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEM70",
@@ -828,6 +858,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEM70.png",
     price: preciosPlateaAlta.comunPLAAMMEM70I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEM70I",
@@ -836,6 +867,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEM70I.png",
     price: preciosPlateaAlta.comunPLAAMMEM70I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEP60",
@@ -844,6 +876,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEP60.png",
     price: preciosPlateaAlta.comunPLAAMMEP60I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMMEP60I",
@@ -852,6 +885,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMMEP60I.png",
     price: preciosPlateaAlta.comunPLAAMMEP60I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXL",
@@ -860,6 +894,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXL.png",
     price: preciosPlateaAlta.comunPLAAMXL,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLD",
@@ -868,6 +903,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLD.png",
     price: preciosPlateaAlta.comunPLAAMXLDI,
     medida: 135,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLI",
@@ -876,6 +912,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLI.png",
     price: preciosPlateaAlta.comunPLAAMXLDI,
     medida: 135,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLM40",
@@ -884,6 +921,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLM40.png",
     price: preciosPlateaAlta.comunPLAAMXLM40I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLM40I",
@@ -892,6 +930,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLM40I.png",
     price: preciosPlateaAlta.comunPLAAMXLM40I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLM70",
@@ -900,6 +939,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLM70.png",
     price: preciosPlateaAlta.comunPLAAMXLM70I,
     medida: 180,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLM70I",
@@ -908,6 +948,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLM70I.png",
     price: preciosPlateaAlta.comunPLAAMXLM70I,
     medida: 180,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLP60",
@@ -916,6 +957,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLP60.png",
     price: preciosPlateaAlta.comunPLAAMXLP60I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAMXLP60I",
@@ -924,6 +966,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAMXLP60I.png",
     price: preciosPlateaAlta.comunPLAAMXLP60I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAAR",
@@ -932,6 +975,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAAR.png",
     price: preciosPlateaAlta.comunPLAAR,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAASTGRD",
@@ -940,6 +984,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAASTGRD.png",
     price: preciosPlateaAlta.comunPLAASTGRDI,
     medida: 228,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAASTGRI",
@@ -948,6 +993,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAASTGRI.png",
     price: preciosPlateaAlta.comunPLAASTGRDI,
     medida: 228,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATGRD",
@@ -956,6 +1002,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATGRD.png",
     price: preciosPlateaAlta.comunPLAATGRDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATGRI",
@@ -964,6 +1011,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATGRI.png",
     price: preciosPlateaAlta.comunPLAATGRDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATMAD",
@@ -972,6 +1020,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATMAD.png",
     price: preciosPlateaAlta.comunPLAATMADI,
     medida: 133,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATMAI",
@@ -980,6 +1029,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATMAI.png",
     price: preciosPlateaAlta.comunPLAATMADI,
     medida: 133,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATMED",
@@ -988,6 +1038,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATMED.png",
     price: preciosPlateaAlta.comunPLAATMEDI,
     medida: 143,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAATMEI",
@@ -996,6 +1047,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAATMEI.png",
     price: preciosPlateaAlta.comunPLAATMEDI,
     medida: 143,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLAA3",
@@ -1004,6 +1056,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA3.png",
     price: preciosPlateaAlta.comunPLAA3,
     medida: 210,
+    categoria: "SOFÁS",
   },
   {
     id: "PLAA3",
@@ -1012,6 +1065,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA3.png",
     price: preciosPlateaAlta.comunPLAA3,
     medida: 210,
+    categoria: "SOFÁS",
   },
   {
     id: "PLAA3D",
@@ -1020,6 +1074,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA3D.png",
     price: preciosPlateaAlta.comunPLAA3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "PLAA3I",
@@ -1028,6 +1083,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA3I.png",
     price: preciosPlateaAlta.comunPLAA3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "PLAA35D",
@@ -1036,6 +1092,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA35D.png",
     price: preciosPlateaAlta.comunPLAA35DI,
     medida: 205,
+    categoria: "SOFÁS",
   },
   {
     id: "PLAA35I",
@@ -1044,6 +1101,7 @@ const piezasPlateaAlta = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEAALTA/PLAA35I.png",
     price: preciosPlateaAlta.comunPLAA35DI,
     medida: 205,
+    categoria: "SOFÁS",
   },
 ];
 
@@ -1053,54 +1111,61 @@ const piezasPlateaBaja = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "PLATEA BAJA",
   },
   {
     id: "PLACGRD",
-    title: "PLACGRD CHAISELONGUE GRANDE DERECHO (104)",
+    title: "PLACGRD CHAISE LONGUE GRANDE DERECHO (104)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACGRD.png",
     price: preciosPlateaBaja.comunPLACGRDI,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLACGRI",
-    title: "PLACGRI CHAISELONGUE GRANDE IZQ (104)",
+    title: "PLACGRI CHAISE LONGUE GRANDE IZQ (104)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACGRI.png",
     price: preciosPlateaBaja.comunPLACGRDI,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLACMAD",
-    title: "PLACMAD CHAISELONGUE MAXI DERECHO (114)",
+    title: "PLACMAD CHAISE LONGUE MAXI DERECHO (114)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACMAD.png",
     price: preciosPlateaBaja.comunPLACMADI,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLACMAI",
-    title: "PLACMAI CHAISELONGUE MAXI IZQ (114)",
+    title: "PLACMAI CHAISE LONGUE MAXI IZQ (114)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACMAI.png",
     price: preciosPlateaBaja.comunPLACMADI,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLACMED",
-    title: "PLACMED CHAISELONGUE MEGA DERECHO (124)",
+    title: "PLACMED CHAISE LONGUE MEGA DERECHO (124)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACMED.png",
     price: preciosPlateaBaja.comunPLACMEDI,
     medida: 124,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLACMEI",
-    title: "PLACMEI CHAISELONGUE MEGA IZQ (124)",
+    title: "PLACMEI CHAISE LONGUE MEGA IZQ (124)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLACMEI.png",
     price: preciosPlateaBaja.comunPLACMEDI,
     medida: 124,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "PLAMGR",
@@ -1109,6 +1174,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGR.png",
     price: preciosPlateaBaja.comunPLAMGR,
     medida: 124,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRD",
@@ -1117,6 +1183,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRD.png",
     price: preciosPlateaBaja.comunPLAMGRDI,
     medida: 104,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRI",
@@ -1125,6 +1192,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRI.png",
     price: preciosPlateaBaja.comunPLAMGRDI,
     medida: 104,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRM40",
@@ -1133,6 +1201,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRM40.png",
     price: preciosPlateaBaja.comunPLAMGRM40I,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRM40I",
@@ -1141,6 +1210,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRM40I.png",
     price: preciosPlateaBaja.comunPLAMGRM40I,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRM70",
@@ -1149,6 +1219,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRM70.png",
     price: preciosPlateaBaja.comunPLAMGRM70I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRM70I",
@@ -1157,6 +1228,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRM70I.png",
     price: preciosPlateaBaja.comunPLAMGRM70I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRP60",
@@ -1165,6 +1237,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRP60.png",
     price: preciosPlateaBaja.comunPLAMGRP60I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMGRP60I",
@@ -1173,6 +1246,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMGRP60I.png",
     price: preciosPlateaBaja.comunPLAMGRP60I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMA",
@@ -1181,6 +1255,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMA.png",
     price: preciosPlateaBaja.comunPLAMMA,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAD",
@@ -1189,6 +1264,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAD.png",
     price: preciosPlateaBaja.comunPLAMMADI,
     medida: 114,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMADI",
@@ -1197,6 +1273,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMADI.png",
     price: preciosPlateaBaja.comunPLAMMADI,
     medida: 114,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAM40",
@@ -1205,6 +1282,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAM40.png",
     price: preciosPlateaBaja.comunPLAMMAM40I,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAM40I",
@@ -1213,6 +1291,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAM40I.png",
     price: preciosPlateaBaja.comunPLAMMAM40I,
     medida: 130,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAM70",
@@ -1221,6 +1300,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAM70.png",
     price: preciosPlateaBaja.comunPLAMMAM70I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAM70I",
@@ -1229,6 +1309,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAM70I.png",
     price: preciosPlateaBaja.comunPLAMMAM70I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAP60",
@@ -1237,6 +1318,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAP60.png",
     price: preciosPlateaBaja.comunPLAMMAP60I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMAP60I",
@@ -1245,6 +1327,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMAP60I.png",
     price: preciosPlateaBaja.comunPLAMMAP60I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMME",
@@ -1253,6 +1336,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMME.png",
     price: preciosPlateaBaja.comunPLAMME,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMED",
@@ -1261,6 +1345,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMED.png",
     price: preciosPlateaBaja.comunPLAMMEDI,
     medida: 124,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEI",
@@ -1269,6 +1354,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEI.png",
     price: preciosPlateaBaja.comunPLAMMEDI,
     medida: 124,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEM40",
@@ -1277,6 +1363,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEM40.png",
     price: preciosPlateaBaja.comunPLAMMEM40I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEM40I",
@@ -1285,6 +1372,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEM40I.png",
     price: preciosPlateaBaja.comunPLAMMEM40I,
     medida: 140,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEM70",
@@ -1293,6 +1381,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEM70.png",
     price: preciosPlateaBaja.comunPLAMMEM70I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEM70I",
@@ -1301,6 +1390,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEM70I.png",
     price: preciosPlateaBaja.comunPLAMMEM70I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEP60",
@@ -1309,6 +1399,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEP60.png",
     price: preciosPlateaBaja.comunPLAMMEP60I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMMEP60I",
@@ -1317,6 +1408,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMMEP60I.png",
     price: preciosPlateaBaja.comunPLAMMEP60I,
     medida: 160,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXL",
@@ -1325,6 +1417,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXL.png",
     price: preciosPlateaBaja.comunPLAMXL,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLD",
@@ -1333,6 +1426,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLD.png",
     price: preciosPlateaBaja.comunPLAMXLDI,
     medida: 135,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLI",
@@ -1341,6 +1435,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLI.png",
     price: preciosPlateaBaja.comunPLAMXLDI,
     medida: 135,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLM40",
@@ -1349,6 +1444,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLM40.png",
     price: preciosPlateaBaja.comunPLAMXLM40I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLM40I",
@@ -1357,6 +1453,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLM40I.png",
     price: preciosPlateaBaja.comunPLAMXLM40I,
     medida: 150,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLM70",
@@ -1365,6 +1462,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLM70.png",
     price: preciosPlateaBaja.comunPLAMXLM70I,
     medida: 180,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLM70I",
@@ -1373,6 +1471,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLM70I.png",
     price: preciosPlateaBaja.comunPLAMXLM70I,
     medida: 180,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLP60",
@@ -1381,6 +1480,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLP60.png",
     price: preciosPlateaBaja.comunPLAMXLP60I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAMXLP60I",
@@ -1389,6 +1489,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAMXLP60I.png",
     price: preciosPlateaBaja.comunPLAMXLP60I,
     medida: 170,
+    categoria: "MODULOS",
   },
   {
     id: "PLAR",
@@ -1397,6 +1498,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLAR.png",
     price: preciosPlateaBaja.comunPLAR,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLASTGRD",
@@ -1405,6 +1507,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLASTGRD.png",
     price: preciosPlateaBaja.comunPLASTGRDI,
     medida: 228,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLASTGRI",
@@ -1413,6 +1516,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLASTGRI.png",
     price: preciosPlateaBaja.comunPLASTGRDI,
     medida: 228,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATGRD",
@@ -1421,6 +1525,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATGRD.png",
     price: preciosPlateaBaja.comunPLATGRDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATGRI",
@@ -1429,22 +1534,25 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATGRI.png",
     price: preciosPlateaBaja.comunPLATGRDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATMAD",
-    title: "PLATMAD MAXI (133) DERECHO",
+    title: "PLATMAD TERMINAL MAXI (133) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATMAD.png",
     price: preciosPlateaBaja.comunPLATMADI,
     medida: 133,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATMAI",
-    title: "PLATMAI TERMINAL GRANDE (123) IZQ",
+    title: "PLATMAI TERMINAL MAXI (123) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATMAI.png",
     price: preciosPlateaBaja.comunPLATMADI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATMED",
@@ -1453,6 +1561,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATMED.png",
     price: preciosPlateaBaja.comunPLATMEDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLATMEI",
@@ -1461,6 +1570,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLATMEI.png",
     price: preciosPlateaBaja.comunPLATMEDI,
     medida: 123,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "PLA3",
@@ -1469,6 +1579,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLA3.png",
     price: preciosPlateaBaja.comunPLA3,
     medida: 208,
+    categoria: "SOFÁS",
   },
   {
     id: "PLA3D",
@@ -1477,6 +1588,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLA3D.png",
     price: preciosPlateaBaja.comunPLA3DI,
     medida: 184,
+    categoria: "SOFÁS",
   },
   {
     id: "PLA3I",
@@ -1485,6 +1597,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLA3I.png",
     price: preciosPlateaBaja.comunPLA3DI,
     medida: 184,
+    categoria: "SOFÁS",
   },
   {
     id: "PLA35D",
@@ -1493,6 +1606,7 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLA35D.png",
     price: preciosPlateaBaja.comunPLA35DI,
     medida: 204,
+    categoria: "SOFÁS",
   },
   {
     id: "PLA35I",
@@ -1501,5 +1615,6 @@ const piezasPlateaBaja = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/PLATEABAJA/PLA35I.png",
     price: preciosPlateaBaja.comunPLA35DI,
     medida: 204,
+    categoria: "SOFÁS",
   },
 ];

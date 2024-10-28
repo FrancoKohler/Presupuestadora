@@ -38,7 +38,7 @@ const piezasCoral = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "",
-    categoria: "",
+    categoria: "CORAL",
   },
   {
     id: "CORS",
@@ -71,7 +71,6 @@ const suplementoCoral = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "",
   },
   {
     id: "CORCUA",
@@ -134,7 +133,7 @@ const piezasDana = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "",
+    categoria: "DANA",
   },
   {
     id: "DAN235",
@@ -966,7 +965,7 @@ const piezasGiantLit = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: " ",
+    categoria: "GIANT LITTLE",
   },
   {
     id: "GIALCGD",
@@ -1380,7 +1379,7 @@ const piezasGiant = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: " ",
+    categoria: "GIANT",
   },
   {
     id: "GIACMGD",
@@ -2381,7 +2380,7 @@ const piezasKappa = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: " ",
+    categoria: "KAPPA",
   },
   {
     id: "SIGMGRFSB",
@@ -2815,7 +2814,7 @@ const piezasSigma = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "",
+    categoria: "SIGMA",
   },
   {
     id: "SIGCGD",

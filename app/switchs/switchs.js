@@ -795,7 +795,7 @@ document.addEventListener("DOMContentLoaded", function () {
       posapiesAMostrar.forEach((posapie) => {
         const option = document.createElement("option");
         option.value = posapie.id;
-        option.textContent = `${posapie.title}`;
+        option.textContent = `${posapie.title.toUpperCase()}`;
         option.dataset.price = JSON.stringify(posapie.price);
         dropdown.appendChild(option);
       });
@@ -810,7 +810,7 @@ document.addEventListener("DOMContentLoaded", function () {
       respaldosAMostrar.forEach((respaldo) => {
         const option = document.createElement("option");
         option.value = respaldo.id;
-        option.textContent = `${respaldo.title}`;
+        option.textContent = `${respaldo.title.toUpperCase()}`;
         option.dataset.price = JSON.stringify(respaldo.price);
         dropdown.appendChild(option);
       });
@@ -1135,7 +1135,7 @@ document.addEventListener("DOMContentLoaded", function () {
       options.forEach((option) => {
         const optionElement = document.createElement("option");
         optionElement.value = option.id;
-        optionElement.textContent = option.title;
+        optionElement.textContent = option.title.toUpperCase();
         select.appendChild(optionElement);
       });
     });

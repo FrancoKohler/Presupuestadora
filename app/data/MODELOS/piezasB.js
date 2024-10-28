@@ -228,7 +228,7 @@ const piezasBarine = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "",
-    categoria: "",
+    categoria: "BARINE",
   },
   {
     id: "BARCGD",
@@ -1262,7 +1262,7 @@ const piezasBertina = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "",
-    categoria: "",
+    categoria: "BERTINA",
   },
   {
     id: "BERCGD",
@@ -1847,7 +1847,7 @@ const piezasBertinaLit = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "",
-    categoria: "",
+    categoria: "BERTINA LITTLE",
   },
   {
     id: "BERCGD",

@@ -273,6 +273,7 @@ const piezasLino = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "LINO",
   },
   {
     id: "LINCGRD",
@@ -281,6 +282,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_DER.png",
     price: preciosLino.comunLINCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   ,
   {
@@ -290,6 +292,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_80_IZQ.png",
     price: preciosLino.comunLINCGR,
     medida: 104,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINCMAD",
@@ -298,6 +301,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_DER.png",
     price: preciosLino.comunLINCMA,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINCMAI",
@@ -306,6 +310,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_90_IZQ.png",
     price: preciosLino.comunLINCMA,
     medida: 114,
+    categoria: "CHAISE LONGUE",
   },
   /*--------PIEZAS MEDIANAS-------*/
   {
@@ -315,6 +320,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_DER.png",
     price: preciosLino.comunLINCMD,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINCMDI",
@@ -323,6 +329,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_70_IZQ.png",
     price: preciosLino.comunLINCMD,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINMMDD",
@@ -331,6 +338,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_DER.png",
     price: preciosLino.comunLINMMDI,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINMMDI",
@@ -339,6 +347,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_IZQ.png",
     price: preciosLino.comunLINMMDI,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINMMD",
@@ -347,6 +356,7 @@ const piezasLino = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M70_SB.png",
     price: preciosLino.comunLINMMD,
     medida: 94,
+    categoria: "CHAISE LONGUE",
   },
   /*--------ARRIBA MEDIANAS-------*/
   {
@@ -355,6 +365,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_DER.png",
     price: preciosLino.comunLINCME,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINCMEI",
@@ -362,6 +373,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/CH_100_IZQ.png",
     price: preciosLino.comunLINCME,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "LINMGR",
@@ -369,6 +381,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_SB.png",
     price: preciosLino.comunLINMGR,
+    categoria: "MODULOS",
   },
   {
     id: "LINMGRD",
@@ -376,6 +389,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_DER.png",
     price: preciosLino.comunLINMGRDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMGRI",
@@ -383,6 +397,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M80_IZQ.png",
     price: preciosLino.comunLINMGRDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMMA",
@@ -390,6 +405,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_SB.png",
     price: preciosLino.comunLINMMA,
+    categoria: "MODULOS",
   },
   {
     id: "LINMMAD",
@@ -397,6 +413,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_DER.png",
     price: preciosLino.comunLINMMADI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMMAI",
@@ -404,6 +421,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M90_IZQ.png",
     price: preciosLino.comunLINMMADI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMME",
@@ -411,6 +429,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_SB.png",
     price: preciosLino.comunLINMME,
+    categoria: "MODULOS",
   },
   {
     id: "LINMMED",
@@ -418,6 +437,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_DER.png",
     price: preciosLino.comunLINMMEDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMMEI",
@@ -425,6 +445,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M100_IZQ.png",
     price: preciosLino.comunLINMMEDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMXL",
@@ -432,6 +453,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_SB.png",
     price: preciosLino.comunLINMXL,
+    categoria: "MODULOS",
   },
   {
     id: "LINMXLD",
@@ -439,6 +461,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_DER.png",
     price: preciosLino.comunLINMXLDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINMXLI",
@@ -446,6 +469,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/M110_IZQ.png",
     price: preciosLino.comunLINMXLDI,
+    categoria: "MODULOS",
   },
   {
     id: "LINRA",
@@ -453,6 +477,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RA.png",
     price: preciosLino.comunLINRA,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINRTD",
@@ -460,6 +485,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_DER.png",
     price: preciosLino.comunLINRTDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINRTI",
@@ -467,6 +493,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/RT_IZQ.png",
     price: preciosLino.comunLINRTDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINTGRD",
@@ -474,6 +501,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_DER.png",
     price: preciosLino.comunLINTGRDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINTGRI",
@@ -481,6 +509,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_80_IZQ.png",
     price: preciosLino.comunLINTGRDI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINTMAD",
@@ -488,6 +517,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_DER.png",
     price: preciosLino.comunLINTMADI,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "LINTMAI",
@@ -495,6 +525,7 @@ const piezasLino = [
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/LINO/TER_90_IZQ.png",
     price: preciosLino.comunLINTMADI,
+    categoria: "RINCONES / TERMINALES",
   },
 ];
 
@@ -955,54 +986,61 @@ const piezasMistral = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "MISTRAL",
   },
   {
     id: "MISCGD",
-    title: "MISCGD CHAISELONGUE GRANDE (102) DERECHO",
+    title: "MISCGD CHAISE LONGUE GRANDE (102) DERECHO",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGD.png",
     price: preciosMistral.comunMISCGDI,
     medida: 102,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISCGI",
-    title: "MISCGI CHAISELONGUE GRANDE (102) IZQ",
+    title: "MISCGI CHAISE LONGUE GRANDE (102) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGI.png",
     price: preciosMistral.comunMISCGDI,
     medida: 102,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISCMAD",
-    title: "MISCMAD CHAISELONGUE MAXI (112) DER",
+    title: "MISCMAD CHAISE LONGUE MAXI (112) DER",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCMAD.png",
     price: preciosMistral.comunMISCMADI,
     medida: 112,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISCGI",
-    title: "MISCGI CHAISELONGUE MAXI (112) IZQ",
+    title: "MISCGI CHAISE LONGUE MAXI (112) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGI.png",
     price: preciosMistral.comunMISCMADI,
     medida: 112,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISCMDD",
-    title: "MISCMDD CHAISELONGUE MEDIANO (92) DER",
+    title: "MISCMDD CHAISE LONGUE MEDIANO (92) DER",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCMDD.png",
     price: preciosMistral.comunMISCMDDI,
     medida: 112,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISCGI",
-    title: "MISCGI CHAISELONGUE MEDIANO (92) IZQ",
+    title: "MISCGI CHAISE LONGUE MEDIANO (92) IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISCGI.png",
     price: preciosMistral.comunMISCMDDI,
     medida: 112,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MISMGRFBD",
@@ -1011,6 +1049,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRFBD.png",
     price: preciosMistral.comunMISMGRFBDI,
     medida: 102,
+    categoria: "MODULOS",
   },
   {
     id: "MISMGRFBI",
@@ -1019,6 +1058,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRFBI.png",
     price: preciosMistral.comunMISMGRFBDI,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMGRFSB",
@@ -1027,6 +1067,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRFSB.png",
     price: preciosMistral.comunMISMGRFSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "MISMGRRBD",
@@ -1035,6 +1076,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRRBD.png",
     price: preciosMistral.comunMISMGRRBDI,
     medida: 102,
+    categoria: "MODULOS",
   },
   {
     id: "MISMGRRBI",
@@ -1043,6 +1085,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRRBI.png",
     price: preciosMistral.comunMISMGRRBDI,
     medida: 102,
+    categoria: "MODULOS",
   },
   {
     id: "MISMGRRSB",
@@ -1051,6 +1094,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMGRRSB.png",
     price: preciosMistral.comunMISMGRRSB,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLFBD",
@@ -1059,6 +1103,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLFBD.png",
     price: preciosMistral.comunMISMLFBDI,
     medida: 122,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLFBI",
@@ -1067,6 +1112,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLFBI.png",
     price: preciosMistral.comunMISMLFBDI,
     medida: 122,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLFSB",
@@ -1075,6 +1121,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLFSB.png",
     price: preciosMistral.comunMISMLFSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLRBD",
@@ -1083,6 +1130,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLRBD.png",
     price: preciosMistral.comunMISMLRBID,
     medida: 122,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLRBI",
@@ -1091,6 +1139,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLRBI.png",
     price: preciosMistral.comunMISMLRBID,
     medida: 122,
+    categoria: "MODULOS",
   },
   {
     id: "MISMLRSB",
@@ -1099,6 +1148,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMLRSB.png",
     price: preciosMistral.comunMISMLRSB,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMAFBD",
@@ -1107,6 +1157,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMAFBD.png",
     price: preciosMistral.comunMISMMAFBDI,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMAFBI",
@@ -1115,6 +1166,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMAFBI.png",
     price: preciosMistral.comunMISMMAFBDI,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMAFSB",
@@ -1123,6 +1175,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMAFSB.png",
     price: preciosMistral.comunMISMMAFSB,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMARBD",
@@ -1131,6 +1184,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMARBD.png",
     price: preciosMistral.comunMISMMARBDI,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMARBI",
@@ -1139,6 +1193,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMARBI.png",
     price: preciosMistral.comunMISMMARBDI,
     medida: 112,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMARSB",
@@ -1147,6 +1202,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMARSB.png",
     price: preciosMistral.comunMISMMARSB,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDFBD",
@@ -1155,6 +1211,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDFBD.png",
     price: preciosMistral.comunMISMMDFBDI,
     medida: 92,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDFBI",
@@ -1163,6 +1220,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDFBI.png",
     price: preciosMistral.comunMISMMDFBDI,
     medida: 92,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDFSB",
@@ -1171,6 +1229,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDFSB.png",
     price: preciosMistral.comunMISMMDFSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDRBD",
@@ -1179,6 +1238,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDRBD.png",
     price: preciosMistral.comunMISMMDRBDI,
     medida: 92,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDRBI",
@@ -1187,6 +1247,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDRBI.png",
     price: preciosMistral.comunMISMMDRBDI,
     medida: 92,
+    categoria: "MODULOS",
   },
   {
     id: "MISMMDRSB",
@@ -1195,6 +1256,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMMDRSB.png",
     price: preciosMistral.comunMISMMDRSB,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQFBD",
@@ -1203,6 +1265,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQFBD.png",
     price: preciosMistral.comunMISMPQFBDI,
     medida: 82,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQFBI",
@@ -1211,6 +1274,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQFBI.png",
     price: preciosMistral.comunMISMPQFBDI,
     medida: 82,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQFSB",
@@ -1219,6 +1283,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQFSB.png",
     price: preciosMistral.comunMISMPQFSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQRBD",
@@ -1227,6 +1292,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQRBD.png",
     price: preciosMistral.comunMISMPQRBDI,
     medida: 82,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQRBI",
@@ -1235,6 +1301,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQRBI.png",
     price: preciosMistral.comunMISMPQRBDI,
     medida: 82,
+    categoria: "MODULOS",
   },
   {
     id: "MISMPQRSB",
@@ -1243,6 +1310,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMPQRSB.png",
     price: preciosMistral.comunMISMPQRSB,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLFBD",
@@ -1251,6 +1319,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLFBD.png",
     price: preciosMistral.comunMISMXLFBDI,
     medida: 132,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLFBI",
@@ -1259,6 +1328,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLFBI.png",
     price: preciosMistral.comunMISMXLFBDI,
     medida: 132,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLFSB",
@@ -1267,6 +1337,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLFSB.png",
     price: preciosMistral.comunMISMXLFSB,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLRBD",
@@ -1275,6 +1346,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLRBD.png",
     price: preciosMistral.comunMISMXLRBDI,
     medida: 132,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLRBI",
@@ -1283,6 +1355,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLRBI.png",
     price: preciosMistral.comunMISMXLRBDI,
     medida: 132,
+    categoria: "MODULOS",
   },
   {
     id: "MISMXLRSB",
@@ -1291,6 +1364,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISMXLRSB.png",
     price: preciosMistral.comunMISMXLRSB,
     medida: 132,
+    categoria: "MODULOS",
   },
   {
     id: "MISRTD",
@@ -1299,6 +1373,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISRTD.png",
     price: preciosMistral.comunMISRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MISRTI",
@@ -1307,6 +1382,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISRTI.png",
     price: preciosMistral.comunMISRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MISSF",
@@ -1315,6 +1391,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISSF.png",
     price: preciosMistral.comunMISSF,
     medida: 104,
+    categoria: "BUTACAS",
   },
   {
     id: "MISSR",
@@ -1323,6 +1400,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MISSR.png",
     price: preciosMistral.comunMISSR,
     medida: 104,
+    categoria: "BUTACAS",
   },
   {
     id: "MIS2",
@@ -1331,6 +1409,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MIS2.png",
     price: preciosMistral.comunMIS2,
     medida: 104,
+    categoria: "SOFÁS",
   },
   {
     id: "MIS3",
@@ -1339,6 +1418,7 @@ const piezasMistral = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MISTRAL/MIS3.png",
     price: preciosMistral.comunMIS3,
     medida: 104,
+    categoria: "SOFÁS",
   },
 ];
 /*----------PRECIOS MEMPHIS---------------*/
@@ -1740,103 +1820,118 @@ const piezasMemphis = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "MEMPHIS",
   },
   {
     id: "MEMCC25D",
     title:
-      "MEMCC25D CHAISELONGUE MEDIANO CON MARTILLO BRAZO CORTO DERECHO (83) ",
+      "MEMCC25D CHAISE LONGUE MEDIANO CON MARTILLO BRAZO CORTO DERECHO (83) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC25D.png",
     price: preciosMemphis.comunMEMCC25DI,
     medida: 83,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMCC25I",
-    title: "MEMCC25I CHAISELONGUE MEDIANO CON MARTILLO BRAZO CORTO IZQ (83) ",
+    title: "MEMCC25I CHAISE LONGUE MEDIANO CON MARTILLO BRAZO CORTO IZQ (83) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC25I.png",
     price: preciosMemphis.comunMEMCC25DI,
     medida: 83,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMCC3D",
-    title: "MEMCC3D CHAISELONGUE GRANDE CON MARTILLO BRAZO CORTO DERECHO (93) ",
+    title:
+      "MEMCC3D CHAISE LONGUE GRANDE CON MARTILLO BRAZO CORTO DERECHO (93) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC3D.png",
     price: preciosMemphis.comunMEMCC3DI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMCC3I",
-    title: "MEMCC3I CHAISELONGUE GRANDE CON MARTILLO BRAZO CORTO IZQ (93) ",
+    title: "MEMCC3I CHAISE LONGUE GRANDE CON MARTILLO BRAZO CORTO IZQ (93) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC3I.png",
     price: preciosMemphis.comunMEMCC3DI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMCC35D",
-    title: "MEMCC35D CHAISELONGUE MAXI CON MARTILLO BRAZO CORTO DERECHO (103) ",
+    title:
+      "MEMCC35D CHAISE LONGUE MAXI CON MARTILLO BRAZO CORTO DERECHO (103) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC35D.png",
     price: preciosMemphis.comunMEMCC35DI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMCC35I",
-    title: "MEMCC35I CHAISELONGUE MAXI CON MARTILLO BRAZO CORTO IZQ (103) ",
+    title: "MEMCC35I CHAISE LONGUE MAXI CON MARTILLO BRAZO CORTO IZQ (103) ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMCC35I.png",
     price: preciosMemphis.comunMEMCC35DI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC25D",
-    title: "MEMC25D CHAISELONGUE MEDIANO BRAZO LARGO DERECHO (83)",
+    title: "MEMC25D CHAISE LONGUE MEDIANO BRAZO LARGO DERECHO (83)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC25D.png",
     price: preciosMemphis.comunMEMC25DI,
     medida: 83,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC25I",
-    title: "MEMC25I CHAISELONGUE MEDIANO BRAZO LARGO IZQ (83)",
+    title: "MEMC25I CHAISE LONGUE MEDIANO BRAZO LARGO IZQ (83)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC25I.png",
     price: preciosMemphis.comunMEMC25DI,
     medida: 83,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC3D",
-    title: "MEMC3D CHAISELONGUE GRANDE BRAZO LARGO DERECHO (93)",
+    title: "MEMC3D CHAISE LONGUE GRANDE BRAZO LARGO DERECHO (93)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC3D.png",
     price: preciosMemphis.comunMEMC3DI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC3I",
-    title: "MEMC3I CHAISELONGUE GRANDE BRAZO LARGO IZQ (93)",
+    title: "MEMC3I CHAISE LONGUE GRANDE BRAZO LARGO IZQ (93)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC3D.png",
     price: preciosMemphis.comunMEMC3DI,
     medida: 93,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC35D",
-    title: "MEMC35D CHAISELONGUE MAXI BRAZO LARGO DERECHO (103)",
+    title: "MEMC35D CHAISE LONGUE MAXI BRAZO LARGO DERECHO (103)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC35D.png",
     price: preciosMemphis.comunMEMC35DI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMC35I",
-    title: "MEMC35I CHAISELONGUE MAXI BRAZO LARGO IZQ (103)",
+    title: "MEMC35I CHAISE LONGUE MAXI BRAZO LARGO IZQ (103)",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMC35I.png",
     price: preciosMemphis.comunMEMC35DI,
     medida: 103,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "MEMRA",
@@ -1845,6 +1940,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRA.png",
     price: preciosMemphis.comunMEMRA,
     medida: 100,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMRTGD",
@@ -1853,6 +1949,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTGD.png",
     price: preciosMemphis.comunMEMRTGDI,
     medida: 108,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMRTGI",
@@ -1861,6 +1958,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTGI.png",
     price: preciosMemphis.comunMEMRTGDI,
     medida: 108,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMRTMD",
@@ -1869,6 +1967,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTMD.png",
     price: preciosMemphis.comunMEMRTMDI,
     medida: 98,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMRTMI",
@@ -1877,6 +1976,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMRTMI.png",
     price: preciosMemphis.comunMEMRTMDI,
     medida: 98,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMTD",
@@ -1885,6 +1985,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMTD.png",
     price: preciosMemphis.comunMEMTDI,
     medida: 125,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEMTI",
@@ -1893,6 +1994,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEMTI.png",
     price: preciosMemphis.comunMEMTDI,
     medida: 125,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEM1",
@@ -1901,6 +2003,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1.png",
     price: preciosMemphis.comunMEM1,
     medida: 125,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "MEM1G",
@@ -1909,6 +2012,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1.png",
     price: preciosMemphis.comunMEM1G,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1GD",
@@ -1917,6 +2021,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1GD.png",
     price: preciosMemphis.comunMEM1GDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1GI",
@@ -1925,6 +2030,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1GI.png",
     price: preciosMemphis.comunMEM1GDI,
     medida: 93,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1M",
@@ -1933,6 +2039,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1M.png",
     price: preciosMemphis.comunMEM1M,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MA",
@@ -1941,6 +2048,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MA.png",
     price: preciosMemphis.comunMEM1MA,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MAD",
@@ -1949,6 +2057,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MAD.png",
     price: preciosMemphis.comunMEM1MADI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MAI",
@@ -1957,6 +2066,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MAI.png",
     price: preciosMemphis.comunMEM1MADI,
     medida: 103,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MD",
@@ -1965,6 +2075,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MD.png",
     price: preciosMemphis.comunMEM1MDI,
     medida: 83,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MI",
@@ -1973,6 +2084,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MI.png",
     price: preciosMemphis.comunMEM1MDI,
     medida: 83,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1ME",
@@ -1981,6 +2093,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1ME.png",
     price: preciosMemphis.comunMEM1ME,
     medida: 100,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MED",
@@ -1989,6 +2102,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MED.png",
     price: preciosMemphis.comunMEM1MEDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1MEI",
@@ -1997,6 +2111,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1MEI.png",
     price: preciosMemphis.comunMEM1MEDI,
     medida: 113,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1P",
@@ -2005,6 +2120,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1P.png",
     price: preciosMemphis.comunMEM1P,
     medida: 60,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1PD",
@@ -2013,6 +2129,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1PD.png",
     price: preciosMemphis.comunMEM1PDI,
     medida: 73,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1PI",
@@ -2021,6 +2138,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1PI.png",
     price: preciosMemphis.comunMEM1PDI,
     medida: 73,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XL",
@@ -2029,6 +2147,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XL.png",
     price: preciosMemphis.comunMEM1XL,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XLD",
@@ -2037,6 +2156,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XLD.png",
     price: preciosMemphis.comunMEM1XLDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XLDI",
@@ -2045,6 +2165,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XLDI.png",
     price: preciosMemphis.comunMEM1XLDI,
     medida: 123,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XXL",
@@ -2053,6 +2174,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXL.png",
     price: preciosMemphis.comunMEM1XXL,
     medida: 120,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XXLD",
@@ -2061,6 +2183,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXLD.png",
     price: preciosMemphis.comunMEM1XXLDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "MEM1XXLI",
@@ -2069,6 +2192,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM1XXLI.png",
     price: preciosMemphis.comunMEM1XXLDI,
     medida: 133,
+    categoria: "MODULOS",
   },
   {
     id: "MEM2",
@@ -2077,6 +2201,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2.png",
     price: preciosMemphis.comunMEM2,
     medida: 146,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM2D",
@@ -2085,6 +2210,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2.png",
     price: preciosMemphis.comunMEM2DI,
     medida: 133,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM2I",
@@ -2093,6 +2219,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2I.png",
     price: preciosMemphis.comunMEM2DI,
     medida: 133,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM2SB",
@@ -2101,6 +2228,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM2SB.png",
     price: preciosMemphis.comunMEM2SB,
     medida: 120,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM25",
@@ -2109,6 +2237,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25.png",
     price: preciosMemphis.comunMEM25,
     medida: 166,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM25D",
@@ -2117,6 +2246,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25D.png",
     price: preciosMemphis.comunMEM25DI,
     medida: 153,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM25I",
@@ -2125,6 +2255,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25I.png",
     price: preciosMemphis.comunMEM25DI,
     medida: 153,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM25SB",
@@ -2133,6 +2264,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM25SB.png",
     price: preciosMemphis.comunMEM25SB,
     medida: 140,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM3",
@@ -2141,6 +2273,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3.png",
     price: preciosMemphis.comunMEM3,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM3D",
@@ -2149,6 +2282,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3D.png",
     price: preciosMemphis.comunMEM3DI,
     medida: 173,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM3I",
@@ -2157,6 +2291,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3I.png",
     price: preciosMemphis.comunMEM3DI,
     medida: 173,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM3SB",
@@ -2165,6 +2300,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM3SB.png",
     price: preciosMemphis.comunMEM3SB,
     medida: 160,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM35",
@@ -2173,6 +2309,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35.png",
     price: preciosMemphis.comunMEM35,
     medida: 206,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM35D",
@@ -2181,6 +2318,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35D.png",
     price: preciosMemphis.comunMEM35DI,
     medida: 193,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM35I",
@@ -2189,6 +2327,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35I.png",
     price: preciosMemphis.comunMEM35DI,
     medida: 193,
+    categoria: "SOFÁS",
   },
   {
     id: "MEM35SB",
@@ -2197,6 +2336,7 @@ const piezasMemphis = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/MEMPHIS/MEM35SB.png",
     price: preciosMemphis.comunMEM35SB,
     medida: 180,
+    categoria: "SOFÁS",
   },
 ];
 
@@ -2518,54 +2658,61 @@ const piezasNadir = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "NADIR",
   },
   {
     id: "NADCGRD",
-    title: "NADCGRD  CHAISELONGUE GRANDE (106) CM. BRAZO DERECHA",
+    title: "NADCGRD CHAISE LONGUE GRANDE (106) CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCGRD.png",
     price: preciosNadir.comunNADCGRDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADCGRI",
-    title: "NADCGRI CHAISELONGUE GRANDE (106) CM. BRAZO IZQ",
+    title: "NADCGRI CHAISE LONGUE GRANDE (106) CM. BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCGRI.png",
     price: preciosNadir.comunNADCGRDI,
     medida: 106,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADCMAD",
-    title: "NADCMAD CHAISELONGUE MAXI 116 CM. BRAZO DERECHA",
+    title: "NADCMAD CHAISE LONGUE MAXI 116 CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCMAD.png",
     price: preciosNadir.comunNADCMADI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADCMAI",
-    title: "NADCMAI CHAISELONGUE MAXI 116 CM. BRAZO IZQ",
+    title: "NADCMAI CHAISE LONGUE MAXI 116 CM. BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCMAI.png",
     price: preciosNadir.comunNADCMADI,
     medida: 116,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADCMDD",
-    title: "NADCMDD CHAISELONGUE MEDIANA 96 CM. BRAZO DERECHA",
+    title: "NADCMDD CHAISE LONGUE MEDIANA 96 CM. BRAZO DERECHA",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCMDD.png",
     price: preciosNadir.comunNADCMDDI,
     medida: 96,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADCMDI",
-    title: "NADCMDI CHAISELONGUE MEDIANA 96 CM. BRAZO IZQ",
+    title: "NADCMDI CHAISE LONGUE MEDIANA 96 CM. BRAZO IZQ",
     imageUrl:
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADCMDI.png",
     price: preciosNadir.comunNADCMDDI,
     medida: 96,
+    categoria: "CHAISE LONGUE",
   },
   {
     id: "NADMGR",
@@ -2574,6 +2721,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMGR.png",
     price: preciosNadir.comunNADMGR,
     medida: 80,
+    categoria: "MODULOS",
   },
   {
     id: "NADMGRD",
@@ -2582,6 +2730,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMGRD.png",
     price: preciosNadir.comunNADMGRDI,
     medida: 106,
+    categoria: "MODULOS",
   },
   {
     id: "NADMGRI",
@@ -2590,6 +2739,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMGRI.png",
     price: preciosNadir.comunNADMGRDI,
     medida: 106,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMA",
@@ -2598,6 +2748,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMA.png",
     price: preciosNadir.comunNADMMA,
     medida: 90,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMAD",
@@ -2606,6 +2757,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMAD.png",
     price: preciosNadir.comunNADMMADI,
     medida: 116,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMAI",
@@ -2614,6 +2766,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMAI.png",
     price: preciosNadir.comunNADMMADI,
     medida: 116,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMD",
@@ -2622,6 +2775,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMD.png",
     price: preciosNadir.comunNADMMD,
     medida: 70,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMDD",
@@ -2630,6 +2784,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMDD.png",
     price: preciosNadir.comunNADMMDDI,
     medida: 96,
+    categoria: "MODULOS",
   },
   {
     id: "NADMMDI",
@@ -2638,6 +2793,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMMDI.png",
     price: preciosNadir.comunNADMMDDI,
     medida: 96,
+    categoria: "MODULOS",
   },
   {
     id: "NADMXL",
@@ -2646,6 +2802,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMXL.png",
     price: preciosNadir.comunNADMXL,
     medida: 110,
+    categoria: "MODULOS",
   },
   {
     id: "NADMXLD",
@@ -2654,6 +2811,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMXLD.png",
     price: preciosNadir.comunNADMXLDI,
     medida: 136,
+    categoria: "MODULOS",
   },
   {
     id: "NADMXLI",
@@ -2662,6 +2820,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADMXLI.png",
     price: preciosNadir.comunNADMXLDI,
     medida: 136,
+    categoria: "MODULOS",
   },
   {
     id: "NADRA",
@@ -2670,6 +2829,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADRA.png",
     price: preciosNadir.comunNADMXLDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "NADRTD",
@@ -2678,6 +2838,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADRTD.png",
     price: preciosNadir.comunNADRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "NADRTI",
@@ -2686,6 +2847,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADRTI.png",
     price: preciosNadir.comunNADRTDI,
     medida: 0,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "NADTD",
@@ -2694,6 +2856,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADTD.png",
     price: preciosNadir.comunNADRTDI,
     medida: 80,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "NADTI",
@@ -2702,6 +2865,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NADTI.png",
     price: preciosNadir.comunNADRTDI,
     medida: 80,
+    categoria: "RINCONES / TERMINALES",
   },
   {
     id: "NAD25",
@@ -2710,6 +2874,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD25.png",
     price: preciosNadir.comunNAD25,
     medida: 192,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD25D",
@@ -2718,6 +2883,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD25D.png",
     price: preciosNadir.comunNAD25,
     medida: 166,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD25I",
@@ -2726,6 +2892,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD25I.png",
     price: preciosNadir.comunNAD25,
     medida: 166,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD3",
@@ -2734,6 +2901,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD3.png",
     price: preciosNadir.comunNAD3,
     medida: 212,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD3I",
@@ -2742,6 +2910,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD3D.png",
     price: preciosNadir.comunNAD3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD3I",
@@ -2750,6 +2919,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD3I.png",
     price: preciosNadir.comunNAD3DI,
     medida: 186,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD35",
@@ -2758,6 +2928,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD3I.png",
     price: preciosNadir.comunNAD35,
     medida: 232,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD35D",
@@ -2766,6 +2937,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD35D.png",
     price: preciosNadir.comunNAD35D,
     medida: 206,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD35I",
@@ -2774,6 +2946,7 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD35I.png",
     price: preciosNadir.comunNAD35I,
     medida: 206,
+    categoria: "SOFÁS",
   },
   {
     id: "NAD4",
@@ -2782,5 +2955,6 @@ const piezasNadir = [
       "https://francokohler.github.io/Presupuestadora/assets/MODELOS/NADIR/NAD4.png",
     price: preciosNadir.comunNAD4,
     medida: 272,
+    categoria: "SOFÁS",
   },
 ];

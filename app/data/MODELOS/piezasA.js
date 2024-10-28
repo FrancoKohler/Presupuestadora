@@ -228,7 +228,7 @@ const piezasAlpha = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "-",
+    categoria: "ALPHA",
   },
   {
     id: "ALPCMAD",
@@ -755,7 +755,7 @@ const piezasAgora = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "",
+    categoria: "AGORA",
   },
   {
     id: "AGOCGRD",
@@ -1491,7 +1491,7 @@ const piezasAltano = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
-    categoria: "",
+    categoria: "ALTANO",
   },
   {
     id: "ALTAD",
