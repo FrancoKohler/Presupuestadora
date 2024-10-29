@@ -566,7 +566,9 @@ li {
   transition: 0.5s;
 }
 /*-----------------COSTURAS-------------*/
-
+#suplementoCosturas {
+  display: none;
+}
 .label-costuras {
   padding-top: 2.5rem;
   font-weight: 400;

@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let posapiesAMostrar = [];
     let respaldosAMostrar = [];
     const suplementoPatas = document.getElementById("suplementoPatas");
+    const suplementoCosturas = document.getElementById("suplementoCosturas");
     const suplementoPosapies = document.getElementById("seccionPosapies");
     const suplementoRespaldos = document.querySelector(".suplemento-respaldos");
     const suplementoMotor = document.querySelector(".suplemento-motor");
@@ -61,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoMotor.style.display = "block";
+        suplementoCosturas.style.display = "none";
         piezasYute.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
@@ -74,6 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasAgora;
         respaldosAMostrar = respaldosAgora;
         posapiesAMostrar = posapiesAgora;
+        suplementoCosturas.style.display = "flex";
         suplementoRespaldos.style.display = "flex";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -104,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Alpha":
         piezasAMostrar = piezasAlpha;
         posapiesAMostrar = posapiesAlpha;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Alpha"
@@ -126,6 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Altano":
         piezasAMostrar = piezasAltano;
         posapiesAMostrar = posapiesAltano;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Altano"
@@ -148,6 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Ares":
         piezasAMostrar = piezasAres;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Ares"
@@ -163,6 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Barine":
         piezasAMostrar = piezasBarine;
         posapiesAMostrar = posapiesBarine;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -186,6 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Bertina":
         piezasAMostrar = piezasBertina;
         posapiesAMostrar = posapiesBertinas;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Bertina"
@@ -208,6 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Bertina Little":
         piezasAMostrar = piezasBertinaLit;
         posapiesAMostrar = posapiesBertinas;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Bertina Lt"
@@ -230,6 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Bruma":
         piezasAMostrar = piezasBruma;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Bertina Lt"
@@ -245,6 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Coral":
         piezasAMostrar = piezasCoral;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Coral"
@@ -260,6 +271,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Coralina":
         piezasAMostrar = piezasCoralina;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Coralina"
@@ -275,6 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Crono":
         piezasAMostrar = piezasCronos;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Crono"
@@ -290,6 +303,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Dana":
         piezasAMostrar = piezasDana;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Dana"
         piezasDana.forEach((piezaDana) => {
@@ -304,6 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Dino":
         piezasAMostrar = piezasDino;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Dino"
         piezasDino.forEach((piezaDino) => {
@@ -318,6 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Eros":
         piezasAMostrar = piezasEros;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoBateria.style.display = "flex";
         // Poblar materiales específicos de "Eros"
@@ -334,6 +350,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasGamma;
         posapiesAMostrar = posapiesGamma;
         suplementoRespaldos.style.display = "none";
+        suplementoCosturas.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Gamma"
@@ -356,6 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Giant":
         piezasAMostrar = piezasGiant;
         posapiesAMostrar = posapiesGiant;
+        suplementoCosturas.style.display = "flex";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Giant"
@@ -378,6 +396,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Giant Little":
         piezasAMostrar = piezasGiantLit;
         posapiesAMostrar = posapiesGiant;
+        suplementoCosturas.style.display = "flex";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Giant Little"
@@ -398,6 +417,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Kappa":
         piezasAMostrar = piezasKappa;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Kappa"
@@ -412,6 +432,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Lino":
         piezasAMostrar = piezasLino;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
@@ -430,6 +451,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Memphis":
         piezasAMostrar = piezasMemphis;
         posapiesAMostrar = posapiesMemphis;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
         // Poblar materiales específicos de "Memphis"
@@ -451,6 +473,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Mistral":
         piezasAMostrar = piezasMistral;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoBateria.style.display = "flex";
         suplementoPosapies.style.display = "flex";
@@ -467,6 +490,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Nadir":
         piezasAMostrar = piezasNadir;
         posapiesAMostrar = posapiesNadir;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -489,6 +513,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Omega":
         piezasAMostrar = piezasOmega;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoBateria.style.display = "flex";
         suplementoPosapies.style.display = "none";
@@ -506,6 +531,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasPlateaAlta;
         respaldosAMostrar = respaldosPlateaBaja;
         posapiesAMostrar = posapiesPA;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "flex";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -537,6 +563,7 @@ document.addEventListener("DOMContentLoaded", function () {
         piezasAMostrar = piezasPlateaBaja;
         respaldosAMostrar = respaldosPlateaBaja;
         posapiesAMostrar = posapiesPB;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "flex";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -565,6 +592,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Sigma":
         piezasAMostrar = piezasSigma;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Sigma"
@@ -579,6 +607,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Sirocco Eco":
         piezasAMostrar = piezasSiroco;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
@@ -595,6 +624,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       case "Sisal":
         piezasAMostrar = piezasSisal;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Sisal"
@@ -609,6 +639,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Tassos":
         piezasAMostrar = piezasTassos;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoBateria.style.display = "flex";
@@ -624,6 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Tita":
         piezasAMostrar = piezasTita;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Tita"
@@ -638,6 +670,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Tundra":
         piezasAMostrar = piezasTundra;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "none";
         suplementoPatas.style.display = "none";
@@ -655,6 +688,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "Tucson":
         piezasAMostrar = piezasTucson;
         posapiesAMostrar = posapiesTucson;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
@@ -677,6 +711,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Zenith":
         piezasAMostrar = piezasZenith;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
@@ -692,6 +727,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "Zonda":
         piezasAMostrar = piezasZonda;
+        suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "none";
