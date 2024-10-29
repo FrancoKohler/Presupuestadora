@@ -565,3 +565,51 @@ li {
   width: 45px;
   transition: 0.5s;
 }
+/*-----------------COSTURAS-------------*/
+
+.label-costuras {
+  padding-top: 2.5rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.input-costuras {
+  display: none;
+}
+.custom-checkbox {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+/* Estilo del tick cuando el checkbox está marcado */
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: #dacdb4;
+  border-color: #dacdb4;
+}
+
+/* Crear el tick usando ::after */
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+/* Mostrar el tick cuando el checkbox está marcado */
+input[type="checkbox"]:checked + .custom-checkbox::after {
+  opacity: 1;
+}

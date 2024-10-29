@@ -19,6 +19,7 @@ const piezasAres = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "ARES",
   },
   {
     id: "ARES",
@@ -52,6 +53,7 @@ const piezasBruma = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "BRUMA",
   },
   {
     id: "BRUS",
@@ -83,6 +85,7 @@ const piezasCoralina = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "CORALINA",
   },
   {
     id: "CORAS",
@@ -116,6 +119,7 @@ const piezasCronos = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "CRONO",
   },
   {
     id: "CROS",
@@ -149,6 +153,7 @@ const piezasDino = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "DINO",
   },
   {
     id: "DINS",
@@ -196,6 +201,7 @@ const piezasEros = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "EROS",
   },
   {
     id: "ERO",
@@ -253,6 +259,7 @@ const piezasOmega = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "OMEGA",
   },
   {
     id: "OME",
@@ -309,6 +316,7 @@ const piezasTassos = [
     id: "None",
     title: "---Sin pieza seleccionada--",
     imageUrl: "..",
+    categoria: "TASSOS",
   },
   {
     id: "TAS",
@@ -347,6 +355,12 @@ const preciosTita = {
   ],
 };
 const piezasTita = [
+  {
+    id: "None",
+    title: "---Sin pieza seleccionada--",
+    imageUrl: "..",
+    categoria: "TITA",
+  },
   {
     id: "TITS",
     title: "TITS TITA BUTACA GIRATORIA",
