@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoRespaldos.style.display = "flex";
         suplementoPatas.style.display = "none";
         suplementoPosapies.style.display = "flex";
-        // Poblar materiales específicos de "Agora"
         piezasAgora.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
@@ -110,18 +109,17 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoPosapies.style.display = "flex";
-        // Poblar materiales específicos de "Alpha"
         piezasAlpha.forEach((pieza) => {
           if (pieza.price) {
             pieza.price.forEach((precio) => {
-              materialesAlpha.add(precio.material); // <- Usamos "materialesAlpha"
+              materialesAlpha.add(precio.material);
             });
           }
         });
         posapiesAlpha.forEach((posapie) => {
           if (posapie.price) {
             posapie.price.forEach((precio) => {
-              materialesAlpha.add(precio.material); // <- Usamos "materialesAlpha"
+              materialesAlpha.add(precio.material);
             });
           }
         });
@@ -144,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
         posapiesAltano.forEach((posapie) => {
           if (posapie.price) {
             posapie.price.forEach((precio) => {
-              materialesAltano.add(precio.material); // <- Usamos "materialesAlpha"
+              materialesAltano.add(precio.material);
             });
           }
         });
@@ -476,7 +474,7 @@ document.addEventListener("DOMContentLoaded", function () {
         suplementoCosturas.style.display = "none";
         suplementoRespaldos.style.display = "none";
         suplementoBateria.style.display = "flex";
-        suplementoPosapies.style.display = "flex";
+        suplementoPosapies.style.display = "none";
         // Poblar materiales específicos de "Mistral"
         piezasMistral.forEach((piezaMistral) => {
           if (piezaMistral.price) {

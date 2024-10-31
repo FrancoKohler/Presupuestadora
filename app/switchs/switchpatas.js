@@ -1,118 +1,411 @@
 const patasModelos = {
   Alpha: [
-    { nombre: "Pata tacón grafito (15 cms. altura)" },
-    { nombre: "Pata tacón níquel satinada (16 cms. altura)" },
+    {
+      id: "13_PATA",
+      nombre: "Pata tacón grafito (15 cms. altura)",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALPHA/PATA13.jpg",
+    },
+    {
+      id: "11_PATA",
+      nombre: "Pata tacón níquel satinada (16 cms. altura)",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALPHA/PATA11.jpg",
+    },
   ],
   Altano: [
-    { nombre: "Pata níquel negro (16 cms. altura)" },
-    { nombre: "Pata metálica mate (15 cms. altura)" },
-    { nombre: "Pata metálica mate (13,5 cms. altura)" },
+    {
+      id: "16_PATA",
+      nombre: "Pata níquel negro (16 cms. altura)",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALTANO/16_PATA.jpg",
+    },
+    {
+      id: "18_PATA",
+      nombre: "Pata metálica mate (15 cms. altura)",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALTANO/19_PATA.jpg",
+    },
+    {
+      id: "17_PATA",
+      nombre: "Pata metálica mate (13,5 cms. altura)",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALTANO/17_PATA.jpg",
+    },
   ],
   Bertina: [
-    { nombre: "Pata metálica cromada" },
-    { nombre: "Pata metálica negra" },
+    {
+      id: "12_PATA",
+      nombre: "Pata metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/BERTINA/12_PATA.jpg",
+    },
+    {
+      id: "16_PATA",
+      nombre: "Pata metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/BERTINA/16_PATA.jpg",
+    },
   ],
   "Bertina Little": [
-    { nombre: "Pata metálica cromada" },
-    { nombre: "Pata metálica negra" },
+    {
+      id: "12_PATA",
+      nombre: "Pata metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/BERTINA/12_PATA.jpg",
+    },
+    {
+      id: "16_PATA",
+      nombre: "Pata metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/BERTINA/16_PATA.jpg",
+    },
   ],
   Dino: [
-    { nombre: "Base metálica cromada" },
-    { nombre: "Base metálica negra" },
+    {
+      id: "2_BASE",
+      nombre: "Base metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/DINO/2_BASE.jpg",
+    },
+    {
+      id: "1_BASE",
+      nombre: "Base metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/DINO/1_BASE.jpg",
+    },
   ],
   Eros: [
-    { nombre: "Base metálica cromada" },
-    { nombre: "Base metálica negra" },
-    { nombre: "Base metálica pulida" },
-    { nombre: "Base estrella de madera" },
-    { nombre: "Base redonda de madera" },
+    {
+      id: "2_BASE",
+      nombre: "Base metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/2_BASE.jpg",
+    },
+    {
+      id: "1_BASE",
+      nombre: "Base metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/1_BASE.jpg",
+    },
+    {
+      id: "3_BASE",
+      nombre: "Base metálica pulida",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/3_BASE.jpg",
+    },
   ],
   Giant: [
-    { nombre: "Pata metálica cromada" },
-    { nombre: "Pata metálica negra" },
+    {
+      id: "12_PATA",
+      nombre: "Pata metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/GIANT/12_PATA.jpg",
+    },
+    {
+      id: "16_PATA",
+      nombre: "Pata metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/GIANT/16_PATA.jpg",
+    },
   ],
   "Giant Little": [
-    { nombre: "Pata metálica cromada" },
-    { nombre: "Pata metálica negra" },
+    {
+      id: "12_PATA",
+      nombre: "Pata metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/GIANT/12_PATA.jpg",
+    },
+    {
+      id: "16_PATA",
+      nombre: "Pata metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/GIANT/16_PATA.jpg",
+    },
   ],
   Memphis: [
-    { nombre: "Pata de madera natural 13 cms." },
-    { nombre: "Pata de madera nogal 13 cms." },
-    { nombre: "Pata de madera wengué 13 cms." },
-    { nombre: "Pata de tacón grafito 15 cms." },
-    { nombre: "Pata de tacón pulido 15 cms." },
-    { nombre: "Pata de escuadra cromada 13 cms." },
+    {
+      id: "6_PATA",
+      nombre: "Pata de madera natural 13 cms.",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/6_PATA.jpg",
+    },
+    {
+      id: "5_PATA",
+      nombre: "Pata de madera nogal 13 cms.",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/5_PATA.jpg",
+    },
+    {
+      id: "1_PATA",
+      nombre: "Pata de madera wengué 13 cms.",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/1_PATA.jpg",
+    },
+    {
+      id: "13_PATA",
+      nombre: "Pata de tacón grafito 15 cms.",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/13_PATA.jpg",
+    },
+    {
+      id: "12_PATA",
+      nombre: "Pata de tacón pulido 15 cms.",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/12_PATA.jpg",
+    },
   ],
   Mistral: [
-    { nombre: "Pata de madera natural" },
-    { nombre: "Pata de madera nogal" },
-    { nombre: "Pata de madera wengué" },
-    { nombre: "Pata de niquel satinado" },
-    { nombre: "Pata de metal cromado" },
-    { nombre: "Pata de metal grafito" },
-    { nombre: "Pata de niquel negro" },
+    {
+      id: "6_PATA",
+      nombre: "Pata de madera natural",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/6_PATA.jpg",
+    },
+    {
+      id: "5_PATA",
+      nombre: "Pata de madera nogal",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/5_PATA.jpg",
+    },
+    {
+      id: "1_PATA",
+      nombre: "Pata de madera wengué",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/1_PATA.jpg",
+    },
+    {
+      id: "11_PATA",
+      nombre: "Pata de niquel satinado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/11_PATA.jpg",
+    },
+    {
+      id: "12_PATA",
+      nombre: "Pata de metal cromado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/12_PATA.jpg",
+    },
+    {
+      id: "13_PATA",
+      nombre: "Pata de metal grafito",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/13_PATA.jpg",
+    },
+    {
+      id: "10_PATA",
+      nombre: "Pata de niquel negro",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/10_PATA.jpg",
+    },
   ],
   Sigma: [
-    { nombre: "Pata de madera natural" },
-    { nombre: "Pata de madera nogal" },
-    { nombre: "Pata de madera wengué" },
-    { nombre: "Pata de niquel satinado" },
-    { nombre: "Pata de metal cromado" },
-    { nombre: "Pata de metal grafito" },
-    { nombre: "Pata de niquel negro" },
+    {
+      id: "6_PATA",
+      nombre: "Pata de madera natural",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/6_PATA.jpg",
+    },
+    {
+      id: "5_PATA",
+      nombre: "Pata de madera nogal",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/5_PATA.jpg",
+    },
+    {
+      id: "1_PATA",
+      nombre: "Pata de madera wengué",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/1_PATA.jpg",
+    },
+    {
+      id: "11_PATA",
+      nombre: "Pata de niquel satinado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/11_PATA.jpg",
+    },
+    {
+      id: "12_PATA",
+      nombre: "Pata de metal cromado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/12_PATA.jpg",
+    },
+    {
+      id: "13_PATA",
+      nombre: "Pata de metal grafito",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/13_PATA.jpg",
+    },
+    {
+      id: "10_PATA",
+      nombre: "Pata de niquel negro",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/10_PATA.jpg",
+    },
   ],
   Kappa: [
-    { nombre: "Pata de madera natural" },
-    { nombre: "Pata de madera nogal" },
-    { nombre: "Pata de madera wengué" },
-    { nombre: "Pata de niquel satinado" },
-    { nombre: "Pata de metal cromado" },
-    { nombre: "Pata de metal grafito" },
-    { nombre: "Pata de niquel negro" },
+    {
+      id: "6_PATA",
+      nombre: "Pata de madera natural",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/6_PATA.jpg",
+    },
+    {
+      id: "5_PATA",
+      nombre: "Pata de madera nogal",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/5_PATA.jpg",
+    },
+    {
+      id: "1_PATA",
+      nombre: "Pata de madera wengué",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/1_PATA.jpg",
+    },
+    {
+      id: "11_PATA",
+      nombre: "Pata de niquel satinado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/11_PATA.jpg",
+    },
+    {
+      id: "12_PATA",
+      nombre: "Pata de metal cromado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/12_PATA.jpg",
+    },
+    {
+      id: "13_PATA",
+      nombre: "Pata de metal grafito",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/13_PATA.jpg",
+    },
+    {
+      id: "10_PATA",
+      nombre: "Pata de niquel negro",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/MEMPHIS/10_PATA.jpg",
+    },
   ],
   Omega: [
-    { nombre: "Base estrella negra" },
-    { nombre: "Base estrella cromada" },
-    { nombre: "Base estrella pulida" },
-    { nombre: "Base estrella madera" },
-    { nombre: "Base redonda madera" },
+    {
+      id: "2_BASE",
+      nombre: "Base metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/2_BASE.jpg",
+    },
+    {
+      id: "1_BASE",
+      nombre: "Base metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/1_BASE.jpg",
+    },
+    {
+      id: "3_BASE",
+      nombre: "Base metálica pulida",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/3_BASE.jpg",
+    },
   ],
   Tassos: [
-    { nombre: "Base estrella negra" },
-    { nombre: "Base estrella cromada" },
-    { nombre: "Base estrella pulida" },
-    { nombre: "Base estrella madera" },
-    { nombre: "Base redonda madera" },
+    {
+      id: "2_BASE",
+      nombre: "Base metálica cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/2_BASE.jpg",
+    },
+    {
+      id: "1_BASE",
+      nombre: "Base metálica negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/1_BASE.jpg",
+    },
+    {
+      id: "3_BASE",
+      nombre: "Base metálica pulida",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/EROS/3_BASE.jpg",
+    },
   ],
   Tita: [
-    { nombre: "Pata estrella negra" },
-    { nombre: "Pata estrella cromada" },
+    {
+      id: "1_BASE",
+      nombre: "Base metal negra",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TITA/1_BASE.jpg",
+    },
+    {
+      id: "2_BASE",
+      nombre: "Base metal cromada",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TITA/2_BASE.jpg",
+    },
   ],
   Tucson: [
-    { nombre: "Pata de madera natural" },
-    { nombre: "Pata de madera nogal" },
-    { nombre: "Pata de madera wengué" },
-    { nombre: "Pata de niquel satinado" },
-    { nombre: "Pata de metal cromado" },
+    {
+      id: "6_PATA",
+      nombre: "Pata de madera natural",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/6_PATA.jpg",
+    },
+    {
+      id: "5_PATA",
+      nombre: "Pata de madera nogal",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/5_PATA.jpg",
+    },
+    {
+      id: "12_PATA",
+      nombre: "Pata de madera wengué",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/12_PATA.jpg",
+    },
+    {
+      id: "2_BASE",
+      nombre: "Pata de niquel satinado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/2_BASE.jpg",
+    },
+    {
+      id: "2_BASE",
+      nombre: "Pata de metal cromado",
+      imageUrl:
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/2_BASE.jpg",
+    },
   ],
 };
 
 document.addEventListener("DOMContentLoaded", function () {
   const modeloSelect = document.getElementById("modelo");
   const patasInput = document.getElementById("patas");
+  const imgPatas = document.getElementById("imgPatas");
 
   function actualizarPatasSegunModelo() {
     const modeloSeleccionado = modeloSelect.value;
-    patasInput.innerHTML = "";
+    imgPatas.innerHTML = ""; // Limpiar imagen anterior
+    patasInput.innerHTML = ""; // Limpiar opciones anteriores
+
     if (patasModelos[modeloSeleccionado]) {
+      // Llenar el dropdown de patas
       patasModelos[modeloSeleccionado].forEach((pata) => {
         const optionPata = document.createElement("option");
-        optionPata.textContent = pata.nombre;
+        optionPata.textContent = pata.nombre.toUpperCase();
         optionPata.value = pata.nombre;
         patasInput.appendChild(optionPata);
       });
+
+      // Crear la imagen de referencia para el primer elemento del modelo
+      if (patasModelos[modeloSeleccionado].length > 0) {
+        // Asegurarse que hay al menos una pata
+        const newImg = document.createElement("img");
+        newImg.src = patasModelos[modeloSeleccionado][0].img; // Usar modeloSeleccionado para acceder a la imagen
+        newImg.alt = `Imagen de referencia para ${modeloSeleccionado}`;
+        newImg.classList.add("referencia-img");
+        imgPatas.appendChild(newImg);
+      }
     }
   }
+
   modeloSelect.addEventListener("change", actualizarPatasSegunModelo);
-  actualizarPatasSegunModelo();
+  actualizarPatasSegunModelo(); // Inicializar en la carga
 });

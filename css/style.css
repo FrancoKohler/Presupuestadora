@@ -113,9 +113,11 @@ input {
 
 option {
   font-family: "Montserrat";
+  cursor: pointer;
 }
 select {
   font-family: "Montserrat";
+  cursor: pointer;
 }
 
 /*SECCION PIEZAS*/

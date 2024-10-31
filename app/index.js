@@ -86,6 +86,7 @@ function obtenerPrecioRespaldo(idRespaldo, tela) {
 function obtenerPrecioPosapies(idPosapie, tela) {
   const colecciones = [
     posapiesAgora,
+    posapiesAltano,
     posapiesAlpha,
     posapiesBarine,
     posapiesTucson,
@@ -258,24 +259,36 @@ function obtenerCojinesSeleccionados() {
 
 function obtenerPrecioCojin(id, tela) {
   const cojinSeleccionado = cojines.find((cojin) => cojin.id === id);
-
-  console.log("Cojín Seleccionado:", cojinSeleccionado); // Ver qué cojín se ha encontrado
-
+  console.log("Cojín Seleccionado:", cojinSeleccionado);
   if (!cojinSeleccionado || !cojinSeleccionado.price) {
-    return 0; // Si no hay cojín seleccionado o no se encuentra el precio, retorna 0
+    return 0;
   }
-
   const precioMaterial = cojinSeleccionado.price.find(
     (p) => p.material === tela
   );
-
-  console.log("Precio Material:", precioMaterial); // Ver qué precio se ha encontrado
-
+  console.log("Precio Material:", precioMaterial);
   if (!precioMaterial) {
-    return 0; // Si no se encuentra el material, retorna 0
+    return 0;
   }
 
   return precioMaterial.precio;
+}
+/*-------------------PATAS---------------------*/
+function obtenerPatasSeleccionados() {
+  const patasSeleccionados = [];
+  const patasSelect = document.getElementById("patas");
+
+  if (patasSelect && patasSelect.selectedIndex !== -1) {
+    const patasSeleccionado = {
+      id: patasSelect.value,
+      nombre: patasSelect.options[patasSelect.selectedIndex].text,
+    };
+    if (patasSeleccionado.id !== "None") {
+      patasSeleccionados.push(patasSeleccionado);
+    }
+  }
+
+  return patasSeleccionados;
 }
 
 function generarResumen() {
@@ -283,6 +296,7 @@ function generarResumen() {
   const respaldosSeleccionados = obtenerRespaldosSeleccionados();
   const posapiesSeleccionados = obtenerPosapiesSeleccionados();
   const piezasSeleccionadas = obtenerPiezasSeleccionadas();
+  const patasSeleccionados = obtenerPatasSeleccionados();
   const cojinesSeleccionados = obtenerCojinesSeleccionados();
   const tela = document.getElementById("tela").value;
   const telaIngreso = document.getElementById("telaNombre").value;
@@ -399,7 +413,18 @@ function generarResumen() {
       modeloSeleccionado === "Tucson" ||
       modeloSeleccionado === "Tita" ||
       modeloSeleccionado === "Tassos"
-        ? `<li>Pata seleccionada: ${pata}</li>`
+        ? `<li>Pata seleccionada: 
+        <ul>` +
+          patasSeleccionados
+            .map((patas) => {
+              return `
+            <li class="itemsResumen">
+              ${patas.nombre} &nbsp; 
+              
+            </li>`;
+            })
+            .join("") +
+          `</ul>`
         : ""
     }
     ${

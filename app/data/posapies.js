@@ -27,7 +27,52 @@ const posapiesAgora = [
     medida: 60,
   },
 ];
+//SUPLEMENTOS ALTANO
 
+const supAltano = {
+  supALTP8060: [
+    { material: "SERIE 1", precio: 315 },
+    { material: "SERIE 2", precio: 331 },
+    { material: "SERIE 3", precio: 348 },
+    { material: "SERIE 4", precio: 364 },
+    { material: "SERIE 5", precio: 388 },
+    { material: "SERIE 6", precio: 413 },
+    { material: "SERIE 7", precio: 437 },
+  ],
+  supALTPG: [
+    { material: "SERIE 1", precio: 343 },
+    { material: "SERIE 2", precio: 360 },
+    { material: "SERIE 3", precio: 376 },
+    { material: "SERIE 4", precio: 392 },
+    { material: "SERIE 5", precio: 416 },
+    { material: "SERIE 6", precio: 441 },
+    { material: "SERIE 7", precio: 467 },
+  ],
+};
+
+const posapiesAltano = [
+  {
+    id: "None",
+    title: "---Sin posapies seleccionado--",
+    imageUrl: "..",
+  },
+  {
+    id: "ALTP8060",
+    title: "ALTP8060 Posapiés rectangular (80X60cm) ",
+    price: supAltano.supALTP8060,
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/ALTP8060.png",
+    medida: 80,
+  },
+  {
+    id: "ALTPG",
+    title: "ALTPG Posapiés cuadrado (80X80cm) ",
+    price: supAltano.supALTPG,
+    imageUrl:
+      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/ALTPG.png",
+    medida: 80,
+  },
+];
 //SUPLEMENTOS ALPHA
 const supAlpha = {
   supALPPG: [
