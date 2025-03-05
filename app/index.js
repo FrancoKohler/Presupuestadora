@@ -396,6 +396,7 @@ function generarResumen() {
     
     <li>Serie seleccionada: ${tela}</li>
   
+  
     ${
       modeloSeleccionado === "Altano" ||
       modeloSeleccionado === "Alpha" ||
@@ -445,7 +446,6 @@ function generarResumen() {
         "Tucson",
       ].includes(modelo) && posapiesSeleccionados.length > 0
         ? `<li>Posapies seleccionados:</li><ul>` +
-          // Mapear directamente los elementos seleccionados
           posapiesSeleccionados
             .map((posapie) => {
               return `

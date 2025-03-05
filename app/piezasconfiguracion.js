@@ -63,7 +63,8 @@ function mostrarImagenes() {
 
               // Actualizar las posiciones actuales para las siguientes imágenes
               currentX += imgRect.width; // Mover el siguiente elemento a la derecha
-              rotateAfterYutra = true; // Bandera para empezar a rotar después
+              currentY += imgRect.height;
+              rotateAfterYutra = true; // Esto rota luego de las PIEZAS ESPC
             } else if (rotateAfterYutra) {
               // Las piezas después de YUTRA deben rotarse y estar pegadas a YUTRA
 
@@ -76,10 +77,7 @@ function mostrarImagenes() {
               }px`;
 
               // Colocar la imagen rotada alineada con la parte inferior de YUTRA (eje y)
-              // Restamos la altura de la imagen rotada (que es el ancho original antes de la rotación) para alinearla correctamente
-              imgElement.style.top = `${
-                yutraPosition.y + (yutraPosition.height - imgRect.width)
-              }px`;
+              imgElement.style.top = `${yutraPosition.y}px`;
 
               // Ajustar la posición en X sumando la **altura** de la imagen rotada
               yutraPosition.x += imgRect.height; // Actualizamos la posición en X tomando en cuenta el alto de la imagen rotada

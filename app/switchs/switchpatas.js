@@ -24,7 +24,7 @@ const patasModelos = {
       id: "18_PATA",
       nombre: "Pata metálica mate (15 cms. altura)",
       imageUrl:
-        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALTANO/19_PATA.jpg",
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/ALTANO/18_PATA.jpg",
     },
     {
       id: "17_PATA",
@@ -361,16 +361,10 @@ const patasModelos = {
         "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/12_PATA.jpg",
     },
     {
-      id: "2_BASE",
-      nombre: "Pata de niquel satinado",
-      imageUrl:
-        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/2_BASE.jpg",
-    },
-    {
-      id: "2_BASE",
+      id: "1_PATA",
       nombre: "Pata de metal cromado",
       imageUrl:
-        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/2_BASE.jpg",
+        "https://francokohler.github.io/Presupuestadora/assets/PATAS/TUCSON/1_PATA.jpg",
     },
   ],
 };
@@ -382,8 +376,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function actualizarPatasSegunModelo() {
     const modeloSeleccionado = modeloSelect.value;
-    imgPatas.innerHTML = ""; // Limpiar imagen anterior
-    patasInput.innerHTML = ""; // Limpiar opciones anteriores
+    imgPatas.innerHTML = "";
+    patasInput.innerHTML = "";
 
     if (patasModelos[modeloSeleccionado]) {
       // Llenar el dropdown de patas
@@ -398,7 +392,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (patasModelos[modeloSeleccionado].length > 0) {
         // Asegurarse que hay al menos una pata
         const newImg = document.createElement("img");
-        newImg.src = patasModelos[modeloSeleccionado][0].img; // Usar modeloSeleccionado para acceder a la imagen
+        newImg.src = patasModelos[modeloSeleccionado][0].imageUrl;
         newImg.alt = `Imagen de referencia para ${modeloSeleccionado}`;
         newImg.classList.add("referencia-img");
         imgPatas.appendChild(newImg);
@@ -407,5 +401,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   modeloSelect.addEventListener("change", actualizarPatasSegunModelo);
-  actualizarPatasSegunModelo(); // Inicializar en la carga
+  actualizarPatasSegunModelo();
 });

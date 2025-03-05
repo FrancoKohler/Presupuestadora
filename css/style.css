@@ -12,6 +12,9 @@
   font-weight: normal;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: flex;
   overflow-x: hidden;
@@ -76,9 +79,12 @@ p {
   font-weight: 300;
 }
 .referencia-img {
+  margin-top: 1rem;
+  border-radius: 1rem;
   width: 40%;
   height: auto;
 }
+
 /*FORM DATOS*/
 
 .form-inputs {
@@ -545,7 +551,7 @@ li {
 /*Botones de navegacion*/
 .sideBtns {
   position: fixed;
-  left: 250px;
+  left: 10%;
   bottom: 180px;
   z-index: 1000;
   display: flex;
@@ -553,8 +559,10 @@ li {
   gap: 0.5rem;
   padding-bottom: 1.5rem;
   padding-left: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .sideBtns img {
+  background-color: #ffffff;
   width: 35px;
   cursor: pointer;
   border: 1px solid #343434;
@@ -564,7 +572,8 @@ li {
 }
 
 .sideBtns img:hover {
-  width: 45px;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
   transition: 0.5s;
 }
 /*-----------------COSTURAS-------------*/
