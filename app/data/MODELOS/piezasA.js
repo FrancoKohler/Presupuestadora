@@ -770,7 +770,7 @@ const piezasAgora = [
     id: "AGOCGRI",
     title: "AGOCGRI CHAISE LONGUE GRANDE (104 cm) IZQ.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_80_IZQ.png",
+      "https://raw.githubusercontent.com/FrancoKohler/Presupuestadora/refs/heads/main/assets/MODELOS/AGORA/AGO-01.svg",
     price: preciosAgora.comunAGOCGR,
     medida: 104,
     categoria: "CHAISE LONGUE",
@@ -779,7 +779,7 @@ const piezasAgora = [
     id: "AGOCMAD",
     title: "AGOCMAD CHAISE LONGUE MAXI (114 CM) DCHO.",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/CH_90_DER.png",
+      "https://raw.githubusercontent.com/FrancoKohler/Presupuestadora/refs/heads/main/assets/MODELOS/AGORA/AGO-04.svg",
     price: preciosAgora.comunAGOCMA,
     medida: 104,
     categoria: "CHAISE LONGUE",
@@ -842,7 +842,7 @@ const piezasAgora = [
     id: "AGOMMA",
     title: "AGOMMA modulo maxi (90 cm) sin brazo",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/M90_SB.png",
+      "https://raw.githubusercontent.com/FrancoKohler/Presupuestadora/refs/heads/main/assets/MODELOS/AGORA/AGO-02.svg",
     price: preciosAgora.comunAGOMMA,
     medida: 80,
     categoria: "MODULOS",
@@ -923,7 +923,7 @@ const piezasAgora = [
     id: "AGOR",
     title: "AGOR rincon cerrado",
     imageUrl:
-      "https://francokohler.github.io/Presupuestadora/assets/MODELOS/AGORA/AGOR.png",
+      "https://raw.githubusercontent.com/FrancoKohler/Presupuestadora/refs/heads/main/assets/MODELOS/AGORA/AGO-03.svg",
     price: preciosAgora.comunAGOR,
     medida: 80,
     categoria: "RINCONES / TERMINALES",

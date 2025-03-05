@@ -235,7 +235,9 @@ select {
   flex: 2;
 }
 .img-config {
-  transform-origin: 0% 0%;
+  width: 100px;
+  transform-origin: center;
+  height: auto;
 }
 
 /*RESUMEN*/
@@ -339,7 +341,7 @@ li {
   position: relative;
   width: fit-content;
   padding-top: 1.5rem;
-  padding-right: 20rem;
+  padding-right: 30rem;
   display: block;
   justify-content: center;
   align-self: center;

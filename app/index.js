@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("descuento")
     .addEventListener("input", generarResumen);
 });
-
+/*---POPULATE QUE HACE POR PIEZA Y POR DROPDWON---*/
 function obtenerPiezasSeleccionadas() {
   const piezasSeleccionadas = [];
   for (let i = 1; i <= 8; i++) {
@@ -22,7 +22,7 @@ function obtenerPiezasSeleccionadas() {
   }
   return piezasSeleccionadas;
 }
-
+/*---POPULATE QUE HACE POR RESAPLDO Y POR DROPDWON---*/
 function obtenerRespaldosSeleccionados() {
   const respaldosSeleccionados = [];
   for (let i = 1; i <= 8; i++) {
@@ -40,6 +40,7 @@ function obtenerRespaldosSeleccionados() {
   }
   return respaldosSeleccionados;
 }
+/*---POPULATE QUE HACE POR POSAPIES Y POR DROPDWON---*/
 function obtenerPosapiesSeleccionados() {
   const posapiesSeleccionados = [];
   for (let i = 1; i <= 8; i++) {
@@ -62,24 +63,17 @@ function obtenerPrecioRespaldo(idRespaldo, tela) {
   const colecciones = [respaldosAgora, respaldosPlateaBaja];
   let precioMaterial;
 
-  // Iterar sobre cada colección
   for (const coleccion of colecciones) {
-    // Buscar el respaldo en la colección correspondiente
     const respaldo = coleccion.find((p) => p && p.id === idRespaldo);
 
-    // Comprobar si se encontró el respaldo y si su precio es un array
     if (respaldo && Array.isArray(respaldo.price)) {
-      // Buscar el precio correspondiente al material
       precioMaterial = respaldo.price.find((p) => p.material === tela);
 
-      // Si se encuentra el precio, devolverlo como un número
       if (precioMaterial) {
-        return parseFloat(precioMaterial.precio) || 0; // Retornar precio convertido
+        return parseFloat(precioMaterial.precio) || 0;
       }
     }
   }
-
-  // Si no se encuentra ningún precio, retornar 0 o un valor por defecto
   return 0;
 }
 /*----------PRECIOS POSAPIES--------*/
@@ -100,24 +94,18 @@ function obtenerPrecioPosapies(idPosapie, tela) {
   ];
   let precioMaterial;
 
-  // Iterar sobre cada colección
   for (const coleccion of colecciones) {
-    // Buscar el posapie en la colección correspondiente
     const posapie = coleccion.find((p) => p && p.id === idPosapie);
 
-    // Comprobar si se encontró el posapie y si su precio es un array
     if (posapie && Array.isArray(posapie.price)) {
-      // Buscar el precio correspondiente al material
       precioMaterial = posapie.price.find((p) => p.material === tela);
 
-      // Si se encuentra el precio, devolverlo como un número
       if (precioMaterial) {
-        return parseFloat(precioMaterial.precio) || 0; // Retornar precio convertido
+        return parseFloat(precioMaterial.precio) || 0;
       }
     }
   }
 
-  // Si no se encuentra ningún precio, retornar 0 o un valor por defecto
   return 0;
 }
 /*--------------------PRECIOS DE LAS PEIZAS SEGUN MODELO------------*/
@@ -171,7 +159,6 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
     }
   }
 
-  // Si la pieza no se encuentra en las colecciones anteriores, verificar si es un cojín
   const cojinesCollection = [
     cojinesSup.supGAMCUA60,
     cojinesSup.supGAMCUA45,
@@ -203,7 +190,6 @@ function obtenerPrecioPorMaterial(idPieza, tela) {
       return parseFloat(precioMaterial.precio) || 0;
     }
   }
-  // Retorna 0 si no se encuentra el precio
   return 0;
 }
 
